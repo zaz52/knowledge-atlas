@@ -1,0 +1,3979 @@
+{
+  "edition": "代表人物与社会背景选录 · 第二批",
+  "scope": "26个时期/政权各收录至少3位代表人物；三国专题57位人物同步至朝代图。收录范围持续扩充，社会背景为专题阅读线索。",
+  "topics": [
+    {
+      "id": "three-kingdoms",
+      "title": "三国人物关系网",
+      "totalNodes": 111,
+      "totalRelations": 369,
+      "sourceEntries": 43,
+      "distinctSourceUrls": 43,
+      "kinds": {
+        "person": 57,
+        "faction": 5,
+        "event": 27,
+        "work": 7,
+        "period": 5,
+        "concept": 10
+      },
+      "roots": [
+        {
+          "id": "han-collapse",
+          "label": "汉室衰落",
+          "people": [
+            {
+              "id": "zhang-jiao",
+              "label": "张角"
+            },
+            {
+              "id": "dong-zhuo",
+              "label": "董卓"
+            },
+            {
+              "id": "yuan-shao",
+              "label": "袁绍"
+            },
+            {
+              "id": "liu-xie",
+              "label": "汉献帝"
+            },
+            {
+              "id": "cao-cao",
+              "label": "曹操"
+            },
+            {
+              "id": "lv-bu",
+              "label": "吕布"
+            },
+            {
+              "id": "sun-jian",
+              "label": "孙坚"
+            },
+            {
+              "id": "yuan-shu",
+              "label": "袁术"
+            },
+            {
+              "id": "liu-biao",
+              "label": "刘表"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "local-arms",
+              "label": "地方武装与军阀"
+            },
+            {
+              "id": "war-migration",
+              "label": "战乱与人口流徙"
+            },
+            {
+              "id": "elite-families",
+              "label": "门第与地方声望"
+            },
+            {
+              "id": "war-burdens",
+              "label": "战争、赋役与百姓"
+            }
+          ]
+        },
+        {
+          "id": "warlord-contest",
+          "label": "群雄竞争",
+          "people": [
+            {
+              "id": "cao-cao",
+              "label": "曹操"
+            },
+            {
+              "id": "yuan-shao",
+              "label": "袁绍"
+            },
+            {
+              "id": "xun-yu",
+              "label": "荀彧"
+            },
+            {
+              "id": "liu-bei",
+              "label": "刘备"
+            },
+            {
+              "id": "sun-ce",
+              "label": "孙策"
+            },
+            {
+              "id": "sun-quan",
+              "label": "孙权"
+            },
+            {
+              "id": "zhuge-liang",
+              "label": "诸葛亮"
+            },
+            {
+              "id": "zhou-yu",
+              "label": "周瑜"
+            },
+            {
+              "id": "lu-su",
+              "label": "鲁肃"
+            },
+            {
+              "id": "yuan-shu",
+              "label": "袁术"
+            },
+            {
+              "id": "liu-biao",
+              "label": "刘表"
+            },
+            {
+              "id": "ma-chao",
+              "label": "马超"
+            },
+            {
+              "id": "zhang-liao",
+              "label": "张辽"
+            },
+            {
+              "id": "zhang-he",
+              "label": "张郃"
+            },
+            {
+              "id": "xu-huang",
+              "label": "徐晃"
+            },
+            {
+              "id": "xun-you",
+              "label": "荀攸"
+            },
+            {
+              "id": "jia-xu",
+              "label": "贾诩"
+            },
+            {
+              "id": "guo-jia",
+              "label": "郭嘉"
+            },
+            {
+              "id": "ren-jun",
+              "label": "任峻"
+            },
+            {
+              "id": "cai-yan",
+              "label": "蔡琰"
+            },
+            {
+              "id": "hua-tuo",
+              "label": "华佗"
+            },
+            {
+              "id": "wang-can",
+              "label": "王粲"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "tuntian",
+              "label": "屯田与军粮"
+            },
+            {
+              "id": "war-migration",
+              "label": "战乱与人口流徙"
+            },
+            {
+              "id": "jianan-culture",
+              "label": "建安文学与乱世表达"
+            },
+            {
+              "id": "medicine-life",
+              "label": "疾疫与医者的处境"
+            }
+          ]
+        },
+        {
+          "id": "three-founded",
+          "label": "三国鼎立",
+          "people": [
+            {
+              "id": "liu-bei",
+              "label": "刘备"
+            },
+            {
+              "id": "sun-quan",
+              "label": "孙权"
+            },
+            {
+              "id": "cao-pi",
+              "label": "曹丕"
+            },
+            {
+              "id": "guan-yu",
+              "label": "关羽"
+            },
+            {
+              "id": "zhuge-liang",
+              "label": "诸葛亮"
+            },
+            {
+              "id": "lu-xun",
+              "label": "陆逊"
+            },
+            {
+              "id": "lv-meng",
+              "label": "吕蒙"
+            },
+            {
+              "id": "liu-zhang",
+              "label": "刘璋"
+            },
+            {
+              "id": "fa-zheng",
+              "label": "法正"
+            },
+            {
+              "id": "pang-tong",
+              "label": "庞统"
+            },
+            {
+              "id": "ma-chao",
+              "label": "马超"
+            },
+            {
+              "id": "zhang-liao",
+              "label": "张辽"
+            },
+            {
+              "id": "xu-huang",
+              "label": "徐晃"
+            },
+            {
+              "id": "xun-you",
+              "label": "荀攸"
+            },
+            {
+              "id": "jia-xu",
+              "label": "贾诩"
+            },
+            {
+              "id": "chen-qun",
+              "label": "陈群"
+            },
+            {
+              "id": "cai-yan",
+              "label": "蔡琰"
+            },
+            {
+              "id": "cao-zhi",
+              "label": "曹植"
+            },
+            {
+              "id": "wang-can",
+              "label": "王粲"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "tuntian",
+              "label": "屯田与军粮"
+            },
+            {
+              "id": "nine-ranks",
+              "label": "九品官人法"
+            },
+            {
+              "id": "jianan-culture",
+              "label": "建安文学与乱世表达"
+            },
+            {
+              "id": "jiangdong-economy",
+              "label": "江东农业与水运"
+            }
+          ]
+        },
+        {
+          "id": "power-shifts",
+          "label": "政权转折",
+          "people": [
+            {
+              "id": "zhuge-liang",
+              "label": "诸葛亮"
+            },
+            {
+              "id": "jiang-wei",
+              "label": "姜维"
+            },
+            {
+              "id": "liu-shan",
+              "label": "刘禅"
+            },
+            {
+              "id": "cao-rui",
+              "label": "曹叡"
+            },
+            {
+              "id": "cao-shuang",
+              "label": "曹爽"
+            },
+            {
+              "id": "sima-yi",
+              "label": "司马懿"
+            },
+            {
+              "id": "sima-shi",
+              "label": "司马师"
+            },
+            {
+              "id": "sima-zhao",
+              "label": "司马昭"
+            },
+            {
+              "id": "jiang-wan",
+              "label": "蒋琬"
+            },
+            {
+              "id": "fei-yi",
+              "label": "费祎"
+            },
+            {
+              "id": "zhang-he",
+              "label": "张郃"
+            },
+            {
+              "id": "lu-kang",
+              "label": "陆抗"
+            },
+            {
+              "id": "chen-qun",
+              "label": "陈群"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "nine-ranks",
+              "label": "九品官人法"
+            },
+            {
+              "id": "elite-families",
+              "label": "门第与地方声望"
+            },
+            {
+              "id": "war-burdens",
+              "label": "战争、赋役与百姓"
+            }
+          ]
+        },
+        {
+          "id": "road-to-unity",
+          "label": "走向统一",
+          "people": [
+            {
+              "id": "sima-zhao",
+              "label": "司马昭"
+            },
+            {
+              "id": "sima-yan",
+              "label": "司马炎"
+            },
+            {
+              "id": "deng-ai",
+              "label": "邓艾"
+            },
+            {
+              "id": "zhong-hui",
+              "label": "钟会"
+            },
+            {
+              "id": "liu-shan",
+              "label": "刘禅"
+            },
+            {
+              "id": "jiang-wei",
+              "label": "姜维"
+            },
+            {
+              "id": "yang-hu",
+              "label": "羊祜"
+            },
+            {
+              "id": "du-yu",
+              "label": "杜预"
+            },
+            {
+              "id": "wang-jun",
+              "label": "王濬"
+            },
+            {
+              "id": "sun-hao",
+              "label": "孙皓"
+            },
+            {
+              "id": "lu-kang",
+              "label": "陆抗"
+            },
+            {
+              "id": "chen-shou",
+              "label": "陈寿"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "war-migration",
+              "label": "战乱与人口流徙"
+            },
+            {
+              "id": "jiangdong-economy",
+              "label": "江东农业与水运"
+            },
+            {
+              "id": "war-burdens",
+              "label": "战争、赋役与百姓"
+            },
+            {
+              "id": "jin-recovery",
+              "label": "统一后的生产与治理"
+            }
+          ]
+        }
+      ],
+      "people": [
+        {
+          "id": "cao-cao",
+          "label": "曹操",
+          "period": "155—220 年",
+          "identity": "汉末政治与军事人物 · 字孟德",
+          "achievementCount": 2,
+          "lifeEventCount": 7,
+          "sharedFrom": null
+        },
+        {
+          "id": "liu-bei",
+          "label": "刘备",
+          "period": "161—223 年",
+          "identity": "蜀汉建立者 · 字玄德",
+          "achievementCount": 1,
+          "lifeEventCount": 8,
+          "sharedFrom": null
+        },
+        {
+          "id": "sun-quan",
+          "label": "孙权",
+          "period": "182—252 年",
+          "identity": "孙吴建立者 · 字仲谋",
+          "achievementCount": 1,
+          "lifeEventCount": 5,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhuge-liang",
+          "label": "诸葛亮",
+          "period": "181—234 年",
+          "identity": "蜀汉丞相 · 字孔明",
+          "achievementCount": 2,
+          "lifeEventCount": 6,
+          "sharedFrom": null
+        },
+        {
+          "id": "guan-yu",
+          "label": "关羽",
+          "period": "卒于 219 年",
+          "identity": "刘备部将 · 字云长",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhou-yu",
+          "label": "周瑜",
+          "period": "175—210 年",
+          "identity": "孙氏重要将领 · 字公瑾",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhang-fei",
+          "label": "张飞",
+          "period": "卒于 221 年",
+          "identity": "刘备部将 · 史书记字益德",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhao-yun",
+          "label": "赵云",
+          "period": "卒于 229 年",
+          "identity": "刘备部将 · 字子龙",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "cao-pi",
+          "label": "曹丕",
+          "period": "187—226 年",
+          "identity": "曹魏首位皇帝 · 字子桓",
+          "achievementCount": 2,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "sun-ce",
+          "label": "孙策",
+          "period": "175—200 年",
+          "identity": "江东孙氏事业开拓者 · 字伯符",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "lu-su",
+          "label": "鲁肃",
+          "period": "172—217 年",
+          "identity": "孙权的重要谋臣与将领 · 字子敬",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "huang-zhong",
+          "label": "黄忠",
+          "period": "卒于 220 年",
+          "identity": "刘备部将 · 字汉升",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhang-jiao",
+          "label": "张角",
+          "period": "生年不详—184年",
+          "identity": "黄巾起事领导者",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "dong-zhuo",
+          "label": "董卓",
+          "period": "生年不详—192年",
+          "identity": "控制汉廷的军阀 · 字仲颖",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "yuan-shao",
+          "label": "袁绍",
+          "period": "生年不详—202年",
+          "identity": "汉末北方诸侯 · 字本初",
+          "achievementCount": 1,
+          "lifeEventCount": 4,
+          "sharedFrom": null
+        },
+        {
+          "id": "xun-yu",
+          "label": "荀彧",
+          "period": "163—212年",
+          "identity": "曹操的政治谋臣 · 字文若",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "liu-xie",
+          "label": "汉献帝",
+          "period": "181—234年",
+          "identity": "东汉末代皇帝 · 刘协",
+          "achievementCount": 1,
+          "lifeEventCount": 4,
+          "sharedFrom": null
+        },
+        {
+          "id": "lv-bu",
+          "label": "吕布",
+          "period": "生年不详—199年",
+          "identity": "汉末军事人物 · 字奉先",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "liu-zhang",
+          "label": "刘璋",
+          "period": "生年不详—219年",
+          "identity": "益州牧 · 字季玉",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "lv-meng",
+          "label": "吕蒙",
+          "period": "178—219年（卒年换算另有220年说）",
+          "identity": "孙权部将 · 字子明",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "lu-xun",
+          "label": "陆逊",
+          "period": "183—245年",
+          "identity": "孙吴军事与政治人物 · 字伯言",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "cao-rui",
+          "label": "曹叡",
+          "period": "204—239年（生年有异说）",
+          "identity": "魏明帝 · 字元仲",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "cao-shuang",
+          "label": "曹爽",
+          "period": "生年不详—249年",
+          "identity": "曹魏辅政大臣 · 字昭伯",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "sima-yi",
+          "label": "司马懿",
+          "period": "179—251年",
+          "identity": "曹魏重臣 · 字仲达",
+          "achievementCount": 1,
+          "lifeEventCount": 4,
+          "sharedFrom": null
+        },
+        {
+          "id": "sima-shi",
+          "label": "司马师",
+          "period": "208—255年",
+          "identity": "曹魏权臣 · 字子元",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "sima-zhao",
+          "label": "司马昭",
+          "period": "211—265年",
+          "identity": "曹魏权臣、晋王 · 字子上",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "sima-yan",
+          "label": "司马炎",
+          "period": "236—290年",
+          "identity": "西晋建立者 · 字安世",
+          "achievementCount": 1,
+          "lifeEventCount": 5,
+          "sharedFrom": null
+        },
+        {
+          "id": "jiang-wei",
+          "label": "姜维",
+          "period": "202—264年",
+          "identity": "蜀汉将领 · 字伯约",
+          "achievementCount": 1,
+          "lifeEventCount": 4,
+          "sharedFrom": null
+        },
+        {
+          "id": "liu-shan",
+          "label": "刘禅",
+          "period": "207—271年",
+          "identity": "蜀汉后主 · 字公嗣",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "deng-ai",
+          "label": "邓艾",
+          "period": "197—264年",
+          "identity": "曹魏将领 · 字士载",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhong-hui",
+          "label": "钟会",
+          "period": "225—264年",
+          "identity": "曹魏将领 · 字士季",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "sun-hao",
+          "label": "孙皓",
+          "period": "242—284年",
+          "identity": "孙吴末代皇帝 · 字元宗",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "yang-hu",
+          "label": "羊祜",
+          "period": "221—278年",
+          "identity": "西晋镇守荆州的将领 · 字叔子",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "du-yu",
+          "label": "杜预",
+          "period": "222—285年",
+          "identity": "西晋将领与经学家 · 字元凯",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "wang-jun",
+          "label": "王濬",
+          "period": "206—286年",
+          "identity": "西晋水军将领 · 字士治",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "sun-jian",
+          "label": "孙坚",
+          "period": "生年有异说—191/192年（卒年有不同系年）",
+          "identity": "汉末军事人物 · 字文台",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "yuan-shu",
+          "label": "袁术",
+          "period": "生年不详—199年",
+          "identity": "汉末诸侯 · 字公路",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "liu-biao",
+          "label": "刘表",
+          "period": "142—208年",
+          "identity": "荆州牧 · 字景升",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "fa-zheng",
+          "label": "法正",
+          "period": "176—220年",
+          "identity": "刘备谋士 · 字孝直",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "pang-tong",
+          "label": "庞统",
+          "period": "179—214年",
+          "identity": "刘备谋士 · 字士元",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "ma-chao",
+          "label": "马超",
+          "period": "176—222年",
+          "identity": "汉末与蜀汉将领 · 字孟起",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "jiang-wan",
+          "label": "蒋琬",
+          "period": "生年不详—246年",
+          "identity": "蜀汉大臣 · 字公琰",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "fei-yi",
+          "label": "费祎",
+          "period": "生年不详—253年",
+          "identity": "蜀汉大臣 · 字文伟",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhang-liao",
+          "label": "张辽",
+          "period": "169—222年",
+          "identity": "曹操集团、曹魏将领 · 字文远",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhang-he",
+          "label": "张郃",
+          "period": "生年不详—231年",
+          "identity": "曹魏将领 · 字儁乂",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "xu-huang",
+          "label": "徐晃",
+          "period": "生年不详—227年",
+          "identity": "曹操集团、曹魏将领 · 字公明",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "xun-you",
+          "label": "荀攸",
+          "period": "157—214年",
+          "identity": "曹操谋臣 · 字公达",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "jia-xu",
+          "label": "贾诩",
+          "period": "147—223年",
+          "identity": "汉末谋臣、曹魏太尉 · 字文和",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "guo-jia",
+          "label": "郭嘉",
+          "period": "170—207年",
+          "identity": "曹操谋臣 · 字奉孝",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "lu-kang",
+          "label": "陆抗",
+          "period": "226—274年",
+          "identity": "孙吴后期将领 · 字幼节",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "chen-shou",
+          "label": "陈寿",
+          "period": "233—297年",
+          "identity": "史学家 · 字承祚",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "chen-qun",
+          "label": "陈群",
+          "period": "生年不详—236年",
+          "identity": "曹魏大臣 · 字长文",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "ren-jun",
+          "label": "任峻",
+          "period": "生年不详—204年",
+          "identity": "曹操集团农业与粮运负责人 · 字伯达",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "cai-yan",
+          "label": "蔡琰",
+          "period": "生卒年不详 · 汉末",
+          "identity": "汉末文学人物 · 字文姬",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "hua-tuo",
+          "label": "华佗",
+          "period": "生卒年不详 · 汉末",
+          "identity": "医者 · 字元化",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "cao-zhi",
+          "label": "曹植",
+          "period": "192—232年",
+          "identity": "诗人、曹魏宗室 · 字子建",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "wang-can",
+          "label": "王粲",
+          "period": "177—217年",
+          "identity": "建安文学人物 · 字仲宣",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        }
+      ],
+      "backgrounds": [
+        {
+          "id": "local-arms",
+          "label": "地方武装与军阀",
+          "period": "汉末"
+        },
+        {
+          "id": "tuntian",
+          "label": "屯田与军粮",
+          "period": "196年起 · 汉末魏晋"
+        },
+        {
+          "id": "war-migration",
+          "label": "战乱与人口流徙",
+          "period": "汉末至魏晋"
+        },
+        {
+          "id": "nine-ranks",
+          "label": "九品官人法",
+          "period": "220年起"
+        },
+        {
+          "id": "elite-families",
+          "label": "门第与地方声望",
+          "period": "汉末魏晋"
+        },
+        {
+          "id": "jianan-culture",
+          "label": "建安文学与乱世表达",
+          "period": "196—220年前后"
+        },
+        {
+          "id": "jiangdong-economy",
+          "label": "江东农业与水运",
+          "period": "汉末至三国"
+        },
+        {
+          "id": "war-burdens",
+          "label": "战争、赋役与百姓",
+          "period": "汉末至三国"
+        },
+        {
+          "id": "medicine-life",
+          "label": "疾疫与医者的处境",
+          "period": "汉末"
+        },
+        {
+          "id": "jin-recovery",
+          "label": "统一后的生产与治理",
+          "period": "280年起（延伸阅读）"
+        }
+      ],
+      "works": [
+        {
+          "id": "chushi-work",
+          "label": "《出师表》"
+        },
+        {
+          "id": "duange-work",
+          "label": "《短歌行》"
+        },
+        {
+          "id": "dianlun-work",
+          "label": "《典论·论文》"
+        },
+        {
+          "id": "chunqiu-work",
+          "label": "《春秋经传集解》"
+        },
+        {
+          "id": "luoshen-work",
+          "label": "《洛神赋》"
+        },
+        {
+          "id": "sanguozhi-work",
+          "label": "《三国志》"
+        },
+        {
+          "id": "denglou-work",
+          "label": "《登楼赋》"
+        }
+      ],
+      "pendingPeople": [
+        "何进",
+        "皇甫嵩",
+        "朱儁",
+        "太史慈",
+        "陈宫",
+        "张绣",
+        "徐庶",
+        "邓芝",
+        "诸葛恪",
+        "陆绩",
+        "钟繇",
+        "蔡邕"
+      ]
+    },
+    {
+      "id": "chinese-dynasties",
+      "title": "中国历史朝代关系图",
+      "totalNodes": 282,
+      "totalRelations": 721,
+      "sourceEntries": 168,
+      "distinctSourceUrls": 154,
+      "kinds": {
+        "polity": 19,
+        "period": 7,
+        "person": 136,
+        "event": 65,
+        "work": 33,
+        "concept": 22
+      },
+      "roots": [
+        {
+          "id": "qin",
+          "label": "秦",
+          "people": [
+            {
+              "id": "qin-emperor",
+              "label": "秦始皇"
+            },
+            {
+              "id": "li-si",
+              "label": "李斯"
+            },
+            {
+              "id": "meng-tian",
+              "label": "蒙恬"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "qin-county",
+              "label": "郡县、道路与国家动员"
+            }
+          ]
+        },
+        {
+          "id": "western-han",
+          "label": "西汉",
+          "people": [
+            {
+              "id": "liu-bang",
+              "label": "刘邦"
+            },
+            {
+              "id": "zhang-qian",
+              "label": "张骞"
+            },
+            {
+              "id": "sima-qian",
+              "label": "司马迁"
+            },
+            {
+              "id": "han-wudi",
+              "label": "汉武帝"
+            },
+            {
+              "id": "dong-zhongshu",
+              "label": "董仲舒"
+            },
+            {
+              "id": "liu-xin",
+              "label": "刘歆"
+            },
+            {
+              "id": "yang-xiong",
+              "label": "扬雄"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "han-agriculture",
+              "label": "农业、土地与赋役"
+            }
+          ]
+        },
+        {
+          "id": "xin",
+          "label": "新朝",
+          "people": [
+            {
+              "id": "wang-mang",
+              "label": "王莽"
+            },
+            {
+              "id": "liu-xin",
+              "label": "刘歆"
+            },
+            {
+              "id": "yang-xiong",
+              "label": "扬雄"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "xin-reforms",
+              "label": "新朝改革与社会震荡"
+            }
+          ]
+        },
+        {
+          "id": "eastern-han",
+          "label": "东汉",
+          "people": [
+            {
+              "id": "liu-xiu",
+              "label": "刘秀"
+            },
+            {
+              "id": "zhang-heng",
+              "label": "张衡"
+            },
+            {
+              "id": "cai-lun",
+              "label": "蔡伦"
+            },
+            {
+              "id": "ban-zhao",
+              "label": "班昭"
+            },
+            {
+              "id": "cao-cao",
+              "label": "曹操"
+            },
+            {
+              "id": "liu-bei",
+              "label": "刘备"
+            },
+            {
+              "id": "guan-yu",
+              "label": "关羽"
+            },
+            {
+              "id": "zhang-fei",
+              "label": "张飞"
+            },
+            {
+              "id": "yuan-shao",
+              "label": "袁绍"
+            },
+            {
+              "id": "yuan-shu",
+              "label": "袁术"
+            },
+            {
+              "id": "dong-zhuo",
+              "label": "董卓"
+            },
+            {
+              "id": "liu-xie",
+              "label": "汉献帝"
+            },
+            {
+              "id": "zhang-jiao",
+              "label": "张角"
+            },
+            {
+              "id": "xun-yu",
+              "label": "荀彧"
+            },
+            {
+              "id": "lv-bu",
+              "label": "吕布"
+            },
+            {
+              "id": "liu-biao",
+              "label": "刘表"
+            },
+            {
+              "id": "sun-jian",
+              "label": "孙坚"
+            },
+            {
+              "id": "cai-yan",
+              "label": "蔡琰"
+            },
+            {
+              "id": "hua-tuo",
+              "label": "华佗"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "han-agriculture",
+              "label": "农业、土地与赋役"
+            },
+            {
+              "id": "women-education",
+              "label": "女性、教育与知识传承"
+            },
+            {
+              "id": "local-arms",
+              "label": "地方武装与军阀"
+            },
+            {
+              "id": "war-migration",
+              "label": "战乱与人口流徙"
+            }
+          ]
+        },
+        {
+          "id": "three-kingdoms",
+          "label": "三国",
+          "people": [
+            {
+              "id": "cao-pi",
+              "label": "曹丕"
+            },
+            {
+              "id": "liu-bei",
+              "label": "刘备"
+            },
+            {
+              "id": "sun-quan",
+              "label": "孙权"
+            },
+            {
+              "id": "cao-cao",
+              "label": "曹操"
+            },
+            {
+              "id": "zhuge-liang",
+              "label": "诸葛亮"
+            },
+            {
+              "id": "guan-yu",
+              "label": "关羽"
+            },
+            {
+              "id": "zhou-yu",
+              "label": "周瑜"
+            },
+            {
+              "id": "zhang-fei",
+              "label": "张飞"
+            },
+            {
+              "id": "zhao-yun",
+              "label": "赵云"
+            },
+            {
+              "id": "sun-ce",
+              "label": "孙策"
+            },
+            {
+              "id": "lu-su",
+              "label": "鲁肃"
+            },
+            {
+              "id": "huang-zhong",
+              "label": "黄忠"
+            },
+            {
+              "id": "zhang-jiao",
+              "label": "张角"
+            },
+            {
+              "id": "dong-zhuo",
+              "label": "董卓"
+            },
+            {
+              "id": "yuan-shao",
+              "label": "袁绍"
+            },
+            {
+              "id": "xun-yu",
+              "label": "荀彧"
+            },
+            {
+              "id": "liu-xie",
+              "label": "汉献帝"
+            },
+            {
+              "id": "lv-bu",
+              "label": "吕布"
+            },
+            {
+              "id": "liu-zhang",
+              "label": "刘璋"
+            },
+            {
+              "id": "lv-meng",
+              "label": "吕蒙"
+            },
+            {
+              "id": "lu-xun",
+              "label": "陆逊"
+            },
+            {
+              "id": "cao-rui",
+              "label": "曹叡"
+            },
+            {
+              "id": "cao-shuang",
+              "label": "曹爽"
+            },
+            {
+              "id": "sima-yi",
+              "label": "司马懿"
+            },
+            {
+              "id": "sima-shi",
+              "label": "司马师"
+            },
+            {
+              "id": "sima-zhao",
+              "label": "司马昭"
+            },
+            {
+              "id": "sima-yan",
+              "label": "司马炎"
+            },
+            {
+              "id": "jiang-wei",
+              "label": "姜维"
+            },
+            {
+              "id": "liu-shan",
+              "label": "刘禅"
+            },
+            {
+              "id": "deng-ai",
+              "label": "邓艾"
+            },
+            {
+              "id": "zhong-hui",
+              "label": "钟会"
+            },
+            {
+              "id": "sun-hao",
+              "label": "孙皓"
+            },
+            {
+              "id": "yang-hu",
+              "label": "羊祜"
+            },
+            {
+              "id": "du-yu",
+              "label": "杜预"
+            },
+            {
+              "id": "wang-jun",
+              "label": "王濬"
+            },
+            {
+              "id": "sun-jian",
+              "label": "孙坚"
+            },
+            {
+              "id": "yuan-shu",
+              "label": "袁术"
+            },
+            {
+              "id": "liu-biao",
+              "label": "刘表"
+            },
+            {
+              "id": "fa-zheng",
+              "label": "法正"
+            },
+            {
+              "id": "pang-tong",
+              "label": "庞统"
+            },
+            {
+              "id": "ma-chao",
+              "label": "马超"
+            },
+            {
+              "id": "jiang-wan",
+              "label": "蒋琬"
+            },
+            {
+              "id": "fei-yi",
+              "label": "费祎"
+            },
+            {
+              "id": "zhang-liao",
+              "label": "张辽"
+            },
+            {
+              "id": "zhang-he",
+              "label": "张郃"
+            },
+            {
+              "id": "xu-huang",
+              "label": "徐晃"
+            },
+            {
+              "id": "xun-you",
+              "label": "荀攸"
+            },
+            {
+              "id": "jia-xu",
+              "label": "贾诩"
+            },
+            {
+              "id": "guo-jia",
+              "label": "郭嘉"
+            },
+            {
+              "id": "lu-kang",
+              "label": "陆抗"
+            },
+            {
+              "id": "chen-shou",
+              "label": "陈寿"
+            },
+            {
+              "id": "chen-qun",
+              "label": "陈群"
+            },
+            {
+              "id": "ren-jun",
+              "label": "任峻"
+            },
+            {
+              "id": "cai-yan",
+              "label": "蔡琰"
+            },
+            {
+              "id": "hua-tuo",
+              "label": "华佗"
+            },
+            {
+              "id": "cao-zhi",
+              "label": "曹植"
+            },
+            {
+              "id": "wang-can",
+              "label": "王粲"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "local-arms",
+              "label": "地方武装与军阀"
+            },
+            {
+              "id": "tuntian",
+              "label": "屯田与军粮"
+            },
+            {
+              "id": "war-migration",
+              "label": "战乱与人口流徙"
+            },
+            {
+              "id": "nine-ranks",
+              "label": "九品官人法"
+            },
+            {
+              "id": "elite-families",
+              "label": "门第与地方声望"
+            },
+            {
+              "id": "jianan-culture",
+              "label": "建安文学与乱世表达"
+            },
+            {
+              "id": "jiangdong-economy",
+              "label": "江东农业与水运"
+            },
+            {
+              "id": "war-burdens",
+              "label": "战争、赋役与百姓"
+            },
+            {
+              "id": "medicine-life",
+              "label": "疾疫与医者的处境"
+            },
+            {
+              "id": "jin-recovery",
+              "label": "统一后的生产与治理"
+            }
+          ]
+        },
+        {
+          "id": "cao-wei",
+          "label": "曹魏",
+          "people": [
+            {
+              "id": "cao-pi",
+              "label": "曹丕"
+            },
+            {
+              "id": "cao-cao",
+              "label": "曹操"
+            },
+            {
+              "id": "cao-rui",
+              "label": "曹叡"
+            },
+            {
+              "id": "cao-shuang",
+              "label": "曹爽"
+            },
+            {
+              "id": "sima-yi",
+              "label": "司马懿"
+            },
+            {
+              "id": "sima-shi",
+              "label": "司马师"
+            },
+            {
+              "id": "sima-zhao",
+              "label": "司马昭"
+            },
+            {
+              "id": "deng-ai",
+              "label": "邓艾"
+            },
+            {
+              "id": "zhong-hui",
+              "label": "钟会"
+            },
+            {
+              "id": "zhang-liao",
+              "label": "张辽"
+            },
+            {
+              "id": "zhang-he",
+              "label": "张郃"
+            },
+            {
+              "id": "xu-huang",
+              "label": "徐晃"
+            },
+            {
+              "id": "jia-xu",
+              "label": "贾诩"
+            },
+            {
+              "id": "chen-qun",
+              "label": "陈群"
+            },
+            {
+              "id": "cao-zhi",
+              "label": "曹植"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "nine-ranks",
+              "label": "九品官人法"
+            },
+            {
+              "id": "elite-families",
+              "label": "门第与地方声望"
+            },
+            {
+              "id": "tuntian",
+              "label": "屯田与军粮"
+            },
+            {
+              "id": "jianan-culture",
+              "label": "建安文学与乱世表达"
+            }
+          ]
+        },
+        {
+          "id": "shu-han",
+          "label": "蜀汉",
+          "people": [
+            {
+              "id": "liu-bei",
+              "label": "刘备"
+            },
+            {
+              "id": "zhuge-liang",
+              "label": "诸葛亮"
+            },
+            {
+              "id": "guan-yu",
+              "label": "关羽"
+            },
+            {
+              "id": "zhang-fei",
+              "label": "张飞"
+            },
+            {
+              "id": "zhao-yun",
+              "label": "赵云"
+            },
+            {
+              "id": "huang-zhong",
+              "label": "黄忠"
+            },
+            {
+              "id": "liu-shan",
+              "label": "刘禅"
+            },
+            {
+              "id": "jiang-wei",
+              "label": "姜维"
+            },
+            {
+              "id": "fa-zheng",
+              "label": "法正"
+            },
+            {
+              "id": "pang-tong",
+              "label": "庞统"
+            },
+            {
+              "id": "ma-chao",
+              "label": "马超"
+            },
+            {
+              "id": "jiang-wan",
+              "label": "蒋琬"
+            },
+            {
+              "id": "fei-yi",
+              "label": "费祎"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "war-burdens",
+              "label": "战争、赋役与百姓"
+            },
+            {
+              "id": "war-migration",
+              "label": "战乱与人口流徙"
+            }
+          ]
+        },
+        {
+          "id": "eastern-wu",
+          "label": "孙吴",
+          "people": [
+            {
+              "id": "sun-quan",
+              "label": "孙权"
+            },
+            {
+              "id": "zhou-yu",
+              "label": "周瑜"
+            },
+            {
+              "id": "sun-ce",
+              "label": "孙策"
+            },
+            {
+              "id": "lu-su",
+              "label": "鲁肃"
+            },
+            {
+              "id": "lv-meng",
+              "label": "吕蒙"
+            },
+            {
+              "id": "lu-xun",
+              "label": "陆逊"
+            },
+            {
+              "id": "sun-hao",
+              "label": "孙皓"
+            },
+            {
+              "id": "sun-jian",
+              "label": "孙坚"
+            },
+            {
+              "id": "lu-kang",
+              "label": "陆抗"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "jiangdong-economy",
+              "label": "江东农业与水运"
+            },
+            {
+              "id": "war-burdens",
+              "label": "战争、赋役与百姓"
+            }
+          ]
+        },
+        {
+          "id": "western-jin",
+          "label": "西晋",
+          "people": [
+            {
+              "id": "sima-yan",
+              "label": "司马炎"
+            },
+            {
+              "id": "lu-ji",
+              "label": "陆机"
+            },
+            {
+              "id": "pei-xiu",
+              "label": "裴秀"
+            },
+            {
+              "id": "yang-hu",
+              "label": "羊祜"
+            },
+            {
+              "id": "du-yu",
+              "label": "杜预"
+            },
+            {
+              "id": "wang-jun",
+              "label": "王濬"
+            },
+            {
+              "id": "chen-shou",
+              "label": "陈寿"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "jin-local-society",
+              "label": "魏晋的地方社会与流民"
+            },
+            {
+              "id": "jin-recovery",
+              "label": "统一后的生产与治理"
+            },
+            {
+              "id": "elite-families",
+              "label": "门第与地方声望"
+            }
+          ]
+        },
+        {
+          "id": "eastern-jin",
+          "label": "东晋",
+          "people": [
+            {
+              "id": "sima-rui",
+              "label": "司马睿"
+            },
+            {
+              "id": "wang-xizhi",
+              "label": "王羲之"
+            },
+            {
+              "id": "tao-yuanming",
+              "label": "陶渊明"
+            },
+            {
+              "id": "xie-an",
+              "label": "谢安"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "north-south-farming",
+              "label": "南北农业与经验知识"
+            },
+            {
+              "id": "jin-local-society",
+              "label": "魏晋的地方社会与流民"
+            }
+          ]
+        },
+        {
+          "id": "sixteen-states",
+          "label": "十六国",
+          "people": [
+            {
+              "id": "fu-jian",
+              "label": "苻坚"
+            },
+            {
+              "id": "shi-le",
+              "label": "石勒"
+            },
+            {
+              "id": "yao-xing",
+              "label": "姚兴"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "north-south-farming",
+              "label": "南北农业与经验知识"
+            },
+            {
+              "id": "jin-local-society",
+              "label": "魏晋的地方社会与流民"
+            }
+          ]
+        },
+        {
+          "id": "northern-southern",
+          "label": "南北朝",
+          "people": [
+            {
+              "id": "liu-yu",
+              "label": "刘裕"
+            },
+            {
+              "id": "xiaowen",
+              "label": "北魏孝文帝"
+            },
+            {
+              "id": "tao-yuanming",
+              "label": "陶渊明"
+            },
+            {
+              "id": "zu-chongzhi",
+              "label": "祖冲之"
+            },
+            {
+              "id": "yuwen-tai",
+              "label": "宇文泰"
+            },
+            {
+              "id": "jia-sixie",
+              "label": "贾思勰"
+            },
+            {
+              "id": "xie-lingyun",
+              "label": "谢灵运"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "north-south-farming",
+              "label": "南北农业与经验知识"
+            },
+            {
+              "id": "jin-local-society",
+              "label": "魏晋的地方社会与流民"
+            }
+          ]
+        },
+        {
+          "id": "southern-dynasties",
+          "label": "南朝",
+          "people": [
+            {
+              "id": "liu-yu",
+              "label": "刘裕"
+            },
+            {
+              "id": "tao-yuanming",
+              "label": "陶渊明"
+            },
+            {
+              "id": "zu-chongzhi",
+              "label": "祖冲之"
+            },
+            {
+              "id": "xie-lingyun",
+              "label": "谢灵运"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "north-south-farming",
+              "label": "南北农业与经验知识"
+            }
+          ]
+        },
+        {
+          "id": "northern-dynasties",
+          "label": "北朝",
+          "people": [
+            {
+              "id": "xiaowen",
+              "label": "北魏孝文帝"
+            },
+            {
+              "id": "yuwen-tai",
+              "label": "宇文泰"
+            },
+            {
+              "id": "jia-sixie",
+              "label": "贾思勰"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "north-south-farming",
+              "label": "南北农业与经验知识"
+            }
+          ]
+        },
+        {
+          "id": "sui",
+          "label": "隋",
+          "people": [
+            {
+              "id": "yang-jian",
+              "label": "杨坚"
+            },
+            {
+              "id": "yang-guang",
+              "label": "杨广"
+            },
+            {
+              "id": "yuwen-kai",
+              "label": "宇文恺"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "sui-tang-cities",
+              "label": "都城、交通与交流"
+            }
+          ]
+        },
+        {
+          "id": "tang",
+          "label": "唐",
+          "people": [
+            {
+              "id": "li-yuan",
+              "label": "李渊"
+            },
+            {
+              "id": "li-shimin",
+              "label": "李世民"
+            },
+            {
+              "id": "wu-zetian",
+              "label": "武则天"
+            },
+            {
+              "id": "li-bai",
+              "label": "李白"
+            },
+            {
+              "id": "du-fu",
+              "label": "杜甫"
+            },
+            {
+              "id": "xuan-zang",
+              "label": "玄奘"
+            },
+            {
+              "id": "han-yu",
+              "label": "韩愈"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "sui-tang-cities",
+              "label": "都城、交通与交流"
+            }
+          ]
+        },
+        {
+          "id": "five-ten",
+          "label": "五代十国",
+          "people": [
+            {
+              "id": "zhu-wen",
+              "label": "朱温"
+            },
+            {
+              "id": "feng-dao",
+              "label": "冯道"
+            },
+            {
+              "id": "li-yu",
+              "label": "李煜"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "sui-tang-cities",
+              "label": "都城、交通与交流"
+            }
+          ]
+        },
+        {
+          "id": "northern-song",
+          "label": "北宋",
+          "people": [
+            {
+              "id": "zhao-kuang-yin",
+              "label": "赵匡胤"
+            },
+            {
+              "id": "su-shi",
+              "label": "苏轼"
+            },
+            {
+              "id": "wang-anshi",
+              "label": "王安石"
+            },
+            {
+              "id": "sima-guang",
+              "label": "司马光"
+            },
+            {
+              "id": "shen-kuo",
+              "label": "沈括"
+            },
+            {
+              "id": "li-qingzhao",
+              "label": "李清照"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "song-urban-life",
+              "label": "市场、纸币与城市生活"
+            }
+          ]
+        },
+        {
+          "id": "southern-song",
+          "label": "南宋",
+          "people": [
+            {
+              "id": "zhao-gou",
+              "label": "赵构"
+            },
+            {
+              "id": "li-qingzhao",
+              "label": "李清照"
+            },
+            {
+              "id": "yue-fei",
+              "label": "岳飞"
+            },
+            {
+              "id": "xin-qiji",
+              "label": "辛弃疾"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "song-urban-life",
+              "label": "市场、纸币与城市生活"
+            }
+          ]
+        },
+        {
+          "id": "liao",
+          "label": "辽",
+          "people": [
+            {
+              "id": "yelu-abaoji",
+              "label": "耶律阿保机"
+            },
+            {
+              "id": "yelu-deguang",
+              "label": "耶律德光"
+            },
+            {
+              "id": "xiao-chuo",
+              "label": "萧绰"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "song-urban-life",
+              "label": "市场、纸币与城市生活"
+            },
+            {
+              "id": "multi-polity-exchange",
+              "label": "多政权之间的交流"
+            }
+          ]
+        },
+        {
+          "id": "western-xia",
+          "label": "西夏",
+          "people": [
+            {
+              "id": "li-yuanhao",
+              "label": "李元昊"
+            },
+            {
+              "id": "li-deming",
+              "label": "李德明"
+            },
+            {
+              "id": "li-renxiao",
+              "label": "李仁孝"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "song-urban-life",
+              "label": "市场、纸币与城市生活"
+            },
+            {
+              "id": "multi-polity-exchange",
+              "label": "多政权之间的交流"
+            }
+          ]
+        },
+        {
+          "id": "jurchen-jin",
+          "label": "金",
+          "people": [
+            {
+              "id": "aguda",
+              "label": "完颜阿骨打"
+            },
+            {
+              "id": "wanyan-yong",
+              "label": "完颜雍"
+            },
+            {
+              "id": "yuan-haowen",
+              "label": "元好问"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "song-urban-life",
+              "label": "市场、纸币与城市生活"
+            },
+            {
+              "id": "multi-polity-exchange",
+              "label": "多政权之间的交流"
+            }
+          ]
+        },
+        {
+          "id": "mongol",
+          "label": "蒙古前期",
+          "people": [
+            {
+              "id": "genghis",
+              "label": "成吉思汗"
+            },
+            {
+              "id": "yelu-chucai",
+              "label": "耶律楚材"
+            },
+            {
+              "id": "ogedei",
+              "label": "窝阔台"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "multi-polity-exchange",
+              "label": "多政权之间的交流"
+            }
+          ]
+        },
+        {
+          "id": "yuan",
+          "label": "元",
+          "people": [
+            {
+              "id": "kublai",
+              "label": "忽必烈"
+            },
+            {
+              "id": "guan-hanqing",
+              "label": "关汉卿"
+            },
+            {
+              "id": "guo-shoujing",
+              "label": "郭守敬"
+            },
+            {
+              "id": "yuan-haowen",
+              "label": "元好问"
+            },
+            {
+              "id": "yelu-chucai",
+              "label": "耶律楚材"
+            },
+            {
+              "id": "zhao-mengfu",
+              "label": "赵孟頫"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "song-urban-life",
+              "label": "市场、纸币与城市生活"
+            },
+            {
+              "id": "multi-polity-exchange",
+              "label": "多政权之间的交流"
+            }
+          ]
+        },
+        {
+          "id": "ming",
+          "label": "明",
+          "people": [
+            {
+              "id": "zhu-yuanzhang",
+              "label": "朱元璋"
+            },
+            {
+              "id": "zheng-he",
+              "label": "郑和"
+            },
+            {
+              "id": "li-shizhen",
+              "label": "李时珍"
+            },
+            {
+              "id": "xu-xiake",
+              "label": "徐霞客"
+            },
+            {
+              "id": "song-yingxing",
+              "label": "宋应星"
+            },
+            {
+              "id": "gu-yanwu",
+              "label": "顾炎武"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "ming-crafts",
+              "label": "农工技术与劳动者"
+            },
+            {
+              "id": "ming-qing-knowledge",
+              "label": "文献、考察与知识更新"
+            }
+          ]
+        },
+        {
+          "id": "qing",
+          "label": "清",
+          "people": [
+            {
+              "id": "puyi",
+              "label": "溥仪"
+            },
+            {
+              "id": "hong-taiji",
+              "label": "皇太极"
+            },
+            {
+              "id": "kangxi",
+              "label": "康熙帝"
+            },
+            {
+              "id": "cao-xueqin",
+              "label": "曹雪芹"
+            },
+            {
+              "id": "gu-yanwu",
+              "label": "顾炎武"
+            },
+            {
+              "id": "lin-zexu",
+              "label": "林则徐"
+            }
+          ],
+          "backgrounds": [
+            {
+              "id": "ming-qing-knowledge",
+              "label": "文献、考察与知识更新"
+            },
+            {
+              "id": "qing-crisis",
+              "label": "贸易、禁烟与近代危机"
+            }
+          ]
+        }
+      ],
+      "people": [
+        {
+          "id": "qin-emperor",
+          "label": "秦始皇",
+          "period": "相关阶段：秦",
+          "identity": "统一秦朝的皇帝",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "liu-bang",
+          "label": "刘邦",
+          "period": "相关阶段：西汉",
+          "identity": "汉朝建立者",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "wang-mang",
+          "label": "王莽",
+          "period": "相关阶段：新朝",
+          "identity": "新朝建立者",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "liu-xiu",
+          "label": "刘秀",
+          "period": "相关阶段：东汉",
+          "identity": "东汉建立者",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "cao-pi",
+          "label": "曹丕",
+          "period": "187—226 年",
+          "identity": "曹魏首位皇帝 · 字子桓",
+          "achievementCount": 2,
+          "lifeEventCount": 1,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "cao-pi"
+          }
+        },
+        {
+          "id": "liu-bei",
+          "label": "刘备",
+          "period": "161—223 年",
+          "identity": "蜀汉建立者 · 字玄德",
+          "achievementCount": 1,
+          "lifeEventCount": 8,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "liu-bei"
+          }
+        },
+        {
+          "id": "sun-quan",
+          "label": "孙权",
+          "period": "182—252 年",
+          "identity": "孙吴建立者 · 字仲谋",
+          "achievementCount": 1,
+          "lifeEventCount": 5,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "sun-quan"
+          }
+        },
+        {
+          "id": "sima-yan",
+          "label": "司马炎",
+          "period": "236—290年",
+          "identity": "西晋建立者 · 字安世",
+          "achievementCount": 1,
+          "lifeEventCount": 5,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "sima-yan"
+          }
+        },
+        {
+          "id": "sima-rui",
+          "label": "司马睿",
+          "period": "相关阶段：东晋",
+          "identity": "东晋开创者",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "fu-jian",
+          "label": "苻坚",
+          "period": "相关阶段：十六国",
+          "identity": "前秦君主",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "liu-yu",
+          "label": "刘裕",
+          "period": "相关阶段：南朝",
+          "identity": "刘宋建立者",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "xiaowen",
+          "label": "北魏孝文帝",
+          "period": "相关阶段：北朝",
+          "identity": "北魏皇帝",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "yang-jian",
+          "label": "杨坚",
+          "period": "相关阶段：隋",
+          "identity": "隋朝建立者",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "li-yuan",
+          "label": "李渊",
+          "period": "相关阶段：唐",
+          "identity": "唐朝建立者",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhu-wen",
+          "label": "朱温",
+          "period": "相关阶段：五代十国",
+          "identity": "后梁建立者",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhao-kuang-yin",
+          "label": "赵匡胤",
+          "period": "相关阶段：北宋",
+          "identity": "北宋建立者",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhao-gou",
+          "label": "赵构",
+          "period": "相关阶段：南宋",
+          "identity": "宋高宗",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "yelu-abaoji",
+          "label": "耶律阿保机",
+          "period": "相关阶段：辽",
+          "identity": "契丹政权建立者",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "li-yuanhao",
+          "label": "李元昊",
+          "period": "相关阶段：西夏",
+          "identity": "西夏建立者",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "aguda",
+          "label": "完颜阿骨打",
+          "period": "相关阶段：金",
+          "identity": "金朝建立者",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "genghis",
+          "label": "成吉思汗",
+          "period": "相关阶段：蒙古前期",
+          "identity": "蒙古建国的重要人物",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "kublai",
+          "label": "忽必烈",
+          "period": "相关阶段：元",
+          "identity": "元朝建立者",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhu-yuanzhang",
+          "label": "朱元璋",
+          "period": "相关阶段：明",
+          "identity": "明朝建立者",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "puyi",
+          "label": "溥仪",
+          "period": "相关阶段：清",
+          "identity": "清朝末代皇帝",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "hong-taiji",
+          "label": "皇太极",
+          "period": "相关阶段：清",
+          "identity": "清朝改国号的君主",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "li-si",
+          "label": "李斯",
+          "period": "战国末至秦·卒于前208年",
+          "identity": "秦丞相、政论作者",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhang-qian",
+          "label": "张骞",
+          "period": "西汉武帝时期",
+          "identity": "使者、西域交通开拓者",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "sima-qian",
+          "label": "司马迁",
+          "period": "西汉·生卒年存在不同考证",
+          "identity": "史学家、《史记》主要撰写者",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhang-heng",
+          "label": "张衡",
+          "period": "东汉·78—139年",
+          "identity": "天文学家、文学家、官员",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "cai-lun",
+          "label": "蔡伦",
+          "period": "东汉·生年未定—121年",
+          "identity": "造纸工艺改进者、宫廷官员",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "wang-xizhi",
+          "label": "王羲之",
+          "period": "303—361年（采用故宫词条口径）",
+          "identity": "东晋书法家，字逸少",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "tao-yuanming",
+          "label": "陶渊明",
+          "period": "365—427年（采用故宫词条口径）",
+          "identity": "跨东晋与刘宋的诗人",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "zu-chongzhi",
+          "label": "祖冲之",
+          "period": "南朝刘宋、南齐时期（429—500年）",
+          "identity": "数学家、天文学家",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "yang-guang",
+          "label": "杨广",
+          "period": "隋·604—618年在位",
+          "identity": "隋炀帝",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "li-shimin",
+          "label": "李世民",
+          "period": "599—649年（采用故宫词条口径）",
+          "identity": "唐太宗、唐朝第二位皇帝",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "wu-zetian",
+          "label": "武则天",
+          "period": "唐与武周时期·卒于705年",
+          "identity": "政治家、武周皇帝",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "li-bai",
+          "label": "李白",
+          "period": "701—762年",
+          "identity": "诗人，字太白、号青莲居士",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "du-fu",
+          "label": "杜甫",
+          "period": "712—770年",
+          "identity": "诗人，字子美",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "su-shi",
+          "label": "苏轼",
+          "period": "1037—1101年",
+          "identity": "文学家、书画家、官员",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "wang-anshi",
+          "label": "王安石",
+          "period": "1021—1086年",
+          "identity": "政治家、文学家",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "sima-guang",
+          "label": "司马光",
+          "period": "1019—1086年",
+          "identity": "史学家、政治家",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "shen-kuo",
+          "label": "沈括",
+          "period": "1031—1095年",
+          "identity": "科学家、官员，字存中",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "li-qingzhao",
+          "label": "李清照",
+          "period": "1084—约1155/1156年（卒年有异说）",
+          "identity": "两宋词人，号易安居士",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "yue-fei",
+          "label": "岳飞",
+          "period": "1103—1142年",
+          "identity": "南宋将领，字鹏举",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "xin-qiji",
+          "label": "辛弃疾",
+          "period": "1140—1207年",
+          "identity": "词人、官员，字幼安、号稼轩",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "guan-hanqing",
+          "label": "关汉卿",
+          "period": "金末元初至元代·生卒年未确",
+          "identity": "杂剧作家",
+          "achievementCount": 2,
+          "lifeEventCount": 1,
+          "sharedFrom": null
+        },
+        {
+          "id": "guo-shoujing",
+          "label": "郭守敬",
+          "period": "1231—1316年",
+          "identity": "天文学家、水利专家",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "zheng-he",
+          "label": "郑和",
+          "period": "明永乐、宣德时期·卒年有1433、1435两说",
+          "identity": "航海使者、船队统领",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "li-shizhen",
+          "label": "李时珍",
+          "period": "1518—1593年",
+          "identity": "医药学家、本草学著述者",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "xu-xiake",
+          "label": "徐霞客",
+          "period": "1587—1641年",
+          "identity": "旅行家、地理考察者，名弘祖",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "kangxi",
+          "label": "康熙帝",
+          "period": "1654—1722年；1661年继位",
+          "identity": "清圣祖，名玄烨",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "cao-xueqin",
+          "label": "曹雪芹",
+          "period": "约1715—约1763年（采用故宫词条口径）",
+          "identity": "小说家，名霑",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "cao-cao",
+          "label": "曹操",
+          "period": "155—220 年",
+          "identity": "汉末政治与军事人物 · 字孟德",
+          "achievementCount": 2,
+          "lifeEventCount": 7,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "cao-cao"
+          }
+        },
+        {
+          "id": "zhuge-liang",
+          "label": "诸葛亮",
+          "period": "181—234 年",
+          "identity": "蜀汉丞相 · 字孔明",
+          "achievementCount": 2,
+          "lifeEventCount": 6,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "zhuge-liang"
+          }
+        },
+        {
+          "id": "guan-yu",
+          "label": "关羽",
+          "period": "卒于 219 年",
+          "identity": "刘备部将 · 字云长",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "guan-yu"
+          }
+        },
+        {
+          "id": "zhou-yu",
+          "label": "周瑜",
+          "period": "175—210 年",
+          "identity": "孙氏重要将领 · 字公瑾",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "zhou-yu"
+          }
+        },
+        {
+          "id": "zhang-fei",
+          "label": "张飞",
+          "period": "卒于 221 年",
+          "identity": "刘备部将 · 史书记字益德",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "zhang-fei"
+          }
+        },
+        {
+          "id": "zhao-yun",
+          "label": "赵云",
+          "period": "卒于 229 年",
+          "identity": "刘备部将 · 字子龙",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "zhao-yun"
+          }
+        },
+        {
+          "id": "sun-ce",
+          "label": "孙策",
+          "period": "175—200 年",
+          "identity": "江东孙氏事业开拓者 · 字伯符",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "sun-ce"
+          }
+        },
+        {
+          "id": "lu-su",
+          "label": "鲁肃",
+          "period": "172—217 年",
+          "identity": "孙权的重要谋臣与将领 · 字子敬",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "lu-su"
+          }
+        },
+        {
+          "id": "huang-zhong",
+          "label": "黄忠",
+          "period": "卒于 220 年",
+          "identity": "刘备部将 · 字汉升",
+          "achievementCount": 1,
+          "lifeEventCount": 1,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "huang-zhong"
+          }
+        },
+        {
+          "id": "meng-tian",
+          "label": "蒙恬",
+          "period": "生年不详—前210年",
+          "identity": "秦将领与北方工程组织者",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "han-wudi",
+          "label": "汉武帝",
+          "period": "前156—前87年",
+          "identity": "西汉皇帝 · 刘彻",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "dong-zhongshu",
+          "label": "董仲舒",
+          "period": "生卒年存在考证差异 · 西汉",
+          "identity": "儒学与政治思想人物",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "liu-xin",
+          "label": "刘歆",
+          "period": "前1世纪—23年",
+          "identity": "经学与文献整理人物 · 字子骏",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "yang-xiong",
+          "label": "扬雄",
+          "period": "前53—18年",
+          "identity": "文学与思想人物 · 字子云",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "ban-zhao",
+          "label": "班昭",
+          "period": "生卒年存在不同考证 · 东汉",
+          "identity": "史学与教育人物 · 字惠班",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "lu-ji",
+          "label": "陆机",
+          "period": "261—303年",
+          "identity": "西晋文学人物 · 字士衡",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "pei-xiu",
+          "label": "裴秀",
+          "period": "224—271年",
+          "identity": "曹魏至西晋大臣、制图人物 · 字季彦",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "xie-an",
+          "label": "谢安",
+          "period": "320—385年",
+          "identity": "东晋大臣 · 字安石",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "shi-le",
+          "label": "石勒",
+          "period": "274—333年",
+          "identity": "后赵建立者 · 字世龙",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "yao-xing",
+          "label": "姚兴",
+          "period": "366—416年",
+          "identity": "后秦统治者 · 字子略",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "yuwen-tai",
+          "label": "宇文泰",
+          "period": "507—556年",
+          "identity": "西魏军政领袖 · 字黑獭",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "jia-sixie",
+          "label": "贾思勰",
+          "period": "生卒年不详 · 北魏至东魏时期",
+          "identity": "农学知识整理者",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "xie-lingyun",
+          "label": "谢灵运",
+          "period": "385—433年",
+          "identity": "南朝宋文学人物",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "yuwen-kai",
+          "label": "宇文恺",
+          "period": "555—612年",
+          "identity": "隋代规划与营建人物 · 字安乐",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "xuan-zang",
+          "label": "玄奘",
+          "period": "生年有异说—664年",
+          "identity": "佛教旅行者与译经人物",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "han-yu",
+          "label": "韩愈",
+          "period": "768—824年",
+          "identity": "唐代文学与思想人物 · 字退之",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "feng-dao",
+          "label": "冯道",
+          "period": "882—954年",
+          "identity": "五代大臣 · 字可道",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "li-yu",
+          "label": "李煜",
+          "period": "937—978年",
+          "identity": "南唐后主与词人 · 字重光",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "yelu-deguang",
+          "label": "耶律德光",
+          "period": "902—947年",
+          "identity": "辽太宗",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "xiao-chuo",
+          "label": "萧绰",
+          "period": "953—1009年",
+          "identity": "辽景宗皇后、圣宗时期摄政者",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "li-deming",
+          "label": "李德明",
+          "period": "981—1032年",
+          "identity": "西夏建国前的党项领袖",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "li-renxiao",
+          "label": "李仁孝",
+          "period": "1124—1193年",
+          "identity": "西夏仁宗",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "wanyan-yong",
+          "label": "完颜雍",
+          "period": "1123—1189年",
+          "identity": "金世宗",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "yuan-haowen",
+          "label": "元好问",
+          "period": "1190—1257年",
+          "identity": "金元之际文学与文献整理人物 · 字裕之",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "yelu-chucai",
+          "label": "耶律楚材",
+          "period": "1190—1244年",
+          "identity": "蒙古前期大臣 · 字晋卿",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "ogedei",
+          "label": "窝阔台",
+          "period": "1186—1241年",
+          "identity": "蒙古大汗",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhao-mengfu",
+          "label": "赵孟頫",
+          "period": "1254—1322年",
+          "identity": "元代书画人物 · 字子昂",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "song-yingxing",
+          "label": "宋应星",
+          "period": "1587—约1666年（卒年有不同考证）",
+          "identity": "明末技术知识整理者 · 字长庚",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "gu-yanwu",
+          "label": "顾炎武",
+          "period": "1613—1682年",
+          "identity": "明清之际学者 · 字宁人",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "lin-zexu",
+          "label": "林则徐",
+          "period": "1785—1850年",
+          "identity": "清代大臣 · 字元抚",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhang-jiao",
+          "label": "张角",
+          "period": "生年不详—184年",
+          "identity": "黄巾起事领导者",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "zhang-jiao"
+          }
+        },
+        {
+          "id": "dong-zhuo",
+          "label": "董卓",
+          "period": "生年不详—192年",
+          "identity": "控制汉廷的军阀 · 字仲颖",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "dong-zhuo"
+          }
+        },
+        {
+          "id": "yuan-shao",
+          "label": "袁绍",
+          "period": "生年不详—202年",
+          "identity": "汉末北方诸侯 · 字本初",
+          "achievementCount": 1,
+          "lifeEventCount": 4,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "yuan-shao"
+          }
+        },
+        {
+          "id": "xun-yu",
+          "label": "荀彧",
+          "period": "163—212年",
+          "identity": "曹操的政治谋臣 · 字文若",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "xun-yu"
+          }
+        },
+        {
+          "id": "liu-xie",
+          "label": "汉献帝",
+          "period": "181—234年",
+          "identity": "东汉末代皇帝 · 刘协",
+          "achievementCount": 1,
+          "lifeEventCount": 4,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "liu-xie"
+          }
+        },
+        {
+          "id": "lv-bu",
+          "label": "吕布",
+          "period": "生年不详—199年",
+          "identity": "汉末军事人物 · 字奉先",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "lv-bu"
+          }
+        },
+        {
+          "id": "liu-zhang",
+          "label": "刘璋",
+          "period": "生年不详—219年",
+          "identity": "益州牧 · 字季玉",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "liu-zhang"
+          }
+        },
+        {
+          "id": "lv-meng",
+          "label": "吕蒙",
+          "period": "178—219年（卒年换算另有220年说）",
+          "identity": "孙权部将 · 字子明",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "lv-meng"
+          }
+        },
+        {
+          "id": "lu-xun",
+          "label": "陆逊",
+          "period": "183—245年",
+          "identity": "孙吴军事与政治人物 · 字伯言",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "lu-xun"
+          }
+        },
+        {
+          "id": "cao-rui",
+          "label": "曹叡",
+          "period": "204—239年（生年有异说）",
+          "identity": "魏明帝 · 字元仲",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "cao-rui"
+          }
+        },
+        {
+          "id": "cao-shuang",
+          "label": "曹爽",
+          "period": "生年不详—249年",
+          "identity": "曹魏辅政大臣 · 字昭伯",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "cao-shuang"
+          }
+        },
+        {
+          "id": "sima-yi",
+          "label": "司马懿",
+          "period": "179—251年",
+          "identity": "曹魏重臣 · 字仲达",
+          "achievementCount": 1,
+          "lifeEventCount": 4,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "sima-yi"
+          }
+        },
+        {
+          "id": "sima-shi",
+          "label": "司马师",
+          "period": "208—255年",
+          "identity": "曹魏权臣 · 字子元",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "sima-shi"
+          }
+        },
+        {
+          "id": "sima-zhao",
+          "label": "司马昭",
+          "period": "211—265年",
+          "identity": "曹魏权臣、晋王 · 字子上",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "sima-zhao"
+          }
+        },
+        {
+          "id": "jiang-wei",
+          "label": "姜维",
+          "period": "202—264年",
+          "identity": "蜀汉将领 · 字伯约",
+          "achievementCount": 1,
+          "lifeEventCount": 4,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "jiang-wei"
+          }
+        },
+        {
+          "id": "liu-shan",
+          "label": "刘禅",
+          "period": "207—271年",
+          "identity": "蜀汉后主 · 字公嗣",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "liu-shan"
+          }
+        },
+        {
+          "id": "deng-ai",
+          "label": "邓艾",
+          "period": "197—264年",
+          "identity": "曹魏将领 · 字士载",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "deng-ai"
+          }
+        },
+        {
+          "id": "zhong-hui",
+          "label": "钟会",
+          "period": "225—264年",
+          "identity": "曹魏将领 · 字士季",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "zhong-hui"
+          }
+        },
+        {
+          "id": "sun-hao",
+          "label": "孙皓",
+          "period": "242—284年",
+          "identity": "孙吴末代皇帝 · 字元宗",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "sun-hao"
+          }
+        },
+        {
+          "id": "yang-hu",
+          "label": "羊祜",
+          "period": "221—278年",
+          "identity": "西晋镇守荆州的将领 · 字叔子",
+          "achievementCount": 1,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "yang-hu"
+          }
+        },
+        {
+          "id": "du-yu",
+          "label": "杜预",
+          "period": "222—285年",
+          "identity": "西晋将领与经学家 · 字元凯",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "du-yu"
+          }
+        },
+        {
+          "id": "wang-jun",
+          "label": "王濬",
+          "period": "206—286年",
+          "identity": "西晋水军将领 · 字士治",
+          "achievementCount": 1,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "wang-jun"
+          }
+        },
+        {
+          "id": "sun-jian",
+          "label": "孙坚",
+          "period": "生年有异说—191/192年（卒年有不同系年）",
+          "identity": "汉末军事人物 · 字文台",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "sun-jian"
+          }
+        },
+        {
+          "id": "yuan-shu",
+          "label": "袁术",
+          "period": "生年不详—199年",
+          "identity": "汉末诸侯 · 字公路",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "yuan-shu"
+          }
+        },
+        {
+          "id": "liu-biao",
+          "label": "刘表",
+          "period": "142—208年",
+          "identity": "荆州牧 · 字景升",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "liu-biao"
+          }
+        },
+        {
+          "id": "fa-zheng",
+          "label": "法正",
+          "period": "176—220年",
+          "identity": "刘备谋士 · 字孝直",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "fa-zheng"
+          }
+        },
+        {
+          "id": "pang-tong",
+          "label": "庞统",
+          "period": "179—214年",
+          "identity": "刘备谋士 · 字士元",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "pang-tong"
+          }
+        },
+        {
+          "id": "ma-chao",
+          "label": "马超",
+          "period": "176—222年",
+          "identity": "汉末与蜀汉将领 · 字孟起",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "ma-chao"
+          }
+        },
+        {
+          "id": "jiang-wan",
+          "label": "蒋琬",
+          "period": "生年不详—246年",
+          "identity": "蜀汉大臣 · 字公琰",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "jiang-wan"
+          }
+        },
+        {
+          "id": "fei-yi",
+          "label": "费祎",
+          "period": "生年不详—253年",
+          "identity": "蜀汉大臣 · 字文伟",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "fei-yi"
+          }
+        },
+        {
+          "id": "zhang-liao",
+          "label": "张辽",
+          "period": "169—222年",
+          "identity": "曹操集团、曹魏将领 · 字文远",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "zhang-liao"
+          }
+        },
+        {
+          "id": "zhang-he",
+          "label": "张郃",
+          "period": "生年不详—231年",
+          "identity": "曹魏将领 · 字儁乂",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "zhang-he"
+          }
+        },
+        {
+          "id": "xu-huang",
+          "label": "徐晃",
+          "period": "生年不详—227年",
+          "identity": "曹操集团、曹魏将领 · 字公明",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "xu-huang"
+          }
+        },
+        {
+          "id": "xun-you",
+          "label": "荀攸",
+          "period": "157—214年",
+          "identity": "曹操谋臣 · 字公达",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "xun-you"
+          }
+        },
+        {
+          "id": "jia-xu",
+          "label": "贾诩",
+          "period": "147—223年",
+          "identity": "汉末谋臣、曹魏太尉 · 字文和",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "jia-xu"
+          }
+        },
+        {
+          "id": "guo-jia",
+          "label": "郭嘉",
+          "period": "170—207年",
+          "identity": "曹操谋臣 · 字奉孝",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "guo-jia"
+          }
+        },
+        {
+          "id": "lu-kang",
+          "label": "陆抗",
+          "period": "226—274年",
+          "identity": "孙吴后期将领 · 字幼节",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "lu-kang"
+          }
+        },
+        {
+          "id": "chen-shou",
+          "label": "陈寿",
+          "period": "233—297年",
+          "identity": "史学家 · 字承祚",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "chen-shou"
+          }
+        },
+        {
+          "id": "chen-qun",
+          "label": "陈群",
+          "period": "生年不详—236年",
+          "identity": "曹魏大臣 · 字长文",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "chen-qun"
+          }
+        },
+        {
+          "id": "ren-jun",
+          "label": "任峻",
+          "period": "生年不详—204年",
+          "identity": "曹操集团农业与粮运负责人 · 字伯达",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "ren-jun"
+          }
+        },
+        {
+          "id": "cai-yan",
+          "label": "蔡琰",
+          "period": "生卒年不详 · 汉末",
+          "identity": "汉末文学人物 · 字文姬",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "cai-yan"
+          }
+        },
+        {
+          "id": "hua-tuo",
+          "label": "华佗",
+          "period": "生卒年不详 · 汉末",
+          "identity": "医者 · 字元化",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "hua-tuo"
+          }
+        },
+        {
+          "id": "cao-zhi",
+          "label": "曹植",
+          "period": "192—232年",
+          "identity": "诗人、曹魏宗室 · 字子建",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "cao-zhi"
+          }
+        },
+        {
+          "id": "wang-can",
+          "label": "王粲",
+          "period": "177—217年",
+          "identity": "建安文学人物 · 字仲宣",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "wang-can"
+          }
+        }
+      ],
+      "backgrounds": [
+        {
+          "id": "qin-county",
+          "label": "郡县、道路与国家动员",
+          "period": "秦统一前后"
+        },
+        {
+          "id": "han-agriculture",
+          "label": "农业、土地与赋役",
+          "period": "两汉"
+        },
+        {
+          "id": "xin-reforms",
+          "label": "新朝改革与社会震荡",
+          "period": "9—23年"
+        },
+        {
+          "id": "women-education",
+          "label": "女性、教育与知识传承",
+          "period": "东汉"
+        },
+        {
+          "id": "north-south-farming",
+          "label": "南北农业与经验知识",
+          "period": "魏晋南北朝"
+        },
+        {
+          "id": "jin-local-society",
+          "label": "魏晋的地方社会与流民",
+          "period": "魏晋南北朝"
+        },
+        {
+          "id": "sui-tang-cities",
+          "label": "都城、交通与交流",
+          "period": "隋唐五代"
+        },
+        {
+          "id": "song-urban-life",
+          "label": "市场、纸币与城市生活",
+          "period": "辽宋夏金元"
+        },
+        {
+          "id": "multi-polity-exchange",
+          "label": "多政权之间的交流",
+          "period": "辽宋夏金元"
+        },
+        {
+          "id": "ming-crafts",
+          "label": "农工技术与劳动者",
+          "period": "明代"
+        },
+        {
+          "id": "ming-qing-knowledge",
+          "label": "文献、考察与知识更新",
+          "period": "明清"
+        },
+        {
+          "id": "qing-crisis",
+          "label": "贸易、禁烟与近代危机",
+          "period": "清代中后期"
+        },
+        {
+          "id": "local-arms",
+          "label": "地方武装与军阀",
+          "period": "汉末"
+        },
+        {
+          "id": "tuntian",
+          "label": "屯田与军粮",
+          "period": "196年起 · 汉末魏晋"
+        },
+        {
+          "id": "war-migration",
+          "label": "战乱与人口流徙",
+          "period": "汉末至魏晋"
+        },
+        {
+          "id": "nine-ranks",
+          "label": "九品官人法",
+          "period": "220年起"
+        },
+        {
+          "id": "elite-families",
+          "label": "门第与地方声望",
+          "period": "汉末魏晋"
+        },
+        {
+          "id": "jianan-culture",
+          "label": "建安文学与乱世表达",
+          "period": "196—220年前后"
+        },
+        {
+          "id": "jiangdong-economy",
+          "label": "江东农业与水运",
+          "period": "汉末至三国"
+        },
+        {
+          "id": "war-burdens",
+          "label": "战争、赋役与百姓",
+          "period": "汉末至三国"
+        },
+        {
+          "id": "medicine-life",
+          "label": "疾疫与医者的处境",
+          "period": "汉末"
+        },
+        {
+          "id": "jin-recovery",
+          "label": "统一后的生产与治理",
+          "period": "280年起（延伸阅读）"
+        }
+      ],
+      "works": [
+        {
+          "id": "jian-zhuke",
+          "label": "《谏逐客书》"
+        },
+        {
+          "id": "shiji-work",
+          "label": "《史记》"
+        },
+        {
+          "id": "erjing-fu",
+          "label": "《二京赋》"
+        },
+        {
+          "id": "lanting-work",
+          "label": "《兰亭集序》"
+        },
+        {
+          "id": "taohua-work",
+          "label": "《桃花源记》"
+        },
+        {
+          "id": "jiangjinjiu-work",
+          "label": "《将进酒》"
+        },
+        {
+          "id": "shudao-work",
+          "label": "《蜀道难》"
+        },
+        {
+          "id": "du-poems-work",
+          "label": "《杜工部集》"
+        },
+        {
+          "id": "chibi-fu-work",
+          "label": "《赤壁赋》"
+        },
+        {
+          "id": "dongpo-work",
+          "label": "《东坡集》"
+        },
+        {
+          "id": "linchuan-work",
+          "label": "《临川集》"
+        },
+        {
+          "id": "zizhi-work",
+          "label": "《资治通鉴》"
+        },
+        {
+          "id": "mengxi-work",
+          "label": "《梦溪笔谈》"
+        },
+        {
+          "id": "shuyu-work",
+          "label": "《漱玉词》"
+        },
+        {
+          "id": "jiaxuan-work",
+          "label": "《稼轩长短句》"
+        },
+        {
+          "id": "dou-e-work",
+          "label": "《窦娥冤》"
+        },
+        {
+          "id": "shoushi-work",
+          "label": "《授时历》"
+        },
+        {
+          "id": "bencao-work",
+          "label": "《本草纲目》"
+        },
+        {
+          "id": "xiake-work",
+          "label": "《徐霞客游记》"
+        },
+        {
+          "id": "honglou-work",
+          "label": "《红楼梦》"
+        },
+        {
+          "id": "chunwang-work",
+          "label": "《春望》"
+        },
+        {
+          "id": "fayan-work",
+          "label": "《法言》"
+        },
+        {
+          "id": "qimin-work",
+          "label": "《齐民要术》"
+        },
+        {
+          "id": "shishuo-work",
+          "label": "《师说》"
+        },
+        {
+          "id": "wenfu-work",
+          "label": "《文赋》"
+        },
+        {
+          "id": "tiangong-work",
+          "label": "《天工开物》"
+        },
+        {
+          "id": "chushi-work",
+          "label": "《出师表》"
+        },
+        {
+          "id": "duange-work",
+          "label": "《短歌行》"
+        },
+        {
+          "id": "dianlun-work",
+          "label": "《典论·论文》"
+        },
+        {
+          "id": "chunqiu-work",
+          "label": "《春秋经传集解》"
+        },
+        {
+          "id": "luoshen-work",
+          "label": "《洛神赋》"
+        },
+        {
+          "id": "sanguozhi-work",
+          "label": "《三国志》"
+        },
+        {
+          "id": "denglou-work",
+          "label": "《登楼赋》"
+        }
+      ],
+      "pendingPeople": [
+        "班固",
+        "欧阳修",
+        "张居正",
+        "康熙",
+        "钱大昕"
+      ]
+    }
+  ],
+  "pending": [
+    "逐人扩写重要经历、社会交往、作品版本与流传；一些人物目前具备两条概括经历，精细年表仍待核对。",
+    "补入更多女性、地方人物、生产者及不同族群的历史经验，并补充相关研究资料。",
+    "按时期细化土地、户籍、税役、地方治理、商贸与人口数据，明确区域差异和研究争议。",
+    "十六国、南北朝、五代十国等目前使用时期索引与代表人物，具体政权分支继续梳理。",
+    "屯田、九品官人法等线索已建图，制度细节、地区差异与后世演变仍需专题审校。",
+    "原始史书含编纂立场与叙事选择，在线转录应继续对照校勘本与现代研究；来源条目数量包含跨专题命名空间副本。"
+  ]
+}

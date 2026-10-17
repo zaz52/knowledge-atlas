@@ -1,0 +1,346 @@
+[
+  {
+    "id": "sgz-01",
+    "title": "《三国志》卷一·武帝纪",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+    "description": "曹操生平；建安五年官渡、十三年赤壁及二十四年汉中的相关记载。"
+  },
+  {
+    "id": "sgz-02",
+    "title": "《三国志》卷二·文帝纪",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷02",
+    "description": "曹丕身份、继任魏王与 220 年称帝的记载。"
+  },
+  {
+    "id": "sgz-32",
+    "title": "《三国志》卷三十二·先主传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+    "description": "刘备生平、孙刘合作、汉中、章武称帝与伐吴等记载。"
+  },
+  {
+    "id": "sgz-35",
+    "title": "《三国志》卷三十五·诸葛亮传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷35",
+    "description": "三次拜访、出使孙权、担任丞相等记载；页面包含史家注文，应结合对应段落阅读。"
+  },
+  {
+    "id": "sgz-36",
+    "title": "《三国志》卷三十六·关张马黄赵传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷36",
+    "description": "关羽、张飞、黄忠、赵云本传；收录长坂与定军山等记事。"
+  },
+  {
+    "id": "sgz-37",
+    "title": "《三国志》卷三十七·庞统法正传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷37",
+    "description": "法正本传建安二十二年进言取汉中及二十四年定军山的记载。"
+  },
+  {
+    "id": "sgz-46",
+    "title": "《三国志》卷四十六·孙破虏讨逆传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷46",
+    "description": "孙坚、孙策本传，孙策在江东的发展及临终交接。"
+  },
+  {
+    "id": "sgz-47",
+    "title": "《三国志》卷四十七·吴主传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷47",
+    "description": "孙权承接兄长事业、赤壁派兵、对刘备作战及 229 年称帝的记载。"
+  },
+  {
+    "id": "sgz-54",
+    "title": "《三国志》卷五十四·周瑜鲁肃吕蒙传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷54",
+    "description": "周瑜、鲁肃等人的本传，记述孙刘合作决策与赤壁战事。"
+  },
+  {
+    "id": "sgyy-001",
+    "title": "《三国演义》第一回",
+    "author": "罗贯中著，通行毛评本",
+    "kind": "literature",
+    "url": "https://zh.wikisource.org/wiki/三國演義/第001回",
+    "description": "回目为“宴桃园豪杰三结义，斩黄巾英雄首立功”。本图用它说明文学情节。"
+  },
+  {
+    "id": "hhs-71",
+    "title": "《后汉书》卷七十一·皇甫嵩朱儁列传",
+    "url": "https://zh.wikisource.org/wiki/後漢書/卷71",
+    "description": "张角、黄巾起事及汉廷征讨的记述。在线文本为维基文库转录。",
+    "author": "范晔撰，李贤等注",
+    "kind": "primary"
+  },
+  {
+    "id": "hhs-72",
+    "title": "《后汉书》卷七十二·董卓列传",
+    "url": "https://zh.wikisource.org/wiki/後漢書/卷72",
+    "description": "何进被杀后的京师变局、董卓废立、迁都与被杀。",
+    "author": "范晔撰，李贤等注",
+    "kind": "primary"
+  },
+  {
+    "id": "sgz-06",
+    "title": "《三国志》卷6·董二袁刘传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "description": "董卓、袁绍与刘表等人的活动。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "sgz-07",
+    "title": "《三国志》卷7·吕布臧洪传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+    "description": "吕布在汉末诸势力间的活动及下邳败亡。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "sgz-09",
+    "title": "《三国志》卷9·诸夏侯曹传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷09",
+    "description": "曹爽任职、高平陵政变与被诛。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "sgz-10",
+    "title": "《三国志》卷10·荀彧荀攸贾诩传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷10",
+    "description": "荀彧迎奉天子建议、官渡谋划与后期处境。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "sgz-28",
+    "title": "《三国志》卷28·王毌丘诸葛邓钟传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷28",
+    "description": "邓艾、钟会伐蜀及其后变乱。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "sgz-33",
+    "title": "《三国志》卷33·后主传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷33",
+    "description": "刘禅继位、蜀汉后期及263年降魏。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "sgz-44",
+    "title": "《三国志》卷44·蒋琬费祎姜维传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷44",
+    "description": "姜维从魏入蜀、北伐及蜀汉末年。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "sgz-48",
+    "title": "《三国志》卷48·三嗣主传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷48",
+    "description": "孙亮、孙休、孙皓及280年孙吴灭亡。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "sgz-58",
+    "title": "《三国志》卷58·陆逊传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷58",
+    "description": "陆逊指挥夷陵之战及其后军政活动。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "sgz-03",
+    "title": "《三国志》卷3·明帝纪",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷03",
+    "description": "曹叡继位、魏蜀交战及托孤。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "sgz-31",
+    "title": "《三国志》卷31·刘二牧传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷31",
+    "description": "刘焉、刘璋与刘备入益州。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "jin-01",
+    "title": "《晋书》卷一·宣帝纪",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷001",
+    "description": "司马懿与曹魏政局、高平陵政变；注意晋朝追尊帝号和立场。",
+    "author": "房玄龄等撰",
+    "kind": "primary"
+  },
+  {
+    "id": "jin-02",
+    "title": "《晋书》卷二·景帝纪、文帝纪",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷002",
+    "description": "司马师、司马昭执政与魏灭蜀的记述。",
+    "author": "房玄龄等撰",
+    "kind": "primary"
+  },
+  {
+    "id": "jin-03",
+    "title": "《晋书》卷三·武帝纪",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷003",
+    "description": "司马炎代魏、泰始年号及太康元年晋灭吴。",
+    "author": "房玄龄等撰",
+    "kind": "primary"
+  },
+  {
+    "id": "jin-34",
+    "title": "《晋书》卷三十四·羊祜杜预传",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷034",
+    "description": "羊祜筹划伐吴、杜预参战与其经学著述。",
+    "author": "房玄龄等撰",
+    "kind": "primary"
+  },
+  {
+    "id": "jin-42",
+    "title": "《晋书》卷四十二·王濬唐彬等传",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷042",
+    "description": "王濬在益州造船及顺江攻吴。",
+    "author": "房玄龄等撰",
+    "kind": "primary"
+  },
+  {
+    "id": "yuefu-30",
+    "title": "《乐府诗集》卷三十·相和歌辞五",
+    "url": "https://zh.wikisource.org/wiki/樂府詩集/030卷",
+    "description": "收录曹操《短歌行》。作品成篇年月未据此确定。",
+    "author": "郭茂倩编",
+    "kind": "primary"
+  },
+  {
+    "id": "wenxuan-52",
+    "title": "《文选》卷五十二·论",
+    "url": "https://zh.wikisource.org/wiki/典論/論文",
+    "description": "《文选》卷五十二所收《典论·论文》，链接直达作品转录文本。",
+    "author": "萧统编，李善等注",
+    "kind": "primary"
+  },
+  {
+    "id": "hhs-09",
+    "title": "《后汉书》卷九·孝献帝纪",
+    "author": "范晔撰，李贤等注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
+    "description": "刘协身份、董卓废立、建安迁许、禅位及山阳公去世。链接为维基文库转录。"
+  },
+  {
+    "id": "sgz-14",
+    "title": "《三国志》卷14·程郭董刘蒋刘传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷14",
+    "description": "相关人物本传及注文；在线文本为开放转录。"
+  },
+  {
+    "id": "sgz-17",
+    "title": "《三国志》卷17·张乐于张徐传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷17",
+    "description": "相关人物本传及注文；在线文本为开放转录。"
+  },
+  {
+    "id": "sgz-19",
+    "title": "《三国志》卷19·任城陈萧王传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷19",
+    "description": "相关人物本传及注文；在线文本为开放转录。"
+  },
+  {
+    "id": "sgz-21",
+    "title": "《三国志》卷21·王卫二刘傅传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷21",
+    "description": "相关人物本传及注文；在线文本为开放转录。"
+  },
+  {
+    "id": "sgz-22",
+    "title": "《三国志》卷22·桓二陈徐卫卢传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷22",
+    "description": "相关人物本传及注文；在线文本为开放转录。"
+  },
+  {
+    "id": "sgz-16",
+    "title": "《三国志》卷16·任苏杜郑仓传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷16",
+    "description": "相关人物本传及注文；在线文本为开放转录。"
+  },
+  {
+    "id": "sgz-29",
+    "title": "《三国志》卷29·方技传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷29",
+    "description": "相关人物本传及注文；在线文本为开放转录。"
+  },
+  {
+    "id": "hhs-84",
+    "title": "《后汉书》卷八十四·列女传",
+    "author": "范晔撰，李贤等注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/後漢書/卷84",
+    "description": "班昭、蔡琰的生平与著述记事；在线文本为开放转录。"
+  },
+  {
+    "id": "jin-82",
+    "title": "《晋书》卷八十二·陈寿等传",
+    "author": "房玄龄等撰",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷082",
+    "description": "陈寿生平、修史与史家评议；在线文本为开放转录。"
+  },
+  {
+    "id": "jin-food",
+    "title": "《晋书》卷二十六·食货志",
+    "author": "房玄龄等撰",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷026",
+    "description": "汉末魏晋的屯田、农业、流民、税役与经济记事；在线文本为开放转录。"
+  },
+  {
+    "id": "wenxuan-19",
+    "title": "《文选》卷十九·洛神赋",
+    "author": "萧统编，李善等注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/昭明文選/卷19",
+    "description": "收录曹植《洛神赋》；在线文本为开放转录。"
+  },
+  {
+    "id": "wenxuan-11",
+    "title": "《文选》卷十一·登楼赋",
+    "author": "萧统编，李善等注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/昭明文選/卷11",
+    "description": "收录王粲《登楼赋》；在线文本为开放转录。"
+  }
+]

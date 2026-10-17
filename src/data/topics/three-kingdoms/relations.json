@@ -1,0 +1,7070 @@
+[
+  {
+    "id": "service-zhuge-liubei",
+    "source": "zhuge-liang",
+    "target": "liu-bei",
+    "type": "service",
+    "label": "辅佐刘备",
+    "description": "诸葛亮受刘备拜访后加入其事业，后来担任蜀汉丞相。箭头从辅佐者指向领袖。",
+    "period": "建安年间至 223 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "拜访、军师任职及章武拜相段",
+        "note": "记述诸葛亮为刘备效力。"
+      }
+    ]
+  },
+  {
+    "id": "service-guan-yu",
+    "source": "guan-yu",
+    "target": "liu-bei",
+    "type": "service",
+    "label": "追随刘备",
+    "description": "关羽在刘备集团中承担军事职责。这条关系表示史料中的追随与任职。",
+    "period": "汉末刘备集团时期",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-36",
+        "locator": "关羽传开篇",
+        "note": "记述关羽追随刘备。"
+      }
+    ]
+  },
+  {
+    "id": "service-zhang-fei",
+    "source": "zhang-fei",
+    "target": "liu-bei",
+    "type": "service",
+    "label": "追随刘备",
+    "description": "张飞在刘备集团中承担军事职责。这条关系表示史料中的追随与任职。",
+    "period": "汉末刘备集团时期",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-36",
+        "locator": "张飞传开篇",
+        "note": "记述张飞追随刘备。"
+      }
+    ]
+  },
+  {
+    "id": "service-zhao-yun",
+    "source": "zhao-yun",
+    "target": "liu-bei",
+    "type": "service",
+    "label": "追随刘备",
+    "description": "赵云在刘备集团中承担军事职责。这条关系表示史料中的追随与任职。",
+    "period": "汉末刘备集团时期",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-36",
+        "locator": "赵云传开篇",
+        "note": "记述赵云追随刘备。"
+      }
+    ]
+  },
+  {
+    "id": "service-huang-zhong",
+    "source": "huang-zhong",
+    "target": "liu-bei",
+    "type": "service",
+    "label": "追随刘备",
+    "description": "黄忠在刘备集团中承担军事职责。这条关系表示史料中的追随与任职。",
+    "period": "汉末刘备集团时期",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-36",
+        "locator": "黄忠传归附刘备段",
+        "note": "记述黄忠追随刘备。"
+      }
+    ]
+  },
+  {
+    "id": "service-zhouyu-sunquan",
+    "source": "zhou-yu",
+    "target": "sun-quan",
+    "type": "service",
+    "label": "统兵辅佐",
+    "description": "孙策去世后，周瑜继续辅佐孙权，并在赤壁战事中统兵迎击曹操。",
+    "period": "200—210 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传：辅佐孙权及赤壁段",
+        "note": "记述周瑜在孙权麾下的军事职责。"
+      }
+    ]
+  },
+  {
+    "id": "service-lusu-sunquan",
+    "source": "lu-su",
+    "target": "sun-quan",
+    "type": "service",
+    "label": "谋划辅佐",
+    "description": "鲁肃为孙权提出战略建议，承担联络、谋划与军事职责。",
+    "period": "约 200—217 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-54",
+        "locator": "鲁肃传：初见孙权及赞军校尉段",
+        "note": "记述战略建议和任职。"
+      }
+    ]
+  },
+  {
+    "id": "service-zhouyu-sunce",
+    "source": "zhou-yu",
+    "target": "sun-ce",
+    "type": "service",
+    "label": "协助征战",
+    "description": "周瑜与孙策早有交往，在孙策发展江东势力时参与军事行动。",
+    "period": "孙策开拓江东时期",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传：与孙策相交及渡江段",
+        "note": "记述协助孙策的经过。"
+      }
+    ]
+  },
+  {
+    "id": "family-cao",
+    "source": "cao-cao",
+    "target": "cao-pi",
+    "type": "kinship",
+    "label": "父子",
+    "description": "曹操是曹丕的父亲。曹丕后来继任魏王并建立曹魏。",
+    "period": "父子关系",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪开篇",
+        "note": "明确记述曹丕为曹操之子。"
+      }
+    ]
+  },
+  {
+    "id": "family-sun",
+    "source": "sun-ce",
+    "target": "sun-quan",
+    "type": "kinship",
+    "label": "兄弟",
+    "description": "孙策是孙权的兄长。孙权在孙策去世后承接其事业。",
+    "period": "兄弟关系",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传开篇",
+        "note": "以兄策称孙策，并记述交接。"
+      }
+    ]
+  },
+  {
+    "id": "alliance-sun-liu",
+    "source": "liu-bei",
+    "target": "sun-quan",
+    "type": "alliance",
+    "label": "联合抗曹",
+    "description": "赤壁战前，双方形成军事合作，共同抵抗曹操。这条联盟关系对应当时的局势。",
+    "period": "208 年赤壁前后",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮出使孙权段",
+        "note": "记述孙权派兵与刘备共同抗曹。"
+      }
+    ]
+  },
+  {
+    "id": "conflict-cao-liu",
+    "source": "cao-cao",
+    "target": "liu-bei",
+    "type": "conflict",
+    "label": "赤壁对阵",
+    "description": "曹操与刘备在赤壁战事中处于交战双方。",
+    "period": "208 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安十三年赤壁段",
+        "note": "明确记述曹操与刘备交战而失利。"
+      }
+    ]
+  },
+  {
+    "id": "conflict-cao-sun",
+    "source": "cao-cao",
+    "target": "sun-quan",
+    "type": "conflict",
+    "label": "赤壁对抗",
+    "description": "孙权决定抵抗曹操，派周瑜等率军迎击。这里表示军事势力间的对抗。",
+    "period": "208 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-47",
+        "locator": "建安十三年赤壁相关段",
+        "note": "记述孙权派兵。"
+      },
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传：赤壁段",
+        "note": "记述迎击曹操。"
+      }
+    ]
+  },
+  {
+    "id": "conflict-sun-liu",
+    "source": "liu-bei",
+    "target": "sun-quan",
+    "type": "conflict",
+    "label": "夷陵交战",
+    "description": "刘备出兵伐吴，孙权一方派兵迎击。它与赤壁联盟属于不同时期，阅读时应结合年份。",
+    "period": "221—222 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "章武元年至二年伐吴段",
+        "note": "记述对吴出兵。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "黄武元年刘备来攻段",
+        "note": "记述吴军迎击。"
+      }
+    ]
+  },
+  {
+    "id": "affiliation-cao-wei",
+    "source": "cao-cao",
+    "target": "wei",
+    "type": "affiliation",
+    "label": "奠定基业",
+    "description": "曹操集团为后来曹魏政权打下基础；曹魏建立于他去世之后。",
+    "period": "220 年以前",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安年间事业及去世段",
+        "note": "记述曹操集团的发展及曹操去世。"
+      },
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪：继魏王位及黄初元年受禅段",
+        "note": "曹丕在曹操去世后继位，并于同年称帝，补充曹魏建国时间的依据。"
+      }
+    ]
+  },
+  {
+    "id": "affiliation-pi-wei",
+    "source": "cao-pi",
+    "target": "wei",
+    "type": "affiliation",
+    "label": "称帝建国",
+    "description": "曹丕在 220 年接受汉献帝禅位，曹魏政权建立。",
+    "period": "220 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-02",
+        "locator": "黄初元年受禅段",
+        "note": "曹丕在 220 年接受汉献帝禅位，曹魏政权建立。"
+      }
+    ]
+  },
+  {
+    "id": "affiliation-liu-shu",
+    "source": "liu-bei",
+    "target": "shu",
+    "type": "affiliation",
+    "label": "建立蜀汉",
+    "description": "刘备在 221 年称帝，国号汉，后世常称蜀汉。",
+    "period": "221 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "章武元年称帝段",
+        "note": "刘备在 221 年称帝，国号汉，后世常称蜀汉。"
+      }
+    ]
+  },
+  {
+    "id": "affiliation-sun-wu",
+    "source": "sun-quan",
+    "target": "wu",
+    "type": "affiliation",
+    "label": "称帝建号",
+    "description": "孙权222年使用黄武年号，229年称帝。此线采用称帝节点说明孙吴名号，势力前身形成更早。",
+    "period": "222/229年（不同分期）",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-47",
+        "locator": "黄龙元年称帝段",
+        "note": "孙权222年使用黄武年号，229年称帝。此线采用称帝节点说明孙吴名号，势力前身形成更早。"
+      }
+    ]
+  },
+  {
+    "id": "affiliation-ce-wu",
+    "source": "sun-ce",
+    "target": "wu",
+    "type": "affiliation",
+    "label": "开拓江东",
+    "description": "孙策发展江东势力，为孙吴的前身奠定基础。",
+    "period": "200 年以前",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-46",
+        "locator": "孙策传江东发展段",
+        "note": "孙策发展江东势力，为孙吴的前身奠定基础。"
+      }
+    ]
+  },
+  {
+    "id": "affiliation-zhuge-shu",
+    "source": "zhuge-liang",
+    "target": "shu",
+    "type": "affiliation",
+    "label": "担任丞相",
+    "description": "刘备称帝后任命诸葛亮为丞相。",
+    "period": "221 年起",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "章武元年拜相段",
+        "note": "刘备称帝后任命诸葛亮为丞相。"
+      }
+    ]
+  },
+  {
+    "id": "event-cao-guandu",
+    "source": "cao-cao",
+    "target": "guandu",
+    "type": "event",
+    "label": "率军作战",
+    "description": "曹操率军与袁绍交战，取得官渡之战的胜利。",
+    "period": "200 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安五年官渡段",
+        "note": "曹操率军与袁绍交战，取得官渡之战的胜利。"
+      }
+    ]
+  },
+  {
+    "id": "event-cao-chibi",
+    "source": "cao-cao",
+    "target": "chibi",
+    "type": "event",
+    "label": "南下交战",
+    "description": "曹操南下，在赤壁战事中失利后退军。",
+    "period": "208 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安十三年赤壁段",
+        "note": "曹操南下，在赤壁战事中失利后退军。"
+      }
+    ]
+  },
+  {
+    "id": "event-liu-chibi",
+    "source": "liu-bei",
+    "target": "chibi",
+    "type": "event",
+    "label": "联合抗曹",
+    "description": "刘备与孙权一方的军队共同抵抗曹操。",
+    "period": "208 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "出使孙权及遣兵段",
+        "note": "刘备与孙权一方的军队共同抵抗曹操。"
+      }
+    ]
+  },
+  {
+    "id": "event-sun-chibi",
+    "source": "sun-quan",
+    "target": "chibi",
+    "type": "event",
+    "label": "决策派兵",
+    "description": "孙权决定抵抗曹操，派周瑜等统兵；此关系不表示孙权亲临赤壁作战。",
+    "period": "208 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-47",
+        "locator": "建安十三年赤壁段",
+        "note": "孙权决定抵抗曹操，派周瑜等统兵；此关系不表示孙权亲临赤壁作战。"
+      }
+    ]
+  },
+  {
+    "id": "event-zhou-chibi",
+    "source": "zhou-yu",
+    "target": "chibi",
+    "type": "event",
+    "label": "统兵迎击",
+    "description": "周瑜与程普等统兵迎击曹操，参与赤壁战事。",
+    "period": "208 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传赤壁段",
+        "note": "周瑜与程普等统兵迎击曹操，参与赤壁战事。"
+      }
+    ]
+  },
+  {
+    "id": "event-zhuge-chibi",
+    "source": "zhuge-liang",
+    "target": "chibi",
+    "type": "event",
+    "label": "出使促成合作",
+    "description": "诸葛亮出使孙权，争取共同抵抗曹操。此处指外交活动。",
+    "period": "208 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "出使孙权段",
+        "note": "诸葛亮出使孙权，争取共同抵抗曹操。此处指外交活动。"
+      }
+    ]
+  },
+  {
+    "id": "event-lu-chibi",
+    "source": "lu-su",
+    "target": "chibi",
+    "type": "event",
+    "label": "联络与谋划",
+    "description": "鲁肃推动双方联络，并担任赞军校尉帮助谋划。",
+    "period": "208 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-54",
+        "locator": "鲁肃传联络刘备及赞军校尉段",
+        "note": "鲁肃推动双方联络，并担任赞军校尉帮助谋划。"
+      }
+    ]
+  },
+  {
+    "id": "event-liu-changban",
+    "source": "liu-bei",
+    "target": "changban",
+    "type": "event",
+    "label": "撤退转移",
+    "description": "刘备在曹军追击中由当阳长坂一带撤退。",
+    "period": "208 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "当阳长坂段",
+        "note": "刘备在曹军追击中由当阳长坂一带撤退。"
+      }
+    ]
+  },
+  {
+    "id": "event-zhang-changban",
+    "source": "zhang-fei",
+    "target": "changban",
+    "type": "event",
+    "label": "带兵断后",
+    "description": "张飞在刘备撤退时带兵断后，阻挡追兵。",
+    "period": "208 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-36",
+        "locator": "张飞传当阳长坂段",
+        "note": "张飞在刘备撤退时带兵断后，阻挡追兵。"
+      }
+    ]
+  },
+  {
+    "id": "event-zhao-changban",
+    "source": "zhao-yun",
+    "target": "changban",
+    "type": "event",
+    "label": "保护家眷",
+    "description": "赵云保护刘备幼子及甘夫人，使其脱险。",
+    "period": "208 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-36",
+        "locator": "赵云传当阳长坂段",
+        "note": "赵云保护刘备幼子及甘夫人，使其脱险。"
+      }
+    ]
+  },
+  {
+    "id": "event-liu-hanzhong",
+    "source": "liu-bei",
+    "target": "hanzhong",
+    "type": "event",
+    "label": "争夺汉中",
+    "description": "刘备出兵争夺汉中，219 年控制该地。《法正传》将谋划和进兵记于建安二十二年，《先主传》将率军进兵记于二十三年，本图用 217—219 年概括。",
+    "period": "217—219 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "建安二十三至二十四年汉中记事",
+        "note": "刘备出兵争夺汉中，随后控制该地。"
+      },
+      {
+        "sourceId": "sgz-37",
+        "locator": "法正传：建安二十二年建议取汉中及进兵段",
+        "note": "法正本传在二十二年条记建议与进兵；本图 217 年起点依此记载，并保留与先主传的叙事差别。"
+      }
+    ]
+  },
+  {
+    "id": "event-huang-hanzhong",
+    "source": "huang-zhong",
+    "target": "hanzhong",
+    "type": "event",
+    "label": "定军山立功",
+    "description": "黄忠在汉中定军山作战中取得重要战功。",
+    "period": "219 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-36",
+        "locator": "黄忠传建安二十四年定军山段",
+        "note": "黄忠在汉中定军山作战中取得重要战功。"
+      }
+    ]
+  },
+  {
+    "id": "event-cao-hanzhong",
+    "source": "cao-cao",
+    "target": "hanzhong",
+    "type": "event",
+    "label": "汉中进退",
+    "description": "曹操参与汉中争夺，后来退军。",
+    "period": "219 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安二十四年汉中记事",
+        "note": "曹操参与汉中争夺，后来退军。"
+      }
+    ]
+  },
+  {
+    "id": "event-liu-yiling",
+    "source": "liu-bei",
+    "target": "yiling",
+    "type": "event",
+    "label": "率军伐吴",
+    "description": "刘备率军伐吴，后在猇亭、夷陵一线失利。",
+    "period": "221—222 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "章武元年至二年伐吴段",
+        "note": "刘备率军伐吴，后在猇亭、夷陵一线失利。"
+      }
+    ]
+  },
+  {
+    "id": "event-sun-yiling",
+    "source": "sun-quan",
+    "target": "yiling",
+    "type": "event",
+    "label": "派兵迎击",
+    "description": "孙权一方由陆逊等指挥迎击刘备；连线表示孙权的派兵与决策。",
+    "period": "221—222 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-47",
+        "locator": "黄武元年对刘备作战段",
+        "note": "孙权一方由陆逊等指挥迎击刘备；连线表示孙权的派兵与决策。"
+      }
+    ]
+  },
+  {
+    "id": "event-liu-visits",
+    "source": "liu-bei",
+    "target": "three-visits",
+    "type": "event",
+    "label": "三次拜访",
+    "description": "按《诸葛亮传》本传及《出师表》，刘备三次拜访诸葛亮。裴注另录诸葛亮先见刘备的异说，裴松之对此提出质疑；会面经过存在不同记述。",
+    "period": "建安年间",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传刘备拜访段、《出师表》及相应裴注",
+        "note": "本传与表文支持三顾；裴注引先见刘备的异说，并记裴松之的质疑。"
+      }
+    ]
+  },
+  {
+    "id": "event-zhuge-visits",
+    "source": "zhuge-liang",
+    "target": "three-visits",
+    "type": "event",
+    "label": "会面论策",
+    "description": "本传记述诸葛亮与刘备会面，讨论发展方向。裴注保留相见先后的不同记述，详见事件节点说明。",
+    "period": "建安年间",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传刘备拜访段及相应裴注",
+        "note": "本传记会面论策；裴注对相见经过另存不同记述。"
+      }
+    ]
+  },
+  {
+    "id": "narrative-liu-bei",
+    "source": "liu-bei",
+    "target": "peach-garden",
+    "type": "narrative",
+    "label": "小说中结义",
+    "description": "《三国演义》第一回描写三人在桃园结义。本关系用于呈现文学情节。",
+    "period": "小说设定于汉末",
+    "basis": "literary",
+    "citations": [
+      {
+        "sourceId": "sgyy-001",
+        "locator": "第一回桃园结义段",
+        "note": "三人结义场景的文学来源。"
+      }
+    ]
+  },
+  {
+    "id": "narrative-guan-yu",
+    "source": "guan-yu",
+    "target": "peach-garden",
+    "type": "narrative",
+    "label": "小说中结义",
+    "description": "《三国演义》第一回描写三人在桃园结义。本关系用于呈现文学情节。",
+    "period": "小说设定于汉末",
+    "basis": "literary",
+    "citations": [
+      {
+        "sourceId": "sgyy-001",
+        "locator": "第一回桃园结义段",
+        "note": "三人结义场景的文学来源。"
+      }
+    ]
+  },
+  {
+    "id": "narrative-zhang-fei",
+    "source": "zhang-fei",
+    "target": "peach-garden",
+    "type": "narrative",
+    "label": "小说中结义",
+    "description": "《三国演义》第一回描写三人在桃园结义。本关系用于呈现文学情节。",
+    "period": "小说设定于汉末",
+    "basis": "literary",
+    "citations": [
+      {
+        "sourceId": "sgyy-001",
+        "locator": "第一回桃园结义段",
+        "note": "三人结义场景的文学来源。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-zhang-jiao-yellow-turbans",
+    "source": "zhang-jiao",
+    "target": "yellow-turbans",
+    "type": "event",
+    "label": "组织起事",
+    "description": "张角：组织起事。张角组织的起事遍及多地，汉廷派军镇压。战争与地方武装动员加深了帝国的危机。",
+    "period": "184年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-71",
+        "locator": "皇甫嵩传：太平道、甲子起事及张角病死段",
+        "note": "他以太平道组织信众。184年起事计划泄露后，各地提前响应。张角当年病死，主要起义军也在当年遭到镇压，残余力量仍继续活动。"
+      },
+      {
+        "sourceId": "hhs-71",
+        "locator": "皇甫嵩传：中平元年黄巾起事及征讨",
+        "note": "张角组织的起事遍及多地，汉廷派军镇压。战争与地方武装动员加深了帝国的危机。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-cao-cao-yellow-turbans",
+    "source": "cao-cao",
+    "target": "yellow-turbans",
+    "type": "event",
+    "label": "参与汉军镇压",
+    "description": "曹操：参与汉军镇压。张角组织的起事遍及多地，汉廷派军镇压。战争与地方武装动员加深了帝国的危机。",
+    "period": "184年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪开篇及建安五年、十三年记事",
+        "note": "记述曹操身份、官渡与赤壁战事。"
+      },
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪开篇及黄初元年记事",
+        "note": "曹丕为曹操之子，继位并称帝。"
+      },
+      {
+        "sourceId": "hhs-71",
+        "locator": "皇甫嵩传：中平元年黄巾起事及征讨",
+        "note": "张角组织的起事遍及多地，汉廷派军镇压。战争与地方武装动员加深了帝国的危机。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-liu-bei-yellow-turbans",
+    "source": "liu-bei",
+    "target": "yellow-turbans",
+    "type": "event",
+    "label": "组织乡兵参与征讨",
+    "description": "刘备：组织乡兵参与征讨。张角组织的起事遍及多地，汉廷派军镇压。战争与地方武装动员加深了帝国的危机。",
+    "period": "184年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传开篇、建安末及章武元年记事",
+        "note": "记述刘备生平、称帝及对吴作战。"
+      },
+      {
+        "sourceId": "hhs-71",
+        "locator": "皇甫嵩传：中平元年黄巾起事及征讨",
+        "note": "张角组织的起事遍及多地，汉廷派军镇压。战争与地方武装动员加深了帝国的危机。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-dong-zhuo-dong-capital",
+    "source": "dong-zhuo",
+    "target": "dong-capital",
+    "type": "event",
+    "label": "入洛并主持废立",
+    "description": "董卓：入洛并主持废立。何进被杀后京师大乱，董卓带军入洛，废少帝、立刘协，控制汉廷。",
+    "period": "189年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：入洛、废立、迁都及被诛段",
+        "note": "他在189年京师政治危机中带兵进入洛阳，废少帝、立刘协。迁都长安与暴力统治激起反对，192年被王允、吕布等合谋诛杀。"
+      },
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：何进被害、入洛及废立段",
+        "note": "何进被杀后京师大乱，董卓带军入洛，废少帝、立刘协，控制汉廷。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-liu-xie-dong-capital",
+    "source": "liu-xie",
+    "target": "dong-capital",
+    "type": "event",
+    "label": "被立为皇帝",
+    "description": "汉献帝：被立为皇帝。何进被杀后京师大乱，董卓带军入洛，废少帝、立刘协，控制汉廷。",
+    "period": "189年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪：汉魏禅代段，并参武帝纪迎帝段",
+        "note": "他幼年被董卓立为皇帝，长期处于强臣控制之下。196年朝廷迁许，220年让位给曹丕，东汉结束；其后封山阳公。"
+      },
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：何进被害、入洛及废立段",
+        "note": "何进被杀后京师大乱，董卓带军入洛，废少帝、立刘协，控制汉廷。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-yuan-shao-dong-capital",
+    "source": "yuan-shao",
+    "target": "dong-capital",
+    "type": "event",
+    "label": "在京师变乱后离洛",
+    "description": "袁绍：在京师变乱后离洛。何进被杀后京师大乱，董卓带军入洛，废少帝、立刘协，控制汉廷。",
+    "period": "189年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁绍传：盟主、官渡及诸子争立段",
+        "note": "他曾参与讨董联盟，后来控制河北大片地区。200年官渡败于曹操；他死后儿子们争位，曹操才进一步夺取河北。官渡之后的北方整合经历了数年。"
+      },
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：何进被害、入洛及废立段",
+        "note": "何进被杀后京师大乱，董卓带军入洛，废少帝、立刘协，控制汉廷。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-yuan-shao-anti-dong",
+    "source": "yuan-shao",
+    "target": "anti-dong",
+    "type": "event",
+    "label": "关东联盟盟主",
+    "description": "袁绍：关东联盟盟主。各地诸侯以讨伐董卓为名联合，袁绍为盟主。联盟内部各有目标，战事之后转向地盘竞争。192年董卓被王允、吕布等诛杀。",
+    "period": "190—192年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁绍传：盟主、官渡及诸子争立段",
+        "note": "他曾参与讨董联盟，后来控制河北大片地区。200年官渡败于曹操；他死后儿子们争位，曹操才进一步夺取河北。官渡之后的北方整合经历了数年。"
+      },
+      {
+        "sourceId": "sgz-06",
+        "locator": "董卓、袁绍传：关东起兵及董卓被诛段",
+        "note": "各地诸侯以讨伐董卓为名联合，袁绍为盟主。联盟内部各有目标，战事之后转向地盘竞争。192年董卓被王允、吕布等诛杀。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-cao-cao-anti-dong",
+    "source": "cao-cao",
+    "target": "anti-dong",
+    "type": "event",
+    "label": "起兵参与讨董",
+    "description": "曹操：起兵参与讨董。各地诸侯以讨伐董卓为名联合，袁绍为盟主。联盟内部各有目标，战事之后转向地盘竞争。192年董卓被王允、吕布等诛杀。",
+    "period": "190—192年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪开篇及建安五年、十三年记事",
+        "note": "记述曹操身份、官渡与赤壁战事。"
+      },
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪开篇及黄初元年记事",
+        "note": "曹丕为曹操之子，继位并称帝。"
+      },
+      {
+        "sourceId": "sgz-06",
+        "locator": "董卓、袁绍传：关东起兵及董卓被诛段",
+        "note": "各地诸侯以讨伐董卓为名联合，袁绍为盟主。联盟内部各有目标，战事之后转向地盘竞争。192年董卓被王允、吕布等诛杀。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-dong-zhuo-anti-dong",
+    "source": "dong-zhuo",
+    "target": "anti-dong",
+    "type": "event",
+    "label": "讨伐对象，后被诛",
+    "description": "董卓：讨伐对象，后被诛。各地诸侯以讨伐董卓为名联合，袁绍为盟主。联盟内部各有目标，战事之后转向地盘竞争。192年董卓被王允、吕布等诛杀。",
+    "period": "190—192年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：入洛、废立、迁都及被诛段",
+        "note": "他在189年京师政治危机中带兵进入洛阳，废少帝、立刘协。迁都长安与暴力统治激起反对，192年被王允、吕布等合谋诛杀。"
+      },
+      {
+        "sourceId": "sgz-06",
+        "locator": "董卓、袁绍传：关东起兵及董卓被诛段",
+        "note": "各地诸侯以讨伐董卓为名联合，袁绍为盟主。联盟内部各有目标，战事之后转向地盘竞争。192年董卓被王允、吕布等诛杀。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-lv-bu-anti-dong",
+    "source": "lv-bu",
+    "target": "anti-dong",
+    "type": "event",
+    "label": "192年参与诛董",
+    "description": "吕布：192年参与诛董。各地诸侯以讨伐董卓为名联合，袁绍为盟主。联盟内部各有目标，战事之后转向地盘竞争。192年董卓被王允、吕布等诛杀。",
+    "period": "190—192年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-07",
+        "locator": "吕布传：诛董、徐州与下邳段",
+        "note": "他先为董卓部将，后参与诛杀董卓，又与曹操、刘备等争夺地盘。下邳被曹操围攻后败亡。文学中的貂蝉故事需要另外辨认。"
+      },
+      {
+        "sourceId": "sgz-06",
+        "locator": "董卓、袁绍传：关东起兵及董卓被诛段",
+        "note": "各地诸侯以讨伐董卓为名联合，袁绍为盟主。联盟内部各有目标，战事之后转向地盘竞争。192年董卓被王允、吕布等诛杀。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-cao-cao-emperor-xu",
+    "source": "cao-cao",
+    "target": "emperor-xu",
+    "type": "event",
+    "label": "迎帝并迁都许",
+    "description": "曹操：迎帝并迁都许。曹操迎汉献帝，将朝廷迁到许，取得以朝廷名义发号施令的政治优势。同年开展屯田，军粮筹措也影响此后的竞争。",
+    "period": "196年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪开篇及建安五年、十三年记事",
+        "note": "记述曹操身份、官渡与赤壁战事。"
+      },
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪开篇及黄初元年记事",
+        "note": "曹丕为曹操之子，继位并称帝。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安元年：迎帝都许、屯田段",
+        "note": "曹操迎汉献帝，将朝廷迁到许，取得以朝廷名义发号施令的政治优势。同年开展屯田，军粮筹措也影响此后的竞争。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-liu-xie-emperor-xu",
+    "source": "liu-xie",
+    "target": "emperor-xu",
+    "type": "event",
+    "label": "朝廷迁入许",
+    "description": "汉献帝：朝廷迁入许。曹操迎汉献帝，将朝廷迁到许，取得以朝廷名义发号施令的政治优势。同年开展屯田，军粮筹措也影响此后的竞争。",
+    "period": "196年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪：汉魏禅代段，并参武帝纪迎帝段",
+        "note": "他幼年被董卓立为皇帝，长期处于强臣控制之下。196年朝廷迁许，220年让位给曹丕，东汉结束；其后封山阳公。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安元年：迎帝都许、屯田段",
+        "note": "曹操迎汉献帝，将朝廷迁到许，取得以朝廷名义发号施令的政治优势。同年开展屯田，军粮筹措也影响此后的竞争。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-xun-yu-emperor-xu",
+    "source": "xun-yu",
+    "target": "emperor-xu",
+    "type": "event",
+    "label": "建议迎奉天子",
+    "description": "荀彧：建议迎奉天子。曹操迎汉献帝，将朝廷迁到许，取得以朝廷名义发号施令的政治优势。同年开展屯田，军粮筹措也影响此后的竞争。",
+    "period": "196年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-10",
+        "locator": "荀彧传：迎天子、官渡与进爵议论及裴注",
+        "note": "他为曹操推荐人才并参与重要决策，主张迎奉汉帝。其政治理想与曹操权势增长之间后来出现张力，本传记他反对进爵国公的议论；死亡经过有不同记载。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安元年：迎帝都许、屯田段",
+        "note": "曹操迎汉献帝，将朝廷迁到许，取得以朝廷名义发号施令的政治优势。同年开展屯田，军粮筹措也影响此后的竞争。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-cao-cao-north-consolidation",
+    "source": "cao-cao",
+    "target": "north-consolidation",
+    "type": "event",
+    "label": "攻河北并北征乌桓",
+    "description": "曹操：攻河北并北征乌桓。袁绍死后，曹操利用其诸子分争继续作战，逐步控制河北；207年北征乌桓，消除袁氏残余力量的重要依托。",
+    "period": "202—207年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪开篇及建安五年、十三年记事",
+        "note": "记述曹操身份、官渡与赤壁战事。"
+      },
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪开篇及黄初元年记事",
+        "note": "曹丕为曹操之子，继位并称帝。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安七年至十二年：河北、乌桓战事",
+        "note": "袁绍死后，曹操利用其诸子分争继续作战，逐步控制河北；207年北征乌桓，消除袁氏残余力量的重要依托。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-yuan-shao-north-consolidation",
+    "source": "yuan-shao",
+    "target": "north-consolidation",
+    "type": "event",
+    "label": "其死后诸子争位构成背景",
+    "description": "袁绍：其死后诸子争位构成背景。袁绍死后，曹操利用其诸子分争继续作战，逐步控制河北；207年北征乌桓，消除袁氏残余力量的重要依托。",
+    "period": "202—207年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁绍传：盟主、官渡及诸子争立段",
+        "note": "他曾参与讨董联盟，后来控制河北大片地区。200年官渡败于曹操；他死后儿子们争位，曹操才进一步夺取河北。官渡之后的北方整合经历了数年。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安七年至十二年：河北、乌桓战事",
+        "note": "袁绍死后，曹操利用其诸子分争继续作战，逐步控制河北；207年北征乌桓，消除袁氏残余力量的重要依托。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-liu-bei-yi-conquest",
+    "source": "liu-bei",
+    "target": "yi-conquest",
+    "type": "event",
+    "label": "入蜀并夺取成都",
+    "description": "刘备：入蜀并夺取成都。刘璋请刘备入蜀，双方后来交战。214年成都投降，刘备取得益州这一战略基地。",
+    "period": "211—214年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传开篇、建安末及章武元年记事",
+        "note": "记述刘备生平、称帝及对吴作战。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安十六年至十九年入益州段",
+        "note": "刘璋请刘备入蜀，双方后来交战。214年成都投降，刘备取得益州这一战略基地。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-liu-zhang-yi-conquest",
+    "source": "liu-zhang",
+    "target": "yi-conquest",
+    "type": "event",
+    "label": "邀请入蜀，后降",
+    "description": "刘璋：邀请入蜀，后降。刘璋请刘备入蜀，双方后来交战。214年成都投降，刘备取得益州这一战略基地。",
+    "period": "211—214年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-31",
+        "locator": "刘璋传：迎刘备、成都被围及降段",
+        "note": "他继承父亲刘焉在益州的地位，曾邀请刘备入蜀协助防御。双方后来交战，214年刘备围成都，刘璋投降。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安十六年至十九年入益州段",
+        "note": "刘璋请刘备入蜀，双方后来交战。214年成都投降，刘备取得益州这一战略基地。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-zhuge-liang-yi-conquest",
+    "source": "zhuge-liang",
+    "target": "yi-conquest",
+    "type": "event",
+    "label": "率军入蜀支援",
+    "description": "诸葛亮：率军入蜀支援。刘璋请刘备入蜀，双方后来交战。214年成都投降，刘备取得益州这一战略基地。",
+    "period": "211—214年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：刘备三次拜访、出使孙权、拜相诸段",
+        "note": "记述君臣相遇、外交活动及丞相任命。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安十六年至十九年入益州段",
+        "note": "刘璋请刘备入蜀，双方后来交战。214年成都投降，刘备取得益州这一战略基地。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-zhang-fei-yi-conquest",
+    "source": "zhang-fei",
+    "target": "yi-conquest",
+    "type": "event",
+    "label": "率军入蜀作战",
+    "description": "张飞：率军入蜀作战。刘璋请刘备入蜀，双方后来交战。214年成都投降，刘备取得益州这一战略基地。",
+    "period": "211—214年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-36",
+        "locator": "张飞传开篇及当阳长坂段",
+        "note": "本传记字益德，记述追随刘备与长坂断后。"
+      },
+      {
+        "sourceId": "sgyy-001",
+        "locator": "第一回：张飞出场与桃园结义段",
+        "note": "小说写字翼德，并描写三人结义。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安十六年至十九年入益州段",
+        "note": "刘璋请刘备入蜀，双方后来交战。214年成都投降，刘备取得益州这一战略基地。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-guan-yu-jingzhou-loss",
+    "source": "guan-yu",
+    "target": "jingzhou-loss",
+    "type": "event",
+    "label": "北攻后遭袭，败亡",
+    "description": "关羽：北攻后遭袭，败亡。关羽北攻樊襄时，孙权派吕蒙等进取其后方。关羽败亡，刘备集团失去荆州的重要控制区。",
+    "period": "219年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-36",
+        "locator": "关羽传开篇及建安二十四年记事",
+        "note": "记述早年追随刘备、前将军任命及去世经过。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "关羽传：攻樊、孙权袭后与关羽败亡段",
+        "note": "关羽北攻樊襄时，孙权派吕蒙等进取其后方。关羽败亡，刘备集团失去荆州的重要控制区。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-lv-meng-jingzhou-loss",
+    "source": "lv-meng",
+    "target": "jingzhou-loss",
+    "type": "event",
+    "label": "统军进取后方",
+    "description": "吕蒙：统军进取后方。关羽北攻樊襄时，孙权派吕蒙等进取其后方。关羽败亡，刘备集团失去荆州的重要控制区。",
+    "period": "219年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-54",
+        "locator": "吕蒙传：关羽北攻、取荆州及卒段",
+        "note": "他参与孙权集团的军事扩张，219年乘关羽北攻之机进取荆州。行动改变孙刘双方的控制区，也加深双方矛盾。读书进学的故事见其本传裴注。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "关羽传：攻樊、孙权袭后与关羽败亡段",
+        "note": "关羽北攻樊襄时，孙权派吕蒙等进取其后方。关羽败亡，刘备集团失去荆州的重要控制区。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-lu-xun-jingzhou-loss",
+    "source": "lu-xun",
+    "target": "jingzhou-loss",
+    "type": "event",
+    "label": "参与筹划与进取",
+    "description": "陆逊：参与筹划与进取。关羽北攻樊襄时，孙权派吕蒙等进取其后方。关羽败亡，刘备集团失去荆州的重要控制区。",
+    "period": "219年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-58",
+        "locator": "陆逊传：荆州、夷陵、石亭与晚年段",
+        "note": "他参与夺取荆州，222年受孙权委任统军抵抗刘备。夷陵获胜后又在石亭击败魏军，后任丞相。晚年卷入孙吴继承争议并遭责问。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "关羽传：攻樊、孙权袭后与关羽败亡段",
+        "note": "关羽北攻樊襄时，孙权派吕蒙等进取其后方。关羽败亡，刘备集团失去荆州的重要控制区。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-sun-quan-jingzhou-loss",
+    "source": "sun-quan",
+    "target": "jingzhou-loss",
+    "type": "event",
+    "label": "决定并部署袭取荆州",
+    "description": "孙权：决定并部署袭取荆州。关羽北攻樊襄时，孙权派吕蒙等进取其后方。关羽败亡，刘备集团失去荆州的重要控制区。",
+    "period": "219年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传开篇、建安十三年及黄龙元年记事",
+        "note": "记述承接孙策事业、赤壁派兵及称帝。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "关羽传：攻樊、孙权袭后与关羽败亡段",
+        "note": "关羽北攻樊襄时，孙权派吕蒙等进取其后方。关羽败亡，刘备集团失去荆州的重要控制区。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-cao-pi-wei-founding",
+    "source": "cao-pi",
+    "target": "wei-founding",
+    "type": "event",
+    "label": "接受禅让称帝",
+    "description": "曹丕：接受禅让称帝。曹操死后，曹丕继承魏王地位，随后接受汉帝禅让并称帝，国号魏，都洛阳。",
+    "period": "220年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪开篇及黄初元年受禅段",
+        "note": "记述父子身份、继任魏王与称帝。"
+      },
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪：黄初元年禅代段",
+        "note": "曹操死后，曹丕继承魏王地位，随后接受汉帝禅让并称帝，国号魏，都洛阳。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-liu-xie-wei-founding",
+    "source": "liu-xie",
+    "target": "wei-founding",
+    "type": "event",
+    "label": "禅位，后封山阳公",
+    "description": "汉献帝：禅位，后封山阳公。曹操死后，曹丕继承魏王地位，随后接受汉帝禅让并称帝，国号魏，都洛阳。",
+    "period": "220年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪：汉魏禅代段，并参武帝纪迎帝段",
+        "note": "他幼年被董卓立为皇帝，长期处于强臣控制之下。196年朝廷迁许，220年让位给曹丕，东汉结束；其后封山阳公。"
+      },
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪：黄初元年禅代段",
+        "note": "曹操死后，曹丕继承魏王地位，随后接受汉帝禅让并称帝，国号魏，都洛阳。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-liu-bei-shu-founding",
+    "source": "liu-bei",
+    "target": "shu-founding",
+    "type": "event",
+    "label": "成都称帝",
+    "description": "刘备：成都称帝。刘备在成都称帝，国号汉。后世为区别通常称蜀汉，其合法性主张是延续汉室。",
+    "period": "221年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传开篇、建安末及章武元年记事",
+        "note": "记述刘备生平、称帝及对吴作战。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：章武元年即位段",
+        "note": "刘备在成都称帝，国号汉。后世为区别通常称蜀汉，其合法性主张是延续汉室。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-zhuge-liang-shu-founding",
+    "source": "zhuge-liang",
+    "target": "shu-founding",
+    "type": "event",
+    "label": "参与劝进，受任丞相",
+    "description": "诸葛亮：参与劝进，受任丞相。刘备在成都称帝，国号汉。后世为区别通常称蜀汉，其合法性主张是延续汉室。",
+    "period": "221年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：刘备三次拜访、出使孙权、拜相诸段",
+        "note": "记述君臣相遇、外交活动及丞相任命。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：章武元年即位段",
+        "note": "刘备在成都称帝，国号汉。后世为区别通常称蜀汉，其合法性主张是延续汉室。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-sun-quan-wu-emperor",
+    "source": "sun-quan",
+    "target": "wu-emperor",
+    "type": "event",
+    "label": "称帝并确立国号",
+    "description": "孙权：称帝并确立国号。孙权在222年使用黄武年号，229年称帝，后迁都建业。孙吴的势力形成早于称帝。",
+    "period": "229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传开篇、建安十三年及黄龙元年记事",
+        "note": "记述承接孙策事业、赤壁派兵及称帝。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：黄武元年及黄龙元年段",
+        "note": "孙权在222年使用黄武年号，229年称帝，后迁都建业。孙吴的势力形成早于称帝。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-lu-xun-wu-emperor",
+    "source": "lu-xun",
+    "target": "wu-emperor",
+    "type": "event",
+    "label": "留守武昌，受重任",
+    "description": "陆逊：留守武昌，受重任。孙权在222年使用黄武年号，229年称帝，后迁都建业。孙吴的势力形成早于称帝。",
+    "period": "229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-58",
+        "locator": "陆逊传：荆州、夷陵、石亭与晚年段",
+        "note": "他参与夺取荆州，222年受孙权委任统军抵抗刘备。夷陵获胜后又在石亭击败魏军，后任丞相。晚年卷入孙吴继承争议并遭责问。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：黄武元年及黄龙元年段",
+        "note": "孙权在222年使用黄武年号，229年称帝，后迁都建业。孙吴的势力形成早于称帝。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-zhuge-liang-shu-wu-reconcile",
+    "source": "zhuge-liang",
+    "target": "shu-wu-reconcile",
+    "type": "event",
+    "label": "主持蜀方通好",
+    "description": "诸葛亮：主持蜀方通好。刘备去世后，蜀吴逐步修复关系。诸葛亮时期双方共同面对曹魏，229年吴称帝后蜀汉仍与其结盟。",
+    "period": "223—229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：刘备三次拜访、出使孙权、拜相诸段",
+        "note": "记述君臣相遇、外交活动及丞相任命。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：与吴通好、孙权称尊号段",
+        "note": "刘备去世后，蜀吴逐步修复关系。诸葛亮时期双方共同面对曹魏，229年吴称帝后蜀汉仍与其结盟。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-sun-quan-shu-wu-reconcile",
+    "source": "sun-quan",
+    "target": "shu-wu-reconcile",
+    "type": "event",
+    "label": "吴方君主，恢复合作",
+    "description": "孙权：吴方君主，恢复合作。刘备去世后，蜀吴逐步修复关系。诸葛亮时期双方共同面对曹魏，229年吴称帝后蜀汉仍与其结盟。",
+    "period": "223—229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传开篇、建安十三年及黄龙元年记事",
+        "note": "记述承接孙策事业、赤壁派兵及称帝。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：与吴通好、孙权称尊号段",
+        "note": "刘备去世后，蜀吴逐步修复关系。诸葛亮时期双方共同面对曹魏，229年吴称帝后蜀汉仍与其结盟。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-liu-shan-shu-wu-reconcile",
+    "source": "liu-shan",
+    "target": "shu-wu-reconcile",
+    "type": "event",
+    "label": "蜀方君主",
+    "description": "刘禅：蜀方君主。刘备去世后，蜀吴逐步修复关系。诸葛亮时期双方共同面对曹魏，229年吴称帝后蜀汉仍与其结盟。",
+    "period": "223—229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-33",
+        "locator": "后主传：建兴元年及炎兴元年段",
+        "note": "他在刘备去世后继位，前期由诸葛亮等处理政务。263年魏军逼近成都时决定投降，蜀汉结束。评价国家衰亡时，还需要看军事、资源、用人和朝廷运行。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：与吴通好、孙权称尊号段",
+        "note": "刘备去世后，蜀吴逐步修复关系。诸葛亮时期双方共同面对曹魏，229年吴称帝后蜀汉仍与其结盟。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-zhuge-liang-northern-expeditions",
+    "source": "zhuge-liang",
+    "target": "northern-expeditions",
+    "type": "event",
+    "label": "主持并统率北伐",
+    "description": "诸葛亮：主持并统率北伐。诸葛亮多次出兵攻魏，面临山地交通、粮运与防守等困难，234年在军中病逝。",
+    "period": "228—234年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：刘备三次拜访、出使孙权、拜相诸段",
+        "note": "记述君臣相遇、外交活动及丞相任命。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：建兴六年至十二年北伐段",
+        "note": "诸葛亮多次出兵攻魏，面临山地交通、粮运与防守等困难，234年在军中病逝。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-sima-yi-northern-expeditions",
+    "source": "sima-yi",
+    "target": "northern-expeditions",
+    "type": "event",
+    "label": "后期在魏方统军抵御",
+    "description": "司马懿：后期在魏方统军抵御。诸葛亮多次出兵攻魏，面临山地交通、粮运与防守等困难，234年在军中病逝。",
+    "period": "228—234年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-01",
+        "locator": "宣帝纪：仕魏、对蜀作战及嘉平元年段",
+        "note": "他先后在曹操、曹丕、曹叡时期任职，曾与诸葛亮在军事上对抗。249年发动高平陵政变除掉曹爽集团。晋建立后追尊他为宣帝，他生前并未建立晋朝。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：建兴六年至十二年北伐段",
+        "note": "诸葛亮多次出兵攻魏，面临山地交通、粮运与防守等困难，234年在军中病逝。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-jiang-wei-northern-expeditions",
+    "source": "jiang-wei",
+    "target": "northern-expeditions",
+    "type": "event",
+    "label": "首次北伐时归蜀",
+    "description": "姜维：首次北伐时归蜀。诸葛亮多次出兵攻魏，面临山地交通、粮运与防守等困难，234年在军中病逝。",
+    "period": "228—234年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-44",
+        "locator": "姜维传：归蜀、北伐、剑阁及钟会之乱段",
+        "note": "他在诸葛亮第一次北伐时由魏入蜀，后来多次率军攻魏。263年抵御钟会，得知刘禅降魏后放下武器；次年卷入钟会变乱而死。对其用兵得失，史书评语与后世评价并不一致。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：建兴六年至十二年北伐段",
+        "note": "诸葛亮多次出兵攻魏，面临山地交通、粮运与防守等困难，234年在军中病逝。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-cao-rui-northern-expeditions",
+    "source": "cao-rui",
+    "target": "northern-expeditions",
+    "type": "event",
+    "label": "魏方君主，部署防御",
+    "description": "曹叡：魏方君主，部署防御。诸葛亮多次出兵攻魏，面临山地交通、粮运与防守等困难，234年在军中病逝。",
+    "period": "228—234年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-03",
+        "locator": "明帝纪：太和、景初及临终托孤段",
+        "note": "他在曹丕死后继位，面对诸葛亮北伐和辽东问题。239年临终安排曹爽、司马懿辅佐年幼的曹芳，这一安排构成后来权力竞争的背景。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：建兴六年至十二年北伐段",
+        "note": "诸葛亮多次出兵攻魏，面临山地交通、粮运与防守等困难，234年在军中病逝。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-cao-rui-wei-regency",
+    "source": "cao-rui",
+    "target": "wei-regency",
+    "type": "event",
+    "label": "临终安排辅政",
+    "description": "曹叡：临终安排辅政。曹叡去世，曹芳继位，由曹爽、司马懿辅政。幼主与辅臣的权力配置成为魏国内政的重要问题。",
+    "period": "239年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-03",
+        "locator": "明帝纪：太和、景初及临终托孤段",
+        "note": "他在曹丕死后继位，面对诸葛亮北伐和辽东问题。239年临终安排曹爽、司马懿辅佐年幼的曹芳，这一安排构成后来权力竞争的背景。"
+      },
+      {
+        "sourceId": "sgz-03",
+        "locator": "明帝纪：景初三年临终托孤段",
+        "note": "曹叡去世，曹芳继位，由曹爽、司马懿辅政。幼主与辅臣的权力配置成为魏国内政的重要问题。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-cao-shuang-wei-regency",
+    "source": "cao-shuang",
+    "target": "wei-regency",
+    "type": "event",
+    "label": "受遗命辅政",
+    "description": "曹爽：受遗命辅政。曹叡去世，曹芳继位，由曹爽、司马懿辅政。幼主与辅臣的权力配置成为魏国内政的重要问题。",
+    "period": "239年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-09",
+        "locator": "曹真传附曹爽：辅政与被诛段",
+        "note": "他受魏明帝遗命辅佐曹芳，与司马懿同掌辅政。后来集中权力，引起司马氏反击。249年随皇帝出城谒陵时遭政变，交出权力后被诛。"
+      },
+      {
+        "sourceId": "sgz-03",
+        "locator": "明帝纪：景初三年临终托孤段",
+        "note": "曹叡去世，曹芳继位，由曹爽、司马懿辅政。幼主与辅臣的权力配置成为魏国内政的重要问题。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-sima-yi-wei-regency",
+    "source": "sima-yi",
+    "target": "wei-regency",
+    "type": "event",
+    "label": "受遗命辅政",
+    "description": "司马懿：受遗命辅政。曹叡去世，曹芳继位，由曹爽、司马懿辅政。幼主与辅臣的权力配置成为魏国内政的重要问题。",
+    "period": "239年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-01",
+        "locator": "宣帝纪：仕魏、对蜀作战及嘉平元年段",
+        "note": "他先后在曹操、曹丕、曹叡时期任职，曾与诸葛亮在军事上对抗。249年发动高平陵政变除掉曹爽集团。晋建立后追尊他为宣帝，他生前并未建立晋朝。"
+      },
+      {
+        "sourceId": "sgz-03",
+        "locator": "明帝纪：景初三年临终托孤段",
+        "note": "曹叡去世，曹芳继位，由曹爽、司马懿辅政。幼主与辅臣的权力配置成为魏国内政的重要问题。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-sima-yi-gaopingling",
+    "source": "sima-yi",
+    "target": "gaopingling",
+    "type": "event",
+    "label": "发动并控制洛阳",
+    "description": "司马懿：发动并控制洛阳。曹爽随曹芳谒高平陵时，司马懿控制洛阳，迫使曹爽交权后诛杀其集团。",
+    "period": "249年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-01",
+        "locator": "宣帝纪：仕魏、对蜀作战及嘉平元年段",
+        "note": "他先后在曹操、曹丕、曹叡时期任职，曾与诸葛亮在军事上对抗。249年发动高平陵政变除掉曹爽集团。晋建立后追尊他为宣帝，他生前并未建立晋朝。"
+      },
+      {
+        "sourceId": "jin-01",
+        "locator": "宣帝纪：嘉平元年高平陵段",
+        "note": "曹爽随曹芳谒高平陵时，司马懿控制洛阳，迫使曹爽交权后诛杀其集团。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-cao-shuang-gaopingling",
+    "source": "cao-shuang",
+    "target": "gaopingling",
+    "type": "event",
+    "label": "交权后被诛",
+    "description": "曹爽：交权后被诛。曹爽随曹芳谒高平陵时，司马懿控制洛阳，迫使曹爽交权后诛杀其集团。",
+    "period": "249年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-09",
+        "locator": "曹真传附曹爽：辅政与被诛段",
+        "note": "他受魏明帝遗命辅佐曹芳，与司马懿同掌辅政。后来集中权力，引起司马氏反击。249年随皇帝出城谒陵时遭政变，交出权力后被诛。"
+      },
+      {
+        "sourceId": "jin-01",
+        "locator": "宣帝纪：嘉平元年高平陵段",
+        "note": "曹爽随曹芳谒高平陵时，司马懿控制洛阳，迫使曹爽交权后诛杀其集团。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-sima-shi-sima-control",
+    "source": "sima-shi",
+    "target": "sima-control",
+    "type": "event",
+    "label": "继掌权力并废立",
+    "description": "司马师：继掌权力并废立。司马懿死后，司马师、司马昭先后掌权。废立、镇压反抗及灭蜀逐渐加强司马氏地位。",
+    "period": "251—265年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-02",
+        "locator": "景帝纪：嘉平六年废立、正元二年出征段",
+        "note": "司马懿死后，他继掌大权，254年废曹芳、立曹髦。255年镇压毌丘俭、文钦反抗后病死，权力转到司马昭手中。"
+      },
+      {
+        "sourceId": "jin-02",
+        "locator": "景帝纪、文帝纪：继政、废立与伐蜀段",
+        "note": "司马懿死后，司马师、司马昭先后掌权。废立、镇压反抗及灭蜀逐渐加强司马氏地位。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-sima-zhao-sima-control",
+    "source": "sima-zhao",
+    "target": "sima-control",
+    "type": "event",
+    "label": "继续掌权，组织伐蜀",
+    "description": "司马昭：继续掌权，组织伐蜀。司马懿死后，司马师、司马昭先后掌权。废立、镇压反抗及灭蜀逐渐加强司马氏地位。",
+    "period": "251—265年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-02",
+        "locator": "文帝纪：继掌大权、伐蜀及封晋王段",
+        "note": "他继司马师掌权，263年组织伐蜀，随后进爵晋王。其子司马炎在他死后完成代魏。司马昭生前仍以魏臣身份执政。"
+      },
+      {
+        "sourceId": "jin-02",
+        "locator": "景帝纪、文帝纪：继政、废立与伐蜀段",
+        "note": "司马懿死后，司马师、司马昭先后掌权。废立、镇压反抗及灭蜀逐渐加强司马氏地位。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-sima-yan-sima-control",
+    "source": "sima-yan",
+    "target": "sima-control",
+    "type": "event",
+    "label": "265年继承晋王权位",
+    "description": "司马炎：265年继承晋王权位。司马懿死后，司马师、司马昭先后掌权。废立、镇压反抗及灭蜀逐渐加强司马氏地位。",
+    "period": "251—265年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：泰始元年及太康元年段",
+        "note": "他继承父亲司马昭的权位，代魏建立晋。280年命多路军队灭吴，结束三国分立。统一后的政治整合仍有难题，晋朝后来的动荡超出本图主要范围。"
+      },
+      {
+        "sourceId": "jin-02",
+        "locator": "景帝纪、文帝纪：继政、废立与伐蜀段",
+        "note": "司马懿死后，司马师、司马昭先后掌权。废立、镇压反抗及灭蜀逐渐加强司马氏地位。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-sima-zhao-wei-conquers-shu",
+    "source": "sima-zhao",
+    "target": "wei-conquers-shu",
+    "type": "event",
+    "label": "部署伐蜀",
+    "description": "司马昭：部署伐蜀。司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。",
+    "period": "263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-02",
+        "locator": "文帝纪：继掌大权、伐蜀及封晋王段",
+        "note": "他继司马师掌权，263年组织伐蜀，随后进爵晋王。其子司马炎在他死后完成代魏。司马昭生前仍以魏臣身份执政。"
+      },
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传：景元年间伐蜀；参后主传炎兴元年",
+        "note": "司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-deng-ai-wei-conquers-shu",
+    "source": "deng-ai",
+    "target": "wei-conquers-shu",
+    "type": "event",
+    "label": "阴平进军，逼近成都",
+    "description": "邓艾：阴平进军，逼近成都。司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。",
+    "period": "263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾传：阴平、绵竹、成都与被诛段",
+        "note": "他长期在西部对蜀作战。263年从阴平险道进军，经绵竹逼近成都，促成刘禅投降。战后被收押，264年在变乱中被杀。"
+      },
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传：景元年间伐蜀；参后主传炎兴元年",
+        "note": "司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-zhong-hui-wei-conquers-shu",
+    "source": "zhong-hui",
+    "target": "wei-conquers-shu",
+    "type": "event",
+    "label": "统主力进至剑阁",
+    "description": "钟会：统主力进至剑阁。司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。",
+    "period": "263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-28",
+        "locator": "钟会传：伐蜀及成都变乱段",
+        "note": "他奉司马昭命参与伐蜀，主力军与姜维相持剑阁。蜀汉投降后，他试图控制军队另立局面，264年兵变中被杀。"
+      },
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传：景元年间伐蜀；参后主传炎兴元年",
+        "note": "司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-jiang-wei-wei-conquers-shu",
+    "source": "jiang-wei",
+    "target": "wei-conquers-shu",
+    "type": "event",
+    "label": "剑阁抵御魏军",
+    "description": "姜维：剑阁抵御魏军。司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。",
+    "period": "263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-44",
+        "locator": "姜维传：归蜀、北伐、剑阁及钟会之乱段",
+        "note": "他在诸葛亮第一次北伐时由魏入蜀，后来多次率军攻魏。263年抵御钟会，得知刘禅降魏后放下武器；次年卷入钟会变乱而死。对其用兵得失，史书评语与后世评价并不一致。"
+      },
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传：景元年间伐蜀；参后主传炎兴元年",
+        "note": "司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-liu-shan-wei-conquers-shu",
+    "source": "liu-shan",
+    "target": "wei-conquers-shu",
+    "type": "event",
+    "label": "成都降魏",
+    "description": "刘禅：成都降魏。司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。",
+    "period": "263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-33",
+        "locator": "后主传：建兴元年及炎兴元年段",
+        "note": "他在刘备去世后继位，前期由诸葛亮等处理政务。263年魏军逼近成都时决定投降，蜀汉结束。评价国家衰亡时，还需要看军事、资源、用人和朝廷运行。"
+      },
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传：景元年间伐蜀；参后主传炎兴元年",
+        "note": "司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-deng-ai-chengdu-mutiny",
+    "source": "deng-ai",
+    "target": "chengdu-mutiny",
+    "type": "event",
+    "label": "被收押后遇害",
+    "description": "邓艾：被收押后遇害。邓艾被收押，钟会图谋自立，姜维参与其事。兵变爆发，钟会、姜维被杀，邓艾也随后遇害。",
+    "period": "264年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾传：阴平、绵竹、成都与被诛段",
+        "note": "他长期在西部对蜀作战。263年从阴平险道进军，经绵竹逼近成都，促成刘禅投降。战后被收押，264年在变乱中被杀。"
+      },
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传末；参姜维传末",
+        "note": "邓艾被收押，钟会图谋自立，姜维参与其事。兵变爆发，钟会、姜维被杀，邓艾也随后遇害。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-zhong-hui-chengdu-mutiny",
+    "source": "zhong-hui",
+    "target": "chengdu-mutiny",
+    "type": "event",
+    "label": "谋变后被杀",
+    "description": "钟会：谋变后被杀。邓艾被收押，钟会图谋自立，姜维参与其事。兵变爆发，钟会、姜维被杀，邓艾也随后遇害。",
+    "period": "264年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-28",
+        "locator": "钟会传：伐蜀及成都变乱段",
+        "note": "他奉司马昭命参与伐蜀，主力军与姜维相持剑阁。蜀汉投降后，他试图控制军队另立局面，264年兵变中被杀。"
+      },
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传末；参姜维传末",
+        "note": "邓艾被收押，钟会图谋自立，姜维参与其事。兵变爆发，钟会、姜维被杀，邓艾也随后遇害。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-jiang-wei-chengdu-mutiny",
+    "source": "jiang-wei",
+    "target": "chengdu-mutiny",
+    "type": "event",
+    "label": "参与谋变，兵变中死",
+    "description": "姜维：参与谋变，兵变中死。邓艾被收押，钟会图谋自立，姜维参与其事。兵变爆发，钟会、姜维被杀，邓艾也随后遇害。",
+    "period": "264年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-44",
+        "locator": "姜维传：归蜀、北伐、剑阁及钟会之乱段",
+        "note": "他在诸葛亮第一次北伐时由魏入蜀，后来多次率军攻魏。263年抵御钟会，得知刘禅降魏后放下武器；次年卷入钟会变乱而死。对其用兵得失，史书评语与后世评价并不一致。"
+      },
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传末；参姜维传末",
+        "note": "邓艾被收押，钟会图谋自立，姜维参与其事。兵变爆发，钟会、姜维被杀，邓艾也随后遇害。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-sima-yan-jin-founding",
+    "source": "sima-yan",
+    "target": "jin-founding",
+    "type": "event",
+    "label": "代魏建立晋",
+    "description": "司马炎：代魏建立晋。司马炎继承晋王权位后接受曹奂禅让，国号晋，都洛阳。传统年表记265年；禅代仪式在咸熙二年十二月，公历已跨入266年。",
+    "period": "265—266年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：泰始元年及太康元年段",
+        "note": "他继承父亲司马昭的权位，代魏建立晋。280年命多路军队灭吴，结束三国分立。统一后的政治整合仍有难题，晋朝后来的动荡超出本图主要范围。"
+      },
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：咸熙二年、泰始元年禅代段",
+        "note": "司马炎继承晋王权位后接受曹奂禅让，国号晋，都洛阳。传统年表记265年；禅代仪式在咸熙二年十二月，公历已跨入266年。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-yang-hu-prepare-wu",
+    "source": "yang-hu",
+    "target": "prepare-wu",
+    "type": "event",
+    "label": "经营荆州、提出计划",
+    "description": "羊祜：经营荆州、提出计划。羊祜经营荆州并建议伐吴，王濬在益州造船练军，杜预继任荆州方向。进攻决定也经历朝廷内部讨论。",
+    "period": "269—279年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-34",
+        "locator": "羊祜传：镇荆州、伐吴筹划与荐杜预段",
+        "note": "他经营荆州边防，积累粮储并提出攻吴计划。他在总攻前病逝，曾推荐杜预接任；灭吴不能记作羊祜亲自指挥的战役。"
+      },
+      {
+        "sourceId": "jin-34",
+        "locator": "羊祜杜预传：镇荆州与伐吴议；参王濬传造船段",
+        "note": "羊祜经营荆州并建议伐吴，王濬在益州造船练军，杜预继任荆州方向。进攻决定也经历朝廷内部讨论。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-du-yu-prepare-wu",
+    "source": "du-yu",
+    "target": "prepare-wu",
+    "type": "event",
+    "label": "继任后筹备与请战",
+    "description": "杜预：继任后筹备与请战。羊祜经营荆州并建议伐吴，王濬在益州造船练军，杜预继任荆州方向。进攻决定也经历朝廷内部讨论。",
+    "period": "269—279年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-34",
+        "locator": "杜预传：伐吴、克江陵与著述段",
+        "note": "他接替羊祜镇守荆州，参与晋灭吴，攻克江陵。同时研读《左传》，撰成《春秋经传集解》，展现军事与学术两方面的活动。"
+      },
+      {
+        "sourceId": "jin-34",
+        "locator": "羊祜杜预传：镇荆州与伐吴议；参王濬传造船段",
+        "note": "羊祜经营荆州并建议伐吴，王濬在益州造船练军，杜预继任荆州方向。进攻决定也经历朝廷内部讨论。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-wang-jun-prepare-wu",
+    "source": "wang-jun",
+    "target": "prepare-wu",
+    "type": "event",
+    "label": "在益州造船练军",
+    "description": "王濬：在益州造船练军。羊祜经营荆州并建议伐吴，王濬在益州造船练军，杜预继任荆州方向。进攻决定也经历朝廷内部讨论。",
+    "period": "269—279年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-42",
+        "locator": "王濬传：益州造船、东下及受降段",
+        "note": "他在益州造船练军，伐吴时率舟师顺江而下，抵达建业并接受孙皓投降。长江航运、造船和多军配合都是理解这场战争的重要线索。"
+      },
+      {
+        "sourceId": "jin-34",
+        "locator": "羊祜杜预传：镇荆州与伐吴议；参王濬传造船段",
+        "note": "羊祜经营荆州并建议伐吴，王濬在益州造船练军，杜预继任荆州方向。进攻决定也经历朝廷内部讨论。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-sima-yan-prepare-wu",
+    "source": "sima-yan",
+    "target": "prepare-wu",
+    "type": "event",
+    "label": "讨论并决策发兵",
+    "description": "司马炎：讨论并决策发兵。羊祜经营荆州并建议伐吴，王濬在益州造船练军，杜预继任荆州方向。进攻决定也经历朝廷内部讨论。",
+    "period": "269—279年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：泰始元年及太康元年段",
+        "note": "他继承父亲司马昭的权位，代魏建立晋。280年命多路军队灭吴，结束三国分立。统一后的政治整合仍有难题，晋朝后来的动荡超出本图主要范围。"
+      },
+      {
+        "sourceId": "jin-34",
+        "locator": "羊祜杜预传：镇荆州与伐吴议；参王濬传造船段",
+        "note": "羊祜经营荆州并建议伐吴，王濬在益州造船练军，杜预继任荆州方向。进攻决定也经历朝廷内部讨论。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-sima-yan-jin-unification",
+    "source": "sima-yan",
+    "target": "jin-unification",
+    "type": "event",
+    "label": "决策并部署多路军",
+    "description": "司马炎：决策并部署多路军。晋军分路攻吴，杜预等从荆州进攻，王濬舟师顺江抵达建业。280年孙皓投降，三国分立结束。",
+    "period": "279—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：泰始元年及太康元年段",
+        "note": "他继承父亲司马昭的权位，代魏建立晋。280年命多路军队灭吴，结束三国分立。统一后的政治整合仍有难题，晋朝后来的动荡超出本图主要范围。"
+      },
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：咸宁五年冬、太康元年灭吴段",
+        "note": "晋军分路攻吴，杜预等从荆州进攻，王濬舟师顺江抵达建业。280年孙皓投降，三国分立结束。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-du-yu-jin-unification",
+    "source": "du-yu",
+    "target": "jin-unification",
+    "type": "event",
+    "label": "统军攻克江陵",
+    "description": "杜预：统军攻克江陵。晋军分路攻吴，杜预等从荆州进攻，王濬舟师顺江抵达建业。280年孙皓投降，三国分立结束。",
+    "period": "279—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-34",
+        "locator": "杜预传：伐吴、克江陵与著述段",
+        "note": "他接替羊祜镇守荆州，参与晋灭吴，攻克江陵。同时研读《左传》，撰成《春秋经传集解》，展现军事与学术两方面的活动。"
+      },
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：咸宁五年冬、太康元年灭吴段",
+        "note": "晋军分路攻吴，杜预等从荆州进攻，王濬舟师顺江抵达建业。280年孙皓投降，三国分立结束。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-wang-jun-jin-unification",
+    "source": "wang-jun",
+    "target": "jin-unification",
+    "type": "event",
+    "label": "舟师抵建业受降",
+    "description": "王濬：舟师抵建业受降。晋军分路攻吴，杜预等从荆州进攻，王濬舟师顺江抵达建业。280年孙皓投降，三国分立结束。",
+    "period": "279—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-42",
+        "locator": "王濬传：益州造船、东下及受降段",
+        "note": "他在益州造船练军，伐吴时率舟师顺江而下，抵达建业并接受孙皓投降。长江航运、造船和多军配合都是理解这场战争的重要线索。"
+      },
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：咸宁五年冬、太康元年灭吴段",
+        "note": "晋军分路攻吴，杜预等从荆州进攻，王濬舟师顺江抵达建业。280年孙皓投降，三国分立结束。"
+      }
+    ]
+  },
+  {
+    "id": "history-event-sun-hao-jin-unification",
+    "source": "sun-hao",
+    "target": "jin-unification",
+    "type": "event",
+    "label": "孙吴君主，出降",
+    "description": "孙皓：孙吴君主，出降。晋军分路攻吴，杜预等从荆州进攻，王濬舟师顺江抵达建业。280年孙皓投降，三国分立结束。",
+    "period": "279—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-48",
+        "locator": "孙皓传：即位、施政及天纪四年降晋段",
+        "note": "他在264年即位，统治中刑罚与征役苛重，朝廷存在激烈矛盾。280年晋军多路进攻，建业失守前他出降，孙吴结束。"
+      },
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：咸宁五年冬、太康元年灭吴段",
+        "note": "晋军分路攻吴，杜预等从荆州进攻，王濬舟师顺江抵达建业。280年孙皓投降，三国分立结束。"
+      }
+    ]
+  },
+  {
+    "id": "history-authorship-zhuge-liang-chushi-work",
+    "source": "zhuge-liang",
+    "target": "chushi-work",
+    "type": "authorship",
+    "label": "撰写",
+    "description": "诸葛亮撰写《出师表》；创作年月按作品说明理解。",
+    "period": "227年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：建兴五年上疏全文",
+        "note": "出兵前上给刘禅的表文，谈用人、政务与出师目标，也回忆刘备三顾。本图采用《三国志》本传所录前《出师表》；后《出师表》的真伪另有讨论。"
+      }
+    ]
+  },
+  {
+    "id": "history-authorship-cao-cao-duange-work",
+    "source": "cao-cao",
+    "target": "duange-work",
+    "type": "authorship",
+    "label": "撰写",
+    "description": "曹操撰写《短歌行》；创作年月按作品说明理解。",
+    "period": "汉末（具体创作年月未定）",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "yuefu-30",
+        "locator": "卷三十：短歌行二首六解（魏武帝），对酒篇",
+        "note": "曹操的乐府诗，以人生短暂、思求贤才等主题展开。把它具体安排在赤壁前横槊赋诗，是小说化场景，作品文本不能单独证明创作现场。"
+      }
+    ]
+  },
+  {
+    "id": "history-authorship-cao-pi-dianlun-work",
+    "source": "cao-pi",
+    "target": "dianlun-work",
+    "type": "authorship",
+    "label": "撰写",
+    "description": "曹丕撰写《典论·论文》；创作年月按作品说明理解。",
+    "period": "汉末魏初（成篇年月未定）",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "wenxuan-52",
+        "locator": "卷五十二：典论论文，魏文帝",
+        "note": "讨论文体、作家个性与文章的价值，评述建安作家。它让人看到政治人物同时也参与文学创作与批评。"
+      }
+    ]
+  },
+  {
+    "id": "history-authorship-du-yu-chunqiu-work",
+    "source": "du-yu",
+    "target": "chunqiu-work",
+    "type": "authorship",
+    "label": "撰写",
+    "description": "杜预撰写《春秋经传集解》；创作年月按作品说明理解。",
+    "period": "西晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-34",
+        "locator": "杜预传：专意经籍与著春秋左氏经传集解段",
+        "note": "杜预为《春秋》和《左传》作的注解，涉及经传组织与解释。他在军事活动之外也从事经学研究。"
+      }
+    ]
+  },
+  {
+    "id": "history-service-xun-yu-cao-cao",
+    "source": "xun-yu",
+    "target": "cao-cao",
+    "type": "service",
+    "label": "任职与谋划",
+    "description": "荀彧在曹操集团中处理政务并参与战略决策。",
+    "period": "191—212年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-10",
+        "locator": "荀彧传",
+        "note": "荀彧在曹操集团中处理政务并参与战略决策。"
+      }
+    ]
+  },
+  {
+    "id": "history-service-lv-meng-sun-quan",
+    "source": "lv-meng",
+    "target": "sun-quan",
+    "type": "service",
+    "label": "统军效力",
+    "description": "吕蒙为孙权统军，219年进取荆州。",
+    "period": "汉末",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-54",
+        "locator": "吕蒙传",
+        "note": "吕蒙为孙权统军，219年进取荆州。"
+      }
+    ]
+  },
+  {
+    "id": "history-service-lu-xun-sun-quan",
+    "source": "lu-xun",
+    "target": "sun-quan",
+    "type": "service",
+    "label": "任将与拜相",
+    "description": "陆逊受孙权委任统军，后任丞相。",
+    "period": "汉末至245年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-58",
+        "locator": "陆逊传",
+        "note": "陆逊受孙权委任统军，后任丞相。"
+      }
+    ]
+  },
+  {
+    "id": "history-service-zhuge-liang-liu-shan",
+    "source": "zhuge-liang",
+    "target": "liu-shan",
+    "type": "service",
+    "label": "辅佐后主",
+    "description": "诸葛亮受托辅佐刘禅，处理蜀汉军政。",
+    "period": "223—234年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传托孤及建兴段",
+        "note": "诸葛亮受托辅佐刘禅，处理蜀汉军政。"
+      }
+    ]
+  },
+  {
+    "id": "history-service-jiang-wei-liu-shan",
+    "source": "jiang-wei",
+    "target": "liu-shan",
+    "type": "service",
+    "label": "蜀汉将领",
+    "description": "姜维在刘禅时期任将并多次攻魏。",
+    "period": "228—263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-44",
+        "locator": "姜维传",
+        "note": "姜维在刘禅时期任将并多次攻魏。"
+      }
+    ]
+  },
+  {
+    "id": "history-kinship-liu-bei-liu-shan",
+    "source": "liu-bei",
+    "target": "liu-shan",
+    "type": "kinship",
+    "label": "父子",
+    "description": "刘禅为刘备之子，223年继位。",
+    "period": "207—223年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-33",
+        "locator": "后主传开篇",
+        "note": "刘禅为刘备之子，223年继位。"
+      }
+    ]
+  },
+  {
+    "id": "history-kinship-cao-pi-cao-rui",
+    "source": "cao-pi",
+    "target": "cao-rui",
+    "type": "kinship",
+    "label": "父子",
+    "description": "曹叡为曹丕之子，226年继位。",
+    "period": "204—226年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-03",
+        "locator": "明帝纪开篇",
+        "note": "曹叡为曹丕之子，226年继位。"
+      }
+    ]
+  },
+  {
+    "id": "history-kinship-sima-yi-sima-shi",
+    "source": "sima-yi",
+    "target": "sima-shi",
+    "type": "kinship",
+    "label": "父子",
+    "description": "司马师为司马懿之子。",
+    "period": "三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-02",
+        "locator": "景帝纪开篇",
+        "note": "司马师为司马懿之子。"
+      }
+    ]
+  },
+  {
+    "id": "history-kinship-sima-yi-sima-zhao",
+    "source": "sima-yi",
+    "target": "sima-zhao",
+    "type": "kinship",
+    "label": "父子",
+    "description": "司马昭为司马懿之子。",
+    "period": "三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-02",
+        "locator": "文帝纪开篇",
+        "note": "司马昭为司马懿之子。"
+      }
+    ]
+  },
+  {
+    "id": "history-kinship-sima-zhao-sima-yan",
+    "source": "sima-zhao",
+    "target": "sima-yan",
+    "type": "kinship",
+    "label": "父子",
+    "description": "司马炎为司马昭之子。",
+    "period": "236—265年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪开篇",
+        "note": "司马炎为司马昭之子。"
+      }
+    ]
+  },
+  {
+    "id": "history-conflict-sima-yi-zhuge-liang",
+    "source": "sima-yi",
+    "target": "zhuge-liang",
+    "type": "conflict",
+    "label": "军事对抗",
+    "description": "两人在魏蜀战争中处于对立一方。",
+    "period": "231—234年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-01",
+        "locator": "宣帝纪对蜀战事",
+        "note": "两人在魏蜀战争中处于对立一方。"
+      }
+    ]
+  },
+  {
+    "id": "history-conflict-cao-cao-yuan-shao",
+    "source": "cao-cao",
+    "target": "yuan-shao",
+    "type": "conflict",
+    "label": "北方竞争",
+    "description": "袁曹在官渡及此前后争夺北方优势。",
+    "period": "200年前后",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁绍传官渡段",
+        "note": "袁曹在官渡及此前后争夺北方优势。"
+      }
+    ]
+  },
+  {
+    "id": "history-service-yang-hu-du-yu",
+    "source": "yang-hu",
+    "target": "du-yu",
+    "type": "recommendation",
+    "label": "推荐继任",
+    "description": "羊祜临终推荐杜预接替荆州职务；箭头从推荐者指向被推荐者。",
+    "period": "278年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-34",
+        "locator": "羊祜传荐杜预段",
+        "note": "羊祜临终推荐杜预接替荆州职务；这条从属类关系表示举荐。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-yellow-turbans-dong-capital",
+    "source": "yellow-turbans",
+    "target": "dong-capital",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "黄巾起事与董卓入洛按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "184—189年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-71",
+        "locator": "皇甫嵩传：中平元年黄巾起事及征讨",
+        "note": "张角组织的起事遍及多地，汉廷派军镇压。战争与地方武装动员加深了帝国的危机。"
+      },
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：何进被害、入洛及废立段",
+        "note": "何进被杀后京师大乱，董卓带军入洛，废少帝、立刘协，控制汉廷。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-dong-capital-anti-dong",
+    "source": "dong-capital",
+    "target": "anti-dong",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "董卓入洛与诸侯讨董按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "189—190年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：何进被害、入洛及废立段",
+        "note": "何进被杀后京师大乱，董卓带军入洛，废少帝、立刘协，控制汉廷。"
+      },
+      {
+        "sourceId": "sgz-06",
+        "locator": "董卓、袁绍传：关东起兵及董卓被诛段",
+        "note": "各地诸侯以讨伐董卓为名联合，袁绍为盟主。联盟内部各有目标，战事之后转向地盘竞争。192年董卓被王允、吕布等诛杀。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-anti-dong-emperor-xu",
+    "source": "anti-dong",
+    "target": "emperor-xu",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "诸侯讨董与迎帝迁许按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "190—196年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "董卓、袁绍传：关东起兵及董卓被诛段",
+        "note": "各地诸侯以讨伐董卓为名联合，袁绍为盟主。联盟内部各有目标，战事之后转向地盘竞争。192年董卓被王允、吕布等诛杀。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安元年：迎帝都许、屯田段",
+        "note": "曹操迎汉献帝，将朝廷迁到许，取得以朝廷名义发号施令的政治优势。同年开展屯田，军粮筹措也影响此后的竞争。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-emperor-xu-guandu",
+    "source": "emperor-xu",
+    "target": "guandu",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "迎帝迁许与官渡之战按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "196—200年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安元年：迎帝都许、屯田段",
+        "note": "曹操迎汉献帝，将朝廷迁到许，取得以朝廷名义发号施令的政治优势。同年开展屯田，军粮筹措也影响此后的竞争。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：建安五年官渡记事",
+        "note": "记述对袁绍作战及战果。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-guandu-north-consolidation",
+    "source": "guandu",
+    "target": "north-consolidation",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "官渡之战与整合北方按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "200—202年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：建安五年官渡记事",
+        "note": "记述对袁绍作战及战果。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安七年至十二年：河北、乌桓战事",
+        "note": "袁绍死后，曹操利用其诸子分争继续作战，逐步控制河北；207年北征乌桓，消除袁氏残余力量的重要依托。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-north-consolidation-three-visits",
+    "source": "north-consolidation",
+    "target": "three-visits",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "整合北方与三顾茅庐按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "202—207年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安七年至十二年：河北、乌桓战事",
+        "note": "袁绍死后，曹操利用其诸子分争继续作战，逐步控制河北；207年北征乌桓，消除袁氏残余力量的重要依托。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：刘备拜访段、裴注引《魏略》《九州春秋》及《出师表》",
+        "note": "本传与表文叙及三顾；裴注保留诸葛亮先见刘备的异说，并说明裴松之对此的质疑。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-three-visits-chibi",
+    "source": "three-visits",
+    "target": "chibi",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "三顾茅庐与赤壁之战按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "207—208年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：刘备拜访段、裴注引《魏略》《九州春秋》及《出师表》",
+        "note": "本传与表文叙及三顾；裴注保留诸葛亮先见刘备的异说，并说明裴松之对此的质疑。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：建安十三年赤壁段",
+        "note": "记述曹操失利与退军。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：出使孙权段",
+        "note": "记述孙权遣周瑜等与刘备共同抵抗曹操。"
+      },
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传、鲁肃传：赤壁相关段落",
+        "note": "记述统兵、决策及联络职责。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-chibi-changban",
+    "source": "chibi",
+    "target": "changban",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "赤壁之战与长坂之战按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "208—208年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：建安十三年赤壁段",
+        "note": "记述曹操失利与退军。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：出使孙权段",
+        "note": "记述孙权遣周瑜等与刘备共同抵抗曹操。"
+      },
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传、鲁肃传：赤壁相关段落",
+        "note": "记述统兵、决策及联络职责。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：当阳长坂段",
+        "note": "记述追击与撤退。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "张飞传、赵云传：长坂段",
+        "note": "分别记述断后与保护家眷。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-changban-yi-conquest",
+    "source": "changban",
+    "target": "yi-conquest",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "长坂之战与刘备取益州按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "208—211年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：当阳长坂段",
+        "note": "记述追击与撤退。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "张飞传、赵云传：长坂段",
+        "note": "分别记述断后与保护家眷。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安十六年至十九年入益州段",
+        "note": "刘璋请刘备入蜀，双方后来交战。214年成都投降，刘备取得益州这一战略基地。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-yi-conquest-hanzhong",
+    "source": "yi-conquest",
+    "target": "hanzhong",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "刘备取益州与汉中之战按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "211—217年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安十六年至十九年入益州段",
+        "note": "刘璋请刘备入蜀，双方后来交战。214年成都投降，刘备取得益州这一战略基地。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安二十三至二十四年记事",
+        "note": "记述汉中战事与汉中王称号。"
+      },
+      {
+        "sourceId": "sgz-37",
+        "locator": "法正传：建安二十二年取汉中建议及二十四年定军山段",
+        "note": "本传在二十二年条记法正建议取汉中及刘备进兵，为本图 217 年起点提供依据；先主传的进兵记载列于二十三年。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "黄忠传：建安二十四年定军山段",
+        "note": "记述黄忠的战功。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-hanzhong-jingzhou-loss",
+    "source": "hanzhong",
+    "target": "jingzhou-loss",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "汉中之战与关羽失荆州按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "217—219年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安二十三至二十四年记事",
+        "note": "记述汉中战事与汉中王称号。"
+      },
+      {
+        "sourceId": "sgz-37",
+        "locator": "法正传：建安二十二年取汉中建议及二十四年定军山段",
+        "note": "本传在二十二年条记法正建议取汉中及刘备进兵，为本图 217 年起点提供依据；先主传的进兵记载列于二十三年。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "黄忠传：建安二十四年定军山段",
+        "note": "记述黄忠的战功。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "关羽传：攻樊、孙权袭后与关羽败亡段",
+        "note": "关羽北攻樊襄时，孙权派吕蒙等进取其后方。关羽败亡，刘备集团失去荆州的重要控制区。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-jingzhou-loss-wei-founding",
+    "source": "jingzhou-loss",
+    "target": "wei-founding",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "关羽失荆州与曹丕代汉按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "219—220年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-36",
+        "locator": "关羽传：攻樊、孙权袭后与关羽败亡段",
+        "note": "关羽北攻樊襄时，孙权派吕蒙等进取其后方。关羽败亡，刘备集团失去荆州的重要控制区。"
+      },
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪：黄初元年禅代段",
+        "note": "曹操死后，曹丕继承魏王地位，随后接受汉帝禅让并称帝，国号魏，都洛阳。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-wei-founding-shu-founding",
+    "source": "wei-founding",
+    "target": "shu-founding",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "曹丕代汉与刘备称帝按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "220—221年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪：黄初元年禅代段",
+        "note": "曹操死后，曹丕继承魏王地位，随后接受汉帝禅让并称帝，国号魏，都洛阳。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：章武元年即位段",
+        "note": "刘备在成都称帝，国号汉。后世为区别通常称蜀汉，其合法性主张是延续汉室。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-shu-founding-yiling",
+    "source": "shu-founding",
+    "target": "yiling",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "刘备称帝与夷陵之战按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "221—221年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：章武元年即位段",
+        "note": "刘备在成都称帝，国号汉。后世为区别通常称蜀汉，其合法性主张是延续汉室。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：章武元年至二年伐吴段",
+        "note": "记述出兵与战败。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：黄武元年对刘备作战段",
+        "note": "记述陆逊等迎击刘备。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-yiling-shu-wu-reconcile",
+    "source": "yiling",
+    "target": "shu-wu-reconcile",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "夷陵之战与蜀吴复盟按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "221—223年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：章武元年至二年伐吴段",
+        "note": "记述出兵与战败。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：黄武元年对刘备作战段",
+        "note": "记述陆逊等迎击刘备。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：与吴通好、孙权称尊号段",
+        "note": "刘备去世后，蜀吴逐步修复关系。诸葛亮时期双方共同面对曹魏，229年吴称帝后蜀汉仍与其结盟。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-shu-wu-reconcile-northern-expeditions",
+    "source": "shu-wu-reconcile",
+    "target": "northern-expeditions",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "蜀吴复盟与诸葛亮北伐按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "223—228年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：与吴通好、孙权称尊号段",
+        "note": "刘备去世后，蜀吴逐步修复关系。诸葛亮时期双方共同面对曹魏，229年吴称帝后蜀汉仍与其结盟。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：建兴六年至十二年北伐段",
+        "note": "诸葛亮多次出兵攻魏，面临山地交通、粮运与防守等困难，234年在军中病逝。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-northern-expeditions-wu-emperor",
+    "source": "northern-expeditions",
+    "target": "wu-emperor",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "诸葛亮北伐与孙权称帝按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "228—229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：建兴六年至十二年北伐段",
+        "note": "诸葛亮多次出兵攻魏，面临山地交通、粮运与防守等困难，234年在军中病逝。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：黄武元年及黄龙元年段",
+        "note": "孙权在222年使用黄武年号，229年称帝，后迁都建业。孙吴的势力形成早于称帝。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-wu-emperor-wei-regency",
+    "source": "wu-emperor",
+    "target": "wei-regency",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "孙权称帝与曹魏托孤按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "229—239年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：黄武元年及黄龙元年段",
+        "note": "孙权在222年使用黄武年号，229年称帝，后迁都建业。孙吴的势力形成早于称帝。"
+      },
+      {
+        "sourceId": "sgz-03",
+        "locator": "明帝纪：景初三年临终托孤段",
+        "note": "曹叡去世，曹芳继位，由曹爽、司马懿辅政。幼主与辅臣的权力配置成为魏国内政的重要问题。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-wei-regency-gaopingling",
+    "source": "wei-regency",
+    "target": "gaopingling",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "曹魏托孤与高平陵政变按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "239—249年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-03",
+        "locator": "明帝纪：景初三年临终托孤段",
+        "note": "曹叡去世，曹芳继位，由曹爽、司马懿辅政。幼主与辅臣的权力配置成为魏国内政的重要问题。"
+      },
+      {
+        "sourceId": "jin-01",
+        "locator": "宣帝纪：嘉平元年高平陵段",
+        "note": "曹爽随曹芳谒高平陵时，司马懿控制洛阳，迫使曹爽交权后诛杀其集团。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-gaopingling-sima-control",
+    "source": "gaopingling",
+    "target": "sima-control",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "高平陵政变与司马氏掌权按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "249—251年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-01",
+        "locator": "宣帝纪：嘉平元年高平陵段",
+        "note": "曹爽随曹芳谒高平陵时，司马懿控制洛阳，迫使曹爽交权后诛杀其集团。"
+      },
+      {
+        "sourceId": "jin-02",
+        "locator": "景帝纪、文帝纪：继政、废立与伐蜀段",
+        "note": "司马懿死后，司马师、司马昭先后掌权。废立、镇压反抗及灭蜀逐渐加强司马氏地位。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-sima-control-wei-conquers-shu",
+    "source": "sima-control",
+    "target": "wei-conquers-shu",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "司马氏掌权与魏灭蜀汉按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "251—263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-02",
+        "locator": "景帝纪、文帝纪：继政、废立与伐蜀段",
+        "note": "司马懿死后，司马师、司马昭先后掌权。废立、镇压反抗及灭蜀逐渐加强司马氏地位。"
+      },
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传：景元年间伐蜀；参后主传炎兴元年",
+        "note": "司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-wei-conquers-shu-chengdu-mutiny",
+    "source": "wei-conquers-shu",
+    "target": "chengdu-mutiny",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "魏灭蜀汉与成都兵变按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "263—264年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传：景元年间伐蜀；参后主传炎兴元年",
+        "note": "司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。"
+      },
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传末；参姜维传末",
+        "note": "邓艾被收押，钟会图谋自立，姜维参与其事。兵变爆发，钟会、姜维被杀，邓艾也随后遇害。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-chengdu-mutiny-jin-founding",
+    "source": "chengdu-mutiny",
+    "target": "jin-founding",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "成都兵变与西晋代魏按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "264—265年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传末；参姜维传末",
+        "note": "邓艾被收押，钟会图谋自立，姜维参与其事。兵变爆发，钟会、姜维被杀，邓艾也随后遇害。"
+      },
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：咸熙二年、泰始元年禅代段",
+        "note": "司马炎继承晋王权位后接受曹奂禅让，国号晋，都洛阳。传统年表记265年；禅代仪式在咸熙二年十二月，公历已跨入266年。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-jin-founding-prepare-wu",
+    "source": "jin-founding",
+    "target": "prepare-wu",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "西晋代魏与晋筹划伐吴按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "265—269年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：咸熙二年、泰始元年禅代段",
+        "note": "司马炎继承晋王权位后接受曹奂禅让，国号晋，都洛阳。传统年表记265年；禅代仪式在咸熙二年十二月，公历已跨入266年。"
+      },
+      {
+        "sourceId": "jin-34",
+        "locator": "羊祜杜预传：镇荆州与伐吴议；参王濬传造船段",
+        "note": "羊祜经营荆州并建议伐吴，王濬在益州造船练军，杜预继任荆州方向。进攻决定也经历朝廷内部讨论。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-prepare-wu-jin-unification",
+    "source": "prepare-wu",
+    "target": "jin-unification",
+    "type": "sequence",
+    "label": "随后 / 同期",
+    "description": "晋筹划伐吴与西晋统一按起始年份排列；时间先后本身不能说明因果，同年与多年事件可能并行。",
+    "period": "269—279年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-34",
+        "locator": "羊祜杜预传：镇荆州与伐吴议；参王濬传造船段",
+        "note": "羊祜经营荆州并建议伐吴，王濬在益州造船练军，杜预继任荆州方向。进攻决定也经历朝廷内部讨论。"
+      },
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：咸宁五年冬、太康元年灭吴段",
+        "note": "晋军分路攻吴，杜预等从荆州进攻，王濬舟师顺江抵达建业。280年孙皓投降，三国分立结束。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-yellow-turbans-dong-capital",
+    "source": "yellow-turbans",
+    "target": "dong-capital",
+    "type": "influence",
+    "label": "危机背景",
+    "description": "起事与征讨加深东汉危机；董卓入洛另有189年宫廷冲突这一直接背景。",
+    "period": "184—189年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-71",
+        "locator": "皇甫嵩传：中平元年黄巾起事及征讨",
+        "note": "张角组织的起事遍及多地，汉廷派军镇压。战争与地方武装动员加深了帝国的危机。"
+      },
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：何进被害、入洛及废立段",
+        "note": "何进被杀后京师大乱，董卓带军入洛，废少帝、立刘协，控制汉廷。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-dong-capital-anti-dong",
+    "source": "dong-capital",
+    "target": "anti-dong",
+    "type": "influence",
+    "label": "激起反对",
+    "description": "董卓废立与控制朝廷促使关东诸侯起兵。",
+    "period": "189—192年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：何进被害、入洛及废立段",
+        "note": "何进被杀后京师大乱，董卓带军入洛，废少帝、立刘协，控制汉廷。"
+      },
+      {
+        "sourceId": "sgz-06",
+        "locator": "董卓、袁绍传：关东起兵及董卓被诛段",
+        "note": "各地诸侯以讨伐董卓为名联合，袁绍为盟主。联盟内部各有目标，战事之后转向地盘竞争。192年董卓被王允、吕布等诛杀。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-emperor-xu-guandu",
+    "source": "emperor-xu",
+    "target": "guandu",
+    "type": "influence",
+    "label": "竞争条件",
+    "description": "曹操迎帝、经营军粮后增强资源，随后与袁绍争夺北方；迎帝属于竞争条件之一。",
+    "period": "196—200年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安元年：迎帝都许、屯田段",
+        "note": "曹操迎汉献帝，将朝廷迁到许，取得以朝廷名义发号施令的政治优势。同年开展屯田，军粮筹措也影响此后的竞争。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：建安五年官渡记事",
+        "note": "记述对袁绍作战及战果。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-guandu-north-consolidation",
+    "source": "guandu",
+    "target": "north-consolidation",
+    "type": "influence",
+    "label": "力量转折",
+    "description": "官渡胜利削弱袁绍，袁氏后继争位又给曹操提供继续进军的机会。",
+    "period": "200—207年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：建安五年官渡记事",
+        "note": "记述对袁绍作战及战果。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安七年至十二年：河北、乌桓战事",
+        "note": "袁绍死后，曹操利用其诸子分争继续作战，逐步控制河北；207年北征乌桓，消除袁氏残余力量的重要依托。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-north-consolidation-chibi",
+    "source": "north-consolidation",
+    "target": "chibi",
+    "type": "influence",
+    "label": "南下背景",
+    "description": "曹操北方基础扩大后南下，孙刘因共同压力联合抗曹。",
+    "period": "202—208年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安七年至十二年：河北、乌桓战事",
+        "note": "袁绍死后，曹操利用其诸子分争继续作战，逐步控制河北；207年北征乌桓，消除袁氏残余力量的重要依托。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：建安十三年赤壁段",
+        "note": "记述曹操失利与退军。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：出使孙权段",
+        "note": "记述孙权遣周瑜等与刘备共同抵抗曹操。"
+      },
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传、鲁肃传：赤壁相关段落",
+        "note": "记述统兵、决策及联络职责。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-changban-chibi",
+    "source": "changban",
+    "target": "chibi",
+    "type": "influence",
+    "label": "联合抗曹",
+    "description": "刘备撤退后争取孙权合作，共同迎击曹操。",
+    "period": "208—208年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：当阳长坂段",
+        "note": "记述追击与撤退。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "张飞传、赵云传：长坂段",
+        "note": "分别记述断后与保护家眷。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：建安十三年赤壁段",
+        "note": "记述曹操失利与退军。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：出使孙权段",
+        "note": "记述孙权遣周瑜等与刘备共同抵抗曹操。"
+      },
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传、鲁肃传：赤壁相关段落",
+        "note": "记述统兵、决策及联络职责。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-chibi-yi-conquest",
+    "source": "chibi",
+    "target": "yi-conquest",
+    "type": "influence",
+    "label": "发展空间",
+    "description": "曹军南下受阻后，刘备集团继续发展并取得益州；入蜀也有刘璋邀请和内部冲突等条件。",
+    "period": "208—214年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：建安十三年赤壁段",
+        "note": "记述曹操失利与退军。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：出使孙权段",
+        "note": "记述孙权遣周瑜等与刘备共同抵抗曹操。"
+      },
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传、鲁肃传：赤壁相关段落",
+        "note": "记述统兵、决策及联络职责。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安十六年至十九年入益州段",
+        "note": "刘璋请刘备入蜀，双方后来交战。214年成都投降，刘备取得益州这一战略基地。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-yi-conquest-hanzhong",
+    "source": "yi-conquest",
+    "target": "hanzhong",
+    "type": "influence",
+    "label": "争夺要地",
+    "description": "取得益州后，刘备将汉中视为北方战略要地并发起争夺。",
+    "period": "211—219年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安十六年至十九年入益州段",
+        "note": "刘璋请刘备入蜀，双方后来交战。214年成都投降，刘备取得益州这一战略基地。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安二十三至二十四年记事",
+        "note": "记述汉中战事与汉中王称号。"
+      },
+      {
+        "sourceId": "sgz-37",
+        "locator": "法正传：建安二十二年取汉中建议及二十四年定军山段",
+        "note": "本传在二十二年条记法正建议取汉中及刘备进兵，为本图 217 年起点提供依据；先主传的进兵记载列于二十三年。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "黄忠传：建安二十四年定军山段",
+        "note": "记述黄忠的战功。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-jingzhou-loss-yiling",
+    "source": "jingzhou-loss",
+    "target": "yiling",
+    "type": "influence",
+    "label": "冲突加深",
+    "description": "荆州丢失与关羽之死加剧孙刘矛盾，构成刘备伐吴的重要背景。",
+    "period": "219—222年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-36",
+        "locator": "关羽传：攻樊、孙权袭后与关羽败亡段",
+        "note": "关羽北攻樊襄时，孙权派吕蒙等进取其后方。关羽败亡，刘备集团失去荆州的重要控制区。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：章武元年至二年伐吴段",
+        "note": "记述出兵与战败。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：黄武元年对刘备作战段",
+        "note": "记述陆逊等迎击刘备。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-wei-founding-shu-founding",
+    "source": "wei-founding",
+    "target": "shu-founding",
+    "type": "influence",
+    "label": "正统竞争",
+    "description": "曹丕代汉后，刘备以延续汉室为名称帝。",
+    "period": "220—221年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪：黄初元年禅代段",
+        "note": "曹操死后，曹丕继承魏王地位，随后接受汉帝禅让并称帝，国号魏，都洛阳。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：章武元年即位段",
+        "note": "刘备在成都称帝，国号汉。后世为区别通常称蜀汉，其合法性主张是延续汉室。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-yiling-shu-wu-reconcile",
+    "source": "yiling",
+    "target": "shu-wu-reconcile",
+    "type": "influence",
+    "label": "调整战略",
+    "description": "战后损耗与曹魏压力促使双方逐步修复关系。",
+    "period": "221—229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：章武元年至二年伐吴段",
+        "note": "记述出兵与战败。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：黄武元年对刘备作战段",
+        "note": "记述陆逊等迎击刘备。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：与吴通好、孙权称尊号段",
+        "note": "刘备去世后，蜀吴逐步修复关系。诸葛亮时期双方共同面对曹魏，229年吴称帝后蜀汉仍与其结盟。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-wei-regency-gaopingling",
+    "source": "wei-regency",
+    "target": "gaopingling",
+    "type": "influence",
+    "label": "辅政竞争",
+    "description": "托孤安排形成曹爽、司马懿共同辅政，后来的权力竞争演化为政变。",
+    "period": "239—249年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-03",
+        "locator": "明帝纪：景初三年临终托孤段",
+        "note": "曹叡去世，曹芳继位，由曹爽、司马懿辅政。幼主与辅臣的权力配置成为魏国内政的重要问题。"
+      },
+      {
+        "sourceId": "jin-01",
+        "locator": "宣帝纪：嘉平元年高平陵段",
+        "note": "曹爽随曹芳谒高平陵时，司马懿控制洛阳，迫使曹爽交权后诛杀其集团。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-gaopingling-sima-control",
+    "source": "gaopingling",
+    "target": "sima-control",
+    "type": "influence",
+    "label": "权力转移",
+    "description": "政变使司马氏取得优势，后继者通过废立、军事镇压继续扩大权力。",
+    "period": "249—265年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-01",
+        "locator": "宣帝纪：嘉平元年高平陵段",
+        "note": "曹爽随曹芳谒高平陵时，司马懿控制洛阳，迫使曹爽交权后诛杀其集团。"
+      },
+      {
+        "sourceId": "jin-02",
+        "locator": "景帝纪、文帝纪：继政、废立与伐蜀段",
+        "note": "司马懿死后，司马师、司马昭先后掌权。废立、镇压反抗及灭蜀逐渐加强司马氏地位。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-sima-control-wei-conquers-shu",
+    "source": "sima-control",
+    "target": "wei-conquers-shu",
+    "type": "influence",
+    "label": "组织进攻",
+    "description": "司马昭掌权后部署多路伐蜀，具体战局仍受进路与双方指挥影响。",
+    "period": "251—263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-02",
+        "locator": "景帝纪、文帝纪：继政、废立与伐蜀段",
+        "note": "司马懿死后，司马师、司马昭先后掌权。废立、镇压反抗及灭蜀逐渐加强司马氏地位。"
+      },
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传：景元年间伐蜀；参后主传炎兴元年",
+        "note": "司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-wei-conquers-shu-jin-founding",
+    "source": "wei-conquers-shu",
+    "target": "jin-founding",
+    "type": "influence",
+    "label": "政治条件",
+    "description": "灭蜀提高司马氏功业与地位，代魏还依赖数代控制中枢的权力积累。",
+    "period": "263—266年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传：景元年间伐蜀；参后主传炎兴元年",
+        "note": "司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。"
+      },
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：咸熙二年、泰始元年禅代段",
+        "note": "司马炎继承晋王权位后接受曹奂禅让，国号晋，都洛阳。传统年表记265年；禅代仪式在咸熙二年十二月，公历已跨入266年。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-wei-conquers-shu-prepare-wu",
+    "source": "wei-conquers-shu",
+    "target": "prepare-wu",
+    "type": "influence",
+    "label": "取得上游",
+    "description": "控制蜀地使晋能在益州建设舟师，形成上游进攻条件。",
+    "period": "263—279年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传：景元年间伐蜀；参后主传炎兴元年",
+        "note": "司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。"
+      },
+      {
+        "sourceId": "jin-34",
+        "locator": "羊祜杜预传：镇荆州与伐吴议；参王濬传造船段",
+        "note": "羊祜经营荆州并建议伐吴，王濬在益州造船练军，杜预继任荆州方向。进攻决定也经历朝廷内部讨论。"
+      }
+    ]
+  },
+  {
+    "id": "history-influence-prepare-wu-jin-unification",
+    "source": "prepare-wu",
+    "target": "jin-unification",
+    "type": "influence",
+    "label": "长期筹备",
+    "description": "荆州经营、造船、粮运和多路军队协同为晋灭吴提供条件；吴内部局势也影响结果。",
+    "period": "269—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-34",
+        "locator": "羊祜杜预传：镇荆州与伐吴议；参王濬传造船段",
+        "note": "羊祜经营荆州并建议伐吴，王濬在益州造船练军，杜预继任荆州方向。进攻决定也经历朝廷内部讨论。"
+      },
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：咸宁五年冬、太康元年灭吴段",
+        "note": "晋军分路攻吴，杜预等从荆州进攻，王濬舟师顺江抵达建业。280年孙皓投降，三国分立结束。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-han-collapse-zhang-jiao",
+    "source": "han-collapse",
+    "target": "zhang-jiao",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "张角在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "184—196年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-71",
+        "locator": "皇甫嵩传：太平道、甲子起事及张角病死段",
+        "note": "他以太平道组织信众。184年起事计划泄露后，各地提前响应。张角当年病死，主要起义军也在当年遭到镇压，残余力量仍继续活动。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-han-collapse-dong-zhuo",
+    "source": "han-collapse",
+    "target": "dong-zhuo",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "董卓在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "184—196年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：入洛、废立、迁都及被诛段",
+        "note": "他在189年京师政治危机中带兵进入洛阳，废少帝、立刘协。迁都长安与暴力统治激起反对，192年被王允、吕布等合谋诛杀。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-han-collapse-yuan-shao",
+    "source": "han-collapse",
+    "target": "yuan-shao",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "袁绍在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "184—196年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁绍传：盟主、官渡及诸子争立段",
+        "note": "他曾参与讨董联盟，后来控制河北大片地区。200年官渡败于曹操；他死后儿子们争位，曹操才进一步夺取河北。官渡之后的北方整合经历了数年。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-han-collapse-liu-xie",
+    "source": "han-collapse",
+    "target": "liu-xie",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "汉献帝在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "184—196年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪：汉魏禅代段，并参武帝纪迎帝段",
+        "note": "他幼年被董卓立为皇帝，长期处于强臣控制之下。196年朝廷迁许，220年让位给曹丕，东汉结束；其后封山阳公。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-han-collapse-cao-cao",
+    "source": "han-collapse",
+    "target": "cao-cao",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "曹操在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "184—196年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪开篇及建安五年、十三年记事",
+        "note": "记述曹操身份、官渡与赤壁战事。"
+      },
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪开篇及黄初元年记事",
+        "note": "曹丕为曹操之子，继位并称帝。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-han-collapse-lv-bu",
+    "source": "han-collapse",
+    "target": "lv-bu",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "吕布在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "184—196年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-07",
+        "locator": "吕布传：诛董、徐州与下邳段",
+        "note": "他先为董卓部将，后参与诛杀董卓，又与曹操、刘备等争夺地盘。下邳被曹操围攻后败亡。文学中的貂蝉故事需要另外辨认。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-han-collapse-yellow-turbans",
+    "source": "han-collapse",
+    "target": "yellow-turbans",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "184年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-71",
+        "locator": "皇甫嵩传：中平元年黄巾起事及征讨",
+        "note": "张角组织的起事遍及多地，汉廷派军镇压。战争与地方武装动员加深了帝国的危机。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-han-collapse-dong-capital",
+    "source": "han-collapse",
+    "target": "dong-capital",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "189年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：何进被害、入洛及废立段",
+        "note": "何进被杀后京师大乱，董卓带军入洛，废少帝、立刘协，控制汉廷。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-han-collapse-anti-dong",
+    "source": "han-collapse",
+    "target": "anti-dong",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "190—192年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "董卓、袁绍传：关东起兵及董卓被诛段",
+        "note": "各地诸侯以讨伐董卓为名联合，袁绍为盟主。联盟内部各有目标，战事之后转向地盘竞争。192年董卓被王允、吕布等诛杀。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-han-collapse-emperor-xu",
+    "source": "han-collapse",
+    "target": "emperor-xu",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "196年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安元年：迎帝都许、屯田段",
+        "note": "曹操迎汉献帝，将朝廷迁到许，取得以朝廷名义发号施令的政治优势。同年开展屯田，军粮筹措也影响此后的竞争。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-warlord-contest-cao-cao",
+    "source": "warlord-contest",
+    "target": "cao-cao",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "曹操在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "196—208年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪开篇及建安五年、十三年记事",
+        "note": "记述曹操身份、官渡与赤壁战事。"
+      },
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪开篇及黄初元年记事",
+        "note": "曹丕为曹操之子，继位并称帝。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-warlord-contest-yuan-shao",
+    "source": "warlord-contest",
+    "target": "yuan-shao",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "袁绍在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "196—208年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁绍传：盟主、官渡及诸子争立段",
+        "note": "他曾参与讨董联盟，后来控制河北大片地区。200年官渡败于曹操；他死后儿子们争位，曹操才进一步夺取河北。官渡之后的北方整合经历了数年。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-warlord-contest-xun-yu",
+    "source": "warlord-contest",
+    "target": "xun-yu",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "荀彧在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "196—208年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-10",
+        "locator": "荀彧传：迎天子、官渡与进爵议论及裴注",
+        "note": "他为曹操推荐人才并参与重要决策，主张迎奉汉帝。其政治理想与曹操权势增长之间后来出现张力，本传记他反对进爵国公的议论；死亡经过有不同记载。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-warlord-contest-liu-bei",
+    "source": "warlord-contest",
+    "target": "liu-bei",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "刘备在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "196—208年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传开篇、建安末及章武元年记事",
+        "note": "记述刘备生平、称帝及对吴作战。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-warlord-contest-sun-ce",
+    "source": "warlord-contest",
+    "target": "sun-ce",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "孙策在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "196—208年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-46",
+        "locator": "孙策传：江东发展及临终托付段",
+        "note": "记述孙策事业与将事业交给孙权。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传开篇",
+        "note": "孙权本传明记孙策为其兄。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-warlord-contest-sun-quan",
+    "source": "warlord-contest",
+    "target": "sun-quan",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "孙权在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "196—208年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传开篇、建安十三年及黄龙元年记事",
+        "note": "记述承接孙策事业、赤壁派兵及称帝。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-warlord-contest-zhuge-liang",
+    "source": "warlord-contest",
+    "target": "zhuge-liang",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "诸葛亮在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "196—208年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：刘备三次拜访、出使孙权、拜相诸段",
+        "note": "记述君臣相遇、外交活动及丞相任命。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-warlord-contest-zhou-yu",
+    "source": "warlord-contest",
+    "target": "zhou-yu",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "周瑜在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "196—208年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传：与孙策交往、辅佐孙权及赤壁战事诸段",
+        "note": "记述周瑜的从属关系与统兵活动。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-warlord-contest-lu-su",
+    "source": "warlord-contest",
+    "target": "lu-su",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "鲁肃在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "196—208年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-54",
+        "locator": "鲁肃传：初见孙权、联络刘备与赤壁谋划诸段",
+        "note": "记述战略建议、促成合作及赞军校尉职责。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-warlord-contest-guandu",
+    "source": "warlord-contest",
+    "target": "guandu",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "200 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：建安五年官渡记事",
+        "note": "记述对袁绍作战及战果。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-warlord-contest-north-consolidation",
+    "source": "warlord-contest",
+    "target": "north-consolidation",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "202—207年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "建安七年至十二年：河北、乌桓战事",
+        "note": "袁绍死后，曹操利用其诸子分争继续作战，逐步控制河北；207年北征乌桓，消除袁氏残余力量的重要依托。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-warlord-contest-three-visits",
+    "source": "warlord-contest",
+    "target": "three-visits",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "建安年间",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：刘备拜访段、裴注引《魏略》《九州春秋》及《出师表》",
+        "note": "本传与表文叙及三顾；裴注保留诸葛亮先见刘备的异说，并说明裴松之对此的质疑。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-warlord-contest-changban",
+    "source": "warlord-contest",
+    "target": "changban",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "208 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：当阳长坂段",
+        "note": "记述追击与撤退。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "张飞传、赵云传：长坂段",
+        "note": "分别记述断后与保护家眷。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-warlord-contest-chibi",
+    "source": "warlord-contest",
+    "target": "chibi",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "208 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：建安十三年赤壁段",
+        "note": "记述曹操失利与退军。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：出使孙权段",
+        "note": "记述孙权遣周瑜等与刘备共同抵抗曹操。"
+      },
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传、鲁肃传：赤壁相关段落",
+        "note": "记述统兵、决策及联络职责。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-han-collapse-warlord-contest",
+    "source": "han-collapse",
+    "target": "warlord-contest",
+    "type": "sequence",
+    "label": "继续阅读",
+    "description": "由汉室衰落进入群雄竞争。分期边界重叠，章节顺序用于阅读组织。",
+    "period": "196年前后",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：建安十三年赤壁段",
+        "note": "记述曹操失利与退军。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：出使孙权段",
+        "note": "记述孙权遣周瑜等与刘备共同抵抗曹操。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：当阳长坂段",
+        "note": "记述追击与撤退。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "张飞传、赵云传：长坂段",
+        "note": "分别记述断后与保护家眷。"
+      },
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传、鲁肃传：赤壁相关段落",
+        "note": "记述统兵、决策及联络职责。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-three-founded-liu-bei",
+    "source": "three-founded",
+    "target": "liu-bei",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "刘备在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "208—229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传开篇、建安末及章武元年记事",
+        "note": "记述刘备生平、称帝及对吴作战。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-three-founded-sun-quan",
+    "source": "three-founded",
+    "target": "sun-quan",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "孙权在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "208—229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传开篇、建安十三年及黄龙元年记事",
+        "note": "记述承接孙策事业、赤壁派兵及称帝。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-three-founded-cao-pi",
+    "source": "three-founded",
+    "target": "cao-pi",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "曹丕在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "208—229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪开篇及黄初元年受禅段",
+        "note": "记述父子身份、继任魏王与称帝。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-three-founded-guan-yu",
+    "source": "three-founded",
+    "target": "guan-yu",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "关羽在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "208—229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-36",
+        "locator": "关羽传开篇及建安二十四年记事",
+        "note": "记述早年追随刘备、前将军任命及去世经过。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-three-founded-zhuge-liang",
+    "source": "three-founded",
+    "target": "zhuge-liang",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "诸葛亮在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "208—229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：刘备三次拜访、出使孙权、拜相诸段",
+        "note": "记述君臣相遇、外交活动及丞相任命。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-three-founded-lu-xun",
+    "source": "three-founded",
+    "target": "lu-xun",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "陆逊在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "208—229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-58",
+        "locator": "陆逊传：荆州、夷陵、石亭与晚年段",
+        "note": "他参与夺取荆州，222年受孙权委任统军抵抗刘备。夷陵获胜后又在石亭击败魏军，后任丞相。晚年卷入孙吴继承争议并遭责问。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-three-founded-lv-meng",
+    "source": "three-founded",
+    "target": "lv-meng",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "吕蒙在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "208—229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-54",
+        "locator": "吕蒙传：关羽北攻、取荆州及卒段",
+        "note": "他参与孙权集团的军事扩张，219年乘关羽北攻之机进取荆州。行动改变孙刘双方的控制区，也加深双方矛盾。读书进学的故事见其本传裴注。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-three-founded-liu-zhang",
+    "source": "three-founded",
+    "target": "liu-zhang",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "刘璋在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "208—229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-31",
+        "locator": "刘璋传：迎刘备、成都被围及降段",
+        "note": "他继承父亲刘焉在益州的地位，曾邀请刘备入蜀协助防御。双方后来交战，214年刘备围成都，刘璋投降。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-three-founded-yi-conquest",
+    "source": "three-founded",
+    "target": "yi-conquest",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "211—214年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安十六年至十九年入益州段",
+        "note": "刘璋请刘备入蜀，双方后来交战。214年成都投降，刘备取得益州这一战略基地。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-three-founded-hanzhong",
+    "source": "three-founded",
+    "target": "hanzhong",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "217—219 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安二十三至二十四年记事",
+        "note": "记述汉中战事与汉中王称号。"
+      },
+      {
+        "sourceId": "sgz-37",
+        "locator": "法正传：建安二十二年取汉中建议及二十四年定军山段",
+        "note": "本传在二十二年条记法正建议取汉中及刘备进兵，为本图 217 年起点提供依据；先主传的进兵记载列于二十三年。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "黄忠传：建安二十四年定军山段",
+        "note": "记述黄忠的战功。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-three-founded-jingzhou-loss",
+    "source": "three-founded",
+    "target": "jingzhou-loss",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "219年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-36",
+        "locator": "关羽传：攻樊、孙权袭后与关羽败亡段",
+        "note": "关羽北攻樊襄时，孙权派吕蒙等进取其后方。关羽败亡，刘备集团失去荆州的重要控制区。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-three-founded-wei-founding",
+    "source": "three-founded",
+    "target": "wei-founding",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "220年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪：黄初元年禅代段",
+        "note": "曹操死后，曹丕继承魏王地位，随后接受汉帝禅让并称帝，国号魏，都洛阳。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-three-founded-shu-founding",
+    "source": "three-founded",
+    "target": "shu-founding",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "221年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：章武元年即位段",
+        "note": "刘备在成都称帝，国号汉。后世为区别通常称蜀汉，其合法性主张是延续汉室。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-three-founded-yiling",
+    "source": "three-founded",
+    "target": "yiling",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "221—222 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：章武元年至二年伐吴段",
+        "note": "记述出兵与战败。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：黄武元年对刘备作战段",
+        "note": "记述陆逊等迎击刘备。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-three-founded-shu-wu-reconcile",
+    "source": "three-founded",
+    "target": "shu-wu-reconcile",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "223—229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：与吴通好、孙权称尊号段",
+        "note": "刘备去世后，蜀吴逐步修复关系。诸葛亮时期双方共同面对曹魏，229年吴称帝后蜀汉仍与其结盟。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-three-founded-wu-emperor",
+    "source": "three-founded",
+    "target": "wu-emperor",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：黄武元年及黄龙元年段",
+        "note": "孙权在222年使用黄武年号，229年称帝，后迁都建业。孙吴的势力形成早于称帝。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-warlord-contest-three-founded",
+    "source": "warlord-contest",
+    "target": "three-founded",
+    "type": "sequence",
+    "label": "继续阅读",
+    "description": "由群雄竞争进入三国鼎立。分期边界重叠，章节顺序用于阅读组织。",
+    "period": "208年前后",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：章武元年至二年伐吴段",
+        "note": "记述出兵与战败。"
+      },
+      {
+        "sourceId": "sgz-37",
+        "locator": "法正传：建安二十二年取汉中建议及二十四年定军山段",
+        "note": "本传在二十二年条记法正建议取汉中及刘备进兵，为本图 217 年起点提供依据；先主传的进兵记载列于二十三年。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "关羽传：攻樊、孙权袭后与关羽败亡段",
+        "note": "关羽北攻樊襄时，孙权派吕蒙等进取其后方。关羽败亡，刘备集团失去荆州的重要控制区。"
+      },
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪：黄初元年禅代段",
+        "note": "曹操死后，曹丕继承魏王地位，随后接受汉帝禅让并称帝，国号魏，都洛阳。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：黄武元年及黄龙元年段",
+        "note": "孙权在222年使用黄武年号，229年称帝，后迁都建业。孙吴的势力形成早于称帝。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：与吴通好、孙权称尊号段",
+        "note": "刘备去世后，蜀吴逐步修复关系。诸葛亮时期双方共同面对曹魏，229年吴称帝后蜀汉仍与其结盟。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-power-shifts-zhuge-liang",
+    "source": "power-shifts",
+    "target": "zhuge-liang",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "诸葛亮在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "228—263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：刘备三次拜访、出使孙权、拜相诸段",
+        "note": "记述君臣相遇、外交活动及丞相任命。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-power-shifts-jiang-wei",
+    "source": "power-shifts",
+    "target": "jiang-wei",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "姜维在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "228—263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-44",
+        "locator": "姜维传：归蜀、北伐、剑阁及钟会之乱段",
+        "note": "他在诸葛亮第一次北伐时由魏入蜀，后来多次率军攻魏。263年抵御钟会，得知刘禅降魏后放下武器；次年卷入钟会变乱而死。对其用兵得失，史书评语与后世评价并不一致。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-power-shifts-liu-shan",
+    "source": "power-shifts",
+    "target": "liu-shan",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "刘禅在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "228—263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-33",
+        "locator": "后主传：建兴元年及炎兴元年段",
+        "note": "他在刘备去世后继位，前期由诸葛亮等处理政务。263年魏军逼近成都时决定投降，蜀汉结束。评价国家衰亡时，还需要看军事、资源、用人和朝廷运行。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-power-shifts-cao-rui",
+    "source": "power-shifts",
+    "target": "cao-rui",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "曹叡在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "228—263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-03",
+        "locator": "明帝纪：太和、景初及临终托孤段",
+        "note": "他在曹丕死后继位，面对诸葛亮北伐和辽东问题。239年临终安排曹爽、司马懿辅佐年幼的曹芳，这一安排构成后来权力竞争的背景。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-power-shifts-cao-shuang",
+    "source": "power-shifts",
+    "target": "cao-shuang",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "曹爽在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "228—263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-09",
+        "locator": "曹真传附曹爽：辅政与被诛段",
+        "note": "他受魏明帝遗命辅佐曹芳，与司马懿同掌辅政。后来集中权力，引起司马氏反击。249年随皇帝出城谒陵时遭政变，交出权力后被诛。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-power-shifts-sima-yi",
+    "source": "power-shifts",
+    "target": "sima-yi",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "司马懿在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "228—263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-01",
+        "locator": "宣帝纪：仕魏、对蜀作战及嘉平元年段",
+        "note": "他先后在曹操、曹丕、曹叡时期任职，曾与诸葛亮在军事上对抗。249年发动高平陵政变除掉曹爽集团。晋建立后追尊他为宣帝，他生前并未建立晋朝。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-power-shifts-sima-shi",
+    "source": "power-shifts",
+    "target": "sima-shi",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "司马师在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "228—263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-02",
+        "locator": "景帝纪：嘉平六年废立、正元二年出征段",
+        "note": "司马懿死后，他继掌大权，254年废曹芳、立曹髦。255年镇压毌丘俭、文钦反抗后病死，权力转到司马昭手中。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-power-shifts-sima-zhao",
+    "source": "power-shifts",
+    "target": "sima-zhao",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "司马昭在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "228—263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-02",
+        "locator": "文帝纪：继掌大权、伐蜀及封晋王段",
+        "note": "他继司马师掌权，263年组织伐蜀，随后进爵晋王。其子司马炎在他死后完成代魏。司马昭生前仍以魏臣身份执政。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-power-shifts-northern-expeditions",
+    "source": "power-shifts",
+    "target": "northern-expeditions",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "228—234年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：建兴六年至十二年北伐段",
+        "note": "诸葛亮多次出兵攻魏，面临山地交通、粮运与防守等困难，234年在军中病逝。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-power-shifts-wei-regency",
+    "source": "power-shifts",
+    "target": "wei-regency",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "239年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-03",
+        "locator": "明帝纪：景初三年临终托孤段",
+        "note": "曹叡去世，曹芳继位，由曹爽、司马懿辅政。幼主与辅臣的权力配置成为魏国内政的重要问题。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-power-shifts-gaopingling",
+    "source": "power-shifts",
+    "target": "gaopingling",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "249年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-01",
+        "locator": "宣帝纪：嘉平元年高平陵段",
+        "note": "曹爽随曹芳谒高平陵时，司马懿控制洛阳，迫使曹爽交权后诛杀其集团。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-power-shifts-sima-control",
+    "source": "power-shifts",
+    "target": "sima-control",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "251—265年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-02",
+        "locator": "景帝纪、文帝纪：继政、废立与伐蜀段",
+        "note": "司马懿死后，司马师、司马昭先后掌权。废立、镇压反抗及灭蜀逐渐加强司马氏地位。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-power-shifts-wei-conquers-shu",
+    "source": "power-shifts",
+    "target": "wei-conquers-shu",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传：景元年间伐蜀；参后主传炎兴元年",
+        "note": "司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-three-founded-power-shifts",
+    "source": "three-founded",
+    "target": "power-shifts",
+    "type": "sequence",
+    "label": "继续阅读",
+    "description": "由三国鼎立进入政权转折。分期边界重叠，章节顺序用于阅读组织。",
+    "period": "228年前后",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：建兴六年至十二年北伐段",
+        "note": "诸葛亮多次出兵攻魏，面临山地交通、粮运与防守等困难，234年在军中病逝。"
+      },
+      {
+        "sourceId": "sgz-03",
+        "locator": "明帝纪：景初三年临终托孤段",
+        "note": "曹叡去世，曹芳继位，由曹爽、司马懿辅政。幼主与辅臣的权力配置成为魏国内政的重要问题。"
+      },
+      {
+        "sourceId": "jin-01",
+        "locator": "宣帝纪：嘉平元年高平陵段",
+        "note": "曹爽随曹芳谒高平陵时，司马懿控制洛阳，迫使曹爽交权后诛杀其集团。"
+      },
+      {
+        "sourceId": "jin-02",
+        "locator": "景帝纪、文帝纪：继政、废立与伐蜀段",
+        "note": "司马懿死后，司马师、司马昭先后掌权。废立、镇压反抗及灭蜀逐渐加强司马氏地位。"
+      },
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传：景元年间伐蜀；参后主传炎兴元年",
+        "note": "司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-road-to-unity-sima-zhao",
+    "source": "road-to-unity",
+    "target": "sima-zhao",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "司马昭在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "263—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-02",
+        "locator": "文帝纪：继掌大权、伐蜀及封晋王段",
+        "note": "他继司马师掌权，263年组织伐蜀，随后进爵晋王。其子司马炎在他死后完成代魏。司马昭生前仍以魏臣身份执政。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-road-to-unity-sima-yan",
+    "source": "road-to-unity",
+    "target": "sima-yan",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "司马炎在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "263—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：泰始元年及太康元年段",
+        "note": "他继承父亲司马昭的权位，代魏建立晋。280年命多路军队灭吴，结束三国分立。统一后的政治整合仍有难题，晋朝后来的动荡超出本图主要范围。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-road-to-unity-deng-ai",
+    "source": "road-to-unity",
+    "target": "deng-ai",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "邓艾在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "263—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾传：阴平、绵竹、成都与被诛段",
+        "note": "他长期在西部对蜀作战。263年从阴平险道进军，经绵竹逼近成都，促成刘禅投降。战后被收押，264年在变乱中被杀。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-road-to-unity-zhong-hui",
+    "source": "road-to-unity",
+    "target": "zhong-hui",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "钟会在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "263—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-28",
+        "locator": "钟会传：伐蜀及成都变乱段",
+        "note": "他奉司马昭命参与伐蜀，主力军与姜维相持剑阁。蜀汉投降后，他试图控制军队另立局面，264年兵变中被杀。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-road-to-unity-liu-shan",
+    "source": "road-to-unity",
+    "target": "liu-shan",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "刘禅在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "263—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-33",
+        "locator": "后主传：建兴元年及炎兴元年段",
+        "note": "他在刘备去世后继位，前期由诸葛亮等处理政务。263年魏军逼近成都时决定投降，蜀汉结束。评价国家衰亡时，还需要看军事、资源、用人和朝廷运行。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-road-to-unity-jiang-wei",
+    "source": "road-to-unity",
+    "target": "jiang-wei",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "姜维在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "263—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-44",
+        "locator": "姜维传：归蜀、北伐、剑阁及钟会之乱段",
+        "note": "他在诸葛亮第一次北伐时由魏入蜀，后来多次率军攻魏。263年抵御钟会，得知刘禅降魏后放下武器；次年卷入钟会变乱而死。对其用兵得失，史书评语与后世评价并不一致。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-road-to-unity-yang-hu",
+    "source": "road-to-unity",
+    "target": "yang-hu",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "羊祜在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "263—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-34",
+        "locator": "羊祜传：镇荆州、伐吴筹划与荐杜预段",
+        "note": "他经营荆州边防，积累粮储并提出攻吴计划。他在总攻前病逝，曾推荐杜预接任；灭吴不能记作羊祜亲自指挥的战役。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-road-to-unity-du-yu",
+    "source": "road-to-unity",
+    "target": "du-yu",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "杜预在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "263—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-34",
+        "locator": "杜预传：伐吴、克江陵与著述段",
+        "note": "他接替羊祜镇守荆州，参与晋灭吴，攻克江陵。同时研读《左传》，撰成《春秋经传集解》，展现军事与学术两方面的活动。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-road-to-unity-wang-jun",
+    "source": "road-to-unity",
+    "target": "wang-jun",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "王濬在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "263—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-42",
+        "locator": "王濬传：益州造船、东下及受降段",
+        "note": "他在益州造船练军，伐吴时率舟师顺江而下，抵达建业并接受孙皓投降。长江航运、造船和多军配合都是理解这场战争的重要线索。"
+      }
+    ]
+  },
+  {
+    "id": "history-figure-road-to-unity-sun-hao",
+    "source": "road-to-unity",
+    "target": "sun-hao",
+    "type": "figure",
+    "label": "阶段人物",
+    "description": "孙皓在本阶段活动或与阶段转折有关；这条线用于人物索引。",
+    "period": "263—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-48",
+        "locator": "孙皓传：即位、施政及天纪四年降晋段",
+        "note": "他在264年即位，统治中刑罚与征役苛重，朝廷存在激烈矛盾。280年晋军多路进攻，建业失守前他出降，孙吴结束。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-road-to-unity-wei-conquers-shu",
+    "source": "road-to-unity",
+    "target": "wei-conquers-shu",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传：景元年间伐蜀；参后主传炎兴元年",
+        "note": "司马昭组织伐蜀，钟会与姜维相持剑阁，邓艾从阴平进军逼近成都，刘禅投降。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-road-to-unity-chengdu-mutiny",
+    "source": "road-to-unity",
+    "target": "chengdu-mutiny",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "264年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传末；参姜维传末",
+        "note": "邓艾被收押，钟会图谋自立，姜维参与其事。兵变爆发，钟会、姜维被杀，邓艾也随后遇害。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-road-to-unity-jin-founding",
+    "source": "road-to-unity",
+    "target": "jin-founding",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "265—266年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：咸熙二年、泰始元年禅代段",
+        "note": "司马炎继承晋王权位后接受曹奂禅让，国号晋，都洛阳。传统年表记265年；禅代仪式在咸熙二年十二月，公历已跨入266年。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-road-to-unity-prepare-wu",
+    "source": "road-to-unity",
+    "target": "prepare-wu",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "269—279年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-34",
+        "locator": "羊祜杜预传：镇荆州与伐吴议；参王濬传造船段",
+        "note": "羊祜经营荆州并建议伐吴，王濬在益州造船练军，杜预继任荆州方向。进攻决定也经历朝廷内部讨论。"
+      }
+    ]
+  },
+  {
+    "id": "history-chapter-event-road-to-unity-jin-unification",
+    "source": "road-to-unity",
+    "target": "jin-unification",
+    "type": "chapter-event",
+    "label": "阶段事件",
+    "description": "该事件是理解本阅读阶段的线索；阶段归类属于编辑组织。",
+    "period": "279—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：咸宁五年冬、太康元年灭吴段",
+        "note": "晋军分路攻吴，杜预等从荆州进攻，王濬舟师顺江抵达建业。280年孙皓投降，三国分立结束。"
+      }
+    ]
+  },
+  {
+    "id": "history-sequence-power-shifts-road-to-unity",
+    "source": "power-shifts",
+    "target": "road-to-unity",
+    "type": "sequence",
+    "label": "继续阅读",
+    "description": "由政权转折进入走向统一。分期边界重叠，章节顺序用于阅读组织。",
+    "period": "263年前后",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-28",
+        "locator": "邓艾、钟会传末；参姜维传末",
+        "note": "邓艾被收押，钟会图谋自立，姜维参与其事。兵变爆发，钟会、姜维被杀，邓艾也随后遇害。"
+      },
+      {
+        "sourceId": "jin-03",
+        "locator": "武帝纪：咸宁五年冬、太康元年灭吴段",
+        "note": "晋军分路攻吴，杜预等从荆州进攻，王濬舟师顺江抵达建业。280年孙皓投降，三国分立结束。"
+      },
+      {
+        "sourceId": "jin-34",
+        "locator": "羊祜杜预传：镇荆州与伐吴议；参王濬传造船段",
+        "note": "羊祜经营荆州并建议伐吴，王濬在益州造船练军，杜预继任荆州方向。进攻决定也经历朝廷内部讨论。"
+      }
+    ]
+  },
+  {
+    "id": "history-affiliation-liu-xie-eastern-han",
+    "source": "liu-xie",
+    "target": "eastern-han",
+    "type": "affiliation",
+    "label": "末代皇帝",
+    "description": "汉献帝与东汉的关系为末代皇帝。",
+    "period": "181—234年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-02",
+        "locator": "本纪或本传相应段落",
+        "note": "末代皇帝"
+      }
+    ]
+  },
+  {
+    "id": "history-affiliation-sima-yan-western-jin",
+    "source": "sima-yan",
+    "target": "western-jin",
+    "type": "affiliation",
+    "label": "建立西晋",
+    "description": "司马炎与西晋的关系为建立西晋。",
+    "period": "236—290年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-03",
+        "locator": "本纪或本传相应段落",
+        "note": "建立西晋"
+      }
+    ]
+  },
+  {
+    "id": "history-affiliation-sima-yi-wei",
+    "source": "sima-yi",
+    "target": "wei",
+    "type": "affiliation",
+    "label": "仕魏掌权",
+    "description": "司马懿与曹魏势力的关系为仕魏掌权。",
+    "period": "179—251年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-01",
+        "locator": "本纪或本传相应段落",
+        "note": "仕魏掌权"
+      }
+    ]
+  },
+  {
+    "id": "history-affiliation-liu-shan-shu",
+    "source": "liu-shan",
+    "target": "shu",
+    "type": "affiliation",
+    "label": "继位蜀汉",
+    "description": "刘禅与蜀汉势力的关系为继位蜀汉。",
+    "period": "207—271年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-33",
+        "locator": "本纪或本传相应段落",
+        "note": "继位蜀汉"
+      }
+    ]
+  },
+  {
+    "id": "history-affiliation-sun-hao-wu",
+    "source": "sun-hao",
+    "target": "wu",
+    "type": "affiliation",
+    "label": "末代皇帝",
+    "description": "孙皓与孙吴势力的关系为末代皇帝。",
+    "period": "242—284年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-48",
+        "locator": "本纪或本传相应段落",
+        "note": "末代皇帝"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-han-collapse-sun-jian",
+    "source": "han-collapse",
+    "target": "sun-jian",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "汉室衰落与孙坚的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "生年有异说—191/192年（卒年有不同系年）",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-46",
+        "locator": "孙坚传：征黄巾、讨董及攻刘表段",
+        "note": "他参加镇压黄巾与讨董战争，在江东孙氏兴起之前已建立军事声望。攻刘表时战死，其子孙策、孙权后来继续经营。卒年在不同史料系年中有差异。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-han-collapse-yuan-shu",
+    "source": "han-collapse",
+    "target": "yuan-shu",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "汉室衰落与袁术的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "生年不详—199年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁术传：淮南、称帝及败亡段",
+        "note": "他一度控制淮南，曾与孙坚等合作。197年在寿春称帝后面临多方反对，军事与粮食困境交织，199年败亡。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-warlord-contest-yuan-shu",
+    "source": "warlord-contest",
+    "target": "yuan-shu",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "群雄竞争与袁术的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "生年不详—199年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁术传：淮南、称帝及败亡段",
+        "note": "他一度控制淮南，曾与孙坚等合作。197年在寿春称帝后面临多方反对，军事与粮食困境交织，199年败亡。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-han-collapse-liu-biao",
+    "source": "han-collapse",
+    "target": "liu-biao",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "汉室衰落与刘表的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "142—208年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "刘表传：入荆州、士人归附及卒后局势",
+        "note": "他在汉末经营荆州，接纳部分避乱士人，也与周边势力交战。208年去世后，继承安排和曹操南下使荆州局势迅速变化。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-warlord-contest-liu-biao",
+    "source": "warlord-contest",
+    "target": "liu-biao",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "群雄竞争与刘表的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "142—208年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "刘表传：入荆州、士人归附及卒后局势",
+        "note": "他在汉末经营荆州，接纳部分避乱士人，也与周边势力交战。208年去世后，继承安排和曹操南下使荆州局势迅速变化。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-three-founded-fa-zheng",
+    "source": "three-founded",
+    "target": "fa-zheng",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "三国鼎立与法正的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "176—220年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-37",
+        "locator": "法正传：迎刘备、益州及汉中段",
+        "note": "他原在刘璋部下，转而协助刘备取得益州，并参与汉中战略谋划。谋士的判断需要放在地理、资源和联盟变化中理解。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-three-founded-pang-tong",
+    "source": "three-founded",
+    "target": "pang-tong",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "三国鼎立与庞统的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "179—214年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-37",
+        "locator": "庞统传：入蜀谋议及雒城段",
+        "note": "他为刘备谋划益州行动，在围攻雒城时中流矢而死。其角色与诸葛亮各有分工，具体谋略见本传。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-warlord-contest-ma-chao",
+    "source": "warlord-contest",
+    "target": "ma-chao",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "群雄竞争与马超的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "176—222年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-36",
+        "locator": "马超传：关中、依张鲁及归刘备段",
+        "note": "他曾在关中与曹操作战，后来归附刘备，并参与围成都的军事态势。其早年家族、关中局势与归属变化，应按不同时段理解。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-three-founded-ma-chao",
+    "source": "three-founded",
+    "target": "ma-chao",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "三国鼎立与马超的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "176—222年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-36",
+        "locator": "马超传：关中、依张鲁及归刘备段",
+        "note": "他曾在关中与曹操作战，后来归附刘备，并参与围成都的军事态势。其早年家族、关中局势与归属变化，应按不同时段理解。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-power-shifts-jiang-wan",
+    "source": "power-shifts",
+    "target": "jiang-wan",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "政权转折与蒋琬的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "生年不详—246年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-44",
+        "locator": "蒋琬传：继理国政及水道进军议",
+        "note": "诸葛亮去世后，他承担蜀汉中枢军政工作，维持政务与军事准备。他曾考虑调整进军路线，其构想受到讨论和限制。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-power-shifts-fei-yi",
+    "source": "power-shifts",
+    "target": "fei-yi",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "政权转折与费祎的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "生年不详—253年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-44",
+        "locator": "费祎传：使吴、军政与遇害段",
+        "note": "他参与蜀吴外交并接续蜀汉军政事务。任内对大规模攻魏采取较谨慎态度，253年遇刺身亡。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-warlord-contest-zhang-liao",
+    "source": "warlord-contest",
+    "target": "zhang-liao",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "群雄竞争与张辽的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "169—222年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-17",
+        "locator": "张辽传：归曹、合肥及卒年段",
+        "note": "他从吕布部下转入曹操集团，参与多场战争。215年合肥作战是其本传重点，其成绩与守军分工、战场形势有关。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-three-founded-zhang-liao",
+    "source": "three-founded",
+    "target": "zhang-liao",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "三国鼎立与张辽的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "169—222年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-17",
+        "locator": "张辽传：归曹、合肥及卒年段",
+        "note": "他从吕布部下转入曹操集团，参与多场战争。215年合肥作战是其本传重点，其成绩与守军分工、战场形势有关。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-warlord-contest-zhang-he",
+    "source": "warlord-contest",
+    "target": "zhang-he",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "群雄竞争与张郃的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "生年不详—231年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-17",
+        "locator": "张郃传：归曹、街亭及木门段",
+        "note": "他由袁绍集团归曹，在汉中与魏蜀战争中多次统军。228年街亭战事见其本传，231年追击蜀军时战死。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-power-shifts-zhang-he",
+    "source": "power-shifts",
+    "target": "zhang-he",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "政权转折与张郃的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "生年不详—231年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-17",
+        "locator": "张郃传：归曹、街亭及木门段",
+        "note": "他由袁绍集团归曹，在汉中与魏蜀战争中多次统军。228年街亭战事见其本传，231年追击蜀军时战死。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-warlord-contest-xu-huang",
+    "source": "warlord-contest",
+    "target": "xu-huang",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "群雄竞争与徐晃的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "生年不详—227年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-17",
+        "locator": "徐晃传：从征及樊城救援段",
+        "note": "他在曹操集团长期任将，219年奉命增援樊城，对关羽作战。这条线索体现战场补给、援军和荆州后方变化的共同作用。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-three-founded-xu-huang",
+    "source": "three-founded",
+    "target": "xu-huang",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "三国鼎立与徐晃的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "生年不详—227年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-17",
+        "locator": "徐晃传：从征及樊城救援段",
+        "note": "他在曹操集团长期任将，219年奉命增援樊城，对关羽作战。这条线索体现战场补给、援军和荆州后方变化的共同作用。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-warlord-contest-xun-you",
+    "source": "warlord-contest",
+    "target": "xun-you",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "群雄竞争与荀攸的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "157—214年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-10",
+        "locator": "荀攸传：从曹、官渡及卒段",
+        "note": "他参与曹操集团的军议，在官渡等战事中提出建议。应结合本传看具体情境与其他参与者的作用。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-three-founded-xun-you",
+    "source": "three-founded",
+    "target": "xun-you",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "三国鼎立与荀攸的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "157—214年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-10",
+        "locator": "荀攸传：从曹、官渡及卒段",
+        "note": "他参与曹操集团的军议，在官渡等战事中提出建议。应结合本传看具体情境与其他参与者的作用。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-warlord-contest-jia-xu",
+    "source": "warlord-contest",
+    "target": "jia-xu",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "群雄竞争与贾诩的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "147—223年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-10",
+        "locator": "贾诩传：李傕、张绣、归曹与拜太尉段",
+        "note": "他曾为李傕、张绣等效力，后来归曹，曹丕时任太尉。其经历显示汉末政治关系变化；同一人物在不同阶段的建议可能服务于不同目标。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-three-founded-jia-xu",
+    "source": "three-founded",
+    "target": "jia-xu",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "三国鼎立与贾诩的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "147—223年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-10",
+        "locator": "贾诩传：李傕、张绣、归曹与拜太尉段",
+        "note": "他曾为李傕、张绣等效力，后来归曹，曹丕时任太尉。其经历显示汉末政治关系变化；同一人物在不同阶段的建议可能服务于不同目标。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-warlord-contest-guo-jia",
+    "source": "warlord-contest",
+    "target": "guo-jia",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "群雄竞争与郭嘉的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "170—207年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-14",
+        "locator": "郭嘉传：论势、北征及卒段",
+        "note": "他向曹操分析对手与战局，参与对吕布、袁氏及乌桓的战略讨论。207年去世；关于他若在赤壁会怎样，属于事后推想。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-power-shifts-lu-kang",
+    "source": "power-shifts",
+    "target": "lu-kang",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "政权转折与陆抗的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "226—274年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-58",
+        "locator": "陆抗传：继业、西陵及卒段",
+        "note": "他继陆逊之后承担孙吴西部防御，272年西陵战事是其重要经历。274年去世，未亲历280年晋灭吴。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-road-to-unity-lu-kang",
+    "source": "road-to-unity",
+    "target": "lu-kang",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "走向统一与陆抗的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "226—274年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-58",
+        "locator": "陆抗传：继业、西陵及卒段",
+        "note": "他继陆逊之后承担孙吴西部防御，272年西陵战事是其重要经历。274年去世，未亲历280年晋灭吴。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-road-to-unity-chen-shou",
+    "source": "road-to-unity",
+    "target": "chen-shou",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "走向统一与陈寿的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "233—297年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-82",
+        "locator": "陈寿传：仕蜀入晋及修三国志段",
+        "note": "他早年仕蜀，入晋后整理魏蜀吴历史，撰成《三国志》。其修史活动延伸至280年以后，作为理解本专题资料形成的延伸阅读。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-three-founded-chen-qun",
+    "source": "three-founded",
+    "target": "chen-qun",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "三国鼎立与陈群的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "生年不详—236年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-22",
+        "locator": "陈群传：九品官人法及辅政段",
+        "note": "他在曹丕时期参与制定九品官人法，后参与辅政。官员评价、地方声望与门第关系，是理解这一制度及其后续变化的重要线索。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-power-shifts-chen-qun",
+    "source": "power-shifts",
+    "target": "chen-qun",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "政权转折与陈群的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "生年不详—236年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-22",
+        "locator": "陈群传：九品官人法及辅政段",
+        "note": "他在曹丕时期参与制定九品官人法，后参与辅政。官员评价、地方声望与门第关系，是理解这一制度及其后续变化的重要线索。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-warlord-contest-ren-jun",
+    "source": "warlord-contest",
+    "target": "ren-jun",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "群雄竞争与任峻的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "生年不详—204年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-16",
+        "locator": "任峻传：屯田、官渡粮运及卒段",
+        "note": "枣祗提出屯田建议后，任峻任典农中郎将，在许下组织屯田。官渡时又负责军器和粮运，显示生产组织对战争的支撑。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-warlord-contest-cai-yan",
+    "source": "warlord-contest",
+    "target": "cai-yan",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "群雄竞争与蔡琰的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "生卒年不详 · 汉末",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-84",
+        "locator": "列女传：董祀妻蔡琰段",
+        "note": "她在战争中流离，被掳往北方，后来归汉。本传记其文学与记忆文献的能力，保存了女性经历战争创伤的线索；归汉时间与文学作品的细节需结合材料审慎理解。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-three-founded-cai-yan",
+    "source": "three-founded",
+    "target": "cai-yan",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "三国鼎立与蔡琰的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "生卒年不详 · 汉末",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-84",
+        "locator": "列女传：董祀妻蔡琰段",
+        "note": "她在战争中流离，被掳往北方，后来归汉。本传记其文学与记忆文献的能力，保存了女性经历战争创伤的线索；归汉时间与文学作品的细节需结合材料审慎理解。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-warlord-contest-hua-tuo",
+    "source": "warlord-contest",
+    "target": "hua-tuo",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "群雄竞争与华佗的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "生卒年不详 · 汉末",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-29",
+        "locator": "方技传：华佗传诊治、五禽戏及被杀段",
+        "note": "本传记其诊治、养生方法及与曹操的冲突。关于麻沸散等记录，药方与操作细节未完整传世，古代记述不能直接当作现代医疗方法使用。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-three-founded-cao-zhi",
+    "source": "three-founded",
+    "target": "cao-zhi",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "三国鼎立与曹植的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "192—232年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-19",
+        "locator": "陈思王植传：文学、继承竞争与封国段",
+        "note": "他是曹操之子，与曹丕有兄弟及继承竞争关系。曹魏时期受封，其诗赋留下丰富情感与文学想象。《洛神赋》的神女叙事属于文学创作。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-warlord-contest-wang-can",
+    "source": "warlord-contest",
+    "target": "wang-can",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "群雄竞争与王粲的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "177—217年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-21",
+        "locator": "王粲传：避乱荆州、归曹及著述段",
+        "note": "他避乱荆州，后来进入曹操集团，擅长辞赋。其经历和《登楼赋》可帮助理解士人迁徙、乡土记忆与建安文学。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-figure-three-founded-wang-can",
+    "source": "three-founded",
+    "target": "wang-can",
+    "type": "figure",
+    "label": "时代人物",
+    "description": "三国鼎立与王粲的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "177—217年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-21",
+        "locator": "王粲传：避乱荆州、归曹及著述段",
+        "note": "他避乱荆州，后来进入曹操集团，擅长辞赋。其经历和《登楼赋》可帮助理解士人迁徙、乡土记忆与建安文学。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-sun-jian-yellow-turbans",
+    "source": "sun-jian",
+    "target": "yellow-turbans",
+    "type": "event",
+    "label": "参与汉军征讨",
+    "description": "孙坚在黄巾起事中的作用：参与汉军征讨。",
+    "period": "184年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-46",
+        "locator": "孙坚传：征黄巾、讨董及攻刘表段",
+        "note": "他参加镇压黄巾与讨董战争，在江东孙氏兴起之前已建立军事声望。攻刘表时战死，其子孙策、孙权后来继续经营。卒年在不同史料系年中有差异。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-sun-jian-anti-dong",
+    "source": "sun-jian",
+    "target": "anti-dong",
+    "type": "event",
+    "label": "参与讨董",
+    "description": "孙坚在诸侯讨董中的作用：参与讨董。",
+    "period": "190—192年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-46",
+        "locator": "孙坚传：征黄巾、讨董及攻刘表段",
+        "note": "他参加镇压黄巾与讨董战争，在江东孙氏兴起之前已建立军事声望。攻刘表时战死，其子孙策、孙权后来继续经营。卒年在不同史料系年中有差异。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-yuan-shu-anti-dong",
+    "source": "yuan-shu",
+    "target": "anti-dong",
+    "type": "event",
+    "label": "讨董联盟时期的诸侯",
+    "description": "袁术在诸侯讨董中的作用：讨董联盟时期的诸侯。",
+    "period": "190—192年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁术传：淮南、称帝及败亡段",
+        "note": "他一度控制淮南，曾与孙坚等合作。197年在寿春称帝后面临多方反对，军事与粮食困境交织，199年败亡。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-liu-biao-chibi",
+    "source": "liu-biao",
+    "target": "chibi",
+    "type": "event",
+    "label": "去世构成战前局势背景",
+    "description": "刘表在赤壁之战中的作用：去世构成战前局势背景。",
+    "period": "208 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "刘表传：入荆州、士人归附及卒后局势",
+        "note": "他在汉末经营荆州，接纳部分避乱士人，也与周边势力交战。208年去世后，继承安排和曹操南下使荆州局势迅速变化。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-fa-zheng-yi-conquest",
+    "source": "fa-zheng",
+    "target": "yi-conquest",
+    "type": "event",
+    "label": "参与入蜀谋划",
+    "description": "法正在刘备取益州中的作用：参与入蜀谋划。",
+    "period": "211—214年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-37",
+        "locator": "法正传：迎刘备、益州及汉中段",
+        "note": "他原在刘璋部下，转而协助刘备取得益州，并参与汉中战略谋划。谋士的判断需要放在地理、资源和联盟变化中理解。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-fa-zheng-hanzhong",
+    "source": "fa-zheng",
+    "target": "hanzhong",
+    "type": "event",
+    "label": "建议争取汉中",
+    "description": "法正在汉中之战中的作用：建议争取汉中。",
+    "period": "217—219 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-37",
+        "locator": "法正传：迎刘备、益州及汉中段",
+        "note": "他原在刘璋部下，转而协助刘备取得益州，并参与汉中战略谋划。谋士的判断需要放在地理、资源和联盟变化中理解。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-pang-tong-yi-conquest",
+    "source": "pang-tong",
+    "target": "yi-conquest",
+    "type": "event",
+    "label": "随军谋划并战死",
+    "description": "庞统在刘备取益州中的作用：随军谋划并战死。",
+    "period": "211—214年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-37",
+        "locator": "庞统传：入蜀谋议及雒城段",
+        "note": "他为刘备谋划益州行动，在围攻雒城时中流矢而死。其角色与诸葛亮各有分工，具体谋略见本传。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-ma-chao-yi-conquest",
+    "source": "ma-chao",
+    "target": "yi-conquest",
+    "type": "event",
+    "label": "归附刘备并形成军事压力",
+    "description": "马超在刘备取益州中的作用：归附刘备并形成军事压力。",
+    "period": "211—214年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-36",
+        "locator": "马超传：关中、依张鲁及归刘备段",
+        "note": "他曾在关中与曹操作战，后来归附刘备，并参与围成都的军事态势。其早年家族、关中局势与归属变化，应按不同时段理解。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-jiang-wan-northern-expeditions",
+    "source": "jiang-wan",
+    "target": "northern-expeditions",
+    "type": "event",
+    "label": "承担后方政务",
+    "description": "蒋琬在诸葛亮北伐中的作用：承担后方政务。",
+    "period": "228—234年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-44",
+        "locator": "蒋琬传：继理国政及水道进军议",
+        "note": "诸葛亮去世后，他承担蜀汉中枢军政工作，维持政务与军事准备。他曾考虑调整进军路线，其构想受到讨论和限制。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-fei-yi-shu-wu-reconcile",
+    "source": "fei-yi",
+    "target": "shu-wu-reconcile",
+    "type": "event",
+    "label": "出使与维系合作",
+    "description": "费祎在蜀吴复盟中的作用：出使与维系合作。",
+    "period": "223—229年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-44",
+        "locator": "费祎传：使吴、军政与遇害段",
+        "note": "他参与蜀吴外交并接续蜀汉军政事务。任内对大规模攻魏采取较谨慎态度，253年遇刺身亡。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-zhang-liao-guandu",
+    "source": "zhang-liao",
+    "target": "guandu",
+    "type": "event",
+    "label": "随曹操军征战",
+    "description": "张辽在官渡之战中的作用：随曹操军征战。",
+    "period": "200 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-17",
+        "locator": "张辽传：归曹、合肥及卒年段",
+        "note": "他从吕布部下转入曹操集团，参与多场战争。215年合肥作战是其本传重点，其成绩与守军分工、战场形势有关。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-zhang-he-northern-expeditions",
+    "source": "zhang-he",
+    "target": "northern-expeditions",
+    "type": "event",
+    "label": "魏方统军抵御",
+    "description": "张郃在诸葛亮北伐中的作用：魏方统军抵御。",
+    "period": "228—234年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-17",
+        "locator": "张郃传：归曹、街亭及木门段",
+        "note": "他由袁绍集团归曹，在汉中与魏蜀战争中多次统军。228年街亭战事见其本传，231年追击蜀军时战死。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-xu-huang-jingzhou-loss",
+    "source": "xu-huang",
+    "target": "jingzhou-loss",
+    "type": "event",
+    "label": "樊城救援构成同年战局一环",
+    "description": "徐晃在关羽失荆州中的作用：樊城救援构成同年战局一环。",
+    "period": "219年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-17",
+        "locator": "徐晃传：从征及樊城救援段",
+        "note": "他在曹操集团长期任将，219年奉命增援樊城，对关羽作战。这条线索体现战场补给、援军和荆州后方变化的共同作用。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-xun-you-guandu",
+    "source": "xun-you",
+    "target": "guandu",
+    "type": "event",
+    "label": "参与军议",
+    "description": "荀攸在官渡之战中的作用：参与军议。",
+    "period": "200 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-10",
+        "locator": "荀攸传：从曹、官渡及卒段",
+        "note": "他参与曹操集团的军议，在官渡等战事中提出建议。应结合本传看具体情境与其他参与者的作用。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-guo-jia-north-consolidation",
+    "source": "guo-jia",
+    "target": "north-consolidation",
+    "type": "event",
+    "label": "参与北方战略谋议",
+    "description": "郭嘉在整合北方中的作用：参与北方战略谋议。",
+    "period": "202—207年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-14",
+        "locator": "郭嘉传：论势、北征及卒段",
+        "note": "他向曹操分析对手与战局，参与对吕布、袁氏及乌桓的战略讨论。207年去世；关于他若在赤壁会怎样，属于事后推想。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-ren-jun-guandu",
+    "source": "ren-jun",
+    "target": "guandu",
+    "type": "event",
+    "label": "负责军器和粮运",
+    "description": "任峻在官渡之战中的作用：负责军器和粮运。",
+    "period": "200 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-16",
+        "locator": "任峻传：屯田、官渡粮运及卒段",
+        "note": "枣祗提出屯田建议后，任峻任典农中郎将，在许下组织屯田。官渡时又负责军器和粮运，显示生产组织对战争的支撑。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-chen-shou-wei-conquers-shu",
+    "source": "chen-shou",
+    "target": "wei-conquers-shu",
+    "type": "event",
+    "label": "其早年仕蜀经历涉及政权终结",
+    "description": "陈寿在魏灭蜀汉中的作用：其早年仕蜀经历涉及政权终结。",
+    "period": "263年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-82",
+        "locator": "陈寿传：仕蜀入晋及修三国志段",
+        "note": "他早年仕蜀，入晋后整理魏蜀吴历史，撰成《三国志》。其修史活动延伸至280年以后，作为理解本专题资料形成的延伸阅读。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-chen-shou-jin-unification",
+    "source": "chen-shou",
+    "target": "jin-unification",
+    "type": "event",
+    "label": "修史活动在晋统一前后展开",
+    "description": "陈寿在西晋统一中的作用：修史活动在晋统一前后展开。",
+    "period": "279—280年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-82",
+        "locator": "陈寿传：仕蜀入晋及修三国志段",
+        "note": "他早年仕蜀，入晋后整理魏蜀吴历史，撰成《三国志》。其修史活动延伸至280年以后，作为理解本专题资料形成的延伸阅读。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-lu-kang-prepare-wu",
+    "source": "lu-kang",
+    "target": "prepare-wu",
+    "type": "event",
+    "label": "吴西部守军对手，274年已去世",
+    "description": "陆抗在晋筹划伐吴中的作用：吴西部守军对手，274年已去世。",
+    "period": "269—279年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-58",
+        "locator": "陆抗传：继业、西陵及卒段",
+        "note": "他继陆逊之后承担孙吴西部防御，272年西陵战事是其重要经历。274年去世，未亲历280年晋灭吴。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-event-chen-qun-wei-founding",
+    "source": "chen-qun",
+    "target": "wei-founding",
+    "type": "event",
+    "label": "参与新政权官员选用制度",
+    "description": "陈群在曹丕代汉中的作用：参与新政权官员选用制度。",
+    "period": "220年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-22",
+        "locator": "陈群传：九品官人法及辅政段",
+        "note": "他在曹丕时期参与制定九品官人法，后参与辅政。官员评价、地方声望与门第关系，是理解这一制度及其后续变化的重要线索。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-kinship-sun-jian-sun-ce",
+    "source": "sun-jian",
+    "target": "sun-ce",
+    "type": "kinship",
+    "label": "父子",
+    "description": "孙坚与孙策：父子，具体时段和处境见本传。",
+    "period": "生年有异说—191/192年（卒年有不同系年）",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-46",
+        "locator": "孙坚、孙策本传",
+        "note": "父子"
+      }
+    ]
+  },
+  {
+    "id": "wave2-kinship-sun-jian-sun-quan",
+    "source": "sun-jian",
+    "target": "sun-quan",
+    "type": "kinship",
+    "label": "父子",
+    "description": "孙坚与孙权：父子，具体时段和处境见本传。",
+    "period": "生年有异说—191/192年（卒年有不同系年）",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-46",
+        "locator": "孙坚传及孙权家世",
+        "note": "父子"
+      }
+    ]
+  },
+  {
+    "id": "wave2-kinship-cao-cao-cao-zhi",
+    "source": "cao-cao",
+    "target": "cao-zhi",
+    "type": "kinship",
+    "label": "父子",
+    "description": "曹操与曹植：父子，具体时段和处境见本传。",
+    "period": "155—220 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-19",
+        "locator": "陈思王植传开篇",
+        "note": "父子"
+      }
+    ]
+  },
+  {
+    "id": "wave2-kinship-cao-pi-cao-zhi",
+    "source": "cao-pi",
+    "target": "cao-zhi",
+    "type": "kinship",
+    "label": "兄弟",
+    "description": "曹丕与曹植：兄弟，具体时段和处境见本传。",
+    "period": "187—226 年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-19",
+        "locator": "陈思王植传",
+        "note": "兄弟"
+      }
+    ]
+  },
+  {
+    "id": "wave2-kinship-lu-xun-lu-kang",
+    "source": "lu-xun",
+    "target": "lu-kang",
+    "type": "kinship",
+    "label": "父子",
+    "description": "陆逊与陆抗：父子，具体时段和处境见本传。",
+    "period": "183—245年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-58",
+        "locator": "陆抗传开篇",
+        "note": "父子"
+      }
+    ]
+  },
+  {
+    "id": "wave2-service-fa-zheng-liu-bei",
+    "source": "fa-zheng",
+    "target": "liu-bei",
+    "type": "service",
+    "label": "谋划与任职",
+    "description": "法正与刘备：谋划与任职，具体时段和处境见本传。",
+    "period": "176—220年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-37",
+        "locator": "法正传",
+        "note": "谋划与任职"
+      }
+    ]
+  },
+  {
+    "id": "wave2-service-pang-tong-liu-bei",
+    "source": "pang-tong",
+    "target": "liu-bei",
+    "type": "service",
+    "label": "随军谋划",
+    "description": "庞统与刘备：随军谋划，具体时段和处境见本传。",
+    "period": "179—214年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-37",
+        "locator": "庞统传",
+        "note": "随军谋划"
+      }
+    ]
+  },
+  {
+    "id": "wave2-service-jiang-wan-liu-shan",
+    "source": "jiang-wan",
+    "target": "liu-shan",
+    "type": "service",
+    "label": "蜀汉中枢任职",
+    "description": "蒋琬与刘禅：蜀汉中枢任职，具体时段和处境见本传。",
+    "period": "生年不详—246年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-44",
+        "locator": "蒋琬传",
+        "note": "蜀汉中枢任职"
+      }
+    ]
+  },
+  {
+    "id": "wave2-service-fei-yi-liu-shan",
+    "source": "fei-yi",
+    "target": "liu-shan",
+    "type": "service",
+    "label": "蜀汉中枢任职",
+    "description": "费祎与刘禅：蜀汉中枢任职，具体时段和处境见本传。",
+    "period": "生年不详—253年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-44",
+        "locator": "费祎传",
+        "note": "蜀汉中枢任职"
+      }
+    ]
+  },
+  {
+    "id": "wave2-service-zhang-liao-cao-cao",
+    "source": "zhang-liao",
+    "target": "cao-cao",
+    "type": "service",
+    "label": "统军效力",
+    "description": "张辽与曹操：统军效力，具体时段和处境见本传。",
+    "period": "169—222年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-17",
+        "locator": "张辽传",
+        "note": "统军效力"
+      }
+    ]
+  },
+  {
+    "id": "wave2-service-zhang-he-cao-cao",
+    "source": "zhang-he",
+    "target": "cao-cao",
+    "type": "service",
+    "label": "统军效力",
+    "description": "张郃与曹操：统军效力，具体时段和处境见本传。",
+    "period": "生年不详—231年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-17",
+        "locator": "张郃传",
+        "note": "统军效力"
+      }
+    ]
+  },
+  {
+    "id": "wave2-service-xu-huang-cao-cao",
+    "source": "xu-huang",
+    "target": "cao-cao",
+    "type": "service",
+    "label": "统军效力",
+    "description": "徐晃与曹操：统军效力，具体时段和处境见本传。",
+    "period": "生年不详—227年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-17",
+        "locator": "徐晃传",
+        "note": "统军效力"
+      }
+    ]
+  },
+  {
+    "id": "wave2-service-xun-you-cao-cao",
+    "source": "xun-you",
+    "target": "cao-cao",
+    "type": "service",
+    "label": "参与军议",
+    "description": "荀攸与曹操：参与军议，具体时段和处境见本传。",
+    "period": "157—214年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-10",
+        "locator": "荀攸传",
+        "note": "参与军议"
+      }
+    ]
+  },
+  {
+    "id": "wave2-service-guo-jia-cao-cao",
+    "source": "guo-jia",
+    "target": "cao-cao",
+    "type": "service",
+    "label": "分析与谋划",
+    "description": "郭嘉与曹操：分析与谋划，具体时段和处境见本传。",
+    "period": "170—207年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-14",
+        "locator": "郭嘉传",
+        "note": "分析与谋划"
+      }
+    ]
+  },
+  {
+    "id": "wave2-service-jia-xu-cao-pi",
+    "source": "jia-xu",
+    "target": "cao-pi",
+    "type": "service",
+    "label": "任太尉",
+    "description": "贾诩与曹丕：任太尉，具体时段和处境见本传。",
+    "period": "147—223年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-10",
+        "locator": "贾诩传",
+        "note": "任太尉"
+      }
+    ]
+  },
+  {
+    "id": "wave2-service-ren-jun-cao-cao",
+    "source": "ren-jun",
+    "target": "cao-cao",
+    "type": "service",
+    "label": "屯田与粮运",
+    "description": "任峻与曹操：屯田与粮运，具体时段和处境见本传。",
+    "period": "生年不详—204年",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-16",
+        "locator": "任峻传",
+        "note": "屯田与粮运"
+      }
+    ]
+  },
+  {
+    "id": "wave2-authorship-cao-zhi-luoshen-work",
+    "source": "cao-zhi",
+    "target": "luoshen-work",
+    "type": "authorship",
+    "label": "撰写",
+    "description": "曹植撰写《洛神赋》，作品内容与作者生平分别阅读。",
+    "period": "曹魏时期",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "wenxuan-19",
+        "locator": "洛神赋正文与序",
+        "note": "通过人与神女相遇的文学想象，表现情感、追求与失落。作品的叙事不能直接当作人物真实恋情或历史现场。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-authorship-chen-shou-sanguozhi-work",
+    "source": "chen-shou",
+    "target": "sanguozhi-work",
+    "type": "authorship",
+    "label": "撰写",
+    "description": "陈寿撰写《三国志》，作品内容与作者生平分别阅读。",
+    "period": "西晋（延伸阅读至280年以后）",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-82",
+        "locator": "陈寿传修三国志段",
+        "note": "陈寿整理魏蜀吴历史，以纪传组织人物和事件。后来的裴松之注补充异说；本传与注文应分别辨认。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-authorship-wang-can-denglou-work",
+    "source": "wang-can",
+    "target": "denglou-work",
+    "type": "authorship",
+    "label": "撰写",
+    "description": "王粲撰写《登楼赋》，作品内容与作者生平分别阅读。",
+    "period": "汉末（具体成篇时间存在讨论）",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "wenxuan-11",
+        "locator": "登楼赋及李善注",
+        "note": "王粲借登楼所见表达客居与思乡之情。作品可与避乱经历联系阅读，文学表达仍有其修辞和艺术安排。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-han-collapse-local-arms",
+    "source": "han-collapse",
+    "target": "local-arms",
+    "type": "background",
+    "label": "背景线索",
+    "description": "汉室衰落与地方武装与军阀的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "汉末",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：部曲、入京与诸侯起兵段",
+        "note": "朝廷调兵、地方募兵与强宗家兵交错，掌握武装的地方领袖逐步扩大权力。军阀兴起与宫廷冲突、战争和地方资源共同相关。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-dong-zhuo-local-arms",
+    "source": "dong-zhuo",
+    "target": "local-arms",
+    "type": "background",
+    "label": "背景关联",
+    "description": "董卓的经历或活动与地方武装与军阀有关，具体内容见双方介绍。",
+    "period": "汉末",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：部曲、入京与诸侯起兵段",
+        "note": "朝廷调兵、地方募兵与强宗家兵交错，掌握武装的地方领袖逐步扩大权力。军阀兴起与宫廷冲突、战争和地方资源共同相关。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-yuan-shao-local-arms",
+    "source": "yuan-shao",
+    "target": "local-arms",
+    "type": "background",
+    "label": "背景关联",
+    "description": "袁绍的经历或活动与地方武装与军阀有关，具体内容见双方介绍。",
+    "period": "汉末",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：部曲、入京与诸侯起兵段",
+        "note": "朝廷调兵、地方募兵与强宗家兵交错，掌握武装的地方领袖逐步扩大权力。军阀兴起与宫廷冲突、战争和地方资源共同相关。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-sun-jian-local-arms",
+    "source": "sun-jian",
+    "target": "local-arms",
+    "type": "background",
+    "label": "背景关联",
+    "description": "孙坚的经历或活动与地方武装与军阀有关，具体内容见双方介绍。",
+    "period": "汉末",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：部曲、入京与诸侯起兵段",
+        "note": "朝廷调兵、地方募兵与强宗家兵交错，掌握武装的地方领袖逐步扩大权力。军阀兴起与宫廷冲突、战争和地方资源共同相关。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-local-arms-dong-capital",
+    "source": "local-arms",
+    "target": "dong-capital",
+    "type": "background",
+    "label": "理解事件的背景",
+    "description": "地方武装与军阀提供理解董卓入洛的社会线索，关系并不表示单一原因。",
+    "period": "汉末",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：部曲、入京与诸侯起兵段",
+        "note": "朝廷调兵、地方募兵与强宗家兵交错，掌握武装的地方领袖逐步扩大权力。军阀兴起与宫廷冲突、战争和地方资源共同相关。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-local-arms-anti-dong",
+    "source": "local-arms",
+    "target": "anti-dong",
+    "type": "background",
+    "label": "理解事件的背景",
+    "description": "地方武装与军阀提供理解诸侯讨董的社会线索，关系并不表示单一原因。",
+    "period": "汉末",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "hhs-72",
+        "locator": "董卓列传：部曲、入京与诸侯起兵段",
+        "note": "朝廷调兵、地方募兵与强宗家兵交错，掌握武装的地方领袖逐步扩大权力。军阀兴起与宫廷冲突、战争和地方资源共同相关。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-warlord-contest-tuntian",
+    "source": "warlord-contest",
+    "target": "tuntian",
+    "type": "background",
+    "label": "背景线索",
+    "description": "群雄竞争与屯田与军粮的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "196年起 · 汉末魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-16",
+        "locator": "任峻传：许下屯田与官渡粮运",
+        "note": "曹操集团在许下组织屯田，枣祗倡议、任峻组织，农业收获支持军粮。生产恢复和征收安排同时影响耕作者生活，单看战场胜负难以解释持久战争。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-three-founded-tuntian",
+    "source": "three-founded",
+    "target": "tuntian",
+    "type": "background",
+    "label": "背景线索",
+    "description": "三国鼎立与屯田与军粮的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "196年起 · 汉末魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-16",
+        "locator": "任峻传：许下屯田与官渡粮运",
+        "note": "曹操集团在许下组织屯田，枣祗倡议、任峻组织，农业收获支持军粮。生产恢复和征收安排同时影响耕作者生活，单看战场胜负难以解释持久战争。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-cao-cao-tuntian",
+    "source": "cao-cao",
+    "target": "tuntian",
+    "type": "background",
+    "label": "背景关联",
+    "description": "曹操的经历或活动与屯田与军粮有关，具体内容见双方介绍。",
+    "period": "196年起 · 汉末魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-16",
+        "locator": "任峻传：许下屯田与官渡粮运",
+        "note": "曹操集团在许下组织屯田，枣祗倡议、任峻组织，农业收获支持军粮。生产恢复和征收安排同时影响耕作者生活，单看战场胜负难以解释持久战争。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-ren-jun-tuntian",
+    "source": "ren-jun",
+    "target": "tuntian",
+    "type": "background",
+    "label": "背景关联",
+    "description": "任峻的经历或活动与屯田与军粮有关，具体内容见双方介绍。",
+    "period": "196年起 · 汉末魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-16",
+        "locator": "任峻传：许下屯田与官渡粮运",
+        "note": "曹操集团在许下组织屯田，枣祗倡议、任峻组织，农业收获支持军粮。生产恢复和征收安排同时影响耕作者生活，单看战场胜负难以解释持久战争。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-tuntian-emperor-xu",
+    "source": "tuntian",
+    "target": "emperor-xu",
+    "type": "background",
+    "label": "理解事件的背景",
+    "description": "屯田与军粮提供理解迎帝迁许的社会线索，关系并不表示单一原因。",
+    "period": "196年起 · 汉末魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-16",
+        "locator": "任峻传：许下屯田与官渡粮运",
+        "note": "曹操集团在许下组织屯田，枣祗倡议、任峻组织，农业收获支持军粮。生产恢复和征收安排同时影响耕作者生活，单看战场胜负难以解释持久战争。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-tuntian-guandu",
+    "source": "tuntian",
+    "target": "guandu",
+    "type": "background",
+    "label": "理解事件的背景",
+    "description": "屯田与军粮提供理解官渡之战的社会线索，关系并不表示单一原因。",
+    "period": "196年起 · 汉末魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-16",
+        "locator": "任峻传：许下屯田与官渡粮运",
+        "note": "曹操集团在许下组织屯田，枣祗倡议、任峻组织，农业收获支持军粮。生产恢复和征收安排同时影响耕作者生活，单看战场胜负难以解释持久战争。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-han-collapse-war-migration",
+    "source": "han-collapse",
+    "target": "war-migration",
+    "type": "background",
+    "label": "背景线索",
+    "description": "汉室衰落与战乱与人口流徙的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "汉末至魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：董卓之乱、流民入荆州与还归关中",
+        "note": "战争使人们离开家乡，流民需要食物、土地与保护。士人可能依附新的地方领袖，普通家庭也承受离散与生计压力；史料户籍数字不能直接当作全部人口。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-warlord-contest-war-migration",
+    "source": "warlord-contest",
+    "target": "war-migration",
+    "type": "background",
+    "label": "背景线索",
+    "description": "群雄竞争与战乱与人口流徙的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "汉末至魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：董卓之乱、流民入荆州与还归关中",
+        "note": "战争使人们离开家乡，流民需要食物、土地与保护。士人可能依附新的地方领袖，普通家庭也承受离散与生计压力；史料户籍数字不能直接当作全部人口。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-road-to-unity-war-migration",
+    "source": "road-to-unity",
+    "target": "war-migration",
+    "type": "background",
+    "label": "背景线索",
+    "description": "走向统一与战乱与人口流徙的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "汉末至魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：董卓之乱、流民入荆州与还归关中",
+        "note": "战争使人们离开家乡，流民需要食物、土地与保护。士人可能依附新的地方领袖，普通家庭也承受离散与生计压力；史料户籍数字不能直接当作全部人口。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-cai-yan-war-migration",
+    "source": "cai-yan",
+    "target": "war-migration",
+    "type": "background",
+    "label": "背景关联",
+    "description": "蔡琰的经历或活动与战乱与人口流徙有关，具体内容见双方介绍。",
+    "period": "汉末至魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：董卓之乱、流民入荆州与还归关中",
+        "note": "战争使人们离开家乡，流民需要食物、土地与保护。士人可能依附新的地方领袖，普通家庭也承受离散与生计压力；史料户籍数字不能直接当作全部人口。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-wang-can-war-migration",
+    "source": "wang-can",
+    "target": "war-migration",
+    "type": "background",
+    "label": "背景关联",
+    "description": "王粲的经历或活动与战乱与人口流徙有关，具体内容见双方介绍。",
+    "period": "汉末至魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：董卓之乱、流民入荆州与还归关中",
+        "note": "战争使人们离开家乡，流民需要食物、土地与保护。士人可能依附新的地方领袖，普通家庭也承受离散与生计压力；史料户籍数字不能直接当作全部人口。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-liu-biao-war-migration",
+    "source": "liu-biao",
+    "target": "war-migration",
+    "type": "background",
+    "label": "背景关联",
+    "description": "刘表的经历或活动与战乱与人口流徙有关，具体内容见双方介绍。",
+    "period": "汉末至魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：董卓之乱、流民入荆州与还归关中",
+        "note": "战争使人们离开家乡，流民需要食物、土地与保护。士人可能依附新的地方领袖，普通家庭也承受离散与生计压力；史料户籍数字不能直接当作全部人口。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-war-migration-dong-capital",
+    "source": "war-migration",
+    "target": "dong-capital",
+    "type": "background",
+    "label": "理解事件的背景",
+    "description": "战乱与人口流徙提供理解董卓入洛的社会线索，关系并不表示单一原因。",
+    "period": "汉末至魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：董卓之乱、流民入荆州与还归关中",
+        "note": "战争使人们离开家乡，流民需要食物、土地与保护。士人可能依附新的地方领袖，普通家庭也承受离散与生计压力；史料户籍数字不能直接当作全部人口。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-war-migration-yi-conquest",
+    "source": "war-migration",
+    "target": "yi-conquest",
+    "type": "background",
+    "label": "理解事件的背景",
+    "description": "战乱与人口流徙提供理解刘备取益州的社会线索，关系并不表示单一原因。",
+    "period": "汉末至魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：董卓之乱、流民入荆州与还归关中",
+        "note": "战争使人们离开家乡，流民需要食物、土地与保护。士人可能依附新的地方领袖，普通家庭也承受离散与生计压力；史料户籍数字不能直接当作全部人口。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-three-founded-nine-ranks",
+    "source": "three-founded",
+    "target": "nine-ranks",
+    "type": "background",
+    "label": "背景线索",
+    "description": "三国鼎立与九品官人法的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "220年起",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-22",
+        "locator": "陈群传：制九品官人之法段",
+        "note": "陈群参与制定以品评为环节的官员选用办法。制度后来与家世、地方声望的关系日益复杂，各阶段作用有变化，应结合史料看具体运行。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-power-shifts-nine-ranks",
+    "source": "power-shifts",
+    "target": "nine-ranks",
+    "type": "background",
+    "label": "背景线索",
+    "description": "政权转折与九品官人法的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "220年起",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-22",
+        "locator": "陈群传：制九品官人之法段",
+        "note": "陈群参与制定以品评为环节的官员选用办法。制度后来与家世、地方声望的关系日益复杂，各阶段作用有变化，应结合史料看具体运行。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-chen-qun-nine-ranks",
+    "source": "chen-qun",
+    "target": "nine-ranks",
+    "type": "background",
+    "label": "背景关联",
+    "description": "陈群的经历或活动与九品官人法有关，具体内容见双方介绍。",
+    "period": "220年起",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-22",
+        "locator": "陈群传：制九品官人之法段",
+        "note": "陈群参与制定以品评为环节的官员选用办法。制度后来与家世、地方声望的关系日益复杂，各阶段作用有变化，应结合史料看具体运行。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-cao-pi-nine-ranks",
+    "source": "cao-pi",
+    "target": "nine-ranks",
+    "type": "background",
+    "label": "背景关联",
+    "description": "曹丕的经历或活动与九品官人法有关，具体内容见双方介绍。",
+    "period": "220年起",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-22",
+        "locator": "陈群传：制九品官人之法段",
+        "note": "陈群参与制定以品评为环节的官员选用办法。制度后来与家世、地方声望的关系日益复杂，各阶段作用有变化，应结合史料看具体运行。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-nine-ranks-wei-founding",
+    "source": "nine-ranks",
+    "target": "wei-founding",
+    "type": "background",
+    "label": "理解事件的背景",
+    "description": "九品官人法提供理解曹丕代汉的社会线索，关系并不表示单一原因。",
+    "period": "220年起",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-22",
+        "locator": "陈群传：制九品官人之法段",
+        "note": "陈群参与制定以品评为环节的官员选用办法。制度后来与家世、地方声望的关系日益复杂，各阶段作用有变化，应结合史料看具体运行。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-han-collapse-elite-families",
+    "source": "han-collapse",
+    "target": "elite-families",
+    "type": "background",
+    "label": "背景线索",
+    "description": "汉室衰落与门第与地方声望的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "汉末魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-22",
+        "locator": "陈群传开篇：陈寔陈纪家世、声望和交游",
+        "note": "一些家族累积官职、教育与地方名望，能够举荐和吸纳人才。士人、豪强与地方武装的关系各不相同，家庭出身也不能概括一个人的全部选择。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-power-shifts-elite-families",
+    "source": "power-shifts",
+    "target": "elite-families",
+    "type": "background",
+    "label": "背景线索",
+    "description": "政权转折与门第与地方声望的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "汉末魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-22",
+        "locator": "陈群传开篇：陈寔陈纪家世、声望和交游",
+        "note": "一些家族累积官职、教育与地方名望，能够举荐和吸纳人才。士人、豪强与地方武装的关系各不相同，家庭出身也不能概括一个人的全部选择。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-chen-qun-elite-families",
+    "source": "chen-qun",
+    "target": "elite-families",
+    "type": "background",
+    "label": "背景关联",
+    "description": "陈群的经历或活动与门第与地方声望有关，具体内容见双方介绍。",
+    "period": "汉末魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-22",
+        "locator": "陈群传开篇：陈寔陈纪家世、声望和交游",
+        "note": "一些家族累积官职、教育与地方名望，能够举荐和吸纳人才。士人、豪强与地方武装的关系各不相同，家庭出身也不能概括一个人的全部选择。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-xun-yu-elite-families",
+    "source": "xun-yu",
+    "target": "elite-families",
+    "type": "background",
+    "label": "背景关联",
+    "description": "荀彧的经历或活动与门第与地方声望有关，具体内容见双方介绍。",
+    "period": "汉末魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-22",
+        "locator": "陈群传开篇：陈寔陈纪家世、声望和交游",
+        "note": "一些家族累积官职、教育与地方名望，能够举荐和吸纳人才。士人、豪强与地方武装的关系各不相同，家庭出身也不能概括一个人的全部选择。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-elite-families-wei-regency",
+    "source": "elite-families",
+    "target": "wei-regency",
+    "type": "background",
+    "label": "理解事件的背景",
+    "description": "门第与地方声望提供理解曹魏托孤的社会线索，关系并不表示单一原因。",
+    "period": "汉末魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-22",
+        "locator": "陈群传开篇：陈寔陈纪家世、声望和交游",
+        "note": "一些家族累积官职、教育与地方名望，能够举荐和吸纳人才。士人、豪强与地方武装的关系各不相同，家庭出身也不能概括一个人的全部选择。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-elite-families-gaopingling",
+    "source": "elite-families",
+    "target": "gaopingling",
+    "type": "background",
+    "label": "理解事件的背景",
+    "description": "门第与地方声望提供理解高平陵政变的社会线索，关系并不表示单一原因。",
+    "period": "汉末魏晋",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-22",
+        "locator": "陈群传开篇：陈寔陈纪家世、声望和交游",
+        "note": "一些家族累积官职、教育与地方名望，能够举荐和吸纳人才。士人、豪强与地方武装的关系各不相同，家庭出身也不能概括一个人的全部选择。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-warlord-contest-jianan-culture",
+    "source": "warlord-contest",
+    "target": "jianan-culture",
+    "type": "background",
+    "label": "背景线索",
+    "description": "群雄竞争与建安文学与乱世表达的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "196—220年前后",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-21",
+        "locator": "王粲传及相关文学人物记事",
+        "note": "曹操、曹丕、曹植、王粲等人的诗文记录理想、求贤、流离与人生感受。文学活动与政治关系交织，作品中的情景须结合文体和创作背景理解。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-three-founded-jianan-culture",
+    "source": "three-founded",
+    "target": "jianan-culture",
+    "type": "background",
+    "label": "背景线索",
+    "description": "三国鼎立与建安文学与乱世表达的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "196—220年前后",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-21",
+        "locator": "王粲传及相关文学人物记事",
+        "note": "曹操、曹丕、曹植、王粲等人的诗文记录理想、求贤、流离与人生感受。文学活动与政治关系交织，作品中的情景须结合文体和创作背景理解。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-cao-cao-jianan-culture",
+    "source": "cao-cao",
+    "target": "jianan-culture",
+    "type": "background",
+    "label": "背景关联",
+    "description": "曹操的经历或活动与建安文学与乱世表达有关，具体内容见双方介绍。",
+    "period": "196—220年前后",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-21",
+        "locator": "王粲传及相关文学人物记事",
+        "note": "曹操、曹丕、曹植、王粲等人的诗文记录理想、求贤、流离与人生感受。文学活动与政治关系交织，作品中的情景须结合文体和创作背景理解。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-cao-pi-jianan-culture",
+    "source": "cao-pi",
+    "target": "jianan-culture",
+    "type": "background",
+    "label": "背景关联",
+    "description": "曹丕的经历或活动与建安文学与乱世表达有关，具体内容见双方介绍。",
+    "period": "196—220年前后",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-21",
+        "locator": "王粲传及相关文学人物记事",
+        "note": "曹操、曹丕、曹植、王粲等人的诗文记录理想、求贤、流离与人生感受。文学活动与政治关系交织，作品中的情景须结合文体和创作背景理解。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-cao-zhi-jianan-culture",
+    "source": "cao-zhi",
+    "target": "jianan-culture",
+    "type": "background",
+    "label": "背景关联",
+    "description": "曹植的经历或活动与建安文学与乱世表达有关，具体内容见双方介绍。",
+    "period": "196—220年前后",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-21",
+        "locator": "王粲传及相关文学人物记事",
+        "note": "曹操、曹丕、曹植、王粲等人的诗文记录理想、求贤、流离与人生感受。文学活动与政治关系交织，作品中的情景须结合文体和创作背景理解。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-wang-can-jianan-culture",
+    "source": "wang-can",
+    "target": "jianan-culture",
+    "type": "background",
+    "label": "背景关联",
+    "description": "王粲的经历或活动与建安文学与乱世表达有关，具体内容见双方介绍。",
+    "period": "196—220年前后",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-21",
+        "locator": "王粲传及相关文学人物记事",
+        "note": "曹操、曹丕、曹植、王粲等人的诗文记录理想、求贤、流离与人生感受。文学活动与政治关系交织，作品中的情景须结合文体和创作背景理解。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-three-founded-jiangdong-economy",
+    "source": "three-founded",
+    "target": "jiangdong-economy",
+    "type": "background",
+    "label": "背景线索",
+    "description": "三国鼎立与江东农业与水运的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "汉末至三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：陆逊劝农、吴主受田与三方军粮段",
+        "note": "孙吴统治需要粮食、船只和水路运输。农业组织与水军建设共同支持沿江防御，不能把长江视为自动保障安全的屏障。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-road-to-unity-jiangdong-economy",
+    "source": "road-to-unity",
+    "target": "jiangdong-economy",
+    "type": "background",
+    "label": "背景线索",
+    "description": "走向统一与江东农业与水运的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "汉末至三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：陆逊劝农、吴主受田与三方军粮段",
+        "note": "孙吴统治需要粮食、船只和水路运输。农业组织与水军建设共同支持沿江防御，不能把长江视为自动保障安全的屏障。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-sun-quan-jiangdong-economy",
+    "source": "sun-quan",
+    "target": "jiangdong-economy",
+    "type": "background",
+    "label": "背景关联",
+    "description": "孙权的经历或活动与江东农业与水运有关，具体内容见双方介绍。",
+    "period": "汉末至三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：陆逊劝农、吴主受田与三方军粮段",
+        "note": "孙吴统治需要粮食、船只和水路运输。农业组织与水军建设共同支持沿江防御，不能把长江视为自动保障安全的屏障。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-lu-xun-jiangdong-economy",
+    "source": "lu-xun",
+    "target": "jiangdong-economy",
+    "type": "background",
+    "label": "背景关联",
+    "description": "陆逊的经历或活动与江东农业与水运有关，具体内容见双方介绍。",
+    "period": "汉末至三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：陆逊劝农、吴主受田与三方军粮段",
+        "note": "孙吴统治需要粮食、船只和水路运输。农业组织与水军建设共同支持沿江防御，不能把长江视为自动保障安全的屏障。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-lu-kang-jiangdong-economy",
+    "source": "lu-kang",
+    "target": "jiangdong-economy",
+    "type": "background",
+    "label": "背景关联",
+    "description": "陆抗的经历或活动与江东农业与水运有关，具体内容见双方介绍。",
+    "period": "汉末至三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：陆逊劝农、吴主受田与三方军粮段",
+        "note": "孙吴统治需要粮食、船只和水路运输。农业组织与水军建设共同支持沿江防御，不能把长江视为自动保障安全的屏障。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-wang-jun-jiangdong-economy",
+    "source": "wang-jun",
+    "target": "jiangdong-economy",
+    "type": "background",
+    "label": "背景关联",
+    "description": "王濬的经历或活动与江东农业与水运有关，具体内容见双方介绍。",
+    "period": "汉末至三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：陆逊劝农、吴主受田与三方军粮段",
+        "note": "孙吴统治需要粮食、船只和水路运输。农业组织与水军建设共同支持沿江防御，不能把长江视为自动保障安全的屏障。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-jiangdong-economy-prepare-wu",
+    "source": "jiangdong-economy",
+    "target": "prepare-wu",
+    "type": "background",
+    "label": "理解事件的背景",
+    "description": "江东农业与水运提供理解晋筹划伐吴的社会线索，关系并不表示单一原因。",
+    "period": "汉末至三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：陆逊劝农、吴主受田与三方军粮段",
+        "note": "孙吴统治需要粮食、船只和水路运输。农业组织与水军建设共同支持沿江防御，不能把长江视为自动保障安全的屏障。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-jiangdong-economy-jin-unification",
+    "source": "jiangdong-economy",
+    "target": "jin-unification",
+    "type": "background",
+    "label": "理解事件的背景",
+    "description": "江东农业与水运提供理解西晋统一的社会线索，关系并不表示单一原因。",
+    "period": "汉末至三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：陆逊劝农、吴主受田与三方军粮段",
+        "note": "孙吴统治需要粮食、船只和水路运输。农业组织与水军建设共同支持沿江防御，不能把长江视为自动保障安全的屏障。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-han-collapse-war-burdens",
+    "source": "han-collapse",
+    "target": "war-burdens",
+    "type": "background",
+    "label": "背景线索",
+    "description": "汉室衰落与战争、赋役与百姓的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "汉末至三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：军旅、耕夫释耒与仓储不足段",
+        "note": "连年征战需要粮食、运输和劳力，可能打断耕作并加重家庭负担。不同地区政策与遭遇各异，理解统一过程也要看普通人的生活条件。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-power-shifts-war-burdens",
+    "source": "power-shifts",
+    "target": "war-burdens",
+    "type": "background",
+    "label": "背景线索",
+    "description": "政权转折与战争、赋役与百姓的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "汉末至三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：军旅、耕夫释耒与仓储不足段",
+        "note": "连年征战需要粮食、运输和劳力，可能打断耕作并加重家庭负担。不同地区政策与遭遇各异，理解统一过程也要看普通人的生活条件。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-road-to-unity-war-burdens",
+    "source": "road-to-unity",
+    "target": "war-burdens",
+    "type": "background",
+    "label": "背景线索",
+    "description": "走向统一与战争、赋役与百姓的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "汉末至三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：军旅、耕夫释耒与仓储不足段",
+        "note": "连年征战需要粮食、运输和劳力，可能打断耕作并加重家庭负担。不同地区政策与遭遇各异，理解统一过程也要看普通人的生活条件。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-ren-jun-war-burdens",
+    "source": "ren-jun",
+    "target": "war-burdens",
+    "type": "background",
+    "label": "背景关联",
+    "description": "任峻的经历或活动与战争、赋役与百姓有关，具体内容见双方介绍。",
+    "period": "汉末至三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：军旅、耕夫释耒与仓储不足段",
+        "note": "连年征战需要粮食、运输和劳力，可能打断耕作并加重家庭负担。不同地区政策与遭遇各异，理解统一过程也要看普通人的生活条件。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-cao-cao-war-burdens",
+    "source": "cao-cao",
+    "target": "war-burdens",
+    "type": "background",
+    "label": "背景关联",
+    "description": "曹操的经历或活动与战争、赋役与百姓有关，具体内容见双方介绍。",
+    "period": "汉末至三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：军旅、耕夫释耒与仓储不足段",
+        "note": "连年征战需要粮食、运输和劳力，可能打断耕作并加重家庭负担。不同地区政策与遭遇各异，理解统一过程也要看普通人的生活条件。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-sun-quan-war-burdens",
+    "source": "sun-quan",
+    "target": "war-burdens",
+    "type": "background",
+    "label": "背景关联",
+    "description": "孙权的经历或活动与战争、赋役与百姓有关，具体内容见双方介绍。",
+    "period": "汉末至三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：军旅、耕夫释耒与仓储不足段",
+        "note": "连年征战需要粮食、运输和劳力，可能打断耕作并加重家庭负担。不同地区政策与遭遇各异，理解统一过程也要看普通人的生活条件。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-war-burdens-northern-expeditions",
+    "source": "war-burdens",
+    "target": "northern-expeditions",
+    "type": "background",
+    "label": "理解事件的背景",
+    "description": "战争、赋役与百姓提供理解诸葛亮北伐的社会线索，关系并不表示单一原因。",
+    "period": "汉末至三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：军旅、耕夫释耒与仓储不足段",
+        "note": "连年征战需要粮食、运输和劳力，可能打断耕作并加重家庭负担。不同地区政策与遭遇各异，理解统一过程也要看普通人的生活条件。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-war-burdens-prepare-wu",
+    "source": "war-burdens",
+    "target": "prepare-wu",
+    "type": "background",
+    "label": "理解事件的背景",
+    "description": "战争、赋役与百姓提供理解晋筹划伐吴的社会线索，关系并不表示单一原因。",
+    "period": "汉末至三国",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：军旅、耕夫释耒与仓储不足段",
+        "note": "连年征战需要粮食、运输和劳力，可能打断耕作并加重家庭负担。不同地区政策与遭遇各异，理解统一过程也要看普通人的生活条件。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-warlord-contest-medicine-life",
+    "source": "warlord-contest",
+    "target": "medicine-life",
+    "type": "background",
+    "label": "背景线索",
+    "description": "群雄竞争与疾疫与医者的处境的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "汉末",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-29",
+        "locator": "华佗传：诊治、五禽戏与遭遇",
+        "note": "古代疾病流行和战争困境影响人们生活，医者尝试诊治与养生。本传记录可帮助认识当时观念；古代疗法的安全性和有效性须由现代医学评估。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-hua-tuo-medicine-life",
+    "source": "hua-tuo",
+    "target": "medicine-life",
+    "type": "background",
+    "label": "背景关联",
+    "description": "华佗的经历或活动与疾疫与医者的处境有关，具体内容见双方介绍。",
+    "period": "汉末",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "sgz-29",
+        "locator": "华佗传：诊治、五禽戏与遭遇",
+        "note": "古代疾病流行和战争困境影响人们生活，医者尝试诊治与养生。本传记录可帮助认识当时观念；古代疗法的安全性和有效性须由现代医学评估。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-road-to-unity-jin-recovery",
+    "source": "road-to-unity",
+    "target": "jin-recovery",
+    "type": "background",
+    "label": "背景线索",
+    "description": "走向统一与统一后的生产与治理的联系是阅读索引；实际活动时段与适用范围见知识档案。",
+    "period": "280年起（延伸阅读）",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：太康元年后生产、财政与社会记事",
+        "note": "结束大战有利于恢复生产，但朝廷仍须安排赋税、土地和地方治理。西晋统一后也存在资源分配与政治问题，统一后的社会安定需要持续经营。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-sima-yan-jin-recovery",
+    "source": "sima-yan",
+    "target": "jin-recovery",
+    "type": "background",
+    "label": "背景关联",
+    "description": "司马炎的经历或活动与统一后的生产与治理有关，具体内容见双方介绍。",
+    "period": "280年起（延伸阅读）",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：太康元年后生产、财政与社会记事",
+        "note": "结束大战有利于恢复生产，但朝廷仍须安排赋税、土地和地方治理。西晋统一后也存在资源分配与政治问题，统一后的社会安定需要持续经营。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-du-yu-jin-recovery",
+    "source": "du-yu",
+    "target": "jin-recovery",
+    "type": "background",
+    "label": "背景关联",
+    "description": "杜预的经历或活动与统一后的生产与治理有关，具体内容见双方介绍。",
+    "period": "280年起（延伸阅读）",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：太康元年后生产、财政与社会记事",
+        "note": "结束大战有利于恢复生产，但朝廷仍须安排赋税、土地和地方治理。西晋统一后也存在资源分配与政治问题，统一后的社会安定需要持续经营。"
+      }
+    ]
+  },
+  {
+    "id": "wave2-background-jin-recovery-jin-unification",
+    "source": "jin-recovery",
+    "target": "jin-unification",
+    "type": "background",
+    "label": "理解事件的背景",
+    "description": "统一后的生产与治理提供理解西晋统一的社会线索，关系并不表示单一原因。",
+    "period": "280年起（延伸阅读）",
+    "basis": "documented",
+    "citations": [
+      {
+        "sourceId": "jin-food",
+        "locator": "食货志：太康元年后生产、财政与社会记事",
+        "note": "结束大战有利于恢复生产，但朝廷仍须安排赋税、土地和地方治理。西晋统一后也存在资源分配与政治问题，统一后的社会安定需要持续经营。"
+      }
+    ]
+  }
+]

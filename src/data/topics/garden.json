@@ -1,0 +1,54 @@
+{
+  "id": "garden",
+  "title": "一座花园里的小宇宙",
+  "subtitle": "蹲下来，发现身边的自然关系。",
+  "description": "从一株植物开始，看看阳光、水和昆虫怎样与它相连。和孩子带着问题走进花园，让观察成为探索的起点。当前为基础演示内容。",
+  "category": "自然科学",
+  "status": "preview",
+  "theme": "nature",
+  "tags": ["自然观察", "植物", "亲子共学"],
+  "question": "一株植物的身边，藏着哪些看不见的联系？",
+  "nodes": [
+    {
+      "id": "plant",
+      "label": "植物",
+      "description": "观察一株植物的叶片、茎和花，记录它的变化。",
+      "x": 300,
+      "y": 220
+    },
+    {
+      "id": "sunlight",
+      "label": "阳光",
+      "description": "光为植物的光合作用提供能量。",
+      "x": 160,
+      "y": 90
+    },
+    {
+      "id": "water",
+      "label": "水",
+      "description": "水参与植物的生命活动，可以通过根部吸收。",
+      "x": 450,
+      "y": 110
+    },
+    {
+      "id": "insect",
+      "label": "传粉昆虫",
+      "description": "部分昆虫在访花时帮助花粉传播。",
+      "x": 410,
+      "y": 360
+    },
+    {
+      "id": "seed",
+      "label": "种子",
+      "description": "许多植物可以通过种子繁殖，适宜条件下种子会萌发。",
+      "x": 120,
+      "y": 340
+    }
+  ],
+  "edges": [
+    { "id": "light-plant", "source": "sunlight", "target": "plant", "label": "提供光能" },
+    { "id": "water-plant", "source": "water", "target": "plant", "label": "供给水分" },
+    { "id": "insect-plant", "source": "insect", "target": "plant", "label": "帮助传粉" },
+    { "id": "seed-plant", "source": "seed", "target": "plant", "label": "萌发成长" }
+  ]
+}

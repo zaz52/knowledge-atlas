@@ -1,0 +1,132 @@
+{
+  "sourceTopicId": "three-kingdoms",
+  "targetTopicId": "chinese-dynasties",
+  "nodeKinds": [
+    "person",
+    "event",
+    "work",
+    "concept"
+  ],
+  "memberships": [
+    {
+      "rootId": "three-kingdoms",
+      "allPeople": true,
+      "backgroundIds": [
+        "local-arms",
+        "tuntian",
+        "war-migration",
+        "nine-ranks",
+        "elite-families",
+        "jianan-culture",
+        "jiangdong-economy",
+        "war-burdens",
+        "medicine-life",
+        "jin-recovery"
+      ]
+    },
+    {
+      "rootId": "eastern-han",
+      "personIds": [
+        "cao-cao",
+        "liu-bei",
+        "guan-yu",
+        "zhang-fei",
+        "yuan-shao",
+        "yuan-shu",
+        "dong-zhuo",
+        "liu-xie",
+        "zhang-jiao",
+        "xun-yu",
+        "lv-bu",
+        "liu-biao",
+        "sun-jian",
+        "cai-yan",
+        "hua-tuo"
+      ],
+      "backgroundIds": [
+        "local-arms",
+        "war-migration"
+      ]
+    },
+    {
+      "rootId": "cao-wei",
+      "personIds": [
+        "cao-pi",
+        "cao-cao",
+        "cao-rui",
+        "cao-shuang",
+        "sima-yi",
+        "sima-shi",
+        "sima-zhao",
+        "deng-ai",
+        "zhong-hui",
+        "zhang-liao",
+        "zhang-he",
+        "xu-huang",
+        "jia-xu",
+        "chen-qun",
+        "cao-zhi"
+      ],
+      "backgroundIds": [
+        "nine-ranks",
+        "elite-families",
+        "tuntian",
+        "jianan-culture"
+      ]
+    },
+    {
+      "rootId": "shu-han",
+      "personIds": [
+        "liu-bei",
+        "zhuge-liang",
+        "guan-yu",
+        "zhang-fei",
+        "zhao-yun",
+        "huang-zhong",
+        "liu-shan",
+        "jiang-wei",
+        "fa-zheng",
+        "pang-tong",
+        "ma-chao",
+        "jiang-wan",
+        "fei-yi"
+      ],
+      "backgroundIds": [
+        "war-burdens",
+        "war-migration"
+      ]
+    },
+    {
+      "rootId": "eastern-wu",
+      "personIds": [
+        "sun-quan",
+        "sun-ce",
+        "zhou-yu",
+        "lu-su",
+        "lv-meng",
+        "lu-xun",
+        "sun-hao",
+        "sun-jian",
+        "lu-kang"
+      ],
+      "backgroundIds": [
+        "jiangdong-economy",
+        "war-burdens"
+      ]
+    },
+    {
+      "rootId": "western-jin",
+      "personIds": [
+        "sima-yan",
+        "yang-hu",
+        "du-yu",
+        "wang-jun",
+        "chen-shou"
+      ],
+      "backgroundIds": [
+        "jin-recovery",
+        "elite-families"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1346 @@
+[
+  {
+    "id": "nmc-qh",
+    "title": "古代中国·秦汉时期",
+    "author": "中国国家博物馆",
+    "kind": "reference",
+    "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html",
+    "description": "秦汉的统一、制度与社会文化。"
+  },
+  {
+    "id": "nmc-jin",
+    "title": "古代中国·三国两晋南北朝时期",
+    "author": "中国国家博物馆",
+    "kind": "reference",
+    "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail5.html",
+    "description": "三国、两晋、十六国与南北朝的分立和都城。"
+  },
+  {
+    "id": "nmc-tang",
+    "title": "古代中国·隋唐五代时期",
+    "author": "中国国家博物馆",
+    "kind": "reference",
+    "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html",
+    "description": "杨坚、李渊建国，隋灭陈，唐亡及五代十国。"
+  },
+  {
+    "id": "nmc-song",
+    "title": "古代中国·辽宋夏金元时期",
+    "author": "中国国家博物馆",
+    "kind": "reference",
+    "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html",
+    "description": "多民族政权并立与蒙古元朝的统一。"
+  },
+  {
+    "id": "nmc-ming",
+    "title": "古代中国·明清时期",
+    "author": "中国国家博物馆",
+    "kind": "reference",
+    "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail8.html",
+    "description": "明朝建立、南京与北京都城及明清社会。"
+  },
+  {
+    "id": "date-table",
+    "title": "北京市文物局公开资料·朝代表示代码表",
+    "author": "北京市文物局公开附件",
+    "kind": "reference",
+    "url": "https://wwj.beijing.gov.cn/bjww/362679/362686/436372109/2024030409540773491.pdf",
+    "description": "附录 B.2，PDF 第30—33页；该文物编码资料有不同纪年口径，本图在相关节点说明采用的起点。"
+  },
+  {
+    "id": "capitals",
+    "title": "汉魏两晋南北朝都城模式及其演变",
+    "author": "中国社会科学网·考古研究资料",
+    "kind": "reference",
+    "url": "https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552600.shtml",
+    "description": "讨论长安、洛阳、建康、平城、邺等都城。"
+  },
+  {
+    "id": "met-han",
+    "title": "Han Dynasty (206 B.C.–220 A.D.)",
+    "author": "The Metropolitan Museum of Art",
+    "kind": "reference",
+    "url": "https://www.metmuseum.org/essays/han-dynasty-206-b-c-220-a-d",
+    "description": "西汉、王莽新朝、东汉的时期划分与长安、洛阳。"
+  },
+  {
+    "id": "met-song",
+    "title": "China, 1000–1400 A.D.",
+    "author": "The Metropolitan Museum of Art",
+    "kind": "reference",
+    "url": "https://www.metmuseum.org/toah/ht/07/eac.html",
+    "description": "两宋、辽金与蒙古元的并存、临安与元朝的建立。"
+  },
+  {
+    "id": "xia-study",
+    "title": "西夏历史与文化",
+    "author": "宁夏大学西夏学研究院",
+    "kind": "reference",
+    "url": "https://xixia.nxu.edu.cn/whkf/lswh.htm",
+    "description": "1038—1227 年西夏及李元昊、兴庆府。"
+  },
+  {
+    "id": "liao-capital",
+    "title": "辽上京城址的发现和研究述论",
+    "author": "巴林左旗人民政府·历史文化",
+    "kind": "reference",
+    "url": "https://www.blzq.gov.cn/zjzq/lswh/202002/t20200229_1915631.html",
+    "description": "916 年阿保机称帝、918 年营建皇都及上京城址。"
+  },
+  {
+    "id": "jin-capital",
+    "title": "金之「中都」（首都）",
+    "author": "教育部历史文化学习网",
+    "kind": "reference",
+    "url": "https://market.cloud.edu.tw/resources/web/173250",
+    "description": "1115 年阿骨打建金、1153 年迁中都及宋金攻辽。"
+  },
+  {
+    "id": "song-founder",
+    "title": "赵匡胤像轴",
+    "author": "中国国家博物馆",
+    "kind": "reference",
+    "url": "https://www.chnmuseum.cn/zp/zpml/201812/t20181218_26908.shtml",
+    "description": "960 年赵匡胤建立宋朝。"
+  },
+  {
+    "id": "yuan-capital",
+    "title": "中国古代都城资料·元明两京",
+    "author": "北京市文物局公开研究资料",
+    "kind": "reference",
+    "url": "https://wwj.beijing.gov.cn/bjww/resource/cms/article/bjww_362762/10869853/2020092815384151837.pdf",
+    "description": "元代两京、1271 年改国号、1272 年改大都。"
+  },
+  {
+    "id": "qing-founder",
+    "title": "皇太极",
+    "author": "故宫博物院",
+    "kind": "reference",
+    "url": "https://www.dpm.org.cn/lemmas/239616.html",
+    "description": "1636 年皇太极称帝、改国号大清。"
+  },
+  {
+    "id": "qing-capital",
+    "title": "清廷迁都北京",
+    "author": "故宫博物院",
+    "kind": "reference",
+    "url": "https://www.dpm.org.cn/court/event/159873.html",
+    "description": "后金到盛京、1644 年迁北京和明朝覆亡。"
+  },
+  {
+    "id": "qing-last",
+    "title": "宣统皇帝",
+    "author": "故宫博物院",
+    "kind": "reference",
+    "url": "https://www.dpm.org.cn/court/lineage/226255.html",
+    "description": "溥仪及1912年清帝退位。"
+  },
+  {
+    "id": "qing-end",
+    "title": "“清帝退位”号外",
+    "author": "中国国家博物馆",
+    "kind": "reference",
+    "url": "https://www.chnmuseum.cn/zp/zpml/gmww/202208/t20220805_256891.shtml",
+    "description": "馆藏报刊及1912年2月12日退位诏书。"
+  },
+  {
+    "id": "southern-ming",
+    "title": "南明弘光政权及其覆灭",
+    "author": "故宫博物院",
+    "kind": "reference",
+    "url": "https://www.dpm.org.cn/court/event/159031.html",
+    "description": "1644 年后南明诸政权的延续。"
+  },
+  {
+    "id": "shiji-qin",
+    "title": "《史记》卷六·秦始皇本纪",
+    "author": "司马迁",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/史記/卷006",
+    "description": "秦统一、咸阳与秦亡。"
+  },
+  {
+    "id": "shiji-han",
+    "title": "《史记》卷八·高祖本纪",
+    "author": "司马迁",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/史記/卷008",
+    "description": "刘邦由汉王到称帝、定都长安。"
+  },
+  {
+    "id": "hanshu-xin",
+    "title": "《汉书》卷九十九下·王莽传",
+    "author": "班固",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/漢書/卷099下",
+    "description": "王莽新朝与常安。"
+  },
+  {
+    "id": "houhan-guangwu",
+    "title": "《后汉书》卷一上·光武帝纪",
+    "author": "范晔",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/後漢書/卷1上",
+    "description": "刘秀即位与定都洛阳。"
+  },
+  {
+    "id": "jin-wudi",
+    "title": "《晋书》卷三·武帝纪",
+    "author": "房玄龄等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷003",
+    "description": "司马炎代魏、晋灭吴及洛阳。"
+  },
+  {
+    "id": "jin-last",
+    "title": "《晋书》卷五·怀帝愍帝纪",
+    "author": "房玄龄等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷005",
+    "description": "西晋末年、长安与316年晋愍帝降汉。"
+  },
+  {
+    "id": "jin-yuandi",
+    "title": "《晋书》卷六·元帝纪",
+    "author": "房玄龄等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷006",
+    "description": "司马睿在江南建立东晋。"
+  },
+  {
+    "id": "jin-fujian",
+    "title": "《晋书》卷一百一十四·苻坚载记下",
+    "author": "房玄龄等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷114",
+    "description": "前秦苻坚、长安与淝水战事。"
+  },
+  {
+    "id": "song-liuyu",
+    "title": "《宋书》卷三·武帝纪下",
+    "author": "沈约",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/宋書/卷3",
+    "description": "刘裕代晋建立刘宋。"
+  },
+  {
+    "id": "sgz-02",
+    "title": "《三国志》卷二·文帝纪",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷02",
+    "description": "曹丕身份、继任魏王与 220 年称帝的记载。"
+  },
+  {
+    "id": "sgz-32",
+    "title": "《三国志》卷三十二·先主传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+    "description": "刘备生平、孙刘合作、汉中、章武称帝与伐吴等记载。"
+  },
+  {
+    "id": "sgz-47",
+    "title": "《三国志》卷四十七·吴主传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷47",
+    "description": "孙权承接兄长事业、赤壁派兵、对刘备作战及 229 年称帝的记载。"
+  },
+  {
+    "id": "song-south",
+    "title": "《咸淳临安志》与南宋临安",
+    "author": "国家民族事务委员会·民族文化宫藏书介绍",
+    "kind": "reference",
+    "url": "https://www.neac.gov.cn/seac/c103391/202301/1160353.shtml",
+    "description": "1127年赵构在应天府即位、后来以临安为中心及南宋文化。"
+  },
+  {
+    "id": "luoyang-history",
+    "title": "洛阳历史沿革",
+    "author": "洛阳市人民政府",
+    "kind": "reference",
+    "url": "https://www.ly.gov.cn/mlly/lsyg/",
+    "description": "494年北魏孝文帝迁都洛阳及历代都城沿革。"
+  },
+  {
+    "id": "people-li-si",
+    "title": "《史記》卷087·李斯列传",
+    "author": "司马迁",
+    "url": "https://zh.wikisource.org/zh-hans/史記/卷087",
+    "description": "古籍原文在线转录；按李斯列传定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-zhang-qian",
+    "title": "《史記》卷123·大宛列传",
+    "author": "司马迁",
+    "url": "https://zh.wikisource.org/zh-hans/史記/卷123",
+    "description": "古籍原文在线转录；按大宛列传定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-sima-qian",
+    "title": "《史記》卷130·太史公自序",
+    "author": "司马迁",
+    "url": "https://zh.wikisource.org/zh-hans/史記/卷130",
+    "description": "古籍原文在线转录；按太史公自序定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-zhang-heng",
+    "title": "《後漢書》卷59·张衡列传",
+    "author": "范晔",
+    "url": "https://zh.wikisource.org/zh-hans/後漢書/卷59",
+    "description": "古籍原文在线转录；按张衡列传定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-cai-lun",
+    "title": "《後漢書》卷78·宦者列传·蔡伦",
+    "author": "范晔",
+    "url": "https://zh.wikisource.org/zh-hans/後漢書/卷78",
+    "description": "古籍原文在线转录；按宦者列传·蔡伦定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-zu",
+    "title": "《南齊書》卷52·文学传·祖冲之",
+    "author": "萧子显",
+    "url": "https://zh.wikisource.org/zh-hans/南齊書/卷52",
+    "description": "古籍原文在线转录；按文学传·祖冲之定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-yang-guang",
+    "title": "《隋書》卷03·炀帝纪上",
+    "author": "魏徵等",
+    "url": "https://zh.wikisource.org/zh-hans/隋書/卷03",
+    "description": "古籍原文在线转录；按炀帝纪上定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-li-shimin",
+    "title": "《舊唐書》卷2·太宗纪上",
+    "author": "刘昫等",
+    "url": "https://zh.wikisource.org/zh-hans/舊唐書/卷2",
+    "description": "古籍原文在线转录；按太宗纪上定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-wu-zetian",
+    "title": "《舊唐書》卷6·则天皇后本纪",
+    "author": "刘昫等",
+    "url": "https://zh.wikisource.org/zh-hans/舊唐書/卷6",
+    "description": "古籍原文在线转录；按则天皇后本纪定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-li-du",
+    "title": "《舊唐書》卷190下·文苑传·李白、杜甫",
+    "author": "刘昫等",
+    "url": "https://zh.wikisource.org/zh-hans/舊唐書/卷190下",
+    "description": "古籍原文在线转录；按文苑传·李白、杜甫定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-wang-anshi",
+    "title": "《宋史》卷327·王安石传",
+    "author": "脱脱等",
+    "url": "https://zh.wikisource.org/zh-hans/宋史/卷327",
+    "description": "古籍原文在线转录；按王安石传定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-sima-guang",
+    "title": "《宋史》卷336·司马光传",
+    "author": "脱脱等",
+    "url": "https://zh.wikisource.org/zh-hans/宋史/卷336",
+    "description": "古籍原文在线转录；按司马光传定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-su-shi",
+    "title": "《宋史》卷338·苏轼传",
+    "author": "脱脱等",
+    "url": "https://zh.wikisource.org/zh-hans/宋史/卷338",
+    "description": "古籍原文在线转录；按苏轼传定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-yue-fei",
+    "title": "《宋史》卷365·岳飞传",
+    "author": "脱脱等",
+    "url": "https://zh.wikisource.org/zh-hans/宋史/卷365",
+    "description": "古籍原文在线转录；按岳飞传定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-xin-qiji",
+    "title": "《宋史》卷401·辛弃疾传",
+    "author": "脱脱等",
+    "url": "https://zh.wikisource.org/zh-hans/宋史/卷401",
+    "description": "古籍原文在线转录；按辛弃疾传定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-guo",
+    "title": "《元史》卷164·郭守敬传",
+    "author": "宋濂等",
+    "url": "https://zh.wikisource.org/zh-hans/元史/卷164",
+    "description": "古籍原文在线转录；按郭守敬传定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-zheng",
+    "title": "《明史》卷304·宦官传·郑和",
+    "author": "张廷玉等",
+    "url": "https://zh.wikisource.org/zh-hans/明史/卷304",
+    "description": "古籍原文在线转录；按宦官传·郑和定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-li-shizhen",
+    "title": "《明史》卷299·方伎传·李时珍",
+    "author": "张廷玉等",
+    "url": "https://zh.wikisource.org/zh-hans/明史/卷299",
+    "description": "古籍原文在线转录；按方伎传·李时珍定位，阅读时可与校勘本互证。",
+    "kind": "primary"
+  },
+  {
+    "id": "people-wang-xizhi",
+    "title": "王羲之行书兰亭序卷（传唐褚遂良摹本）",
+    "author": "故宫博物院",
+    "url": "https://www.dpm.org.cn/collection/handwriting/228277.html",
+    "description": "馆藏说明，包含353年兰亭集会、作者生平及传世摹本的说明。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-tao",
+    "title": "陶渊明",
+    "author": "故宫博物院",
+    "url": "https://www.dpm.org.cn/lemmas/241978.html",
+    "description": "采用该词条的365—427年纪年；介绍其仕宦与归隐文学。",
+    "kind": "reference"
+  },
+  {
+    "id": "work-taohua",
+    "title": "《桃花源记》",
+    "author": "故宫博物院",
+    "url": "https://www.dpm.org.cn/lemmas/241976.html",
+    "description": "介绍作品作者与理想世界的文学性质。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-li-bai-ref",
+    "title": "李白",
+    "author": "故宫博物院",
+    "url": "https://www.dpm.org.cn/lemmas/240150.html",
+    "description": "701—762年、供奉翰林、流放遇赦与文学成就。",
+    "kind": "reference"
+  },
+  {
+    "id": "work-li-bai-ref",
+    "title": "中华传统文化百部经典·李白集",
+    "author": "国家图书馆",
+    "url": "https://www.nlc.cn/web/zdxm/bbjd/mobile/dtxx/xmdt/20231127_217357.shtml",
+    "description": "李白生平、诗歌选目及出生地异说说明。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-su-ref",
+    "title": "苏轼",
+    "author": "故宫博物院",
+    "url": "https://www.dpm.org.cn/lemmas/242068.html",
+    "description": "生平、文学书画成就与传世作品；政争经过另参《宋史》。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-shen",
+    "title": "巨著《梦溪笔谈》作者——沈括",
+    "author": "中国科学院地理科学与资源研究所",
+    "url": "https://igsnrr.cas.cn/cbkx/kpyd/dlxj/202009/t20200910_5692671.html",
+    "description": "摘编自《中国大百科全书·地理学》，介绍沈括及其科学著述。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-li-qingzhao",
+    "title": "中华文化关键词·李清照",
+    "author": "国务院新闻办公室网站",
+    "url": "https://english.scio.gov.cn/featured/chinakeywords/2024-08/30/content_117397293.htm",
+    "description": "生平与词作前后变化；采用通行生年，卒年按约数显示。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-li-qingzhao-date",
+    "title": "李清照研究序跋",
+    "author": "浙江政务公开资料",
+    "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3872/site/attach/0/ec7c69ae458d4a1fb641590847a4b514.pdf",
+    "description": "讨论李清照生平研究及1156年卒年说，与常见1155年说并读。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-guan",
+    "title": "谈古论今话回避",
+    "author": "最高人民法院·人民法院报",
+    "url": "https://www.court.gov.cn/jianshe/xiangqing/173442.html",
+    "description": "说明《窦娥冤》为关汉卿的元杂剧，剧情属于文学创作。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-guan-life",
+    "title": "中国现代戏剧的奠基人——田汉",
+    "author": "湖南政协·文史资料",
+    "url": "https://zx.zxy.hunanzx.gov.cn/szxapp/2/23/285/content_5245.html",
+    "description": "讨论话剧《关汉卿》与历史人物的区别，指出现存生平文献稀少。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-guo-ref",
+    "title": "中华文化关键词·授时历",
+    "author": "国务院新闻办公室网站",
+    "url": "https://english.scio.gov.cn/featured/chinakeywords/2024-08/30/content_117397315.htm",
+    "description": "忽必烈下令由许衡、郭守敬、王恂等共同研订新历。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-guo-bio",
+    "title": "郭守敬",
+    "author": "国家国防科技工业局",
+    "url": "https://www.sastind.gov.cn/history/n152/n81023/n81097/n109660/c109696/content.html",
+    "description": "1231—1316年生平及天文、水利、仪器贡献。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-xu",
+    "title": "徐霞客",
+    "author": "江阴市人民政府",
+    "url": "https://www.jiangyin.gov.cn/doc/2018/08/29/146.shtml",
+    "description": "生平、实地考察和游记后人编订的说明。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-kangxi",
+    "title": "康熙皇帝",
+    "author": "故宫博物院",
+    "url": "https://www.dpm.org.cn/court/lineage/226256.html",
+    "description": "玄烨生平、继位与年号纪年、政治文化活动。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-cao-xueqin",
+    "title": "曹雪芹",
+    "author": "故宫博物院",
+    "url": "https://www.dpm.org.cn/lemmas/245565.html",
+    "description": "采用约1715—约1763年口径，介绍家世转折与《红楼梦》创作。",
+    "kind": "reference"
+  },
+  {
+    "id": "work-honglou-ref",
+    "title": "一起晒书，典籍里的七夕·己卯本《脂砚斋重评石头记》",
+    "author": "国家图书馆·中国古籍保护网",
+    "url": "https://www.nlc.cn/pcab/xctg/bd/20220928_213337.shtml",
+    "description": "国家图书馆研究馆员介绍早期抄本、残存回目与复杂版本流传。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-zheng-ref",
+    "title": "水乡科钦史话",
+    "author": "中华人民共和国外交部",
+    "url": "https://www.fmprc.gov.cn/wjdt_674879/zwbd_674895/200803/t20080311_7880567.shtml",
+    "description": "1405—1433年七次远航及马欢《瀛涯胜览》的作者说明。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-zheng-dates",
+    "title": "中国航海日专题：郑和下西洋与大航海时代",
+    "author": "南京市地方志工作办公室",
+    "url": "https://dfz.nanjing.gov.cn/gzdt/202507/t20250708_5602912.html",
+    "description": "使用1371—1435年口径；与传统1433年卒年说存在差异。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-zheng-1433",
+    "title": "1405年7月11日 郑和始下西洋",
+    "author": "盐田档案与史志信息网",
+    "url": "https://www.yantian.gov.cn/ytdayszxxw/lsjt/content/post_11735665.html",
+    "description": "使用1433年卒年说，本图保留异说。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-zhang-ref",
+    "title": "张衡地动仪",
+    "author": "西藏自治区地震局",
+    "url": "https://www.xizdzj.gov.cn/a/339.html",
+    "description": "史料记载与现代复原的区别，说明原物和图样失传。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-li-shizhen-ref",
+    "title": "《本草纲目》从写作到出版历经44年",
+    "author": "湖北省文化和旅游厅",
+    "url": "https://wlt.hubei.gov.cn/bmdt/mtjj/202208/t20220824_4277457.shtml",
+    "description": "修书经过与生前成稿、身后出版的区别。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-li-du-friends",
+    "title": "李白杜甫的交往与友谊",
+    "author": "贵州政协报·文史资料",
+    "url": "https://www.gzszx.gov.cn/gzzxb/web/doc/detail/d_1489787716370464",
+    "description": "介绍744年起李杜相识与交游，不扩张为师生关系。",
+    "kind": "reference"
+  },
+  {
+    "id": "sgz-01",
+    "title": "《三国志》卷一·武帝纪",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+    "description": "曹操生平；建安五年官渡、十三年赤壁及二十四年汉中的相关记载。"
+  },
+  {
+    "id": "sgz-35",
+    "title": "《三国志》卷三十五·诸葛亮传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷35",
+    "description": "三次拜访、出使孙权、担任丞相等记载；页面包含史家注文，应结合对应段落阅读。"
+  },
+  {
+    "id": "sgz-36",
+    "title": "《三国志》卷三十六·关张马黄赵传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷36",
+    "description": "关羽、张飞、黄忠、赵云本传；收录长坂与定军山等记事。"
+  },
+  {
+    "id": "sgz-37",
+    "title": "《三国志》卷三十七·庞统法正传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷37",
+    "description": "法正本传建安二十二年进言取汉中及二十四年定军山的记载。"
+  },
+  {
+    "id": "sgz-46",
+    "title": "《三国志》卷四十六·孙破虏讨逆传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷46",
+    "description": "孙坚、孙策本传，孙策在江东的发展及临终交接。"
+  },
+  {
+    "id": "sgz-54",
+    "title": "《三国志》卷五十四·周瑜鲁肃吕蒙传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷54",
+    "description": "周瑜、鲁肃等人的本传，记述孙刘合作决策与赤壁战事。"
+  },
+  {
+    "id": "sgyy-001",
+    "title": "《三国演义》第一回",
+    "author": "罗贯中著，通行毛评本",
+    "kind": "literature",
+    "url": "https://zh.wikisource.org/wiki/三國演義/第001回",
+    "description": "回目为“宴桃园豪杰三结义，斩黄巾英雄首立功”。本图用它说明文学情节。"
+  },
+  {
+    "id": "work-jiaxuan-ref",
+    "title": "芸台书话·等闲折尽，玉斧重倩修月——辛弃疾与元刻稼轩词",
+    "author": "国家图书馆·国家古籍保护中心",
+    "url": "https://www.nlc.cn/pcab/zlyj/zlyj_djsh/20170815_154450.shtml",
+    "description": "介绍《稼轩长短句》的版本、校勘与流传。",
+    "kind": "reference"
+  },
+  {
+    "id": "work-linchuan-ref",
+    "title": "王安石",
+    "author": "常州市地方志办公室",
+    "url": "https://fzg.changzhou.gov.cn/html/fzg/2015/QIAOOANK_0225/426.html",
+    "description": "生平与《临川集》等存世著作。",
+    "kind": "reference"
+  },
+  {
+    "id": "work-du-ref",
+    "title": "民族记忆 精神家园·集千家注分类杜工部诗",
+    "author": "国家图书馆·中国古籍保护网",
+    "url": "https://www.nlc.cn/pcab/ztzl/mzjy/hhdj/wxdg/index_6.htm",
+    "description": "杜甫诗歌与宋元编次、补注的馆藏版本说明。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-zu-ref",
+    "title": "中华文化关键词·祖冲之",
+    "author": "国务院新闻办公室网站",
+    "url": "https://english.scio.gov.cn/m/featured/chinakeywords/2024-08/30/content_117397313.htm",
+    "description": "429—500年生卒纪年及圆周率研究。",
+    "kind": "reference"
+  },
+  {
+    "id": "people-zhang-dates",
+    "title": "世界上第一台地动仪的发明人",
+    "author": "吉林省地震局",
+    "url": "https://dzj.jl.gov.cn/ztzl/512dzzt/dzkp/201503/t20150325_7228733.html",
+    "description": "78—139年纪年及132年制造记载；复原问题另见西藏地震局说明。",
+    "kind": "reference"
+  },
+  {
+    "id": "work-du-chunwang",
+    "title": "鲜于枢行书杜工部行次昭陵诗卷",
+    "author": "故宫博物院",
+    "url": "https://www.dpm.org.cn/collection/handwriting/228327.html",
+    "description": "附杜甫词条，明确《春望》等作品及其诗歌特点。",
+    "kind": "reference"
+  },
+  {
+    "id": "wave-mengtian",
+    "title": "《史记》卷八十八·蒙恬列传",
+    "author": "司马迁",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/史記/卷088",
+    "description": "蒙恬的军事、工程与结局；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-wudi",
+    "title": "《汉书》卷六·武帝纪",
+    "author": "班固等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/漢書/卷006",
+    "description": "汉武帝时期军政与社会变化；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-dong",
+    "title": "《汉书》卷五十六·董仲舒传",
+    "author": "班固等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/漢書/卷056",
+    "description": "董仲舒的对策与政治思想；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-liuxin",
+    "title": "《汉书》卷三十六·楚元王传附刘歆",
+    "author": "班固等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/漢書/卷036",
+    "description": "刘向刘歆校书、学术与政治经历；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-yangxiong",
+    "title": "《汉书》卷八十七·扬雄传",
+    "author": "班固等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/漢書/卷087下",
+    "description": "扬雄生平与著述；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-women",
+    "title": "《后汉书》卷八十四·列女传",
+    "author": "范晔撰，李贤等注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/後漢書/卷84",
+    "description": "班昭的史学、教育与著述；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-luji",
+    "title": "《晋书》卷五十四·陆机陆云传",
+    "author": "房玄龄等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷054",
+    "description": "陆机兄弟的文学与政治经历；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-peixiu",
+    "title": "《晋书》卷三十五·裴秀传",
+    "author": "房玄龄等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷035",
+    "description": "裴秀的官职与制图论述；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-xiean",
+    "title": "《晋书》卷七十九·谢安传",
+    "author": "房玄龄等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷079",
+    "description": "谢安执政与淝水战事；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-shile",
+    "title": "《晋书》卷一百四·石勒载记",
+    "author": "房玄龄等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷104",
+    "description": "石勒建后赵及统治；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-yaoxing",
+    "title": "《晋书》卷一百一十七·姚兴载记",
+    "author": "房玄龄等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷117",
+    "description": "姚兴统治后秦及佛教活动；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-yuwentai",
+    "title": "《周书》卷一·文帝纪上",
+    "author": "令狐德棻等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/周書/卷01",
+    "description": "宇文泰经营关陇与西魏军政；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-qimin",
+    "title": "《齐民要术》自序",
+    "author": "贾思勰",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/齊民要術/自序",
+    "description": "作者说明农学汇集、经验与学习方法；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-xielingyun",
+    "title": "《宋书》卷六十七·谢灵运传",
+    "author": "沈约",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/宋書/卷67",
+    "description": "谢灵运生平与诗文；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-yuwenkai",
+    "title": "《隋书》卷六十八·宇文恺传",
+    "author": "魏徵等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/隋書/卷68",
+    "description": "宇文恺的规划营建活动；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-xuanzang",
+    "title": "《旧唐书》卷一百九十一·方伎传",
+    "author": "刘昫等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/舊唐書/卷191",
+    "description": "玄奘西行与译经；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-hanyu",
+    "title": "《旧唐书》卷一百六十·韩愈传",
+    "author": "刘昫等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/舊唐書/卷160",
+    "description": "韩愈的文章、政论与仕途；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-fengdao",
+    "title": "《旧五代史》卷一百二十六·冯道传",
+    "author": "薛居正等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/舊五代史/卷126",
+    "description": "冯道任职与刻印经籍；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-liyu",
+    "title": "《新五代史》卷六十二·南唐世家",
+    "author": "欧阳修",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/新五代史/卷62",
+    "description": "南唐李氏政权与李煜；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-liao",
+    "title": "《辽史》卷四·太宗纪下",
+    "author": "脱脱等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/遼史/卷4",
+    "description": "耶律德光与辽政权变化；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-xiaochuo",
+    "title": "《辽史》卷七十一·后妃传",
+    "author": "脱脱等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/遼史/卷71",
+    "description": "萧绰参与政务与对宋关系；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-xia-up",
+    "title": "《宋史》卷四百八十五·夏国传上",
+    "author": "脱脱等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/宋史/卷485",
+    "description": "李德明及西夏前期政治；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-xia-down",
+    "title": "《宋史》卷四百八十六·夏国传下",
+    "author": "脱脱等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/宋史/卷486",
+    "description": "李仁孝等西夏统治者与宋夏关系；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-jin",
+    "title": "《金史》卷六·世宗纪上",
+    "author": "脱脱等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/金史/卷6",
+    "description": "完颜雍执政与政策；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-yuanhaowen",
+    "title": "《金史》卷一百二十六·文艺传下",
+    "author": "脱脱等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/金史/卷126",
+    "description": "元好问的文学与金元之际处境；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-chucai",
+    "title": "《元史》卷一百四十六·耶律楚材传",
+    "author": "宋濂等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/元史/卷146",
+    "description": "耶律楚材的赋税、治理建议；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-ogedei",
+    "title": "《元史》卷二·太宗纪",
+    "author": "宋濂等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/元史/卷002",
+    "description": "窝阔台时期扩张与治理；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-zhao",
+    "title": "《元史》卷一百七十二·赵孟頫传",
+    "author": "宋濂等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/元史/卷172",
+    "description": "赵孟頫仕途与书画；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-tiankong",
+    "title": "《天工开物》",
+    "author": "宋应星",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/天工開物",
+    "description": "农业与手工业技术著作，1637年初刊；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-gu",
+    "title": "《清史稿》卷四百八十·儒林传",
+    "author": "赵尔巽等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/清史稿/卷480",
+    "description": "顾炎武生平与学术；清史稿为未定稿史书；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-lin",
+    "title": "《清史稿》卷三百六十九·林则徐传",
+    "author": "赵尔巽等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/清史稿/卷369",
+    "description": "林则徐的禁烟与政治经历；清史稿为未定稿史书；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-fayan",
+    "title": "《法言》",
+    "author": "扬雄",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/法言",
+    "description": "拟问答体讨论修养、学习与政治；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-shishuo",
+    "title": "《师说》",
+    "author": "韩愈",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/師說",
+    "description": "讨论从师与学习的文章；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-wenfu",
+    "title": "《文赋》",
+    "author": "陆机",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/文賦",
+    "description": "讨论写作构思与表达的赋作；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-han-food",
+    "title": "《汉书》卷二十四·食货志",
+    "author": "班固等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/漢書/卷024上",
+    "description": "农业、土地与赋役的历史记述；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-wangmang",
+    "title": "《汉书》卷九十九下·王莽传",
+    "author": "班固等",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/漢書/卷099下",
+    "description": "新朝改革与政治社会困境；在线文本为开放转录。"
+  },
+  {
+    "id": "wave-qin",
+    "title": "《史记》卷六·秦始皇本纪",
+    "author": "司马迁",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/史記/卷006",
+    "description": "秦统一、郡县与工程役使；在线文本为开放转录。"
+  },
+  {
+    "id": "shared-three-sgz-01",
+    "title": "《三国志》卷一·武帝纪",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+    "description": "曹操生平；建安五年官渡、十三年赤壁及二十四年汉中的相关记载。"
+  },
+  {
+    "id": "shared-three-sgz-02",
+    "title": "《三国志》卷二·文帝纪",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷02",
+    "description": "曹丕身份、继任魏王与 220 年称帝的记载。"
+  },
+  {
+    "id": "shared-three-sgz-32",
+    "title": "《三国志》卷三十二·先主传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+    "description": "刘备生平、孙刘合作、汉中、章武称帝与伐吴等记载。"
+  },
+  {
+    "id": "shared-three-sgz-35",
+    "title": "《三国志》卷三十五·诸葛亮传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷35",
+    "description": "三次拜访、出使孙权、担任丞相等记载；页面包含史家注文，应结合对应段落阅读。"
+  },
+  {
+    "id": "shared-three-sgz-36",
+    "title": "《三国志》卷三十六·关张马黄赵传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷36",
+    "description": "关羽、张飞、黄忠、赵云本传；收录长坂与定军山等记事。"
+  },
+  {
+    "id": "shared-three-sgz-37",
+    "title": "《三国志》卷三十七·庞统法正传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷37",
+    "description": "法正本传建安二十二年进言取汉中及二十四年定军山的记载。"
+  },
+  {
+    "id": "shared-three-sgz-46",
+    "title": "《三国志》卷四十六·孙破虏讨逆传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷46",
+    "description": "孙坚、孙策本传，孙策在江东的发展及临终交接。"
+  },
+  {
+    "id": "shared-three-sgz-47",
+    "title": "《三国志》卷四十七·吴主传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷47",
+    "description": "孙权承接兄长事业、赤壁派兵、对刘备作战及 229 年称帝的记载。"
+  },
+  {
+    "id": "shared-three-sgz-54",
+    "title": "《三国志》卷五十四·周瑜鲁肃吕蒙传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷54",
+    "description": "周瑜、鲁肃等人的本传，记述孙刘合作决策与赤壁战事。"
+  },
+  {
+    "id": "shared-three-sgyy-001",
+    "title": "《三国演义》第一回",
+    "author": "罗贯中著，通行毛评本",
+    "kind": "literature",
+    "url": "https://zh.wikisource.org/wiki/三國演義/第001回",
+    "description": "回目为“宴桃园豪杰三结义，斩黄巾英雄首立功”。本图用它说明文学情节。"
+  },
+  {
+    "id": "shared-three-hhs-71",
+    "title": "《后汉书》卷七十一·皇甫嵩朱儁列传",
+    "url": "https://zh.wikisource.org/wiki/後漢書/卷71",
+    "description": "张角、黄巾起事及汉廷征讨的记述。在线文本为维基文库转录。",
+    "author": "范晔撰，李贤等注",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-hhs-72",
+    "title": "《后汉书》卷七十二·董卓列传",
+    "url": "https://zh.wikisource.org/wiki/後漢書/卷72",
+    "description": "何进被杀后的京师变局、董卓废立、迁都与被杀。",
+    "author": "范晔撰，李贤等注",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-sgz-06",
+    "title": "《三国志》卷6·董二袁刘传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷06",
+    "description": "董卓、袁绍与刘表等人的活动。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-sgz-07",
+    "title": "《三国志》卷7·吕布臧洪传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷07",
+    "description": "吕布在汉末诸势力间的活动及下邳败亡。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-sgz-09",
+    "title": "《三国志》卷9·诸夏侯曹传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷09",
+    "description": "曹爽任职、高平陵政变与被诛。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-sgz-10",
+    "title": "《三国志》卷10·荀彧荀攸贾诩传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷10",
+    "description": "荀彧迎奉天子建议、官渡谋划与后期处境。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-sgz-28",
+    "title": "《三国志》卷28·王毌丘诸葛邓钟传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷28",
+    "description": "邓艾、钟会伐蜀及其后变乱。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-sgz-33",
+    "title": "《三国志》卷33·后主传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷33",
+    "description": "刘禅继位、蜀汉后期及263年降魏。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-sgz-44",
+    "title": "《三国志》卷44·蒋琬费祎姜维传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷44",
+    "description": "姜维从魏入蜀、北伐及蜀汉末年。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-sgz-48",
+    "title": "《三国志》卷48·三嗣主传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷48",
+    "description": "孙亮、孙休、孙皓及280年孙吴灭亡。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-sgz-58",
+    "title": "《三国志》卷58·陆逊传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷58",
+    "description": "陆逊指挥夷陵之战及其后军政活动。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-sgz-03",
+    "title": "《三国志》卷3·明帝纪",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷03",
+    "description": "曹叡继位、魏蜀交战及托孤。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-sgz-31",
+    "title": "《三国志》卷31·刘二牧传",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷31",
+    "description": "刘焉、刘璋与刘备入益州。在线文本为维基文库转录。",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-jin-01",
+    "title": "《晋书》卷一·宣帝纪",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷001",
+    "description": "司马懿与曹魏政局、高平陵政变；注意晋朝追尊帝号和立场。",
+    "author": "房玄龄等撰",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-jin-02",
+    "title": "《晋书》卷二·景帝纪、文帝纪",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷002",
+    "description": "司马师、司马昭执政与魏灭蜀的记述。",
+    "author": "房玄龄等撰",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-jin-03",
+    "title": "《晋书》卷三·武帝纪",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷003",
+    "description": "司马炎代魏、泰始年号及太康元年晋灭吴。",
+    "author": "房玄龄等撰",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-jin-34",
+    "title": "《晋书》卷三十四·羊祜杜预传",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷034",
+    "description": "羊祜筹划伐吴、杜预参战与其经学著述。",
+    "author": "房玄龄等撰",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-jin-42",
+    "title": "《晋书》卷四十二·王濬唐彬等传",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷042",
+    "description": "王濬在益州造船及顺江攻吴。",
+    "author": "房玄龄等撰",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-yuefu-30",
+    "title": "《乐府诗集》卷三十·相和歌辞五",
+    "url": "https://zh.wikisource.org/wiki/樂府詩集/030卷",
+    "description": "收录曹操《短歌行》。作品成篇年月未据此确定。",
+    "author": "郭茂倩编",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-wenxuan-52",
+    "title": "《文选》卷五十二·论",
+    "url": "https://zh.wikisource.org/wiki/典論/論文",
+    "description": "《文选》卷五十二所收《典论·论文》，链接直达作品转录文本。",
+    "author": "萧统编，李善等注",
+    "kind": "primary"
+  },
+  {
+    "id": "shared-three-hhs-09",
+    "title": "《后汉书》卷九·孝献帝纪",
+    "author": "范晔撰，李贤等注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/後漢書/卷9",
+    "description": "刘协身份、董卓废立、建安迁许、禅位及山阳公去世。链接为维基文库转录。"
+  },
+  {
+    "id": "shared-three-sgz-14",
+    "title": "《三国志》卷14·程郭董刘蒋刘传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷14",
+    "description": "相关人物本传及注文；在线文本为开放转录。"
+  },
+  {
+    "id": "shared-three-sgz-17",
+    "title": "《三国志》卷17·张乐于张徐传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷17",
+    "description": "相关人物本传及注文；在线文本为开放转录。"
+  },
+  {
+    "id": "shared-three-sgz-19",
+    "title": "《三国志》卷19·任城陈萧王传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷19",
+    "description": "相关人物本传及注文；在线文本为开放转录。"
+  },
+  {
+    "id": "shared-three-sgz-21",
+    "title": "《三国志》卷21·王卫二刘傅传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷21",
+    "description": "相关人物本传及注文；在线文本为开放转录。"
+  },
+  {
+    "id": "shared-three-sgz-22",
+    "title": "《三国志》卷22·桓二陈徐卫卢传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷22",
+    "description": "相关人物本传及注文；在线文本为开放转录。"
+  },
+  {
+    "id": "shared-three-sgz-16",
+    "title": "《三国志》卷16·任苏杜郑仓传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷16",
+    "description": "相关人物本传及注文；在线文本为开放转录。"
+  },
+  {
+    "id": "shared-three-sgz-29",
+    "title": "《三国志》卷29·方技传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/三國志/卷29",
+    "description": "相关人物本传及注文；在线文本为开放转录。"
+  },
+  {
+    "id": "shared-three-hhs-84",
+    "title": "《后汉书》卷八十四·列女传",
+    "author": "范晔撰，李贤等注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/後漢書/卷84",
+    "description": "班昭、蔡琰的生平与著述记事；在线文本为开放转录。"
+  },
+  {
+    "id": "shared-three-jin-82",
+    "title": "《晋书》卷八十二·陈寿等传",
+    "author": "房玄龄等撰",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷082",
+    "description": "陈寿生平、修史与史家评议；在线文本为开放转录。"
+  },
+  {
+    "id": "shared-three-jin-food",
+    "title": "《晋书》卷二十六·食货志",
+    "author": "房玄龄等撰",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/晉書/卷026",
+    "description": "汉末魏晋的屯田、农业、流民、税役与经济记事；在线文本为开放转录。"
+  },
+  {
+    "id": "shared-three-wenxuan-19",
+    "title": "《文选》卷十九·洛神赋",
+    "author": "萧统编，李善等注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/昭明文選/卷19",
+    "description": "收录曹植《洛神赋》；在线文本为开放转录。"
+  },
+  {
+    "id": "shared-three-wenxuan-11",
+    "title": "《文选》卷十一·登楼赋",
+    "author": "萧统编，李善等注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/昭明文選/卷11",
+    "description": "收录王粲《登楼赋》；在线文本为开放转录。"
+  },
+  {
+    "id": "ihns-song-yingxing",
+    "title": "中国科学院自然科学史研究所 · 宋应星",
+    "author": "中国科学院自然科学史研究所 · 中国农业历史与文化",
+    "kind": "reference",
+    "url": "https://agri-history.ihns.ac.cn/agriculturists/syx.htm",
+    "description": "宋应星的生平、著述和技术知识整理；生卒使用1587—约1666年的考证口径。"
+  }
+]

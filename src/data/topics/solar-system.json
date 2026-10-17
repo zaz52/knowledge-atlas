@@ -1,0 +1,34 @@
+{
+  "id": "solar-system",
+  "title": "你好，太阳系邻居",
+  "subtitle": "从地球出发，把好奇心交给星空。",
+  "description": "太阳、地球与月球有什么联系？从几个熟悉的天体开始，认识我们所在的宇宙一角。当前为基础演示内容，位置与尺寸为示意。",
+  "category": "宇宙探索",
+  "status": "preview",
+  "theme": "space",
+  "tags": ["太阳系", "天文启蒙", "星空"],
+  "question": "每天看到的太阳和月亮，怎样与地球相连？",
+  "nodes": [
+    { "id": "sun", "label": "太阳", "description": "太阳是太阳系中的恒星。", "x": 170, "y": 210 },
+    {
+      "id": "earth",
+      "label": "地球",
+      "description": "地球围绕太阳公转，也是我们生活的家园。",
+      "x": 360,
+      "y": 130
+    },
+    { "id": "moon", "label": "月球", "description": "月球是地球的天然卫星。", "x": 510, "y": 210 },
+    {
+      "id": "mars",
+      "label": "火星",
+      "description": "火星是太阳系中的一颗行星。",
+      "x": 350,
+      "y": 350
+    }
+  ],
+  "edges": [
+    { "id": "earth-sun", "source": "earth", "target": "sun", "label": "围绕公转" },
+    { "id": "moon-earth", "source": "moon", "target": "earth", "label": "围绕公转" },
+    { "id": "mars-sun", "source": "mars", "target": "sun", "label": "围绕公转" }
+  ]
+}

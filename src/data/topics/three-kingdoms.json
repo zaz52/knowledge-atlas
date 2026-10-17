@@ -1,0 +1,212 @@
+{
+  "id": "three-kingdoms",
+  "mode": "explorer",
+  "title": "三国人物关系网",
+  "subtitle": "从东汉末年的危机，读到280年的西晋统一。",
+  "description": "沿五段历史脉络探索东汉末年至西晋统一：读人物与事件，分清时间先后、历史影响和文学演绎。",
+  "category": "人文历史",
+  "status": "published",
+  "theme": "history",
+  "tags": [
+    "三国",
+    "人物关系",
+    "亲子共学"
+  ],
+  "question": "天下怎样走向分立，又怎样走向统一？",
+  "scope": "东汉末年至西晋统一 · 184—280年",
+  "readingNote": "本图覆盖184—280年。五段为阅读分期，时间存在重叠；“时间先后”仅表示顺序，“背景 / 影响”表示有依据的具体联系，历史结果常由多个条件共同形成。孙吴222年独立纪年、229年称帝；晋代魏传统记265年，禅代仪式公历跨266年。演义情节独立标记。 人物与社会背景按批次选录；人物较多时先显示8位，可展开关联或检索其余人物。完整收录名单与待补范围见项目数据清单。",
+  "initialNodeIds": [
+    "han-collapse",
+    "warlord-contest",
+    "three-founded",
+    "power-shifts",
+    "road-to-unity"
+  ],
+  "initialSelectionId": "han-collapse",
+  "groups": [
+    {
+      "id": "wei",
+      "label": "曹魏势力",
+      "color": "#9a6464",
+      "fill": "#f5e9e5"
+    },
+    {
+      "id": "shu",
+      "label": "蜀汉势力",
+      "color": "#718665",
+      "fill": "#edf1e5"
+    },
+    {
+      "id": "wu",
+      "label": "孙吴势力",
+      "color": "#68859a",
+      "fill": "#eaf0f3"
+    }
+  ],
+  "basisLabels": {
+    "documented": "史料记载",
+    "literary": "演义内容"
+  },
+  "relationTypes": [
+    {
+      "id": "service",
+      "label": "君臣 / 从属",
+      "color": "#7e8f69",
+      "directed": true,
+      "dashed": false,
+      "description": "由辅佐者指向领袖，包含称帝前的追随、任职与军事从属。"
+    },
+    {
+      "id": "kinship",
+      "label": "亲属",
+      "color": "#ad8b57",
+      "directed": true,
+      "dashed": false,
+      "description": "有史料依据的血缘关系；箭头由父亲或兄长指向子辈或弟弟。"
+    },
+    {
+      "id": "alliance",
+      "label": "联盟",
+      "color": "#648d88",
+      "directed": false,
+      "dashed": true,
+      "description": "特定时期为共同目标合作；关系随时间变化。"
+    },
+    {
+      "id": "conflict",
+      "label": "敌对",
+      "color": "#b16b61",
+      "directed": false,
+      "dashed": true,
+      "description": "所标注时期内存在军事对抗，不能理解为终身敌对。"
+    },
+    {
+      "id": "event",
+      "label": "事件关联",
+      "color": "#939083",
+      "directed": true,
+      "dashed": false,
+      "description": "人物指向历史事件，具体作用见关系说明。派兵、出使与亲临作战分别说明。"
+    },
+    {
+      "id": "affiliation",
+      "label": "阵营归属",
+      "color": "#a09c8d",
+      "directed": true,
+      "dashed": true,
+      "description": "人物指向相关势力，包含建立政权或奠定前期基业。"
+    },
+    {
+      "id": "narrative",
+      "label": "演义关联",
+      "color": "#aa7d97",
+      "directed": true,
+      "dashed": true,
+      "description": "人物指向小说情节；依据《三国演义》，单独标注为文学演绎。"
+    },
+    {
+      "id": "figure",
+      "label": "阶段人物",
+      "color": "#9a7c56",
+      "directed": false,
+      "dashed": true,
+      "description": "阅读阶段与人物之间的索引关系，表示人物在该阶段活动或与转折有关。"
+    },
+    {
+      "id": "chapter-event",
+      "label": "阶段事件",
+      "color": "#8a7ba3",
+      "directed": false,
+      "dashed": true,
+      "description": "阅读阶段中的关键事件；分期是编辑组织，边界可重叠。"
+    },
+    {
+      "id": "sequence",
+      "label": "时间先后",
+      "color": "#728b9a",
+      "directed": true,
+      "dashed": true,
+      "description": "按事件起始年份排列，同年和跨年事件可能并行；此类型本身不表示因果。"
+    },
+    {
+      "id": "influence",
+      "label": "背景 / 影响",
+      "color": "#b78951",
+      "directed": true,
+      "dashed": false,
+      "description": "由前事指向后事，描述具体背景、促成条件或影响；详见连线和事件说明。"
+    },
+    {
+      "id": "authorship",
+      "label": "创作 / 著述",
+      "color": "#a38b55",
+      "directed": true,
+      "dashed": false,
+      "description": "人物指向有依据的作品；作品的艺术内容与历史现场分别理解。"
+    },
+    {
+      "id": "recommendation",
+      "label": "人才举荐",
+      "color": "#698d85",
+      "directed": true,
+      "dashed": true,
+      "description": "有史料依据的举荐，箭头从推荐者指向被推荐者。"
+    },
+    {
+      "id": "background",
+      "label": "社会背景",
+      "directed": false,
+      "description": "人物、事件或时代与制度、生产、迁徙和文化线索之间的关联；具体依据与适用年代见说明。",
+      "color": "#ae965e",
+      "dashed": true
+    }
+  ],
+  "searchPlaceholder": "搜索人物、事件或作品，如：司马炎、黄巾",
+  "showPortraits": false,
+  "peopleExploration": {
+    "rootKinds": [
+      "period"
+    ],
+    "membershipRelationType": "figure",
+    "includeRootEvents": true,
+    "initialPeopleLimit": 8
+  },
+  "story": {
+    "overviewLabel": "返回历史总览",
+    "chapters": [
+      {
+        "nodeId": "han-collapse",
+        "caption": "王朝为什么失去控制？"
+      },
+      {
+        "nodeId": "warlord-contest",
+        "caption": "谁取得优势，又遇到阻力？"
+      },
+      {
+        "nodeId": "three-founded",
+        "caption": "合作怎样变成竞争？"
+      },
+      {
+        "nodeId": "power-shifts",
+        "caption": "战场与朝廷怎样相互影响？"
+      },
+      {
+        "nodeId": "road-to-unity",
+        "caption": "统一需要哪些条件？"
+      }
+    ]
+  },
+  "viewport": {
+    "initialZoom": 0.78,
+    "focusOnExpand": true,
+    "minZoom": 0.12,
+    "initialFocusIds": [
+      "han-collapse",
+      "warlord-contest",
+      "three-founded",
+      "power-shifts",
+      "road-to-unity"
+    ]
+  },
+  "layoutNote": "总览按阅读阶段排列；点击阶段展示人物和事件。时间先后与背景影响分别筛选；同一阶段内事件可以并行。 局部人物超过8位时分层排列；时代背景以暖金色知识节点显示。"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "knowledge-atlas",
+  "account_id": "8595c61366aaaa5554add9bc3d8174d9",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "single-page-application"
+  },
+  "routes": [
+    { "pattern": "zhitu.weiyi.indevs.in", "custom_domain": true }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "id": "chinese-dynasties",
+  "mode": "explorer",
+  "title": "中国历史朝代关系图",
+  "subtitle": "沿着时间看更替，也看同一时代的不同政权。",
+  "description": "沿朝代看更替与并存，点击朝代进入代表人物图谱，再沿人物关系探索作品、事迹和人生经历。",
+  "category": "人文历史",
+  "status": "published",
+  "theme": "history",
+  "tags": [
+    "中国历史",
+    "朝代与政权",
+    "时间与并存"
+  ],
+  "question": "同一个时代，为什么会有几个政权？",
+  "scope": "秦统一至清帝退位 · 前221—1912年",
+  "readingNote": "横向按历史阶段推进，分支呈现并立；间距不与年数成比例。虚线框是时期或多个政权的总称，实线框是具体政权。并存线表示时间重叠，承继线与取代线各有独立含义。起讫口径、迁都与延续政权见详情。 人物与社会背景按批次选录；人物较多时先显示8位，可展开关联或检索其余人物。完整收录名单与待补范围见项目数据清单。",
+  "layoutNote": "初始展示朝代时间总览。点击一个朝代或时期，展开该时代已收录的代表人物；点击人物继续显示其作品、事件和有依据的交往关系。左上可返回朝代总览。人物为选录，汉末人物在三国前史中另作说明。 局部人物超过8位时分层排列；时代背景以暖金色知识节点显示。",
+  "edgeCurveOffset": 160,
+  "viewport": {
+    "minZoom": 0.02,
+    "initialZoom": 0.82,
+    "focusOnExpand": true,
+    "initialFocusIds": [
+      "northern-song",
+      "southern-song"
+    ]
+  },
+  "initialNodeIds": [
+    "qin",
+    "western-han",
+    "xin",
+    "eastern-han",
+    "three-kingdoms",
+    "cao-wei",
+    "shu-han",
+    "eastern-wu",
+    "western-jin",
+    "eastern-jin",
+    "sixteen-states",
+    "northern-southern",
+    "southern-dynasties",
+    "northern-dynasties",
+    "sui",
+    "tang",
+    "five-ten",
+    "northern-song",
+    "southern-song",
+    "liao",
+    "western-xia",
+    "jurchen-jin",
+    "mongol",
+    "yuan",
+    "ming",
+    "qing"
+  ],
+  "initialSelectionId": "northern-song",
+  "groups": [
+    {
+      "id": "early",
+      "label": "秦汉与新朝",
+      "color": "#a27e54",
+      "fill": "#f5eddf"
+    },
+    {
+      "id": "divided",
+      "label": "魏晋与南北分立",
+      "color": "#7c8d68",
+      "fill": "#edf1e5"
+    },
+    {
+      "id": "medieval",
+      "label": "隋唐与五代",
+      "color": "#ae6f56",
+      "fill": "#f5e9df"
+    },
+    {
+      "id": "parallel",
+      "label": "宋辽夏金与蒙古",
+      "color": "#698b98",
+      "fill": "#e9f1f2"
+    },
+    {
+      "id": "late",
+      "label": "元明清",
+      "color": "#94788c",
+      "fill": "#f2eaf0"
+    }
+  ],
+  "basisLabels": {
+    "documented": "资料记载",
+    "literary": "文学演绎"
+  },
+  "searchPlaceholder": "搜索朝代、人物、作品或事件，如：唐、苏轼、梦溪笔谈",
+  "relationTypes": [
+    {
+      "id": "replacement",
+      "label": "取代 / 兼并",
+      "description": "由被取代或被兼并的一方指向取得统治的一方，时间指具体变化，接收方可能早已建立。",
+      "color": "#ad6b59",
+      "directed": true,
+      "dashed": false
+    },
+    {
+      "id": "continuation",
+      "label": "前后承继",
+      "description": "国号、皇室或统治体系在不同阶段延续，间隔和变化见说明。",
+      "color": "#7c8e65",
+      "directed": true,
+      "dashed": false
+    },
+    {
+      "id": "division",
+      "label": "走向分立",
+      "description": "从原有阶段走向多政权格局，不表示一次正式分封。",
+      "color": "#ad8b57",
+      "directed": true,
+      "dashed": true
+    },
+    {
+      "id": "coexistence",
+      "label": "同时并存",
+      "description": "标注年份内双方同时存在，单独这一关系不推断敌友或隶属。",
+      "color": "#648d98",
+      "directed": false,
+      "dashed": true,
+      "temporalRule": "overlap"
+    },
+    {
+      "id": "inclusion",
+      "label": "时期归纳",
+      "description": "时期总称连向该阶段所涉及的政权或子阶段，不表示皇帝对其统治。",
+      "color": "#9d8aab",
+      "directed": true,
+      "dashed": true
+    },
+    {
+      "id": "figure",
+      "label": "人物关联",
+      "description": "由人物指向相关政权或历史阶段，身份及作用见资料。",
+      "color": "#888b69",
+      "directed": true,
+      "dashed": false
+    },
+    {
+      "id": "event",
+      "label": "事件关联",
+      "description": "由政权或人物指向相关事件，具体参与方式见说明。",
+      "color": "#969084",
+      "directed": true,
+      "dashed": false
+    },
+    {
+      "id": "service",
+      "label": "君臣 / 从属",
+      "color": "#7e8f69",
+      "directed": true,
+      "dashed": false,
+      "description": "由辅佐者指向领袖，包含称帝前的追随、任职与军事从属。"
+    },
+    {
+      "id": "kinship",
+      "label": "亲属",
+      "color": "#ad8b57",
+      "directed": true,
+      "dashed": false,
+      "description": "长辈指向晚辈的亲属关系；父子、祖孙等具体关系见连线标签与史料说明。"
+    },
+    {
+      "id": "alliance",
+      "label": "联盟",
+      "color": "#648d88",
+      "directed": false,
+      "dashed": true,
+      "description": "特定时期为共同目标合作；关系随时间变化。"
+    },
+    {
+      "id": "conflict",
+      "label": "敌对",
+      "color": "#b16b61",
+      "directed": false,
+      "dashed": true,
+      "description": "所标注时期内存在军事对抗，不能理解为终身敌对。"
+    },
+    {
+      "id": "authorship",
+      "label": "创作 / 编撰",
+      "description": "由作者或参与编撰者指向作品；合著、整理与传世状态在说明中区分。",
+      "directed": true,
+      "dashed": false,
+      "color": "#a87928"
+    },
+    {
+      "id": "friendship",
+      "label": "交游 / 友谊",
+      "description": "有文献依据的相识、交游或赠答，不以同一时代推定相识。",
+      "directed": false,
+      "dashed": false,
+      "color": "#287f91"
+    },
+    {
+      "id": "debate",
+      "label": "政见 / 论争",
+      "description": "所列议题上的政策分歧，不能概括为终身私人敌对。",
+      "directed": false,
+      "dashed": true,
+      "color": "#b95742"
+    },
+    {
+      "id": "background",
+      "label": "社会背景",
+      "directed": false,
+      "description": "人物、事件或时代与制度、生产、迁徙和文化线索之间的关联；具体依据与适用年代见说明。",
+      "color": "#ae965e",
+      "dashed": true
+    },
+    {
+      "id": "narrative",
+      "label": "演义关联",
+      "color": "#aa7d97",
+      "directed": true,
+      "dashed": true,
+      "description": "人物指向小说情节；依据《三国演义》，单独标注为文学演绎。"
+    },
+    {
+      "id": "recommendation",
+      "label": "人才举荐",
+      "color": "#698d85",
+      "directed": true,
+      "dashed": true,
+      "description": "有史料依据的举荐，箭头从推荐者指向被推荐者。"
+    },
+    {
+      "id": "sequence",
+      "label": "时间先后",
+      "color": "#728b9a",
+      "directed": true,
+      "dashed": true,
+      "description": "按事件起始年份排列，同年和跨年事件可能并行；此类型本身不表示因果。"
+    },
+    {
+      "id": "influence",
+      "label": "背景 / 影响",
+      "color": "#b78951",
+      "directed": true,
+      "dashed": false,
+      "description": "由前事指向后事，描述具体背景、促成条件或影响；详见连线和事件说明。"
+    },
+    {
+      "id": "patronage",
+      "label": "支持 / 延聘",
+      "directed": true,
+      "color": "#9a8fbd",
+      "description": "支持者指向受支持者；说明具体的延聘、译经支持或文化赞助，含义与任职关系分别标注。",
+      "dashed": false
+    }
+  ],
+  "peopleExploration": {
+    "rootKinds": [
+      "polity",
+      "period"
+    ],
+    "membershipRelationType": "figure",
+    "initialPeopleLimit": 8
+  }
+}
