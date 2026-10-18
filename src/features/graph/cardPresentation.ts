@@ -13,8 +13,8 @@ export interface CardView {
   factionFocus?: string | null
 }
 // Bounds include the capsule; circular connection anchors stay above the label.
-export const CARD_WIDTH = 200
-export const CARD_HEIGHT = 110
+export const CARD_WIDTH = 208
+export const CARD_HEIGHT = 132
 
 // Relation families give every relation type a distinguishable canvas color.
 // Color = semantic family, dash pattern = the type's own `dashed` metadata flag.
@@ -249,7 +249,7 @@ export function cardGraphData(
               placement: [(CARD_WIDTH / 2 + 36) / CARD_WIDTH, 42 / CARD_HEIGHT] as [number, number],
             },
           ].map((p) => ({ ...p, r: 0, fillOpacity: 0, strokeOpacity: 0 })),
-          innerHTML: `<div class="graph-card graph-node-card ${isRoot ? 'is-root' : ''} ${isSelected ? 'is-selected' : ''} ${dim ? 'is-dim' : ''}" style="--orb-scale:${importance.toFixed(2)}" data-card-id="${escape(node.id)}" data-kind="${node.kind}" role="group" tabindex="0" aria-label="${escape(node.label)}，${escape(kindNames[node.kind])}，点击选中，使用角标展开或收起" data-selected="${isSelected}" data-expanded="${expanded}"><div class="node-card-head"><span class="node-card-title">${escape(node.label)}</span>${badgeHTML}</div><div class="node-card-sub">${node.basis === 'literary' ? '演义 · ' : ''}${escape(kindNames[node.kind])}${node.period ? ' · ' + escape(node.period) : ''}</div><div class="node-card-foot"><span class="node-card-count">${degree.get(node.id) ?? 0} 条关联</span></div></div>`,
+          innerHTML: `<div class="graph-card graph-node-card ${isRoot ? 'is-root' : ''} ${isSelected ? 'is-selected' : ''} ${dim ? 'is-dim' : ''}" style="--orb-scale:${importance.toFixed(2)}" data-card-id="${escape(node.id)}" data-kind="${node.kind}" role="group" tabindex="0" aria-label="${escape(node.label)}，${escape(kindNames[node.kind])}，点击选中，使用角标展开或收起" data-selected="${isSelected}" data-expanded="${expanded}"><div class="node-card-top"><span class="node-card-badge">${escape(kindNames[node.kind])}</span>${badgeHTML}</div><div class="node-card-title">${escape(node.label)}</div><div class="node-card-desc">${escape((node.description || '').slice(0, 72))}${(node.description || '').length > 72 ? '…' : ''}</div></div>`,
         },
       }
     }),

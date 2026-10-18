@@ -29,11 +29,11 @@
   --orb-polity: #2dd4bf;
   --orb-concept: #fbbf24;
   --orb-work: #c084fc;
-  --graph-background: #0b0b0e;
-  --graph-text: #f4f4f6;
-  --graph-muted: #a1a1aa;
-  --graph-accent: #60a5fa;
-  --graph-edge: #52525b;
+  --graph-background: #f6f1e7;
+  --graph-text: #2c2a26;
+  --graph-muted: #8a8478;
+  --graph-accent: #4a7ddb;
+  --graph-edge: #d8d0bc;
   --graph-cross: #f59e0b;
   --graph-rel-person: #60a5fa;
   --graph-rel-ally: #34d399;
@@ -273,19 +273,18 @@
 }
 
 /* Circle, core, capsule, badge: retained as real G6 HTML nodes. */
-/* Rectangular info card nodes (2D card view). */
+/* Rectangular info card nodes (2D card view) — light theme, matches original design. */
 .graph-node-card {
-  --card-accent: var(--orb-person);
+  --card-accent: #4a7ddb;
   position: relative;
-  width: 200px;
-  min-height: 104px;
-  padding: 12px 14px 10px;
-  background: linear-gradient(160deg, rgba(24,20,14,.96), rgba(16,14,10,.94));
-  border: 1px solid color-mix(in srgb, var(--card-accent) 45%, transparent);
-  border-left: 4px solid var(--card-accent);
-  border-radius: 10px;
-  box-shadow: 0 4px 18px rgba(0,0,0,.45);
-  color: var(--text-primary);
+  width: 208px;
+  min-height: 120px;
+  padding: 12px 14px;
+  background: #ffffff;
+  border: 1px solid #e8e2d4;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(120,100,60,.10);
+  color: #2c2a26;
   cursor: pointer;
   user-select: none;
   text-align: left;
@@ -294,57 +293,68 @@
   transform: scale(var(--orb-scale, 1));
   transform-origin: center;
 }
-.graph-node-card[data-kind='period'] { --card-accent: var(--orb-period); }
-.graph-node-card[data-kind='event'] { --card-accent: var(--orb-event); }
+.graph-node-card[data-kind='period'] { --card-accent: #8a6fd1; }
+.graph-node-card[data-kind='event'] { --card-accent: #9b7ed9; }
 .graph-node-card[data-kind='polity'],
-.graph-node-card[data-kind='faction'] { --card-accent: var(--orb-polity); }
-.graph-node-card[data-kind='concept'] { --card-accent: var(--orb-concept); }
-.graph-node-card[data-kind='work'] { --card-accent: var(--orb-work); }
+.graph-node-card[data-kind='faction'] { --card-accent: #d18a3a; }
+.graph-node-card[data-kind='concept'] { --card-accent: #4aa8a0; }
+.graph-node-card[data-kind='work'] { --card-accent: #c25a7a; }
 .graph-node-card:hover {
-  box-shadow: 0 6px 24px rgba(0,0,0,.55), 0 0 0 1px color-mix(in srgb, var(--card-accent) 60%, transparent);
+  box-shadow: 0 4px 20px rgba(120,100,60,.16);
+  border-color: #d8d0bc;
 }
 .graph-node-card.is-selected {
-  border-color: var(--card-accent);
-  box-shadow: 0 0 0 2px color-mix(in srgb, var(--card-accent) 70%, transparent), 0 8px 28px rgba(0,0,0,.5);
+  border: 2px solid #4a7ddb;
+  box-shadow: 0 4px 20px rgba(74,125,219,.18);
 }
 .graph-node-card.is-dim { opacity: .15; }
-.graph-node-card.is-root { border-left-width: 6px; }
-.node-card-head {
+.graph-node-card.is-root { box-shadow: 0 4px 20px rgba(120,100,60,.18); }
+.node-card-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
-  margin-bottom: 6px;
-}
-.node-card-title {
-  font-size: 17px;
-  font-weight: 700;
-  letter-spacing: .5px;
-  color: #f5edd8;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.node-card-sub {
-  font-size: 12px;
-  color: #b8a98a;
   margin-bottom: 8px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
-.node-card-foot {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.node-card-count {
+.node-card-badge {
   font-size: 11px;
-  color: var(--card-accent);
-  background: color-mix(in srgb, var(--card-accent) 16%, transparent);
+  color: #4a7ddb;
+  background: #e8f0fe;
   border-radius: 10px;
   padding: 2px 10px;
 }
+.graph-node-card[data-kind='event'] .node-card-badge,
+.graph-node-card[data-kind='period'] .node-card-badge {
+  color: #7b5fc7;
+  background: #f0eafc;
+}
+.node-card-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1e1c18;
+  margin-bottom: 6px;
+  letter-spacing: .5px;
+}
+.node-card-desc {
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: #6b655a;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+/* expand badge restyled as blue +N pill */
+.graph-node-card .expand-badge {
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background: #4a7ddb;
+  border: none;
+  border-radius: 12px;
+  padding: 3px 12px;
+  cursor: pointer;
+}
+.graph-node-card .expand-badge:hover { background: #3a6dcb; }
 .graph-orb {
   --orb-color: var(--orb-person);
   position: relative;
