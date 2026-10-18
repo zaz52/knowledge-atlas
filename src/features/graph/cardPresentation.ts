@@ -13,6 +13,72 @@ export interface CardView {
 // Bounds include the capsule; circular connection anchors stay above the label.
 export const CARD_WIDTH = 176
 export const CARD_HEIGHT = 136
+
+// Relation families give every relation type a distinguishable canvas color.
+// Color = semantic family, dash pattern = the type's own `dashed` metadata flag.
+const RELATION_FAMILIES: Record<string, string> = {
+  service: 'person',
+  kinship: 'person',
+  friendship: 'person',
+  recommendation: 'person',
+  patronage: 'person',
+  court: 'person',
+  diplomacy: 'person',
+  alliance: 'ally',
+  conflict: 'conflict',
+  event: 'event',
+  sequence: 'event',
+  'chapter-event': 'event',
+  affiliation: 'structure',
+  figure: 'structure',
+  inclusion: 'structure',
+  replacement: 'structure',
+  continuation: 'structure',
+  division: 'structure',
+  coexistence: 'structure',
+  authorship: 'culture',
+  reception: 'culture',
+  narrative: 'culture',
+  influence: 'background',
+  background: 'background',
+  debate: 'background',
+}
+const FAMILY_VARS: Record<string, string> = {
+  person: '--graph-rel-person',
+  ally: '--graph-rel-ally',
+  conflict: '--graph-rel-conflict',
+  event: '--graph-rel-event',
+  structure: '--graph-rel-structure',
+  culture: '--graph-rel-culture',
+  background: '--graph-rel-background',
+}
+const FAMILY_DEFAULTS: Record<string, string> = {
+  person: '#60a5fa',
+  ally: '#34d399',
+  conflict: '#f28f91',
+  event: '#a78bfa',
+  structure: '#2dd4bf',
+  culture: '#fbbf24',
+  background: '#a1a1aa',
+}
+export function relationTypeColor(typeId: string): string {
+  const family = RELATION_FAMILIES[typeId] ?? 'background'
+  if (typeof document === 'undefined') return FAMILY_DEFAULTS[family]
+  const css = getComputedStyle(document.querySelector('.circle-atlas') ?? document.documentElement)
+  return css.getPropertyValue(FAMILY_VARS[family]).trim() || FAMILY_DEFAULTS[family]
+}
+export const RELATION_FAMILY_NAMES: Record<string, string> = {
+  person: '人物关系',
+  ally: '联盟',
+  conflict: '敌对',
+  event: '事件关联',
+  structure: '归属结构',
+  culture: '文化创作',
+  background: '背景影响',
+}
+export function relationFamilyOf(typeId: string): string {
+  return RELATION_FAMILIES[typeId] ?? 'background'
+}
 const escape = (value: string) =>
   value.replace(
     /[&<>"']/g,
@@ -95,28 +161,11 @@ export function cardGraphData(
     if (edge.source === selectedId) neighbors.add(edge.target)
     if (edge.target === selectedId) neighbors.add(edge.source)
   }
-  const treePairs = new Set<string>(),
-    seen = new Set([view.state.rootId]),
-    queue = [view.state.rootId]
+  const kinds = new Map(scene.nodes.map((n) => [n.id, n.kind]))
+  const typeColors = new Map(
+    dataset.metadata.relationTypes.map((t) => [t.id, relationTypeColor(t.id)]),
+  )
   const pairKey = (a: string, b: string) => [a, b].sort().join(':')
-  for (let i = 0; i < queue.length; i++)
-    for (const other of view.state.expanded[queue[i]] ?? []) {
-      if (ids.has(other) && !seen.has(other)) {
-        seen.add(other)
-        queue.push(other)
-        treePairs.add(pairKey(queue[i], other))
-      }
-    }
-  for (let i = 0; i < queue.length; i++)
-    for (const edge of scene.relations) {
-      const other =
-        edge.source === queue[i] ? edge.target : edge.target === queue[i] ? edge.source : null
-      if (other && !seen.has(other)) {
-        seen.add(other)
-        queue.push(other)
-        treePairs.add(pairKey(queue[i], other))
-      }
-    }
   const pairs = new Map<string, string[]>()
   for (const edge of scene.relations) {
     const key = pairKey(edge.source, edge.target)
@@ -175,9 +224,11 @@ export function cardGraphData(
     }),
     edges: scene.relations.map((edge, index) => {
       const type = dataset.metadata.relationTypes.find((t) => t.id === edge.type)!
-      const cross = !treePairs.has(pairKey(edge.source, edge.target)),
-        siblings = pairs.get(pairKey(edge.source, edge.target))!
+      const siblings = pairs.get(pairKey(edge.source, edge.target))!
+      const baseColor = typeColors.get(edge.type) ?? colors.edge
       const active = edge.source === selectedId || edge.target === selectedId
+      const personPair =
+        kinds.get(edge.source) === 'person' && kinds.get(edge.target) === 'person'
       const source = positions.get(edge.source)!,
         target = positions.get(edge.target)!
       const downward = source.y < target.y
@@ -206,8 +257,8 @@ export function cardGraphData(
       const bend = 110 + siblings.indexOf(edge.id) * 32
       const controls = sameRow
         ? [
-            [source.x + Math.sign(target.x - source.x) * 80, source.y - (cross ? 54 : 18)],
-            [target.x - Math.sign(target.x - source.x) * 80, target.y - (cross ? 54 : 18)],
+            [source.x + Math.sign(target.x - source.x) * 80, source.y - 18],
+            [target.x - Math.sign(target.x - source.x) * 80, target.y - 18],
           ]
         : [
             [upper.x + sign * bend, upper.y + 8],
@@ -223,24 +274,22 @@ export function cardGraphData(
           label: edge.label,
           period: edge.period,
           relationType: edge.type,
-          cross,
-          activeColor: cross ? colors.cross : colors.accent,
-          showLabel: scene.nodes.length <= 4 || activeLabels.includes(edge.id),
-          showPeriod:
-            scene.nodes.find((n) => n.id === edge.source)?.kind === 'person' &&
-            scene.nodes.find((n) => n.id === edge.target)?.kind === 'person',
+          activeColor: baseColor,
+          // Person-to-person ties are the heart of the atlas: always label them.
+          showLabel: personPair || activeLabels.includes(edge.id),
+          showPeriod: personPair,
         },
         style: {
           sourcePort,
           targetPort,
           controlPoints: controls,
-          stroke: cross ? colors.cross : active && highlight ? colors.accent : colors.edge,
-          lineWidth: active && highlight ? 1.9 : 1.4,
-          lineDash: cross || edge.basis === 'literary' ? [6, 5] : [],
+          stroke: baseColor,
+          lineWidth: active && highlight ? 2 : 1.4,
+          lineDash: type.dashed || edge.basis === 'literary' ? [6, 5] : [],
           endArrow: type.directed,
           endArrowSize: 6,
           labelOffsetY: sameRow ? -12 : 28,
-          opacity: highlight && !active ? (cross ? 0.32 : 0.65) : 0.95,
+          opacity: highlight && !active ? 0.32 : 0.95,
         },
       }
     }),

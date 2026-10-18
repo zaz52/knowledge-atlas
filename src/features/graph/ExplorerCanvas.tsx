@@ -435,8 +435,9 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
           const availableIds = new Set(graph.getNodeData().map((node) => node.id))
           if (!ids.length || ids.some((target) => !availableIds.has(target))) return
           if (cardMode) {
+            // Single-canvas atlas: focus only moves the camera. Zoom changes
+            // are always explicit from the caller (chapter nav, search, reset).
             if (zoom !== undefined) await graph.zoomTo(zoom, false)
-            else if (graph.getZoom() < 0.8) await graph.zoomTo(0.95, false)
             await centerNodes(
               graph,
               ids,
@@ -818,7 +819,13 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
       })
       if (!context.hasRendered) {
         if (cardMode) {
-          await graph.zoomTo(1, false)
+          // Single-canvas atlas: open with the whole map framed, centered on
+          // the current selection.
+          await frameNodes(
+            graph,
+            containerRef.current!.clientWidth,
+            containerRef.current!.clientHeight,
+          )
           await centerNodes(
             graph,
             selectedId,

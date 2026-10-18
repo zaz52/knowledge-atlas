@@ -25,12 +25,11 @@ import {
   cardVisibleIds,
   expandAllCards,
   expandCard,
-  expandCardLayer,
   initialCardExploration,
   locateCard,
   collapseCard,
 } from './cardExploration'
-import type { CardExpandMode } from './cardExploration'
+import { relationTypeColor } from './cardPresentation'
 import '../../styles/explorer.css'
 import '../../styles/card-atlas.css'
 
@@ -40,9 +39,14 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
   const linkedNode = params.get('node')
   const canvasRef = useRef<ExplorerCanvasHandle>(null)
   const rootRef = useRef<HTMLElement>(null)
-  const [state, setState] = useState(() => initialCardExploration(dataset))
+  // Single-canvas atlas: every node and relation lives on one canvas from the
+  // start. There is no "open another canvas" anymore; chapters only move the
+  // camera, collapsing a branch only declutters the current view.
   const [filters, setFilters] = useState(() => defaultFilters(dataset))
-  const [mode, setMode] = useState<CardExpandMode>('cumulative')
+  const [state, setState] = useState(() =>
+    expandAllCards(dataset, initialCardExploration(dataset), defaultFilters(dataset)),
+  )
+  const [chapterNav, setChapterNav] = useState(state.rootId)
   const [pinned, setPinned] = useState(true)
   const [highlight, setHighlight] = useState(true)
   const [allRelations, setAllRelations] = useState(false)
@@ -51,14 +55,14 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
   const [panel, setPanel] = useState<'filters' | 'tools' | 'legend' | null>(null)
   const [query, setQuery] = useState('')
   const [zoom, setZoom] = useState(1)
-  const [revision, setRevision] = useState(0)
+  const [revision] = useState(0)
   const [graphStatus, setGraphStatus] = useState<'loading' | 'ready' | 'error'>('loading')
   const [camera, setCamera] = useState<{ id: string; reset?: boolean } | null>(null)
   const [logs, setLogs] = useState(() => [
     {
       id: 0,
       time: new Date().toLocaleTimeString('zh-CN', { hour12: false }),
-      text: '从一个知识节点开始，点击蓝色角标逐批展开关联。',
+      text: '整张知识图谱已在一张画布上展开：滚轮缩放、拖动画布平移，点击节点查看人物之间的联系。',
     },
   ])
   const sequence = useRef(0)
@@ -132,26 +136,30 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
     [dataset, addLog],
   )
   const expandSelected = () => {
-    const next = expandCard(dataset, state, selected.id, filters, mode)
+    const next = expandCard(dataset, state, selected.id, filters, 'cumulative')
     addLog(
       `展开「${selected.label}」 · 新增${cardVisibleIds(next).length - visibleIds.length}张知识节点`,
     )
     setState(next)
   }
-  const restart = (id?: string) => {
-    const next = initialCardExploration(dataset, id)
-    setState(next)
-    setFilters(defaultFilters(dataset))
+  const resetView = () => {
+    setState((previous) => ({ ...previous, selectedId: previous.rootId }))
+    setChapterNav(state.rootId)
     setDetailsOpen(false)
     setPanel(null)
     setQuery('')
-    setRevision((v) => v + 1)
-    setCamera({ id: next.rootId, reset: true })
-    addLog(`回到「${dataset.nodes.find((n) => n.id === next.rootId)!.label}」 · 由起点逐步展开`)
+    setCamera({ id: state.rootId, reset: true })
+    addLog('已回到整张图谱的全景，可缩放平移继续探索。')
   }
   useEffect(() => {
     if (!camera || graphStatus !== 'ready') return
-    canvasRef.current?.focus(camera.id, camera.reset ? 1 : undefined)
+    if (camera.reset) {
+      // Back to the full map: frame every node, then center on the root.
+      canvasRef.current?.fit()
+      canvasRef.current?.focus(camera.id)
+    } else {
+      canvasRef.current?.focus(camera.id, 0.95)
+    }
   }, [camera, graphStatus])
   const selectedRef = useRef(state.selectedId)
   useEffect(() => {
@@ -205,7 +213,6 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
       className={`atlas-explorer circle-atlas ${inspector ? 'has-inspector' : ''} ${detailsOpen ? 'has-details' : ''} ${panel ? 'has-tool-panel' : ''}`}
       data-selected-node={selected.id}
       data-exploration-root={state.rootId}
-      data-expand-mode={mode}
       data-pinned={pinned}
     >
       <div className="atlas-graph-stage">
@@ -223,7 +230,7 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
             const expanding = !state.expanded[id]?.length
             setState((previous) =>
               expanding
-                ? expandCard(dataset, previous, id, filters, mode)
+                ? expandCard(dataset, previous, id, filters, 'cumulative')
                 : collapseCard(previous, id),
             )
             setDetailsOpen(false)
@@ -266,12 +273,15 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
       </header>
       <div className="card-context-row">
         <label>
-          <span>{metadata.story ? '历史阶段' : '选择朝代'}</span>
+          <span>{metadata.story ? '历史阶段' : '朝代'} · 快速定位</span>
           <select
             className="card-root-select"
-            aria-label="选择朝代或历史阶段"
-            value={state.rootId}
-            onChange={(e) => restart(e.target.value)}
+            aria-label="在同一张图谱内快速定位到历史阶段或朝代"
+            value={chapterNav}
+            onChange={(e) => {
+              setChapterNav(e.target.value)
+              navigateToNode(e.target.value)
+            }}
           >
             {roots.map((id) => (
               <option key={id} value={id}>
@@ -380,7 +390,7 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
         </details>
       </aside>
       <div className="card-bottom-legend">
-        <span>点击 + 展开下一级 · 点击 − 收起分支</span>
+        <span>整张图谱在一张画布上 · 缩放平移浏览 · 点击 − 收起分支</span>
         <button type="button" onClick={() => setPanel('legend')}>
           图例与说明
         </button>
@@ -467,7 +477,7 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
           </div>
           {panel === 'filters' ? (
             <>
-              <p className="card-panel-description">筛选同时作用于画布连线和后续关联展开。</p>
+              <p className="card-panel-description">筛选同时作用于画布连线；取消勾选会隐藏该类连线，节点保留在原位。</p>
               <fieldset className="card-filter-list">
                 <legend className="sr-only">关系类型</legend>
                 {metadata.relationTypes.map((type) => (
@@ -477,6 +487,11 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
                       aria-label={type.label}
                       checked={filters.relationTypes.includes(type.id)}
                       onChange={() => toggleType(type.id)}
+                    />
+                    <i
+                      className="rel-color-dot"
+                      style={{ background: relationTypeColor(type.id) }}
+                      aria-hidden="true"
                     />
                     <span>
                       {type.label}
@@ -531,22 +546,6 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
             </>
           ) : panel === 'tools' ? (
             <>
-              <div className="card-segmented-control" role="group" aria-label="展开模式选择">
-                <button
-                  type="button"
-                  aria-pressed={mode === 'cumulative'}
-                  onClick={() => setMode('cumulative')}
-                >
-                  累加探索模式
-                </button>
-                <button
-                  type="button"
-                  aria-pressed={mode === 'accordion'}
-                  onClick={() => setMode('accordion')}
-                >
-                  单路径聚焦模式
-                </button>
-              </div>
               <div className="card-zoom">
                 <button
                   type="button"
@@ -605,26 +604,15 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
                 type="button"
                 className="card-menu-item"
                 onClick={() => {
-                  setState(expandCardLayer(dataset, state, filters))
-                  addLog('已展开当前可见节点的下一层')
+                  canvasRef.current?.fit()
                   setPanel(null)
+                  addLog('已适应整张图谱')
                 }}
               >
-                展开下一层 <ArrowRight size={17} />
+                显示整张图谱 <ArrowRight size={17} />
               </button>
-              <button
-                type="button"
-                className="card-menu-item"
-                onClick={() => {
-                  setState(expandAllCards(dataset, state, filters))
-                  addLog('已展开当前筛选下的全部知识')
-                  setPanel(null)
-                }}
-              >
-                全部展开 <ArrowRight size={17} />
-              </button>
-              <button type="button" className="card-menu-item" onClick={() => restart()}>
-                重置回起点 <ArrowLeft size={17} />
+              <button type="button" className="card-menu-item" onClick={() => resetView()}>
+                重置回全景 <ArrowLeft size={17} />
               </button>
               <button type="button" className="card-menu-item" onClick={() => setPanel('legend')}>
                 图例与阅读说明 <BookOpen size={17} />
@@ -637,8 +625,8 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
           ) : (
             <>
               <p className="card-panel-description">
-                点击蓝色 +N 角标逐批展开；显示 −
-                时点击角标收起所属分支。其他分支共享的知识会保留。拖动节点调整位置，拖动画布或双指、滚轮缩放。
+                整张知识图谱完整呈现在一张画布上：拖动画布平移，滚轮或双指缩放；拖动节点可以调整位置。点击节点上的
+                − 角标可收起分支、让画面更清爽，被收起分支共享的知识会保留。人物与人物之间的连线默认显示关系文字。
               </p>
               <div className="card-kind-legend">
                 {[...new Set(dataset.nodes.map((n) => n.kind))].map((kind) => (
@@ -648,12 +636,17 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
                 ))}
               </div>
               <p className="card-panel-description">
-                橙色虚线标记跨分支或平行关联，关系的具体含义以文字、箭头与资料依据为准。展开可探索人物跨阶段的生平联系，时间以关系说明为准；图中层级和距离表示探索路径。
+                连线颜色代表关系的类别：蓝色是人物关系（君臣、亲属、交游等），绿色是联盟，红色是敌对，紫色是事件关联，青色是归属与结构，黄色是文化创作，灰色是背景与影响；虚线多为间接或跨越时空的联系，具体含义以关系文字、箭头与资料依据为准。
               </p>
               <dl className="card-relation-legend">
                 {metadata.relationTypes.map((type) => (
                   <div key={type.id}>
                     <dt>
+                      <i
+                        className="rel-color-dot"
+                        style={{ background: relationTypeColor(type.id) }}
+                        aria-hidden="true"
+                      />
                       {type.label} {type.directed ? '→' : '↔'}
                     </dt>
                     <dd>{type.description}</dd>

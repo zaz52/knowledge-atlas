@@ -35,6 +35,13 @@
   --graph-accent: #60a5fa;
   --graph-edge: #52525b;
   --graph-cross: #f59e0b;
+  --graph-rel-person: #60a5fa;
+  --graph-rel-ally: #34d399;
+  --graph-rel-conflict: #f28f91;
+  --graph-rel-event: #a78bfa;
+  --graph-rel-structure: #2dd4bf;
+  --graph-rel-culture: #fbbf24;
+  --graph-rel-background: #a1a1aa;
   --button-blue: #2563eb;
   --label-background: #1f2028;
   --selected-ring: #e0efff;
@@ -817,12 +824,26 @@
 }
 .card-relation-legend dt {
   font-size: 16px;
+  display: flex;
+  align-items: center;
 }
 .card-relation-legend dd {
   font-size: 15px;
   line-height: 1.8;
   color: var(--text-muted);
   margin: 6px 0 0;
+}
+.rel-color-dot {
+  display: inline-block;
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.card-filter-list .rel-color-dot {
+  margin-top: 7px;
+  margin-right: 0;
 }
 
 .circle-atlas .desktop-node-drawer {
