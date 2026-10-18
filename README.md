@@ -6,6 +6,12 @@
 
 ## 开发记录
 
+### 2026-10-19 00:20（Asia/Shanghai）· 接入 Cloudflare Workers Builds 自动部署
+
+- 背景：此前为手动 `npm run deploy` 发布；用户要求自动部署。
+- 配置：在 Cloudflare 后台 knowledge-atlas → 设置 → 构建，连接 GitHub 仓库 zaz52/knowledge-atlas；生产分支 main、构建命令 `npm run build`、输出目录 `dist`。此后每次 push 到 main 自动构建上线。
+- 说明：VITE_SITE_URL 已在公开的 .env.production 中，构建时自动读取，无需在后台另加环境变量。
+
 ### 2026-10-18 22:30（Asia/Shanghai）· 单画布全图谱与人物关系可视化
 
 - 需求：用户明确要求"所有的关系都在一张画布上，不是点开了就是又打开一个画布"；同时反馈人物与人物之间的联系 UI 不好（连线标签看不清、颜色无法区分关系类型）。
