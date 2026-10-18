@@ -15,7 +15,7 @@
   "question": "同一个时代，为什么会有几个政权？",
   "scope": "秦统一至清帝退位 · 前221—1912年",
   "readingNote": "横向按历史阶段推进，分支呈现并立；间距不与年数成比例。虚线框是时期或多个政权的总称，实线框是具体政权。并存线表示时间重叠，承继线与取代线各有独立含义。起讫口径、迁都与延续政权见详情。 人物与社会背景按批次选录；人物较多时先显示8位，可展开关联或检索其余人物。完整收录名单与待补范围见项目数据清单。",
-  "layoutNote": "初始展示朝代时间总览。点击一个朝代或时期，展开该时代已收录的代表人物；点击人物继续显示其作品、事件和有依据的交往关系。左上可返回朝代总览。人物为选录，汉末人物在三国前史中另作说明。 局部人物超过8位时分层排列；时代背景以暖金色知识节点显示。",
+  "layoutNote": "人物按真实关系分层串联，时代索引每组保留一个入口；点击人物沿关系逐批展开，每次最多加入6个知识点。横向位置表示关系层级；事件先后以年份和时间先后连线为准。",
   "edgeCurveOffset": 160,
   "viewport": {
     "minZoom": 0.02,
@@ -253,6 +253,30 @@
       "color": "#9a8fbd",
       "description": "支持者指向受支持者；说明具体的延聘、译经支持或文化赞助，含义与任职关系分别标注。",
       "dashed": false
+    },
+    {
+      "id": "court",
+      "label": "宫廷身份",
+      "directed": true,
+      "dashed": false,
+      "color": "#987391",
+      "description": "人物指向当时君主；具体身份与发生时期见连线说明。"
+    },
+    {
+      "id": "reception",
+      "label": "作品评价",
+      "directed": true,
+      "dashed": true,
+      "color": "#8d78a5",
+      "description": "评价者指向被评论的作者；后世评价与直接交往分别标注。"
+    },
+    {
+      "id": "diplomacy",
+      "label": "出使 / 交涉",
+      "description": "由使者或文书发出者指向接谈、收信一方；说明任务与年份，出使不等同从属。",
+      "color": "#698d85",
+      "directed": true,
+      "dashed": true
     }
   ],
   "peopleExploration": {
@@ -261,6 +285,8 @@
       "period"
     ],
     "membershipRelationType": "figure",
-    "initialPeopleLimit": 8
+    "initialPeopleLimit": 8,
+    "layout": "relationship-flow",
+    "expansionBatchSize": 6
   }
 }

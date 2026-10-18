@@ -159,6 +159,22 @@
       "description": "人物、事件或时代与制度、生产、迁徙和文化线索之间的关联；具体依据与适用年代见说明。",
       "color": "#ae965e",
       "dashed": true
+    },
+    {
+      "id": "friendship",
+      "label": "交游 / 友谊",
+      "description": "有文献依据的相识、交游或赠答，不以同一时代推定相识。",
+      "directed": false,
+      "dashed": false,
+      "color": "#287f91"
+    },
+    {
+      "id": "diplomacy",
+      "label": "出使 / 交涉",
+      "description": "由使者或文书发出者指向接谈、收信一方；说明任务与年份，出使不等同从属。",
+      "color": "#698d85",
+      "directed": true,
+      "dashed": true
     }
   ],
   "searchPlaceholder": "搜索人物、事件或作品，如：司马炎、黄巾",
@@ -169,7 +185,9 @@
     ],
     "membershipRelationType": "figure",
     "includeRootEvents": true,
-    "initialPeopleLimit": 8
+    "initialPeopleLimit": 8,
+    "layout": "relationship-flow",
+    "expansionBatchSize": 6
   },
   "story": {
     "overviewLabel": "返回历史总览",
@@ -208,5 +226,5 @@
       "road-to-unity"
     ]
   },
-  "layoutNote": "总览按阅读阶段排列；点击阶段展示人物和事件。时间先后与背景影响分别筛选；同一阶段内事件可以并行。 局部人物超过8位时分层排列；时代背景以暖金色知识节点显示。"
+  "layoutNote": "人物按真实关系分层串联，时代索引每组保留一个入口；点击人物沿关系逐批展开，每次最多加入6个知识点。横向位置表示关系层级；事件先后以年份和时间先后连线为准。"
 }

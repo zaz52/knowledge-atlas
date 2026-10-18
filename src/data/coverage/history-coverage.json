@@ -1,21 +1,21 @@
 {
-  "edition": "代表人物与社会背景选录 · 第二批",
-  "scope": "26个时期/政权各收录至少3位代表人物；三国专题57位人物同步至朝代图。收录范围持续扩充，社会背景为专题阅读线索。",
+  "edition": "代表人物与社会背景选录 · 荆州至三国建立",
+  "scope": "26个时期/政权各收录至少3位代表人物；三国专题78位人物同步至朝代图。收录范围持续扩充，社会背景为专题阅读线索。",
   "topics": [
     {
       "id": "three-kingdoms",
       "title": "三国人物关系网",
-      "totalNodes": 111,
-      "totalRelations": 369,
-      "sourceEntries": 43,
-      "distinctSourceUrls": 43,
+      "totalNodes": 160,
+      "totalRelations": 679,
+      "sourceEntries": 53,
+      "distinctSourceUrls": 53,
       "kinds": {
-        "person": 57,
+        "person": 78,
         "faction": 5,
-        "event": 27,
-        "work": 7,
+        "event": 46,
+        "work": 10,
         "period": 5,
-        "concept": 10
+        "concept": 16
       },
       "roots": [
         {
@@ -57,6 +57,38 @@
             {
               "id": "liu-biao",
               "label": "刘表"
+            },
+            {
+              "id": "he-jin",
+              "label": "何进"
+            },
+            {
+              "id": "huangfu-song",
+              "label": "皇甫嵩"
+            },
+            {
+              "id": "zhu-jun",
+              "label": "朱儁"
+            },
+            {
+              "id": "han-fu",
+              "label": "韩馥"
+            },
+            {
+              "id": "gongsun-zan",
+              "label": "公孙瓒"
+            },
+            {
+              "id": "chen-gong",
+              "label": "陈宫"
+            },
+            {
+              "id": "taishi-ci",
+              "label": "太史慈"
+            },
+            {
+              "id": "chen-lin",
+              "label": "陈琳"
             }
           ],
           "backgrounds": [
@@ -75,6 +107,18 @@
             {
               "id": "war-burdens",
               "label": "战争、赋役与百姓"
+            },
+            {
+              "id": "court-power",
+              "label": "外戚、宦官与朝廷决策"
+            },
+            {
+              "id": "provincial-power",
+              "label": "州牧与地方军政"
+            },
+            {
+              "id": "disaster-networks",
+              "label": "灾荒、疫病与民间结社"
             }
           ]
         },
@@ -169,6 +213,70 @@
             {
               "id": "wang-can",
               "label": "王粲"
+            },
+            {
+              "id": "gongsun-zan",
+              "label": "公孙瓒"
+            },
+            {
+              "id": "chen-gong",
+              "label": "陈宫"
+            },
+            {
+              "id": "taishi-ci",
+              "label": "太史慈"
+            },
+            {
+              "id": "tian-feng",
+              "label": "田丰"
+            },
+            {
+              "id": "ju-shou",
+              "label": "沮授"
+            },
+            {
+              "id": "xu-you",
+              "label": "许攸"
+            },
+            {
+              "id": "chen-lin",
+              "label": "陈琳"
+            },
+            {
+              "id": "xu-shu",
+              "label": "徐庶"
+            },
+            {
+              "id": "liu-qi",
+              "label": "刘琦"
+            },
+            {
+              "id": "liu-cong",
+              "label": "刘琮"
+            },
+            {
+              "id": "huang-gai",
+              "label": "黄盖"
+            },
+            {
+              "id": "cheng-pu",
+              "label": "程普"
+            },
+            {
+              "id": "zhang-zhao",
+              "label": "张昭"
+            },
+            {
+              "id": "zhuge-jin",
+              "label": "诸葛瑾"
+            },
+            {
+              "id": "gan-ning",
+              "label": "甘宁"
+            },
+            {
+              "id": "cao-ren",
+              "label": "曹仁"
             }
           ],
           "backgrounds": [
@@ -187,6 +295,18 @@
             {
               "id": "medicine-life",
               "label": "疾疫与医者的处境"
+            },
+            {
+              "id": "jingzhou-geography",
+              "label": "荆州的郡县与交通"
+            },
+            {
+              "id": "jingzhou-refuge",
+              "label": "避乱、游学与人口流动"
+            },
+            {
+              "id": "river-warfare",
+              "label": "江河、舟船与战争补给"
             }
           ]
         },
@@ -269,6 +389,34 @@
             {
               "id": "wang-can",
               "label": "王粲"
+            },
+            {
+              "id": "huang-gai",
+              "label": "黄盖"
+            },
+            {
+              "id": "cheng-pu",
+              "label": "程普"
+            },
+            {
+              "id": "zhang-zhao",
+              "label": "张昭"
+            },
+            {
+              "id": "zhuge-jin",
+              "label": "诸葛瑾"
+            },
+            {
+              "id": "deng-zhi",
+              "label": "邓芝"
+            },
+            {
+              "id": "gan-ning",
+              "label": "甘宁"
+            },
+            {
+              "id": "cao-ren",
+              "label": "曹仁"
             }
           ],
           "backgrounds": [
@@ -287,6 +435,14 @@
             {
               "id": "jiangdong-economy",
               "label": "江东农业与水运"
+            },
+            {
+              "id": "jingzhou-geography",
+              "label": "荆州的郡县与交通"
+            },
+            {
+              "id": "river-warfare",
+              "label": "江河、舟船与战争补给"
             }
           ]
         },
@@ -441,8 +597,8 @@
           "label": "曹操",
           "period": "155—220 年",
           "identity": "汉末政治与军事人物 · 字孟德",
-          "achievementCount": 2,
-          "lifeEventCount": 7,
+          "achievementCount": 4,
+          "lifeEventCount": 10,
           "sharedFrom": null
         },
         {
@@ -459,8 +615,8 @@
           "label": "孙权",
           "period": "182—252 年",
           "identity": "孙吴建立者 · 字仲谋",
-          "achievementCount": 1,
-          "lifeEventCount": 5,
+          "achievementCount": 2,
+          "lifeEventCount": 6,
           "sharedFrom": null
         },
         {
@@ -468,8 +624,8 @@
           "label": "诸葛亮",
           "period": "181—234 年",
           "identity": "蜀汉丞相 · 字孔明",
-          "achievementCount": 2,
-          "lifeEventCount": 6,
+          "achievementCount": 3,
+          "lifeEventCount": 7,
           "sharedFrom": null
         },
         {
@@ -486,8 +642,8 @@
           "label": "周瑜",
           "period": "175—210 年",
           "identity": "孙氏重要将领 · 字公瑾",
-          "achievementCount": 1,
-          "lifeEventCount": 1,
+          "achievementCount": 2,
+          "lifeEventCount": 3,
           "sharedFrom": null
         },
         {
@@ -522,8 +678,8 @@
           "label": "孙策",
           "period": "175—200 年",
           "identity": "江东孙氏事业开拓者 · 字伯符",
-          "achievementCount": 1,
-          "lifeEventCount": 1,
+          "achievementCount": 3,
+          "lifeEventCount": 4,
           "sharedFrom": null
         },
         {
@@ -531,8 +687,8 @@
           "label": "鲁肃",
           "period": "172—217 年",
           "identity": "孙权的重要谋臣与将领 · 字子敬",
-          "achievementCount": 1,
-          "lifeEventCount": 1,
+          "achievementCount": 2,
+          "lifeEventCount": 3,
           "sharedFrom": null
         },
         {
@@ -549,7 +705,7 @@
           "label": "张角",
           "period": "生年不详—184年",
           "identity": "黄巾起事领导者",
-          "achievementCount": 1,
+          "achievementCount": 2,
           "lifeEventCount": 2,
           "sharedFrom": null
         },
@@ -567,8 +723,8 @@
           "label": "袁绍",
           "period": "生年不详—202年",
           "identity": "汉末北方诸侯 · 字本初",
-          "achievementCount": 1,
-          "lifeEventCount": 4,
+          "achievementCount": 3,
+          "lifeEventCount": 7,
           "sharedFrom": null
         },
         {
@@ -948,6 +1104,195 @@
           "achievementCount": 2,
           "lifeEventCount": 2,
           "sharedFrom": null
+        },
+        {
+          "id": "he-jin",
+          "label": "何进",
+          "period": "生年不详—189年",
+          "identity": "东汉大将军 · 字遂高",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "huangfu-song",
+          "label": "皇甫嵩",
+          "period": "生卒年不详 · 活跃于东汉末",
+          "identity": "汉末将领 · 字义真",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhu-jun",
+          "label": "朱儁",
+          "period": "生年不详—195年",
+          "identity": "汉末将领 · 字公伟",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "han-fu",
+          "label": "韩馥",
+          "period": "生卒年不详 · 活跃于汉末",
+          "identity": "冀州牧 · 字文节",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "gongsun-zan",
+          "label": "公孙瓒",
+          "period": "生年不详—199年",
+          "identity": "幽州军事势力领袖 · 字伯珪",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "chen-gong",
+          "label": "陈宫",
+          "period": "生年不详—198年",
+          "identity": "汉末谋士 · 字公台",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "taishi-ci",
+          "label": "太史慈",
+          "period": "生年不详—206年",
+          "identity": "孙氏将领 · 字子义",
+          "achievementCount": 2,
+          "lifeEventCount": 4,
+          "sharedFrom": null
+        },
+        {
+          "id": "tian-feng",
+          "label": "田丰",
+          "period": "生年不详—200年",
+          "identity": "袁绍谋士 · 字元皓",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "ju-shou",
+          "label": "沮授",
+          "period": "生年不详—200年",
+          "identity": "袁绍谋士与监军",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "xu-you",
+          "label": "许攸",
+          "period": "生卒年不详 · 活跃于汉末",
+          "identity": "先从袁绍、后投曹操的谋士 · 字子远",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "chen-lin",
+          "label": "陈琳",
+          "period": "生年不详—217年",
+          "identity": "汉末文士与文书撰写者 · 字孔璋",
+          "achievementCount": 2,
+          "lifeEventCount": 4,
+          "sharedFrom": null
+        },
+        {
+          "id": "xu-shu",
+          "label": "徐庶",
+          "period": "生卒年不详 · 汉末至曹魏初年",
+          "identity": "汉末士人与谋士 · 字元直",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "liu-qi",
+          "label": "刘琦",
+          "period": "生卒年不详 · 208年前后活动",
+          "identity": "刘表长子 · 江夏太守",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "liu-cong",
+          "label": "刘琮",
+          "period": "生卒年不详 · 208年前后活动",
+          "identity": "刘表次子 · 荆州继承者",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": null
+        },
+        {
+          "id": "huang-gai",
+          "label": "黄盖",
+          "period": "生卒年不详 · 活跃于汉末",
+          "identity": "孙氏将领 · 字公覆",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": null
+        },
+        {
+          "id": "cheng-pu",
+          "label": "程普",
+          "period": "生卒年不详 · 活跃于汉末",
+          "identity": "孙氏将领 · 字德谋",
+          "achievementCount": 2,
+          "lifeEventCount": 4,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhang-zhao",
+          "label": "张昭",
+          "period": "156—236年（生年据享年推算）",
+          "identity": "孙氏重臣与学者 · 字子布",
+          "achievementCount": 2,
+          "lifeEventCount": 5,
+          "sharedFrom": null
+        },
+        {
+          "id": "zhuge-jin",
+          "label": "诸葛瑾",
+          "period": "生年不详—241年（本传记年六十八）",
+          "identity": "孙氏使者与将领 · 字子瑜",
+          "achievementCount": 2,
+          "lifeEventCount": 5,
+          "sharedFrom": null
+        },
+        {
+          "id": "deng-zhi",
+          "label": "邓芝",
+          "period": "生年不详—251年",
+          "identity": "蜀汉使者与将领 · 字伯苗",
+          "achievementCount": 2,
+          "lifeEventCount": 4,
+          "sharedFrom": null
+        },
+        {
+          "id": "gan-ning",
+          "label": "甘宁",
+          "period": "生卒年不详 · 活跃于汉末",
+          "identity": "孙氏将领 · 字兴霸",
+          "achievementCount": 2,
+          "lifeEventCount": 4,
+          "sharedFrom": null
+        },
+        {
+          "id": "cao-ren",
+          "label": "曹仁",
+          "period": "生年不详—223年（本传记年五十六）",
+          "identity": "曹氏将领 · 字子孝",
+          "achievementCount": 2,
+          "lifeEventCount": 4,
+          "sharedFrom": null
         }
       ],
       "backgrounds": [
@@ -1000,6 +1345,36 @@
           "id": "jin-recovery",
           "label": "统一后的生产与治理",
           "period": "280年起（延伸阅读）"
+        },
+        {
+          "id": "court-power",
+          "label": "外戚、宦官与朝廷决策",
+          "period": "东汉后期—189年"
+        },
+        {
+          "id": "provincial-power",
+          "label": "州牧与地方军政",
+          "period": "188年起 · 汉末"
+        },
+        {
+          "id": "disaster-networks",
+          "label": "灾荒、疫病与民间结社",
+          "period": "东汉后期—184年"
+        },
+        {
+          "id": "jingzhou-geography",
+          "label": "荆州的郡县与交通",
+          "period": "汉末至三国"
+        },
+        {
+          "id": "jingzhou-refuge",
+          "label": "避乱、游学与人口流动",
+          "period": "汉末至208年前后"
+        },
+        {
+          "id": "river-warfare",
+          "label": "江河、舟船与战争补给",
+          "period": "208—223年前后"
         }
       ],
       "works": [
@@ -1030,17 +1405,22 @@
         {
           "id": "denglou-work",
           "label": "《登楼赋》"
+        },
+        {
+          "id": "chenlin-proclamation",
+          "label": "《为袁绍檄豫州文》"
+        },
+        {
+          "id": "zhangzhao-lunyu",
+          "label": "《论语注》（张昭著录）"
+        },
+        {
+          "id": "zhugejin-peace-letter",
+          "label": "诸葛瑾致刘备劝和书"
         }
       ],
       "pendingPeople": [
-        "何进",
-        "皇甫嵩",
-        "朱儁",
-        "太史慈",
-        "陈宫",
         "张绣",
-        "徐庶",
-        "邓芝",
         "诸葛恪",
         "陆绩",
         "钟繇",
@@ -1050,17 +1430,17 @@
     {
       "id": "chinese-dynasties",
       "title": "中国历史朝代关系图",
-      "totalNodes": 282,
-      "totalRelations": 721,
-      "sourceEntries": 168,
-      "distinctSourceUrls": 154,
+      "totalNodes": 331,
+      "totalRelations": 1041,
+      "sourceEntries": 179,
+      "distinctSourceUrls": 165,
       "kinds": {
         "polity": 19,
         "period": 7,
-        "person": 136,
-        "event": 65,
-        "work": 33,
-        "concept": 22
+        "person": 157,
+        "event": 84,
+        "work": 36,
+        "concept": 28
       },
       "roots": [
         {
@@ -1230,6 +1610,82 @@
             {
               "id": "hua-tuo",
               "label": "华佗"
+            },
+            {
+              "id": "he-jin",
+              "label": "何进"
+            },
+            {
+              "id": "huangfu-song",
+              "label": "皇甫嵩"
+            },
+            {
+              "id": "zhu-jun",
+              "label": "朱儁"
+            },
+            {
+              "id": "han-fu",
+              "label": "韩馥"
+            },
+            {
+              "id": "gongsun-zan",
+              "label": "公孙瓒"
+            },
+            {
+              "id": "chen-gong",
+              "label": "陈宫"
+            },
+            {
+              "id": "taishi-ci",
+              "label": "太史慈"
+            },
+            {
+              "id": "chen-lin",
+              "label": "陈琳"
+            },
+            {
+              "id": "tian-feng",
+              "label": "田丰"
+            },
+            {
+              "id": "ju-shou",
+              "label": "沮授"
+            },
+            {
+              "id": "xu-you",
+              "label": "许攸"
+            },
+            {
+              "id": "xu-shu",
+              "label": "徐庶"
+            },
+            {
+              "id": "liu-qi",
+              "label": "刘琦"
+            },
+            {
+              "id": "liu-cong",
+              "label": "刘琮"
+            },
+            {
+              "id": "huang-gai",
+              "label": "黄盖"
+            },
+            {
+              "id": "cheng-pu",
+              "label": "程普"
+            },
+            {
+              "id": "zhang-zhao",
+              "label": "张昭"
+            },
+            {
+              "id": "zhuge-jin",
+              "label": "诸葛瑾"
+            },
+            {
+              "id": "gan-ning",
+              "label": "甘宁"
             }
           ],
           "backgrounds": [
@@ -1248,6 +1704,30 @@
             {
               "id": "war-migration",
               "label": "战乱与人口流徙"
+            },
+            {
+              "id": "court-power",
+              "label": "外戚、宦官与朝廷决策"
+            },
+            {
+              "id": "provincial-power",
+              "label": "州牧与地方军政"
+            },
+            {
+              "id": "disaster-networks",
+              "label": "灾荒、疫病与民间结社"
+            },
+            {
+              "id": "jingzhou-geography",
+              "label": "荆州的郡县与交通"
+            },
+            {
+              "id": "jingzhou-refuge",
+              "label": "避乱、游学与人口流动"
+            },
+            {
+              "id": "river-warfare",
+              "label": "江河、舟船与战争补给"
             }
           ]
         },
@@ -1482,6 +1962,90 @@
             {
               "id": "wang-can",
               "label": "王粲"
+            },
+            {
+              "id": "he-jin",
+              "label": "何进"
+            },
+            {
+              "id": "huangfu-song",
+              "label": "皇甫嵩"
+            },
+            {
+              "id": "zhu-jun",
+              "label": "朱儁"
+            },
+            {
+              "id": "han-fu",
+              "label": "韩馥"
+            },
+            {
+              "id": "gongsun-zan",
+              "label": "公孙瓒"
+            },
+            {
+              "id": "chen-gong",
+              "label": "陈宫"
+            },
+            {
+              "id": "taishi-ci",
+              "label": "太史慈"
+            },
+            {
+              "id": "tian-feng",
+              "label": "田丰"
+            },
+            {
+              "id": "ju-shou",
+              "label": "沮授"
+            },
+            {
+              "id": "xu-you",
+              "label": "许攸"
+            },
+            {
+              "id": "chen-lin",
+              "label": "陈琳"
+            },
+            {
+              "id": "xu-shu",
+              "label": "徐庶"
+            },
+            {
+              "id": "liu-qi",
+              "label": "刘琦"
+            },
+            {
+              "id": "liu-cong",
+              "label": "刘琮"
+            },
+            {
+              "id": "huang-gai",
+              "label": "黄盖"
+            },
+            {
+              "id": "cheng-pu",
+              "label": "程普"
+            },
+            {
+              "id": "zhang-zhao",
+              "label": "张昭"
+            },
+            {
+              "id": "zhuge-jin",
+              "label": "诸葛瑾"
+            },
+            {
+              "id": "deng-zhi",
+              "label": "邓芝"
+            },
+            {
+              "id": "gan-ning",
+              "label": "甘宁"
+            },
+            {
+              "id": "cao-ren",
+              "label": "曹仁"
             }
           ],
           "backgrounds": [
@@ -1524,6 +2088,30 @@
             {
               "id": "jin-recovery",
               "label": "统一后的生产与治理"
+            },
+            {
+              "id": "court-power",
+              "label": "外戚、宦官与朝廷决策"
+            },
+            {
+              "id": "provincial-power",
+              "label": "州牧与地方军政"
+            },
+            {
+              "id": "disaster-networks",
+              "label": "灾荒、疫病与民间结社"
+            },
+            {
+              "id": "jingzhou-geography",
+              "label": "荆州的郡县与交通"
+            },
+            {
+              "id": "jingzhou-refuge",
+              "label": "避乱、游学与人口流动"
+            },
+            {
+              "id": "river-warfare",
+              "label": "江河、舟船与战争补给"
             }
           ]
         },
@@ -1590,6 +2178,18 @@
             {
               "id": "cao-zhi",
               "label": "曹植"
+            },
+            {
+              "id": "chen-lin",
+              "label": "陈琳"
+            },
+            {
+              "id": "xu-shu",
+              "label": "徐庶"
+            },
+            {
+              "id": "cao-ren",
+              "label": "曹仁"
             }
           ],
           "backgrounds": [
@@ -1666,6 +2266,10 @@
             {
               "id": "fei-yi",
               "label": "费祎"
+            },
+            {
+              "id": "deng-zhi",
+              "label": "邓芝"
             }
           ],
           "backgrounds": [
@@ -1676,6 +2280,10 @@
             {
               "id": "war-migration",
               "label": "战乱与人口流徙"
+            },
+            {
+              "id": "jingzhou-geography",
+              "label": "荆州的郡县与交通"
             }
           ]
         },
@@ -1718,6 +2326,30 @@
             {
               "id": "lu-kang",
               "label": "陆抗"
+            },
+            {
+              "id": "taishi-ci",
+              "label": "太史慈"
+            },
+            {
+              "id": "huang-gai",
+              "label": "黄盖"
+            },
+            {
+              "id": "cheng-pu",
+              "label": "程普"
+            },
+            {
+              "id": "zhang-zhao",
+              "label": "张昭"
+            },
+            {
+              "id": "zhuge-jin",
+              "label": "诸葛瑾"
+            },
+            {
+              "id": "gan-ning",
+              "label": "甘宁"
             }
           ],
           "backgrounds": [
@@ -1728,6 +2360,14 @@
             {
               "id": "war-burdens",
               "label": "战争、赋役与百姓"
+            },
+            {
+              "id": "jingzhou-geography",
+              "label": "荆州的郡县与交通"
+            },
+            {
+              "id": "river-warfare",
+              "label": "江河、舟船与战争补给"
             }
           ]
         },
@@ -2382,8 +3022,8 @@
           "label": "孙权",
           "period": "182—252 年",
           "identity": "孙吴建立者 · 字仲谋",
-          "achievementCount": 1,
-          "lifeEventCount": 5,
+          "achievementCount": 2,
+          "lifeEventCount": 6,
           "sharedFrom": {
             "topicId": "three-kingdoms",
             "nodeId": "sun-quan"
@@ -2802,8 +3442,8 @@
           "label": "曹操",
           "period": "155—220 年",
           "identity": "汉末政治与军事人物 · 字孟德",
-          "achievementCount": 2,
-          "lifeEventCount": 7,
+          "achievementCount": 4,
+          "lifeEventCount": 10,
           "sharedFrom": {
             "topicId": "three-kingdoms",
             "nodeId": "cao-cao"
@@ -2814,8 +3454,8 @@
           "label": "诸葛亮",
           "period": "181—234 年",
           "identity": "蜀汉丞相 · 字孔明",
-          "achievementCount": 2,
-          "lifeEventCount": 6,
+          "achievementCount": 3,
+          "lifeEventCount": 7,
           "sharedFrom": {
             "topicId": "three-kingdoms",
             "nodeId": "zhuge-liang"
@@ -2838,8 +3478,8 @@
           "label": "周瑜",
           "period": "175—210 年",
           "identity": "孙氏重要将领 · 字公瑾",
-          "achievementCount": 1,
-          "lifeEventCount": 1,
+          "achievementCount": 2,
+          "lifeEventCount": 3,
           "sharedFrom": {
             "topicId": "three-kingdoms",
             "nodeId": "zhou-yu"
@@ -2874,8 +3514,8 @@
           "label": "孙策",
           "period": "175—200 年",
           "identity": "江东孙氏事业开拓者 · 字伯符",
-          "achievementCount": 1,
-          "lifeEventCount": 1,
+          "achievementCount": 3,
+          "lifeEventCount": 4,
           "sharedFrom": {
             "topicId": "three-kingdoms",
             "nodeId": "sun-ce"
@@ -2886,8 +3526,8 @@
           "label": "鲁肃",
           "period": "172—217 年",
           "identity": "孙权的重要谋臣与将领 · 字子敬",
-          "achievementCount": 1,
-          "lifeEventCount": 1,
+          "achievementCount": 2,
+          "lifeEventCount": 3,
           "sharedFrom": {
             "topicId": "three-kingdoms",
             "nodeId": "lu-su"
@@ -3189,7 +3829,7 @@
           "label": "张角",
           "period": "生年不详—184年",
           "identity": "黄巾起事领导者",
-          "achievementCount": 1,
+          "achievementCount": 2,
           "lifeEventCount": 2,
           "sharedFrom": {
             "topicId": "three-kingdoms",
@@ -3213,8 +3853,8 @@
           "label": "袁绍",
           "period": "生年不详—202年",
           "identity": "汉末北方诸侯 · 字本初",
-          "achievementCount": 1,
-          "lifeEventCount": 4,
+          "achievementCount": 3,
+          "lifeEventCount": 7,
           "sharedFrom": {
             "topicId": "three-kingdoms",
             "nodeId": "yuan-shao"
@@ -3711,6 +4351,258 @@
             "topicId": "three-kingdoms",
             "nodeId": "wang-can"
           }
+        },
+        {
+          "id": "he-jin",
+          "label": "何进",
+          "period": "生年不详—189年",
+          "identity": "东汉大将军 · 字遂高",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "he-jin"
+          }
+        },
+        {
+          "id": "huangfu-song",
+          "label": "皇甫嵩",
+          "period": "生卒年不详 · 活跃于东汉末",
+          "identity": "汉末将领 · 字义真",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "huangfu-song"
+          }
+        },
+        {
+          "id": "zhu-jun",
+          "label": "朱儁",
+          "period": "生年不详—195年",
+          "identity": "汉末将领 · 字公伟",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "zhu-jun"
+          }
+        },
+        {
+          "id": "han-fu",
+          "label": "韩馥",
+          "period": "生卒年不详 · 活跃于汉末",
+          "identity": "冀州牧 · 字文节",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "han-fu"
+          }
+        },
+        {
+          "id": "gongsun-zan",
+          "label": "公孙瓒",
+          "period": "生年不详—199年",
+          "identity": "幽州军事势力领袖 · 字伯珪",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "gongsun-zan"
+          }
+        },
+        {
+          "id": "chen-gong",
+          "label": "陈宫",
+          "period": "生年不详—198年",
+          "identity": "汉末谋士 · 字公台",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "chen-gong"
+          }
+        },
+        {
+          "id": "taishi-ci",
+          "label": "太史慈",
+          "period": "生年不详—206年",
+          "identity": "孙氏将领 · 字子义",
+          "achievementCount": 2,
+          "lifeEventCount": 4,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "taishi-ci"
+          }
+        },
+        {
+          "id": "tian-feng",
+          "label": "田丰",
+          "period": "生年不详—200年",
+          "identity": "袁绍谋士 · 字元皓",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "tian-feng"
+          }
+        },
+        {
+          "id": "ju-shou",
+          "label": "沮授",
+          "period": "生年不详—200年",
+          "identity": "袁绍谋士与监军",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "ju-shou"
+          }
+        },
+        {
+          "id": "xu-you",
+          "label": "许攸",
+          "period": "生卒年不详 · 活跃于汉末",
+          "identity": "先从袁绍、后投曹操的谋士 · 字子远",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "xu-you"
+          }
+        },
+        {
+          "id": "chen-lin",
+          "label": "陈琳",
+          "period": "生年不详—217年",
+          "identity": "汉末文士与文书撰写者 · 字孔璋",
+          "achievementCount": 2,
+          "lifeEventCount": 4,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "chen-lin"
+          }
+        },
+        {
+          "id": "xu-shu",
+          "label": "徐庶",
+          "period": "生卒年不详 · 汉末至曹魏初年",
+          "identity": "汉末士人与谋士 · 字元直",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "xu-shu"
+          }
+        },
+        {
+          "id": "liu-qi",
+          "label": "刘琦",
+          "period": "生卒年不详 · 208年前后活动",
+          "identity": "刘表长子 · 江夏太守",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "liu-qi"
+          }
+        },
+        {
+          "id": "liu-cong",
+          "label": "刘琮",
+          "period": "生卒年不详 · 208年前后活动",
+          "identity": "刘表次子 · 荆州继承者",
+          "achievementCount": 2,
+          "lifeEventCount": 2,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "liu-cong"
+          }
+        },
+        {
+          "id": "huang-gai",
+          "label": "黄盖",
+          "period": "生卒年不详 · 活跃于汉末",
+          "identity": "孙氏将领 · 字公覆",
+          "achievementCount": 2,
+          "lifeEventCount": 3,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "huang-gai"
+          }
+        },
+        {
+          "id": "cheng-pu",
+          "label": "程普",
+          "period": "生卒年不详 · 活跃于汉末",
+          "identity": "孙氏将领 · 字德谋",
+          "achievementCount": 2,
+          "lifeEventCount": 4,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "cheng-pu"
+          }
+        },
+        {
+          "id": "zhang-zhao",
+          "label": "张昭",
+          "period": "156—236年（生年据享年推算）",
+          "identity": "孙氏重臣与学者 · 字子布",
+          "achievementCount": 2,
+          "lifeEventCount": 5,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "zhang-zhao"
+          }
+        },
+        {
+          "id": "zhuge-jin",
+          "label": "诸葛瑾",
+          "period": "生年不详—241年（本传记年六十八）",
+          "identity": "孙氏使者与将领 · 字子瑜",
+          "achievementCount": 2,
+          "lifeEventCount": 5,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "zhuge-jin"
+          }
+        },
+        {
+          "id": "deng-zhi",
+          "label": "邓芝",
+          "period": "生年不详—251年",
+          "identity": "蜀汉使者与将领 · 字伯苗",
+          "achievementCount": 2,
+          "lifeEventCount": 4,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "deng-zhi"
+          }
+        },
+        {
+          "id": "gan-ning",
+          "label": "甘宁",
+          "period": "生卒年不详 · 活跃于汉末",
+          "identity": "孙氏将领 · 字兴霸",
+          "achievementCount": 2,
+          "lifeEventCount": 4,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "gan-ning"
+          }
+        },
+        {
+          "id": "cao-ren",
+          "label": "曹仁",
+          "period": "生年不详—223年（本传记年五十六）",
+          "identity": "曹氏将领 · 字子孝",
+          "achievementCount": 2,
+          "lifeEventCount": 4,
+          "sharedFrom": {
+            "topicId": "three-kingdoms",
+            "nodeId": "cao-ren"
+          }
         }
       ],
       "backgrounds": [
@@ -3823,6 +4715,36 @@
           "id": "jin-recovery",
           "label": "统一后的生产与治理",
           "period": "280年起（延伸阅读）"
+        },
+        {
+          "id": "court-power",
+          "label": "外戚、宦官与朝廷决策",
+          "period": "东汉后期—189年"
+        },
+        {
+          "id": "provincial-power",
+          "label": "州牧与地方军政",
+          "period": "188年起 · 汉末"
+        },
+        {
+          "id": "disaster-networks",
+          "label": "灾荒、疫病与民间结社",
+          "period": "东汉后期—184年"
+        },
+        {
+          "id": "jingzhou-geography",
+          "label": "荆州的郡县与交通",
+          "period": "汉末至三国"
+        },
+        {
+          "id": "jingzhou-refuge",
+          "label": "避乱、游学与人口流动",
+          "period": "汉末至208年前后"
+        },
+        {
+          "id": "river-warfare",
+          "label": "江河、舟船与战争补给",
+          "period": "208—223年前后"
         }
       ],
       "works": [
@@ -3957,13 +4879,24 @@
         {
           "id": "denglou-work",
           "label": "《登楼赋》"
+        },
+        {
+          "id": "chenlin-proclamation",
+          "label": "《为袁绍檄豫州文》"
+        },
+        {
+          "id": "zhangzhao-lunyu",
+          "label": "《论语注》（张昭著录）"
+        },
+        {
+          "id": "zhugejin-peace-letter",
+          "label": "诸葛瑾致刘备劝和书"
         }
       ],
       "pendingPeople": [
         "班固",
         "欧阳修",
         "张居正",
-        "康熙",
         "钱大昕"
       ]
     }

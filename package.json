@@ -7,6 +7,7 @@
     "dev": "vite",
     "predev": "npm run sync:history",
     "sync:history": "node scripts/sync-history.mjs",
+    "update:coverage": "node scripts/update-history-coverage.mjs",
     "check:data": "node scripts/sync-history.mjs --check && node scripts/validate-data.mjs",
     "pretest": "node scripts/sync-history.mjs --check",
     "typecheck": "tsc -b",

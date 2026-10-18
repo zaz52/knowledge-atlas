@@ -245,6 +245,13 @@ export function validateExplorerDataset(dataset) {
   }
   if (metadata.peopleExploration) {
     const config = metadata.peopleExploration
+    if (config.layout !== undefined)
+      check(config.layout === 'relationship-flow', 'invalid people layout')
+    if (config.expansionBatchSize !== undefined)
+      check(
+        Number.isInteger(config.expansionBatchSize) && config.expansionBatchSize > 0,
+        'invalid expansion batch size',
+      )
     check(
       Array.isArray(config.rootKinds) &&
         config.rootKinds.length > 0 &&
@@ -318,6 +325,20 @@ export function validateExplorerDataset(dataset) {
       )
     citationsValid(relation)
   }
+  const chronological = new Map(nodes.map((node) => [node.id, []]))
+  for (const edge of relations)
+    if (edge.type === 'sequence') chronological.get(edge.source).push(edge.target)
+  const completed = new Set()
+  const visiting = new Set()
+  const visit = (id) => {
+    check(!visiting.has(id), `cyclic chronological sequence: ${id}`)
+    if (completed.has(id)) return
+    visiting.add(id)
+    for (const next of chronological.get(id)) visit(next)
+    visiting.delete(id)
+    completed.add(id)
+  }
+  for (const node of nodes) visit(node.id)
   check(
     Array.isArray(metadata.initialNodeIds) &&
       metadata.initialNodeIds.length > 0 &&

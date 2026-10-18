@@ -19,7 +19,13 @@
       "yellow-turbans",
       "anti-dong",
       "emperor-xu",
-      "north-consolidation"
+      "north-consolidation",
+      "yanzhou-contest",
+      "xiapi",
+      "baima-yanjin",
+      "wuchao",
+      "jingzhou-succession",
+      "ru-xu"
     ],
     "citations": [
       {
@@ -77,6 +83,28 @@
             "note": "曹操的乐府诗，以人生短暂、思求贤才等主题展开。把它具体安排在赤壁前横槊赋诗，是小说化场景，作品文本不能单独证明创作现场。"
           }
         ]
+      },
+      {
+        "title": "把根据地、朝廷与粮食联系起来",
+        "description": "兖州根据地的争夺、196年迎帝都许与屯田，分别涉及地方控制、政治号召和军粮，之后仍经历反复战争。",
+        "citations": [
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：中平元年至建安五年各年记事",
+            "note": "对照纪年梳理早期任职、兖州争夺、迎帝与官渡。"
+          }
+        ]
+      },
+      {
+        "title": "官渡的多环节决策",
+        "description": "白马和延津作战、官渡守持、组织转运与袭乌巢，共同构成200年的战争过程。具体建议由不同谋士提出，作战也涉及众多将领。",
+        "citations": [
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：建安五年",
+            "note": "结合荀彧、荀攸、贾诩和任峻等本传阅读。"
+          }
+        ]
       }
     ],
     "lifeEvents": [
@@ -93,6 +121,18 @@
         ]
       },
       {
+        "date": "184年",
+        "title": "参与颍川黄巾战事",
+        "description": "时任骑都尉，率军与皇甫嵩、朱儁协同作战。",
+        "citations": [
+          {
+            "sourceId": "hhs-71",
+            "locator": "皇甫嵩传：长社段",
+            "note": "皇甫嵩、朱儁作战后曹操军到，与其合击。"
+          }
+        ]
+      },
+      {
         "date": "190—192年",
         "title": "诸侯讨董",
         "description": "曹操的作用见事件介绍与本传；此线表示实际参与、决策或处境关联。",
@@ -105,6 +145,18 @@
         ]
       },
       {
+        "date": "194—195年",
+        "title": "兖州根据地遭争夺",
+        "description": "陈宫、张邈迎吕布，曹操回军，在军粮困难中反复争夺。",
+        "citations": [
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：中平元年至建安五年各年记事",
+            "note": "对照纪年梳理早期任职、兖州争夺、迎帝与官渡。"
+          }
+        ]
+      },
+      {
         "date": "196年",
         "title": "迎帝迁许",
         "description": "曹操的作用见事件介绍与本传；此线表示实际参与、决策或处境关联。",
@@ -113,6 +165,23 @@
             "sourceId": "sgz-01",
             "locator": "建安元年：迎帝都许、屯田段",
             "note": "曹操迎汉献帝，将朝廷迁到许，取得以朝廷名义发号施令的政治优势。同年开展屯田，军粮筹措也影响此后的竞争。"
+          }
+        ]
+      },
+      {
+        "date": "196年",
+        "title": "迎朝廷到许并组织屯田",
+        "description": "朝廷迁到许，屯田尝试为战争提供粮食；政治与生产两条线共同展开。",
+        "citations": [
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：中平元年至建安五年各年记事",
+            "note": "对照纪年梳理早期任职、兖州争夺、迎帝与官渡。"
+          },
+          {
+            "sourceId": "sgz-16",
+            "locator": "任峻传：许下屯田",
+            "note": "枣祗倡议、任峻执行，与曹操的政军事业相联系。"
           }
         ]
       },
@@ -188,7 +257,8 @@
     "relatedBackgroundIds": [
       "tuntian",
       "jianan-culture",
-      "war-burdens"
+      "war-burdens",
+      "river-warfare"
     ]
   },
   {
@@ -214,7 +284,13 @@
       "peach-garden",
       "yellow-turbans",
       "yi-conquest",
-      "shu-founding"
+      "shu-founding",
+      "xiapi",
+      "jingzhou-succession",
+      "sun-liu-alliance",
+      "jingnan-settlement",
+      "jingzhou-division",
+      "baidi-succession"
     ],
     "citations": [
       {
@@ -377,6 +453,10 @@
           }
         ]
       }
+    ],
+    "relatedBackgroundIds": [
+      "jingzhou-geography",
+      "jingzhou-refuge"
     ]
   },
   {
@@ -397,7 +477,13 @@
       "yiling",
       "jingzhou-loss",
       "wu-emperor",
-      "shu-wu-reconcile"
+      "shu-wu-reconcile",
+      "jiangdong-campaigns",
+      "sun-liu-alliance",
+      "jingzhou-division",
+      "ru-xu",
+      "wu-kingship",
+      "dengzhi-envoy"
     ],
     "citations": [
       {
@@ -429,6 +515,22 @@
             "sourceId": "sgz-47",
             "locator": "吴主传开篇、建安十三年及黄龙元年记事",
             "note": "记述承接孙策事业、赤壁派兵及称帝。"
+          }
+        ]
+      },
+      {
+        "title": "名号与控制分阶段发展",
+        "description": "200年承继、208年决策抗曹、221年受封吴王、222年改元、229年称帝，分别说明不同阶段的政治选择。",
+        "citations": [
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          },
+          {
+            "sourceId": "sgz-52",
+            "locator": "张昭传：避乱、辅佐孙策孙权、晚年著述与嘉禾五年卒",
+            "note": "正文记任职、著《左氏传》解与《论语》注；生年由享年八十一推算。"
           }
         ]
       }
@@ -486,6 +588,23 @@
         ]
       },
       {
+        "date": "221—222年",
+        "title": "受封吴王与改元",
+        "description": "受魏封王、拒绝任子要求及改元分别发生在相邻阶段。",
+        "citations": [
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          },
+          {
+            "sourceId": "sgz-02",
+            "locator": "文帝纪：黄初元年受禅及黄初二年孙权称藩封吴王段",
+            "note": "纪年与政治文书体现魏方名分主张，结合吴主传阅读。"
+          }
+        ]
+      },
+      {
         "date": "223—229年",
         "title": "蜀吴复盟",
         "description": "孙权的作用见事件介绍与本传；此线表示实际参与、决策或处境关联。",
@@ -512,7 +631,9 @@
     ],
     "relatedBackgroundIds": [
       "jiangdong-economy",
-      "war-burdens"
+      "war-burdens",
+      "jingzhou-geography",
+      "river-warfare"
     ]
   },
   {
@@ -535,7 +656,10 @@
       "yi-conquest",
       "shu-founding",
       "shu-wu-reconcile",
-      "northern-expeditions"
+      "northern-expeditions",
+      "sun-liu-alliance",
+      "baidi-succession",
+      "dengzhi-envoy"
     ],
     "citations": [
       {
@@ -581,6 +705,22 @@
             "sourceId": "sgz-35",
             "locator": "诸葛亮传：建兴五年上疏全文",
             "note": "出兵前上给刘禅的表文，谈用人、政务与出师目标，也回忆刘备三顾。本图采用《三国志》本传所录前《出师表》；后《出师表》的真伪另有讨论。"
+          }
+        ]
+      },
+      {
+        "title": "使吴与继承后的修好",
+        "description": "208年为刘备使吴，223年受托辅政后遣邓芝修好；军事、外交与政务各有具体条件。",
+        "citations": [
+          {
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传：三顾后对策、出使孙权与白帝托孤段",
+            "note": "战略对策为史书记录的建议；出使、托孤与后续行动分别理解。"
+          },
+          {
+            "sourceId": "sgz-45",
+            "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+            "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
           }
         ]
       }
@@ -657,6 +797,23 @@
         ]
       },
       {
+        "date": "223年",
+        "title": "托孤与修好",
+        "description": "参与刘备托付后事、辅刘禅，并派邓芝使吴。",
+        "citations": [
+          {
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传：三顾后对策、出使孙权与白帝托孤段",
+            "note": "战略对策为史书记录的建议；出使、托孤与后续行动分别理解。"
+          },
+          {
+            "sourceId": "sgz-45",
+            "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+            "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
+          }
+        ]
+      },
+      {
         "date": "228—234年",
         "title": "诸葛亮北伐",
         "description": "诸葛亮的作用见事件介绍与本传；此线表示实际参与、决策或处境关联。",
@@ -668,6 +825,9 @@
           }
         ]
       }
+    ],
+    "relatedBackgroundIds": [
+      "jingzhou-refuge"
     ]
   },
   {
@@ -685,7 +845,9 @@
     ],
     "relatedEventIds": [
       "peach-garden",
-      "jingzhou-loss"
+      "jingzhou-loss",
+      "baima-yanjin",
+      "jingzhou-division"
     ],
     "citations": [
       {
@@ -734,6 +896,9 @@
           }
         ]
       }
+    ],
+    "relatedBackgroundIds": [
+      "jingzhou-geography"
     ]
   },
   {
@@ -750,7 +915,10 @@
       "周公瑾"
     ],
     "relatedEventIds": [
-      "chibi"
+      "chibi",
+      "jiangdong-campaigns",
+      "sun-liu-alliance",
+      "jiangling-contest"
     ],
     "citations": [
       {
@@ -784,6 +952,27 @@
             "note": "记述周瑜的从属关系与统兵活动。"
           }
         ]
+      },
+      {
+        "title": "共同统兵与战后进取",
+        "description": "赤壁与程普共同统兵，黄盖火攻献策有独立作用；随后长期攻南郡，曹仁才退去。",
+        "citations": [
+          {
+            "sourceId": "sgz-54",
+            "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+            "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+          },
+          {
+            "sourceId": "sgz-55",
+            "locator": "程普传：从孙坚、孙策、辅孙权、与周瑜统兵及后来任职段",
+            "note": "主要军历见正文；卒年未明确，保留不详。"
+          },
+          {
+            "sourceId": "sgz-55",
+            "locator": "黄盖传：从孙坚及孙氏父子、赤壁献策、任武陵太守与卒于官段",
+            "note": "正文记火攻并指向周瑜传；受伤获救为裴注《吴书》，卒年未明确。"
+          }
+        ]
       }
     ],
     "lifeEvents": [
@@ -808,7 +997,49 @@
             "note": "记述统兵、决策及联络职责。"
           }
         ]
+      },
+      {
+        "date": "208—209年",
+        "title": "南郡攻防与战后经营",
+        "description": "继续与程普进攻曹仁，救援甘宁，长期争夺后领南郡太守。",
+        "citations": [
+          {
+            "sourceId": "sgz-54",
+            "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+            "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+          },
+          {
+            "sourceId": "sgz-55",
+            "locator": "程普传：从孙坚、孙策、辅孙权、与周瑜统兵及后来任职段",
+            "note": "主要军历见正文；卒年未明确，保留不详。"
+          },
+          {
+            "sourceId": "sgz-55",
+            "locator": "甘宁传：早年经历、归孙权、夷陵解围、益阳与濡须段",
+            "note": "军历依本传；濡须夜袭的具体年次本传未详，置于213—217年反复交锋范围。"
+          }
+        ]
+      },
+      {
+        "date": "210年",
+        "title": "病卒与后续安排",
+        "description": "进取益州的计划未及实施便病卒，鲁肃后来接掌相关部众与防务。",
+        "citations": [
+          {
+            "sourceId": "sgz-54",
+            "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+            "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+          },
+          {
+            "sourceId": "sgz-54",
+            "locator": "鲁肃传：联络刘备、赞军校尉、荆州交涉与益阳会谈段",
+            "note": "外交与统兵职责分别说明；吴方关于荆州的主张与蜀方记载对读。"
+          }
+        ]
       }
+    ],
+    "relatedBackgroundIds": [
+      "river-warfare"
     ]
   },
   {
@@ -991,7 +1222,8 @@
       "魏文帝"
     ],
     "relatedEventIds": [
-      "wei-founding"
+      "wei-founding",
+      "wu-kingship"
     ],
     "citations": [
       {
@@ -1073,7 +1305,9 @@
       "伯符",
       "孙伯符"
     ],
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "jiangdong-campaigns"
+    ],
     "citations": [
       {
         "sourceId": "sgz-46",
@@ -1116,6 +1350,33 @@
             "note": "孙权本传明记孙策为其兄。"
           }
         ]
+      },
+      {
+        "title": "经营江东根据地",
+        "description": "从袁术处取得兵力后渡江，击败刘繇等势力，逐步建立江东根据地。",
+        "citations": [
+          {
+            "sourceId": "sgz-46",
+            "locator": "孙策传：从袁术、渡江经营、卒后承继段",
+            "note": "江东经营持续多年，孙策与孙权的活动分开叙述。"
+          }
+        ]
+      },
+      {
+        "title": "联合与吸纳人才",
+        "description": "与周瑜合作；太史慈在交战、被俘后获任用，说明军事征服与人员吸纳相互交织。",
+        "citations": [
+          {
+            "sourceId": "sgz-46",
+            "locator": "孙策传：从袁术、渡江经营、卒后承继段",
+            "note": "江东经营持续多年，孙策与孙权的活动分开叙述。"
+          },
+          {
+            "sourceId": "sgz-49",
+            "locator": "太史慈传：神亭、泾县及任用",
+            "note": "本传将神亭交战与后来的泾县被俘分别叙述。"
+          }
+        ]
       }
     ],
     "lifeEvents": [
@@ -1135,6 +1396,42 @@
             "note": "孙权本传明记孙策为其兄。"
           }
         ]
+      },
+      {
+        "date": "195年前后",
+        "title": "从袁术处借兵渡江",
+        "description": "江东经营由渡江展开，约在195年前后，多个战场并非同一天完成。",
+        "citations": [
+          {
+            "sourceId": "sgz-46",
+            "locator": "孙策传：从袁术、渡江经营、卒后承继段",
+            "note": "江东经营持续多年，孙策与孙权的活动分开叙述。"
+          }
+        ]
+      },
+      {
+        "date": "195年起",
+        "title": "与太史慈交战后任用",
+        "description": "神亭相遇交战；后来泾县被俘后释缚任用，具体经过见太史慈本传。",
+        "citations": [
+          {
+            "sourceId": "sgz-49",
+            "locator": "太史慈传：孙策与太史慈段",
+            "note": "关于被俘地点和次序，裴注《吴历》与本传有异，人物详情列明。"
+          }
+        ]
+      },
+      {
+        "date": "200年",
+        "title": "去世并交接事业",
+        "description": "遇刺受伤后去世，孙权接掌其事业；后续孙吴建国还有多年政治军事过程。",
+        "citations": [
+          {
+            "sourceId": "sgz-46",
+            "locator": "孙策传：从袁术、渡江经营、卒后承继段",
+            "note": "江东经营持续多年，孙策与孙权的活动分开叙述。"
+          }
+        ]
       }
     ]
   },
@@ -1152,7 +1449,9 @@
       "鲁子敬"
     ],
     "relatedEventIds": [
-      "chibi"
+      "chibi",
+      "sun-liu-alliance",
+      "jingzhou-division"
     ],
     "citations": [
       {
@@ -1186,6 +1485,22 @@
             "note": "记述战略建议、促成合作及赞军校尉职责。"
           }
         ]
+      },
+      {
+        "title": "合作与土地交涉",
+        "description": "208年推动孙刘合作，后来又代表孙权处理荆州、益阳等问题，联盟与分歧在不同阶段并存。",
+        "citations": [
+          {
+            "sourceId": "sgz-54",
+            "locator": "鲁肃传：联络刘备、赞军校尉、荆州交涉与益阳会谈段",
+            "note": "外交与统兵职责分别说明；吴方关于荆州的主张与蜀方记载对读。"
+          },
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安二十年孙刘分荆州段；参见鲁肃传",
+            "note": "荆州各郡分属不同方面，与吴方交涉叙述对读；战线和行政范围随时间改变。"
+          }
+        ]
       }
     ],
     "lifeEvents": [
@@ -1210,7 +1525,39 @@
             "note": "记述统兵、决策及联络职责。"
           }
         ]
+      },
+      {
+        "date": "208年",
+        "title": "联络刘备并参与军议",
+        "description": "推动孙刘合作，担任赞军校尉，外交联络与前线谋划分别说明。",
+        "citations": [
+          {
+            "sourceId": "sgz-54",
+            "locator": "鲁肃传：联络刘备、赞军校尉、荆州交涉与益阳会谈段",
+            "note": "外交与统兵职责分别说明；吴方关于荆州的主张与蜀方记载对读。"
+          }
+        ]
+      },
+      {
+        "date": "215年",
+        "title": "益阳交涉",
+        "description": "在荆州争夺中与关羽一方对峙、会谈，具体立场与经过见双方史料。",
+        "citations": [
+          {
+            "sourceId": "sgz-54",
+            "locator": "鲁肃传：联络刘备、赞军校尉、荆州交涉与益阳会谈段",
+            "note": "外交与统兵职责分别说明；吴方关于荆州的主张与蜀方记载对读。"
+          },
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安二十年孙刘分荆州段；参见鲁肃传",
+            "note": "荆州各郡分属不同方面，与吴方交涉叙述对读；战线和行政范围随时间改变。"
+          }
+        ]
       }
+    ],
+    "relatedBackgroundIds": [
+      "jingzhou-geography"
     ]
   },
   {
@@ -1227,7 +1574,8 @@
       "黄汉升"
     ],
     "relatedEventIds": [
-      "hanzhong"
+      "hanzhong",
+      "jingnan-settlement"
     ],
     "citations": [
       {
@@ -1377,16 +1725,39 @@
     "label": "官渡之战",
     "kind": "event",
     "identity": "曹操与袁绍之间的重要战役",
-    "description": "200 年，曹操与袁绍在官渡一带交战，曹操取得胜利。这一战是认识其北方事业的重要入口。当前图谱从曹操连入这场战役。",
+    "description": "200年，曹操与袁绍围绕黄河渡口、官渡阵地和粮运展开较量。白马、延津交战后双方相持，许攸来奔提供情报，曹操袭击乌巢，袁军败退。此战改变北方力量对比，河北的后续争夺持续到数年之后。",
     "period": "200 年",
     "basis": "documented",
     "aliases": [],
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "baima-yanjin",
+      "wuchao"
+    ],
     "citations": [
       {
         "sourceId": "sgz-01",
-        "locator": "武帝纪：建安五年官渡记事",
-        "note": "记述对袁绍作战及战果。"
+        "locator": "武帝纪：建安五年白马、延津、官渡对峙、许攸来奔与乌巢段",
+        "note": "概括正面战场、粮运与袭粮行动，分别标明不同人物的作用。"
+      },
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁绍传：田丰、沮授谏持久战、分军及官渡败后段",
+        "note": "意见及遭遇主要见正文；田丰字籍与沮授早年另据裴注，予以分层标识。"
+      },
+      {
+        "sourceId": "sgz-10",
+        "locator": "荀彧、荀攸传：官渡守持、袭运及许攸来奔议策",
+        "note": "分别核对书信谋议与前线军议，表述各自作用。"
+      },
+      {
+        "sourceId": "sgz-16",
+        "locator": "任峻传：许下屯田、官渡军器粮运；裴注引曹操追念枣祗令",
+        "note": "区分枣祗倡议、任峻执行及军粮转运；屯田分配讨论见裴注引令。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：官渡段裴松之评曹军兵数",
+        "note": "裴松之已质疑曹军不满万的记载；本图采用兵力数字存在争议的表述。"
       }
     ],
     "position": {
@@ -1399,47 +1770,93 @@
     },
     "context": [
       {
-        "title": "事情为什么发生",
-        "description": "曹操与袁绍在北方扩张，资源与地盘竞争集中到官渡一线。",
+        "title": "前因：双方怎样形成优势",
+        "description": "袁绍在河北长期经营并于199年灭公孙瓒，曹操则控制许的朝廷、恢复兖州并消灭吕布。地方资源、政治号召和军队调动共同形成决战条件。",
         "citations": [
           {
-            "sourceId": "sgz-01",
-            "locator": "武帝纪：建安五年官渡记事",
-            "note": "记述对袁绍作战及战果。"
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+            "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
+          },
+          {
+            "sourceId": "sgz-08",
+            "locator": "公孙瓒传：河北争夺、易京围城及建安四年败亡",
+            "note": "对袁绍的长期战争与最后败亡见本传；兵力与人物评价需审慎阅读。"
           },
           {
             "sourceId": "sgz-01",
-            "locator": "建安元年：迎帝都许、屯田段",
-            "note": "曹操迎汉献帝，将朝廷迁到许，取得以朝廷名义发号施令的政治优势。同年开展屯田，军粮筹措也影响此后的竞争。"
-          },
-          {
-            "sourceId": "sgz-01",
-            "locator": "建安七年至十二年：河北、乌桓战事",
-            "note": "袁绍死后，曹操利用其诸子分争继续作战，逐步控制河北；207年北征乌桓，消除袁氏残余力量的重要依托。"
+            "locator": "武帝纪：初平二年至建安五年，冀州、兖州、下邳及官渡记事",
+            "note": "纪年提供主要战事顺序；同时参考袁绍、吕布与有关将领本传。"
           }
         ]
       },
       {
-        "title": "接下来改变了什么",
-        "description": "曹操获胜取得优势；袁氏仍有河北地盘，北方整合持续到其后数年。",
+        "title": "经过：阵地、情报与粮运",
+        "description": "白马、延津之后双方相持。曹军也曾缺粮，荀彧支持继续守持，任峻组织运输；许攸的情报与袭粮决策使乌巢成为转折。",
         "citations": [
           {
             "sourceId": "sgz-01",
-            "locator": "武帝纪：建安五年官渡记事",
-            "note": "记述对袁绍作战及战果。"
+            "locator": "武帝纪：建安五年白马、延津、官渡对峙、许攸来奔与乌巢段",
+            "note": "概括正面战场、粮运与袭粮行动，分别标明不同人物的作用。"
+          },
+          {
+            "sourceId": "sgz-10",
+            "locator": "荀彧、荀攸传：官渡守持、袭运及许攸来奔议策",
+            "note": "分别核对书信谋议与前线军议，表述各自作用。"
+          },
+          {
+            "sourceId": "sgz-16",
+            "locator": "任峻传：许下屯田、官渡军器粮运；裴注引曹操追念枣祗令",
+            "note": "区分枣祗倡议、任峻执行及军粮转运；屯田分配讨论见裴注引令。"
+          }
+        ]
+      },
+      {
+        "title": "后果：河北仍待多年争夺",
+        "description": "袁绍败退后仍能恢复部分叛离郡县，202年去世后诸子争位。曹操又经多次战事，至207年进一步消除袁氏势力依托。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+            "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
           },
           {
             "sourceId": "sgz-01",
-            "locator": "建安元年：迎帝都许、屯田段",
-            "note": "曹操迎汉献帝，将朝廷迁到许，取得以朝廷名义发号施令的政治优势。同年开展屯田，军粮筹措也影响此后的竞争。"
-          },
+            "locator": "武帝纪：建安七年至十二年河北与乌桓战事",
+            "note": "袁绍202年去世后，其诸子争位与曹操多次作战共同构成后续过程。"
+          }
+        ]
+      },
+      {
+        "title": "史料提示：兵数与胜败解释",
+        "description": "裴松之已质疑曹军“不满万”等兵数。此处保留兵力数字存在争议的说明；对谋士意见的记载，也需结合史书叙事立场理解。",
+        "citations": [
           {
             "sourceId": "sgz-01",
-            "locator": "建安七年至十二年：河北、乌桓战事",
-            "note": "袁绍死后，曹操利用其诸子分争继续作战，逐步控制河北；207年北征乌桓，消除袁氏残余力量的重要依托。"
+            "locator": "武帝纪：官渡段裴松之评曹军兵数",
+            "note": "裴松之已质疑曹军不满万的记载；本图采用兵力数字存在争议的表述。"
+          },
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：田丰、沮授谏持久战、分军及官渡败后段",
+            "note": "意见及遭遇主要见正文；田丰字籍与沮授早年另据裴注，予以分层标识。"
           }
         ]
       }
+    ],
+    "relatedPersonIds": [
+      "cao-cao",
+      "yuan-shao",
+      "xun-yu",
+      "xun-you",
+      "jia-xu",
+      "ren-jun",
+      "guan-yu",
+      "zhang-liao",
+      "tian-feng",
+      "ju-shou",
+      "xu-you",
+      "chen-lin"
     ]
   },
   {
@@ -1447,26 +1864,36 @@
     "label": "赤壁之战",
     "kind": "event",
     "identity": "孙刘合作抵抗曹操的关键战事",
-    "description": "208 年，孙权与刘备合作抵抗曹操。周瑜等统兵，诸葛亮和鲁肃参与外交与谋划。人物连向同一事件时，各自承担的职责可以很不相同。",
+    "description": "208年曹操南下并接受刘琮归降，刘备与孙权在鲁肃、诸葛亮等联络下合作。周瑜、程普等统兵，黄盖献策并实施火攻，曹军疾病、疲劳和作战条件相互影响，最终退军。战后仍有江陵等争夺，鼎立格局又经多年发展。",
     "period": "208 年",
     "basis": "documented",
     "aliases": [],
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "borrow-eastwind",
+      "sun-liu-alliance",
+      "jiangling-contest",
+      "jingnan-settlement"
+    ],
     "citations": [
       {
-        "sourceId": "sgz-01",
-        "locator": "武帝纪：建安十三年赤壁段",
-        "note": "记述曹操失利与退军。"
+        "sourceId": "sgz-54",
+        "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+        "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+        "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+        "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
       },
       {
         "sourceId": "sgz-35",
-        "locator": "诸葛亮传：出使孙权段",
-        "note": "记述孙权遣周瑜等与刘备共同抵抗曹操。"
-      },
-      {
-        "sourceId": "sgz-54",
-        "locator": "周瑜传、鲁肃传：赤壁相关段落",
-        "note": "记述统兵、决策及联络职责。"
+        "locator": "诸葛亮传：三顾后对策、出使孙权与白帝托孤段",
+        "note": "战略对策为史书记录的建议；出使、托孤与后续行动分别理解。"
       }
     ],
     "position": {
@@ -1479,87 +1906,105 @@
     },
     "context": [
       {
-        "title": "事情为什么发生",
-        "description": "曹操整合北方后南下；刘备与孙权面对共同军事压力。",
+        "title": "前因：荆州控制与联合",
+        "description": "刘表去世、刘琮归降改变荆州形势，刘备南撤。孙权集团存在不同意见，鲁肃联络与诸葛亮出使促成合作。",
         "citations": [
           {
-            "sourceId": "sgz-01",
-            "locator": "武帝纪：建安十三年赤壁段",
-            "note": "记述曹操失利与退军。"
+            "sourceId": "sgz-06",
+            "locator": "刘表传及附刘琮：刘表病卒、二子分争、刘琮归降与后续任职",
+            "note": "正文记刘琦与刘琮的继承矛盾、归降和任职；涉及评价与劝说时保留叙事立场。"
           },
           {
-            "sourceId": "sgz-35",
-            "locator": "诸葛亮传：出使孙权段",
-            "note": "记述孙权遣周瑜等与刘备共同抵抗曹操。"
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+            "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
           },
           {
             "sourceId": "sgz-54",
-            "locator": "周瑜传、鲁肃传：赤壁相关段落",
-            "note": "记述统兵、决策及联络职责。"
+            "locator": "鲁肃传：联络刘备、赞军校尉、荆州交涉与益阳会谈段",
+            "note": "外交与统兵职责分别说明；吴方关于荆州的主张与蜀方记载对读。"
           },
           {
-            "sourceId": "sgz-01",
-            "locator": "建安七年至十二年：河北、乌桓战事",
-            "note": "袁绍死后，曹操利用其诸子分争继续作战，逐步控制河北；207年北征乌桓，消除袁氏残余力量的重要依托。"
-          },
-          {
-            "sourceId": "sgz-32",
-            "locator": "先主传：当阳长坂段",
-            "note": "记述追击与撤退。"
-          },
-          {
-            "sourceId": "sgz-36",
-            "locator": "张飞传、赵云传：长坂段",
-            "note": "分别记述断后与保护家眷。"
-          },
-          {
-            "sourceId": "sgz-32",
-            "locator": "先主传：建安十六年至十九年入益州段",
-            "note": "刘璋请刘备入蜀，双方后来交战。214年成都投降，刘备取得益州这一战略基地。"
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传：三顾后对策、出使孙权与白帝托孤段",
+            "note": "战略对策为史书记录的建议；出使、托孤与后续行动分别理解。"
           }
         ]
       },
       {
-        "title": "接下来改变了什么",
-        "description": "曹军撤退使南方力量得以继续发展。鼎立格局随后经过益州、荆州等争夺才逐渐形成。",
+        "title": "经过：多重条件与分工",
+        "description": "周瑜、程普统兵，黄盖提出火攻并实施。史书同时记军队疾病、疲劳与水军条件，具体兵力数字和疾病种类仍应审慎辨别。",
         "citations": [
           {
-            "sourceId": "sgz-01",
-            "locator": "武帝纪：建安十三年赤壁段",
-            "note": "记述曹操失利与退军。"
+            "sourceId": "sgz-54",
+            "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+            "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
           },
           {
-            "sourceId": "sgz-35",
-            "locator": "诸葛亮传：出使孙权段",
-            "note": "记述孙权遣周瑜等与刘备共同抵抗曹操。"
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
           },
+          {
+            "sourceId": "sgz-55",
+            "locator": "黄盖传：从孙坚及孙氏父子、赤壁献策、任武陵太守与卒于官段",
+            "note": "正文记火攻并指向周瑜传；受伤获救为裴注《吴书》，卒年未明确。"
+          },
+          {
+            "sourceId": "sgz-55",
+            "locator": "程普传：从孙坚、孙策、辅孙权、与周瑜统兵及后来任职段",
+            "note": "主要军历见正文；卒年未明确，保留不详。"
+          }
+        ]
+      },
+      {
+        "title": "后果：战争与经营继续",
+        "description": "曹军退去后曹仁仍守江陵，周瑜等又长期进攻；刘备在荆南经营，日后转向益州。赤壁不会单独解释后来所有政权变化。",
+        "citations": [
           {
             "sourceId": "sgz-54",
-            "locator": "周瑜传、鲁肃传：赤壁相关段落",
-            "note": "记述统兵、决策及联络职责。"
+            "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+            "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
           },
           {
-            "sourceId": "sgz-01",
-            "locator": "建安七年至十二年：河北、乌桓战事",
-            "note": "袁绍死后，曹操利用其诸子分争继续作战，逐步控制河北；207年北征乌桓，消除袁氏残余力量的重要依托。"
-          },
-          {
-            "sourceId": "sgz-32",
-            "locator": "先主传：当阳长坂段",
-            "note": "记述追击与撤退。"
-          },
-          {
-            "sourceId": "sgz-36",
-            "locator": "张飞传、赵云传：长坂段",
-            "note": "分别记述断后与保护家眷。"
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
           },
           {
             "sourceId": "sgz-32",
-            "locator": "先主传：建安十六年至十九年入益州段",
-            "note": "刘璋请刘备入蜀，双方后来交战。214年成都投降，刘备取得益州这一战略基地。"
+            "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+            "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
+          }
+        ]
+      },
+      {
+        "title": "文学对读",
+        "description": "祭坛借东风是小说艺术安排；史书黄盖火攻与风助火势的记录另有来源。可进入单独标记的文学节点比较阅读。",
+        "citations": [
+          {
+            "sourceId": "sgz-54",
+            "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+            "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+          },
+          {
+            "sourceId": "sgyy-049",
+            "locator": "第四十九回：七星坛祭风与东南风起段",
+            "note": "诸葛亮祭风为小说艺术情节；与史书黄盖火攻及风助火的记载分层阅读。"
           }
         ]
       }
+    ],
+    "relatedPersonIds": [
+      "cao-cao",
+      "liu-bei",
+      "sun-quan",
+      "zhou-yu",
+      "cheng-pu",
+      "huang-gai",
+      "lu-su",
+      "zhuge-liang",
+      "gan-ning"
     ]
   },
   {
@@ -1571,7 +2016,10 @@
     "period": "208 年",
     "basis": "documented",
     "aliases": [],
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "jingzhou-succession",
+      "sun-liu-alliance"
+    ],
     "citations": [
       {
         "sourceId": "sgz-32",
@@ -1594,64 +2042,39 @@
     },
     "context": [
       {
-        "title": "事情为什么发生",
-        "description": "曹操南下，刘表去世后刘琮归降，刘备撤退时遭追击。",
+        "title": "前因：归降与南撤",
+        "description": "刘表病卒、刘琮继位归降，刘备携军民南撤，曹操因江陵军储等条件急追。",
         "citations": [
           {
+            "sourceId": "sgz-06",
+            "locator": "刘表传及附刘琮：刘表病卒、二子分争、刘琮归降与后续任职",
+            "note": "正文记刘琦与刘琮的继承矛盾、归降和任职；涉及评价与劝说时保留叙事立场。"
+          },
+          {
             "sourceId": "sgz-32",
-            "locator": "先主传：当阳长坂段",
-            "note": "记述追击与撤退。"
-          },
-          {
-            "sourceId": "sgz-36",
-            "locator": "张飞传、赵云传：长坂段",
-            "note": "分别记述断后与保护家眷。"
-          },
-          {
-            "sourceId": "sgz-01",
-            "locator": "武帝纪：建安十三年赤壁段",
-            "note": "记述曹操失利与退军。"
-          },
-          {
-            "sourceId": "sgz-35",
-            "locator": "诸葛亮传：出使孙权段",
-            "note": "记述孙权遣周瑜等与刘备共同抵抗曹操。"
-          },
-          {
-            "sourceId": "sgz-54",
-            "locator": "周瑜传、鲁肃传：赤壁相关段落",
-            "note": "记述统兵、决策及联络职责。"
+            "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+            "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
           }
         ]
       },
       {
-        "title": "接下来改变了什么",
-        "description": "刘备向江夏方向脱身并争取孙权合作，随后共同抗曹。",
+        "title": "经过与后续：会合、家属与外交",
+        "description": "刘备遭追破，张飞断后、赵云保护家属分别见本传。随后与关羽舟船、刘琦力量会合，争取孙权合作；徐庶因母被获北行，体现战争对家庭与选择的影响。",
         "citations": [
           {
             "sourceId": "sgz-32",
-            "locator": "先主传：当阳长坂段",
-            "note": "记述追击与撤退。"
-          },
-          {
-            "sourceId": "sgz-36",
-            "locator": "张飞传、赵云传：长坂段",
-            "note": "分别记述断后与保护家眷。"
-          },
-          {
-            "sourceId": "sgz-01",
-            "locator": "武帝纪：建安十三年赤壁段",
-            "note": "记述曹操失利与退军。"
+            "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+            "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
           },
           {
             "sourceId": "sgz-35",
-            "locator": "诸葛亮传：出使孙权段",
-            "note": "记述孙权遣周瑜等与刘备共同抵抗曹操。"
+            "locator": "诸葛亮传：徐庶举荐、三顾、刘琦外任及徐庶母获北投段",
+            "note": "举荐、友善与母获分别见正文；徐庶早年及魏官经历见裴注《魏略》。"
           },
           {
-            "sourceId": "sgz-54",
-            "locator": "周瑜传、鲁肃传：赤壁相关段落",
-            "note": "记述统兵、决策及联络职责。"
+            "sourceId": "sgz-36",
+            "locator": "张飞传、赵云传：长坂相关段",
+            "note": "人物行动分别记载，不将小说夸饰直接作为历史人数。"
           }
         ]
       }
@@ -1756,7 +2179,9 @@
     "period": "221—222 年",
     "basis": "documented",
     "aliases": [],
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "baidi-succession"
+    ],
     "citations": [
       {
         "sourceId": "sgz-32",
@@ -1842,7 +2267,9 @@
     "groupId": "shu",
     "basis": "documented",
     "aliases": [],
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "jingzhou-succession"
+    ],
     "citations": [
       {
         "sourceId": "sgz-35",
@@ -1881,6 +2308,11 @@
           }
         ]
       }
+    ],
+    "relatedPersonIds": [
+      "liu-bei",
+      "zhuge-liang",
+      "xu-shu"
     ]
   },
   {
@@ -1952,6 +2384,17 @@
             "note": "宗教组织让不同地方的人形成联系，也使起事能够迅速扩散。"
           }
         ]
+      },
+      {
+        "title": "组织与生计相连的宗教网络",
+        "description": "史书记其以符水治病和传教吸引信众，长期组织跨地区网络，生活困境与民间互助可作为阅读入口。",
+        "citations": [
+          {
+            "sourceId": "hhs-71",
+            "locator": "皇甫嵩传：张角传教、三十六方与告密段",
+            "note": "史书包含编纂者对民间信仰的立场，转述时保留组织过程。"
+          }
+        ]
       }
     ],
     "lifeEvents": [
@@ -1994,6 +2437,9 @@
         "label": "活动年代",
         "value": "生年不详—184年"
       }
+    ],
+    "relatedBackgroundIds": [
+      "disaster-networks"
     ]
   },
   {
@@ -2010,7 +2456,9 @@
     "basis": "documented",
     "relatedEventIds": [
       "dong-capital",
-      "anti-dong"
+      "anti-dong",
+      "palace-crisis",
+      "capital-migration"
     ],
     "citations": [
       {
@@ -2095,7 +2543,8 @@
       }
     ],
     "relatedBackgroundIds": [
-      "local-arms"
+      "local-arms",
+      "court-power"
     ]
   },
   {
@@ -2113,7 +2562,13 @@
     "relatedEventIds": [
       "dong-capital",
       "anti-dong",
-      "north-consolidation"
+      "north-consolidation",
+      "palace-crisis",
+      "jizhou-transfer",
+      "yijing",
+      "baima-yanjin",
+      "wuchao",
+      "guandu"
     ],
     "citations": [
       {
@@ -2135,6 +2590,28 @@
             "sourceId": "sgz-06",
             "locator": "袁绍传：盟主、官渡及诸子争立段",
             "note": "取得冀州等地，与曹操成为北方主要竞争者。"
+          }
+        ]
+      },
+      {
+        "title": "从联盟盟主到冀州经营者",
+        "description": "190年被推为讨董盟主，191年取得冀州，依靠地方资源与多人协力经营河北。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：冀州、沮授田丰军议、官渡与绍卒段",
+            "note": "逐段区分河北经营、谋士意见及战后形势。"
+          }
+        ]
+      },
+      {
+        "title": "北方优势与南向决战",
+        "description": "199年灭公孙瓒，次年与曹操在官渡较量；较大的资源基础仍需通过粮运、指挥和行动转化。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：冀州、沮授田丰军议、官渡与绍卒段",
+            "note": "逐段区分河北经营、谋士意见及战后形势。"
           }
         ]
       }
@@ -2175,6 +2652,30 @@
         ]
       },
       {
+        "date": "191年",
+        "title": "取得冀州",
+        "description": "韩馥在军事压力与游说中让州，袁绍获得重要根据地。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：冀州、沮授田丰军议、官渡与绍卒段",
+            "note": "逐段区分河北经营、谋士意见及战后形势。"
+          }
+        ]
+      },
+      {
+        "date": "199年",
+        "title": "易京击败公孙瓒",
+        "description": "多年竞争以公孙瓒败亡结束，袁绍继续南向部署。",
+        "citations": [
+          {
+            "sourceId": "sgz-08",
+            "locator": "公孙瓒传：易京围攻与败亡",
+            "note": "与袁绍本传及武帝纪互相参照。"
+          }
+        ]
+      },
+      {
         "date": "200年",
         "title": "官渡失利",
         "description": "粮运与指挥等问题交织，乌巢粮屯被袭成为重要转折。",
@@ -2202,6 +2703,18 @@
             "note": "袁绍死后，曹操利用其诸子分争继续作战，逐步控制河北；207年北征乌桓，消除袁氏残余力量的重要依托。"
           }
         ]
+      },
+      {
+        "date": "202年",
+        "title": "去世与继承纷争",
+        "description": "袁绍病卒，儿子袁谭、袁尚等争立，曹操随后借分争继续进攻河北。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：冀州、沮授田丰军议、官渡与绍卒段",
+            "note": "逐段区分河北经营、谋士意见及战后形势。"
+          }
+        ]
       }
     ],
     "facts": [
@@ -2215,7 +2728,9 @@
       }
     ],
     "relatedBackgroundIds": [
-      "local-arms"
+      "local-arms",
+      "court-power",
+      "provincial-power"
     ]
   },
   {
@@ -2231,7 +2746,8 @@
     "period": "163—212年",
     "basis": "documented",
     "relatedEventIds": [
-      "emperor-xu"
+      "emperor-xu",
+      "yanzhou-contest"
     ],
     "citations": [
       {
@@ -2318,7 +2834,9 @@
     "relatedEventIds": [
       "dong-capital",
       "emperor-xu",
-      "wei-founding"
+      "wei-founding",
+      "palace-crisis",
+      "capital-migration"
     ],
     "citations": [
       {
@@ -2438,7 +2956,9 @@
     "period": "生年不详—199年",
     "basis": "documented",
     "relatedEventIds": [
-      "anti-dong"
+      "anti-dong",
+      "yanzhou-contest",
+      "xiapi"
     ],
     "citations": [
       {
@@ -2600,7 +3120,10 @@
     "period": "178—219年（卒年换算另有220年说）",
     "basis": "documented",
     "relatedEventIds": [
-      "jingzhou-loss"
+      "jingzhou-loss",
+      "jiangling-contest",
+      "jingzhou-division",
+      "ru-xu"
     ],
     "citations": [
       {
@@ -3538,7 +4061,9 @@
     "basis": "documented",
     "relatedEventIds": [
       "shu-wu-reconcile",
-      "wei-conquers-shu"
+      "wei-conquers-shu",
+      "baidi-succession",
+      "dengzhi-envoy"
     ],
     "citations": [
       {
@@ -4214,7 +4739,9 @@
     "description": "张角组织的起事遍及多地，汉廷派军镇压。战争与地方武装动员加深了帝国的危机。",
     "period": "184年",
     "basis": "documented",
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "palace-crisis"
+    ],
     "citations": [
       {
         "sourceId": "hhs-71",
@@ -4233,38 +4760,47 @@
     "relatedPersonIds": [
       "zhang-jiao",
       "cao-cao",
-      "liu-bei"
+      "liu-bei",
+      "he-jin",
+      "huangfu-song",
+      "zhu-jun",
+      "sun-jian"
     ],
     "context": [
       {
-        "title": "事情为什么发生",
-        "description": "政治失序、民众困苦与太平道组织积累交织。",
+        "title": "前因：生活压力与长期组织",
+        "description": "灵帝纪记多次灾疫，张角通过治病、传教与跨州组织联结信众；184年计划泄露，起事提前。各地背景有别，需把生计、宗教和政治条件放在一起看。",
         "citations": [
           {
-            "sourceId": "hhs-71",
-            "locator": "皇甫嵩传：中平元年黄巾起事及征讨",
-            "note": "张角组织的起事遍及多地，汉廷派军镇压。战争与地方武装动员加深了帝国的危机。"
+            "sourceId": "hhs-08",
+            "locator": "孝灵帝纪：多次大疫、中平元年起事及中平五年置牧段",
+            "note": "纪年资料提供灾疫、解党禁和州牧设置的时间线，因果解释须结合列传。"
           },
           {
-            "sourceId": "hhs-72",
-            "locator": "董卓列传：何进被害、入洛及废立段",
-            "note": "何进被杀后京师大乱，董卓带军入洛，废少帝、立刘协，控制汉廷。"
+            "sourceId": "hhs-71",
+            "locator": "皇甫嵩、朱儁传：中平元年起事、长社与南阳战事",
+            "note": "太平道组织、朝廷征讨与各军行动分别见两传。"
           }
         ]
       },
       {
-        "title": "接下来改变了什么",
-        "description": "主要起事当年遭镇压，地方武装仍持续活动；此后还发生宫廷危机，汉末分裂由多重因素累积形成。",
+        "title": "经过与后果：朝廷调兵与地方动员",
+        "description": "汉廷任何进负责京师军务，派皇甫嵩、朱儁等征讨，曹操、孙坚等参与不同战场。主要起义军当年遭到镇压，余部仍继续活动，军队动员及地方资源控制影响后来的局势。",
         "citations": [
           {
-            "sourceId": "hhs-71",
-            "locator": "皇甫嵩传：中平元年黄巾起事及征讨",
-            "note": "张角组织的起事遍及多地，汉廷派军镇压。战争与地方武装动员加深了帝国的危机。"
+            "sourceId": "hhs-69",
+            "locator": "何进传：灵帝崩、谋诛宦官、征外兵及何进遇害段",
+            "note": "范晔本传叙事；陈琳劝谏与召兵决策须结合宫廷权力竞争阅读。"
           },
           {
-            "sourceId": "hhs-72",
-            "locator": "董卓列传：何进被害、入洛及废立段",
-            "note": "何进被杀后京师大乱，董卓带军入洛，废少帝、立刘协，控制汉廷。"
+            "sourceId": "hhs-71",
+            "locator": "皇甫嵩、朱儁传：中平元年起事、长社与南阳战事",
+            "note": "太平道组织、朝廷征讨与各军行动分别见两传。"
+          },
+          {
+            "sourceId": "sgz-46",
+            "locator": "孙破虏讨逆传：孙坚从朱儁征讨、孙策渡江经营与卒后承继",
+            "note": "父子两传提供孙氏早期军事活动；江东经营是历时数年的过程。"
           }
         ]
       }
@@ -4281,7 +4817,9 @@
     "description": "何进被杀后京师大乱，董卓带军入洛，废少帝、立刘协，控制汉廷。",
     "period": "189年",
     "basis": "documented",
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "palace-crisis"
+    ],
     "citations": [
       {
         "sourceId": "hhs-72",
@@ -4355,10 +4893,12 @@
     ],
     "kind": "event",
     "identity": "联盟形成与解体",
-    "description": "各地诸侯以讨伐董卓为名联合，袁绍为盟主。联盟内部各有目标，战事之后转向地盘竞争。192年董卓被王允、吕布等诛杀。",
+    "description": "190年关东诸军起兵讨董，推袁绍为盟主；董卓在军事压力下于同年迁朝廷至长安。盟军内部渐生争夺，联合行动未能长期维持。192年董卓死于王允、吕布参与的朝廷政变，是后续的另一过程。",
     "period": "190—192年",
     "basis": "documented",
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "capital-migration"
+    ],
     "citations": [
       {
         "sourceId": "sgz-06",
@@ -4382,34 +4922,39 @@
     ],
     "context": [
       {
-        "title": "事情为什么发生",
-        "description": "董卓控制朝廷并迁都长安，关东诸侯响应反对。",
+        "title": "前因：董卓控制朝廷",
+        "description": "189年董卓入洛后废立皇帝、控制汉廷，引起关东反对；190年各地军事联合形成。迁都长安发生在起兵之后。",
         "citations": [
           {
             "sourceId": "sgz-06",
-            "locator": "董卓、袁绍传：关东起兵及董卓被诛段",
-            "note": "各地诸侯以讨伐董卓为名联合，袁绍为盟主。联盟内部各有目标，战事之后转向地盘竞争。192年董卓被王允、吕布等诛杀。"
+            "locator": "董卓传：初平元年关东兵起、二月徙天子都长安",
+            "note": "正文先记关东起兵，再记迁都和洛阳破坏；部分细节另见裴注。"
           },
           {
-            "sourceId": "hhs-72",
-            "locator": "董卓列传：何进被害、入洛及废立段",
-            "note": "何进被杀后京师大乱，董卓带军入洛，废少帝、立刘协，控制汉廷。"
+            "sourceId": "hhs-69",
+            "locator": "何进传：灵帝崩、谋诛宦官、征外兵及何进遇害段",
+            "note": "范晔本传叙事；陈琳劝谏与召兵决策须结合宫廷权力竞争阅读。"
           }
         ]
       },
       {
-        "title": "接下来改变了什么",
-        "description": "共同目标未能形成稳定秩序，诸侯分立与相互征战继续。",
+        "title": "后果：联盟解体与后续政变",
+        "description": "诸侯转向地盘竞争，韩馥让冀州给袁绍是其中一条路径。192年王允、吕布参与诛董，与此前关东联军行动区分阅读。",
         "citations": [
           {
             "sourceId": "sgz-06",
-            "locator": "董卓、袁绍传：关东起兵及董卓被诛段",
-            "note": "各地诸侯以讨伐董卓为名联合，袁绍为盟主。联盟内部各有目标，战事之后转向地盘竞争。192年董卓被王允、吕布等诛杀。"
+            "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+            "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
           },
           {
-            "sourceId": "hhs-72",
-            "locator": "董卓列传：何进被害、入洛及废立段",
-            "note": "何进被杀后京师大乱，董卓带军入洛，废少帝、立刘协，控制汉廷。"
+            "sourceId": "sgz-06",
+            "locator": "董卓传：初平元年关东兵起、二月徙天子都长安",
+            "note": "正文先记关东起兵，再记迁都和洛阳破坏；部分细节另见裴注。"
+          },
+          {
+            "sourceId": "sgz-07",
+            "locator": "吕布传：陈宫张邈迎布、兖州相争及下邳败亡段",
+            "note": "本传记载陈宫转投吕布及军事谋划；早年经历另见裴注。"
           }
         ]
       }
@@ -4426,7 +4971,10 @@
     "description": "曹操迎汉献帝，将朝廷迁到许，取得以朝廷名义发号施令的政治优势。同年开展屯田，军粮筹措也影响此后的竞争。",
     "period": "196年",
     "basis": "documented",
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "yanzhou-contest",
+      "xiapi"
+    ],
     "citations": [
       {
         "sourceId": "sgz-01",
@@ -4493,7 +5041,10 @@
     "description": "袁绍死后，曹操利用其诸子分争继续作战，逐步控制河北；207年北征乌桓，消除袁氏残余力量的重要依托。",
     "period": "202—207年",
     "basis": "documented",
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "wuchao",
+      "jingzhou-succession"
+    ],
     "citations": [
       {
         "sourceId": "sgz-01",
@@ -4589,7 +5140,10 @@
     "description": "刘璋请刘备入蜀，双方后来交战。214年成都投降，刘备取得益州这一战略基地。",
     "period": "211—214年",
     "basis": "documented",
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "jingnan-settlement",
+      "jingzhou-division"
+    ],
     "citations": [
       {
         "sourceId": "sgz-32",
@@ -4707,7 +5261,9 @@
     "description": "关羽北攻樊襄时，孙权派吕蒙等进取其后方。关羽败亡，刘备集团失去荆州的重要控制区。",
     "period": "219年",
     "basis": "documented",
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "jingzhou-division"
+    ],
     "citations": [
       {
         "sourceId": "sgz-36",
@@ -4851,7 +5407,9 @@
     "description": "刘备在成都称帝，国号汉。后世为区别通常称蜀汉，其合法性主张是延续汉室。",
     "period": "221年",
     "basis": "documented",
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "wu-kingship"
+    ],
     "citations": [
       {
         "sourceId": "sgz-32",
@@ -4917,7 +5475,9 @@
     "description": "孙权在222年使用黄武年号，229年称帝，后迁都建业。孙吴的势力形成早于称帝。",
     "period": "229年",
     "basis": "documented",
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "wu-kingship"
+    ],
     "citations": [
       {
         "sourceId": "sgz-47",
@@ -4939,24 +5499,34 @@
     ],
     "context": [
       {
-        "title": "事情为什么发生",
-        "description": "江东基业、赤壁抗曹与夷陵防御，使孙氏集团维持独立。",
+        "title": "前因：政权基础与对外名分",
+        "description": "孙氏在江东经营多年，孙权经历221年受魏封吴王、222年黄武纪年与魏吴战争，实际控制和名号逐步变化。",
         "citations": [
           {
             "sourceId": "sgz-47",
-            "locator": "吴主传：黄武元年及黄龙元年段",
-            "note": "江东基业、赤壁抗曹与夷陵防御，使孙氏集团维持独立。"
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          },
+          {
+            "sourceId": "sgz-02",
+            "locator": "文帝纪：黄初元年受禅及黄初二年孙权称藩封吴王段",
+            "note": "纪年与政治文书体现魏方名分主张，结合吴主传阅读。"
           }
         ]
       },
       {
-        "title": "接下来改变了什么",
-        "description": "魏、蜀汉、吴三方称帝格局形成，三国间仍有战争与外交。",
+        "title": "经过与后续",
+        "description": "229年称帝后又迁都建业，蜀汉派陈震庆贺并会盟；曹魏、蜀汉、孙吴在制度与疆域上经历不同发展，称帝时点需分别记。",
         "citations": [
           {
             "sourceId": "sgz-47",
-            "locator": "吴主传：黄武元年及黄龙元年段",
-            "note": "魏、蜀汉、吴三方称帝格局形成，三国间仍有战争与外交。"
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          },
+          {
+            "sourceId": "sgz-39",
+            "locator": "陈震传：建兴七年贺孙权称尊号、武昌会盟段",
+            "note": "229年蜀汉派陈震庆贺并会盟；邓芝早期出使是前一阶段，外交持续多人接力。"
           }
         ]
       }
@@ -4970,15 +5540,27 @@
     ],
     "kind": "event",
     "identity": "夷陵之后恢复合作",
-    "description": "刘备去世后，蜀吴逐步修复关系。诸葛亮时期双方共同面对曹魏，229年吴称帝后蜀汉仍与其结盟。",
+    "description": "夷陵之后双方已开始接触。223年刘备去世、刘禅初立，诸葛亮遣邓芝使吴推动修好；229年孙权称帝，蜀汉派陈震庆贺并会盟。关系恢复是分阶段、多位使者参与的过程。",
     "period": "223—229年",
     "basis": "documented",
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "dengzhi-envoy"
+    ],
     "citations": [
       {
-        "sourceId": "sgz-35",
-        "locator": "诸葛亮传：与吴通好、孙权称尊号段",
-        "note": "刘备去世后，蜀吴逐步修复关系。诸葛亮时期双方共同面对曹魏，229年吴称帝后蜀汉仍与其结盟。"
+        "sourceId": "sgz-45",
+        "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+        "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
+      },
+      {
+        "sourceId": "sgz-39",
+        "locator": "陈震传：建兴七年贺孙权称尊号、武昌会盟段",
+        "note": "229年蜀汉派陈震庆贺并会盟；邓芝早期出使是前一阶段，外交持续多人接力。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+        "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
       }
     ],
     "position": {
@@ -4990,50 +5572,57 @@
       "end": 229
     },
     "relatedPersonIds": [
-      "zhuge-liang",
       "sun-quan",
+      "zhuge-liang",
+      "deng-zhi",
       "liu-shan"
     ],
     "context": [
       {
-        "title": "事情为什么发生",
-        "description": "夷陵造成双方消耗，曹魏仍是共同面对的重要压力。",
+        "title": "前因：战争代价与外部压力",
+        "description": "夷陵战争后吴蜀需要处理边界、安全与对魏关系，刘备在世时已有求和往返，刘禅继位又引出新疑虑。",
         "citations": [
           {
-            "sourceId": "sgz-35",
-            "locator": "诸葛亮传：与吴通好、孙权称尊号段",
-            "note": "刘备去世后，蜀吴逐步修复关系。诸葛亮时期双方共同面对曹魏，229年吴称帝后蜀汉仍与其结盟。"
+            "sourceId": "sgz-45",
+            "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+            "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
           },
           {
             "sourceId": "sgz-32",
-            "locator": "先主传：章武元年至二年伐吴段",
-            "note": "记述出兵与战败。"
+            "locator": "先主传：章武元年称帝、伐吴及章武三年病卒段",
+            "note": "国号汉、后称蜀汉；称帝、伐吴及托孤分别说明。"
           },
           {
             "sourceId": "sgz-47",
-            "locator": "吴主传：黄武元年对刘备作战段",
-            "note": "记述陆逊等迎击刘备。"
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
           }
         ]
       },
       {
-        "title": "接下来改变了什么",
-        "description": "双方合作牵制魏国，但没有消除各自利益与历史矛盾。",
+        "title": "经过：使者往返",
+        "description": "诸葛亮遣邓芝说明合作利益，孙权回聘；多位使者通过反复往返推进外交，具体往返和立场见本传。",
         "citations": [
           {
-            "sourceId": "sgz-35",
-            "locator": "诸葛亮传：与吴通好、孙权称尊号段",
-            "note": "刘备去世后，蜀吴逐步修复关系。诸葛亮时期双方共同面对曹魏，229年吴称帝后蜀汉仍与其结盟。"
-          },
+            "sourceId": "sgz-45",
+            "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+            "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
+          }
+        ]
+      },
+      {
+        "title": "后续：229年会盟",
+        "description": "吴称帝后蜀汉派陈震庆贺并在武昌会盟，早期修好与后来帝号互认分开呈现。",
+        "citations": [
           {
-            "sourceId": "sgz-32",
-            "locator": "先主传：章武元年至二年伐吴段",
-            "note": "记述出兵与战败。"
+            "sourceId": "sgz-39",
+            "locator": "陈震传：建兴七年贺孙权称尊号、武昌会盟段",
+            "note": "229年蜀汉派陈震庆贺并会盟；邓芝早期出使是前一阶段，外交持续多人接力。"
           },
           {
             "sourceId": "sgz-47",
-            "locator": "吴主传：黄武元年对刘备作战段",
-            "note": "记述陆逊等迎击刘备。"
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
           }
         ]
       }
@@ -5882,7 +6471,15 @@
       "lv-bu",
       "sun-jian",
       "yuan-shu",
-      "liu-biao"
+      "liu-biao",
+      "he-jin",
+      "huangfu-song",
+      "zhu-jun",
+      "han-fu",
+      "gongsun-zan",
+      "chen-gong",
+      "taishi-ci",
+      "chen-lin"
     ],
     "timeRange": {
       "start": 184,
@@ -5902,7 +6499,10 @@
       "local-arms",
       "war-migration",
       "elite-families",
-      "war-burdens"
+      "war-burdens",
+      "court-power",
+      "provincial-power",
+      "disaster-networks"
     ]
   },
   {
@@ -5976,7 +6576,23 @@
       "ren-jun",
       "cai-yan",
       "hua-tuo",
-      "wang-can"
+      "wang-can",
+      "gongsun-zan",
+      "chen-gong",
+      "taishi-ci",
+      "tian-feng",
+      "ju-shou",
+      "xu-you",
+      "chen-lin",
+      "xu-shu",
+      "liu-qi",
+      "liu-cong",
+      "huang-gai",
+      "cheng-pu",
+      "zhang-zhao",
+      "zhuge-jin",
+      "gan-ning",
+      "cao-ren"
     ],
     "timeRange": {
       "start": 196,
@@ -5996,7 +6612,10 @@
       "tuntian",
       "war-migration",
       "jianan-culture",
-      "medicine-life"
+      "medicine-life",
+      "jingzhou-geography",
+      "jingzhou-refuge",
+      "river-warfare"
     ]
   },
   {
@@ -6075,7 +6694,14 @@
       "chen-qun",
       "cai-yan",
       "cao-zhi",
-      "wang-can"
+      "wang-can",
+      "huang-gai",
+      "cheng-pu",
+      "zhang-zhao",
+      "zhuge-jin",
+      "deng-zhi",
+      "gan-ning",
+      "cao-ren"
     ],
     "timeRange": {
       "start": 208,
@@ -6095,7 +6721,9 @@
       "tuntian",
       "nine-ranks",
       "jianan-culture",
-      "jiangdong-economy"
+      "jiangdong-economy",
+      "jingzhou-geography",
+      "river-warfare"
     ]
   },
   {
@@ -6362,7 +6990,8 @@
     "description": "他一度控制淮南，曾与孙坚等合作。197年在寿春称帝后面临多方反对，军事与粮食困境交织，199年败亡。",
     "basis": "documented",
     "relatedEventIds": [
-      "anti-dong"
+      "anti-dong",
+      "palace-crisis"
     ],
     "citations": [
       {
@@ -6451,7 +7080,8 @@
     "description": "他在汉末经营荆州，接纳部分避乱士人，也与周边势力交战。208年去世后，继承安排和曹操南下使荆州局势迅速变化。",
     "basis": "documented",
     "relatedEventIds": [
-      "chibi"
+      "chibi",
+      "jingzhou-succession"
     ],
     "citations": [
       {
@@ -6527,7 +7157,10 @@
       }
     ],
     "relatedBackgroundIds": [
-      "war-migration"
+      "war-migration",
+      "provincial-power",
+      "jingzhou-geography",
+      "jingzhou-refuge"
     ]
   },
   {
@@ -6990,7 +7623,9 @@
     "description": "他从吕布部下转入曹操集团，参与多场战争。215年合肥作战是其本传重点，其成绩与守军分工、战场形势有关。",
     "basis": "documented",
     "relatedEventIds": [
-      "guandu"
+      "guandu",
+      "xiapi",
+      "baima-yanjin"
     ],
     "citations": [
       {
@@ -7258,7 +7893,8 @@
     "description": "他参与曹操集团的军议，在官渡等战事中提出建议。应结合本传看具体情境与其他参与者的作用。",
     "basis": "documented",
     "relatedEventIds": [
-      "guandu"
+      "guandu",
+      "wuchao"
     ],
     "citations": [
       {
@@ -7346,7 +7982,9 @@
     "identity": "汉末谋臣、曹魏太尉 · 字文和",
     "description": "他曾为李傕、张绣等效力，后来归曹，曹丕时任太尉。其经历显示汉末政治关系变化；同一人物在不同阶段的建议可能服务于不同目标。",
     "basis": "documented",
-    "relatedEventIds": [],
+    "relatedEventIds": [
+      "wuchao"
+    ],
     "citations": [
       {
         "sourceId": "sgz-10",
@@ -8243,7 +8881,8 @@
     ],
     "relatedBackgroundIds": [
       "war-migration",
-      "jianan-culture"
+      "jianan-culture",
+      "jingzhou-refuge"
     ]
   },
   {
@@ -8415,24 +9054,40 @@
     ],
     "context": [
       {
-        "title": "怎样影响时代",
-        "description": "曹操集团在许下组织屯田，枣祗倡议、任峻组织，农业收获支持军粮。生产恢复和征收安排同时影响耕作者生活，单看战场胜负难以解释持久战争。",
+        "title": "前因：人口流离与军粮危机",
+        "description": "连续战争影响耕作，军队又需要稳定粮食。许下屯田由枣祗倡议、任峻执行；具体安排与当时处境相联系。",
         "citations": [
           {
             "sourceId": "sgz-16",
-            "locator": "任峻传：许下屯田与官渡粮运",
-            "note": "曹操集团在许下组织屯田，枣祗倡议、任峻组织，农业收获支持军粮。生产恢复和征收安排同时影响耕作者生活，单看战场胜负难以解释持久战争。"
+            "locator": "任峻传：许下屯田、官渡军器粮运；裴注引曹操追念枣祗令",
+            "note": "区分枣祗倡议、任峻执行及军粮转运；屯田分配讨论见裴注引令。"
           }
         ]
       },
       {
-        "title": "继续观察什么",
-        "description": "结合相邻人物与事件，比较不同地区和不同年份的处境；本知识点采用概括性介绍，具体制度变化仍需继续细分。",
+        "title": "怎样影响官渡",
+        "description": "任峻组织军器与粮运，并加强运输保护；有粮可收与安全送达是不同环节，战役同时取决于指挥、阵地和情报。",
         "citations": [
           {
             "sourceId": "sgz-16",
-            "locator": "任峻传：许下屯田与官渡粮运",
-            "note": "概括性阅读提示，具体适用范围见所列篇章。"
+            "locator": "任峻传：许下屯田、官渡军器粮运；裴注引曹操追念枣祗令",
+            "note": "区分枣祗倡议、任峻执行及军粮转运；屯田分配讨论见裴注引令。"
+          },
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：建安五年白马、延津、官渡对峙、许攸来奔与乌巢段",
+            "note": "概括正面战场、粮运与袭粮行动，分别标明不同人物的作用。"
+          }
+        ]
+      },
+      {
+        "title": "耕作者的处境",
+        "description": "裴注所引曹操追念枣祗令谈及收益分配争论。生产恢复与征收负担需要同时考察，具体比例与地区差异另待核校。",
+        "citations": [
+          {
+            "sourceId": "sgz-16",
+            "locator": "任峻传：许下屯田、官渡军器粮运；裴注引曹操追念枣祗令",
+            "note": "区分枣祗倡议、任峻执行及军粮转运；屯田分配讨论见裴注引令。"
           }
         ]
       }
@@ -8872,6 +9527,4627 @@
             "note": "概括性阅读提示，具体适用范围见所列篇章。"
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "he-jin",
+    "label": "何进",
+    "aliases": [
+      "遂高",
+      "何遂高"
+    ],
+    "kind": "person",
+    "identity": "东汉大将军 · 字遂高",
+    "period": "生年不详—189年",
+    "description": "何进是何皇后的兄长，黄巾起事时出任大将军。灵帝死后，他与袁绍谋划清除宦官，召外军施压，却在行动前被杀。随后宫中暴力冲突扩大，董卓借局势进入洛阳。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "yellow-turbans",
+      "palace-crisis"
+    ],
+    "citations": [
+      {
+        "sourceId": "hhs-69",
+        "locator": "何进传：灵帝崩、谋诛宦官、征外兵及何进遇害段",
+        "note": "范晔本传叙事；陈琳劝谏与召兵决策须结合宫廷权力竞争阅读。"
+      }
+    ],
+    "position": {
+      "x": 25400,
+      "y": 17800
+    },
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "东汉大将军 · 字遂高"
+      },
+      {
+        "label": "活动年代",
+        "value": "生年不详—189年"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "主持京师军务",
+        "description": "184年任大将军，屯军京师；地方征讨由皇甫嵩、朱儁等承担。",
+        "citations": [
+          {
+            "sourceId": "hhs-69",
+            "locator": "何进传：灵帝崩、谋诛宦官、征外兵及何进遇害段",
+            "note": "范晔本传叙事；陈琳劝谏与召兵决策须结合宫廷权力竞争阅读。"
+          },
+          {
+            "sourceId": "hhs-71",
+            "locator": "皇甫嵩、朱儁传：中平元年起事、长社与南阳战事",
+            "note": "太平道组织、朝廷征讨与各军行动分别见两传。"
+          }
+        ]
+      },
+      {
+        "title": "卷入朝廷权力竞争",
+        "description": "189年参与辅政，谋诛宦官及征召外军的决策影响了京师局势。",
+        "citations": [
+          {
+            "sourceId": "hhs-69",
+            "locator": "何进传：灵帝崩、谋诛宦官、征外兵及何进遇害段",
+            "note": "范晔本传叙事；陈琳劝谏与召兵决策须结合宫廷权力竞争阅读。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "184年",
+        "title": "任大将军",
+        "description": "黄巾起事后负责京师军事部署。",
+        "citations": [
+          {
+            "sourceId": "hhs-69",
+            "locator": "何进传：灵帝崩、谋诛宦官、征外兵及何进遇害段",
+            "note": "范晔本传叙事；陈琳劝谏与召兵决策须结合宫廷权力竞争阅读。"
+          }
+        ]
+      },
+      {
+        "date": "189年",
+        "title": "谋诛宦官与遇害",
+        "description": "袁绍参与谋议，陈琳劝阻征外兵；何进最终在宫中被杀。",
+        "citations": [
+          {
+            "sourceId": "hhs-69",
+            "locator": "何进传：灵帝崩、谋诛宦官、征外兵及何进遇害段",
+            "note": "范晔本传叙事；陈琳劝谏与召兵决策须结合宫廷权力竞争阅读。"
+          }
+        ]
+      }
+    ],
+    "relatedBackgroundIds": [
+      "court-power"
+    ]
+  },
+  {
+    "id": "huangfu-song",
+    "label": "皇甫嵩",
+    "aliases": [
+      "义真",
+      "皇甫义真"
+    ],
+    "kind": "person",
+    "identity": "汉末将领 · 字义真",
+    "period": "生卒年不详 · 活跃于东汉末",
+    "description": "皇甫嵩奉汉廷命令镇压黄巾，与朱儁在颍川作战，后又转战北方。他既参与作战，也建议解除党禁、筹措军费。其卒年在本传中没有明确纪年，阅读时保留这一不确定性。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "yellow-turbans"
+    ],
+    "citations": [
+      {
+        "sourceId": "hhs-71",
+        "locator": "皇甫嵩、朱儁传：中平元年起事、长社与南阳战事",
+        "note": "太平道组织、朝廷征讨与各军行动分别见两传。"
+      }
+    ],
+    "position": {
+      "x": 25800,
+      "y": 17800
+    },
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "汉末将领 · 字义真"
+      },
+      {
+        "label": "活动年代",
+        "value": "生卒年不详 · 活跃于东汉末"
+      },
+      {
+        "label": "年代说明",
+        "value": "卒年未见本传明确纪年；常见推定仍需校核。"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "参与平定黄巾主力",
+        "description": "长社火攻及后续作战，是184年朝廷征讨的重要环节；战争同时造成伤亡与流离。",
+        "citations": [
+          {
+            "sourceId": "hhs-71",
+            "locator": "皇甫嵩、朱儁传：中平元年起事、长社与南阳战事",
+            "note": "太平道组织、朝廷征讨与各军行动分别见两传。"
+          }
+        ]
+      },
+      {
+        "title": "提出朝廷应变建议",
+        "description": "主张解除党禁、动用财物助军，体现军事危机与朝廷政治的联系。",
+        "citations": [
+          {
+            "sourceId": "hhs-71",
+            "locator": "皇甫嵩、朱儁传：中平元年起事、长社与南阳战事",
+            "note": "太平道组织、朝廷征讨与各军行动分别见两传。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "184年",
+        "title": "长社及北方征讨",
+        "description": "与朱儁在颍川作战；曹操领兵来到战场，参与追击。后继续北上征讨黄巾。",
+        "citations": [
+          {
+            "sourceId": "hhs-71",
+            "locator": "皇甫嵩、朱儁传：中平元年起事、长社与南阳战事",
+            "note": "太平道组织、朝廷征讨与各军行动分别见两传。"
+          }
+        ]
+      },
+      {
+        "date": "188—189年",
+        "title": "陈仓战事",
+        "description": "督军对付王国叛军，与董卓对战术安排意见有别。",
+        "citations": [
+          {
+            "sourceId": "hhs-71",
+            "locator": "皇甫嵩传：王国围陈仓、与董卓议战段",
+            "note": "本传记两人的军中上下级与意见分歧。"
+          }
+        ]
+      },
+      {
+        "date": "东汉末年",
+        "title": "后期处境与卒年",
+        "description": "董卓掌权后其处境改变；后来经历李傕之乱，本传记病卒，具体卒年尚需考证。",
+        "citations": [
+          {
+            "sourceId": "hhs-71",
+            "locator": "皇甫嵩传末：董卓、李傕时期及病卒段",
+            "note": "本传未明确标出卒年；本图不填写确定年份。"
+          }
+        ]
+      }
+    ],
+    "relatedBackgroundIds": [
+      "disaster-networks"
+    ]
+  },
+  {
+    "id": "zhu-jun",
+    "label": "朱儁",
+    "aliases": [
+      "朱隽",
+      "公伟"
+    ],
+    "kind": "person",
+    "identity": "汉末将领 · 字公伟",
+    "period": "生年不详—195年",
+    "description": "朱儁在黄巾起事时与皇甫嵩分军作战，后来攻取南阳黄巾据守的宛城。孙坚曾在其军中任职。董卓时期及李傕、郭汜冲突中，他又卷入朝廷动荡，195年病卒。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "yellow-turbans",
+      "capital-migration"
+    ],
+    "citations": [
+      {
+        "sourceId": "hhs-71",
+        "locator": "皇甫嵩、朱儁传：中平元年起事、长社与南阳战事",
+        "note": "太平道组织、朝廷征讨与各军行动分别见两传。"
+      },
+      {
+        "sourceId": "hhs-71",
+        "locator": "朱儁传末：兴平二年郭汜劫公卿、发病卒",
+        "note": "卒年依本传兴平二年的事件次序。"
+      }
+    ],
+    "position": {
+      "x": 26200,
+      "y": 17800
+    },
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "汉末将领 · 字公伟"
+      },
+      {
+        "label": "活动年代",
+        "value": "生年不详—195年"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "参与颍川与南阳战事",
+        "description": "先与皇甫嵩在颍川征讨，后主持围攻南阳宛城；孙坚在其军中参战。",
+        "citations": [
+          {
+            "sourceId": "hhs-71",
+            "locator": "皇甫嵩、朱儁传：中平元年起事、长社与南阳战事",
+            "note": "太平道组织、朝廷征讨与各军行动分别见两传。"
+          },
+          {
+            "sourceId": "sgz-46",
+            "locator": "孙破虏讨逆传：孙坚从朱儁征讨、孙策渡江经营与卒后承继",
+            "note": "父子两传提供孙氏早期军事活动；江东经营是历时数年的过程。"
+          }
+        ]
+      },
+      {
+        "title": "经历朝廷迁徙与混战",
+        "description": "董卓时期留在关东，后来任太尉，最终受到李傕、郭汜冲突牵连。",
+        "citations": [
+          {
+            "sourceId": "hhs-71",
+            "locator": "朱儁传：留洛阳、太尉及郭汜劫公卿段",
+            "note": "交代征讨以外的政治生涯。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "184年",
+        "title": "征讨黄巾",
+        "description": "与皇甫嵩分军作战，后转战南阳。",
+        "citations": [
+          {
+            "sourceId": "hhs-71",
+            "locator": "皇甫嵩、朱儁传：中平元年起事、长社与南阳战事",
+            "note": "太平道组织、朝廷征讨与各军行动分别见两传。"
+          }
+        ]
+      },
+      {
+        "date": "190年起",
+        "title": "留驻洛阳及关东活动",
+        "description": "迁都时留在洛阳，随后离开，在关东参与军事活动。",
+        "citations": [
+          {
+            "sourceId": "hhs-71",
+            "locator": "朱儁传：董卓迁都后留洛、出奔及中牟段",
+            "note": "连续过程的起点为迁都之年。"
+          }
+        ]
+      },
+      {
+        "date": "195年",
+        "title": "病卒",
+        "description": "郭汜扣押公卿的冲突中愤懑发病而卒。",
+        "citations": [
+          {
+            "sourceId": "hhs-71",
+            "locator": "朱儁传末：兴平二年段",
+            "note": "依本传事件次序标年。"
+          }
+        ]
+      }
+    ],
+    "relatedBackgroundIds": [
+      "disaster-networks"
+    ]
+  },
+  {
+    "id": "han-fu",
+    "label": "韩馥",
+    "aliases": [
+      "文节"
+    ],
+    "kind": "person",
+    "identity": "冀州牧 · 字文节",
+    "period": "生卒年不详 · 活跃于汉末",
+    "description": "韩馥在讨董时任冀州牧，为联盟提供粮食。面对公孙瓒的军事压力及袁绍一方的游说，他在191年让出冀州。袁绍因此获得重要根据地；韩馥后来离开并在忧惧中自杀，具体卒年未详。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "anti-dong",
+      "jizhou-transfer"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+        "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：初平二年至建安五年，冀州、兖州、下邳及官渡记事",
+        "note": "纪年提供主要战事顺序；同时参考袁绍、吕布与有关将领本传。"
+      }
+    ],
+    "position": {
+      "x": 26600,
+      "y": 17800
+    },
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "冀州牧 · 字文节"
+      },
+      {
+        "label": "活动年代",
+        "value": "生卒年不详 · 活跃于汉末"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "参与关东讨董联盟",
+        "description": "作为冀州牧参加联合行动，掌握的粮食与地方资源对盟军具有意义。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+            "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
+          }
+        ]
+      },
+      {
+        "title": "让出冀州",
+        "description": "191年将冀州交给袁绍，政权资源随之转移，成为理解袁绍崛起的节点。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+            "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
+          },
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：初平二年至建安五年，冀州、兖州、下邳及官渡记事",
+            "note": "纪年提供主要战事顺序；同时参考袁绍、吕布与有关将领本传。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "190年",
+        "title": "参与讨董",
+        "description": "冀州的供给与袁绍等盟军发生联系。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+            "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
+          }
+        ]
+      },
+      {
+        "date": "191年",
+        "title": "交出冀州",
+        "description": "公孙瓒进军与袁绍一方劝说交织，韩馥让位。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+            "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
+          },
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：初平二年至建安五年，冀州、兖州、下邳及官渡记事",
+            "note": "纪年提供主要战事顺序；同时参考袁绍、吕布与有关将领本传。"
+          }
+        ]
+      },
+      {
+        "date": "191年后",
+        "title": "离开与自尽",
+        "description": "后来投张邈，因疑惧自杀；本图保留本传未明确的卒年。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+            "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
+          }
+        ]
+      }
+    ],
+    "relatedBackgroundIds": [
+      "provincial-power"
+    ]
+  },
+  {
+    "id": "gongsun-zan",
+    "label": "公孙瓒",
+    "aliases": [
+      "伯珪",
+      "公孙伯珪"
+    ],
+    "kind": "person",
+    "identity": "幽州军事势力领袖 · 字伯珪",
+    "period": "生年不详—199年",
+    "description": "公孙瓒以北方边地作战起家，与袁绍长期争夺河北，刘备、赵云都曾与他有从属联系。他又与刘虞发生冲突，势力逐渐收缩；199年在易京被袁绍围困，兵败身亡。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "jizhou-transfer",
+      "yijing"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-08",
+        "locator": "公孙瓒传：河北争夺、易京围城及建安四年败亡",
+        "note": "对袁绍的长期战争与最后败亡见本传；兵力与人物评价需审慎阅读。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：从公孙瓒、随曹操围吕布于下邳等段",
+        "note": "刘备早年依附关系与下邳行动见本传。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "关羽传：建安五年解白马围；赵云传：本属公孙瓒、后从刘备",
+        "note": "正文记关羽斩颜良；延津文丑之死见武帝纪，两事分别说明。"
+      }
+    ],
+    "position": {
+      "x": 25000,
+      "y": 18200
+    },
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "幽州军事势力领袖 · 字伯珪"
+      },
+      {
+        "label": "活动年代",
+        "value": "生年不详—199年"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "形成北方军事实力",
+        "description": "以边地军事活动进入汉末角逐，人物网络包括早期刘备和赵云。",
+        "citations": [
+          {
+            "sourceId": "sgz-08",
+            "locator": "公孙瓒传：河北争夺、易京围城及建安四年败亡",
+            "note": "对袁绍的长期战争与最后败亡见本传；兵力与人物评价需审慎阅读。"
+          },
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：从公孙瓒、随曹操围吕布于下邳等段",
+            "note": "刘备早年依附关系与下邳行动见本传。"
+          },
+          {
+            "sourceId": "sgz-36",
+            "locator": "关羽传：建安五年解白马围；赵云传：本属公孙瓒、后从刘备",
+            "note": "正文记关羽斩颜良；延津文丑之死见武帝纪，两事分别说明。"
+          }
+        ]
+      },
+      {
+        "title": "与袁绍争夺河北",
+        "description": "长期竞争改变北方力量分布，易京败亡后袁绍进一步扩大优势。",
+        "citations": [
+          {
+            "sourceId": "sgz-08",
+            "locator": "公孙瓒传：河北争夺、易京围城及建安四年败亡",
+            "note": "对袁绍的长期战争与最后败亡见本传；兵力与人物评价需审慎阅读。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "初平年间（190年代初）",
+        "title": "河北竞争",
+        "description": "与袁绍交战，刘备等人的早年活动与其势力相连。",
+        "citations": [
+          {
+            "sourceId": "sgz-08",
+            "locator": "公孙瓒传：河北争夺、易京围城及建安四年败亡",
+            "note": "对袁绍的长期战争与最后败亡见本传；兵力与人物评价需审慎阅读。"
+          },
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：从公孙瓒、随曹操围吕布于下邳等段",
+            "note": "刘备早年依附关系与下邳行动见本传。"
+          }
+        ]
+      },
+      {
+        "date": "193年",
+        "title": "与刘虞冲突",
+        "description": "击败并杀害刘虞，幽州内部的军事政治冲突加剧。",
+        "citations": [
+          {
+            "sourceId": "sgz-08",
+            "locator": "公孙瓒传：河北争夺、易京围城及建安四年败亡",
+            "note": "对袁绍的长期战争与最后败亡见本传；兵力与人物评价需审慎阅读。"
+          }
+        ]
+      },
+      {
+        "date": "199年",
+        "title": "易京败亡",
+        "description": "袁绍围攻易京，公孙瓒最终败亡自杀。",
+        "citations": [
+          {
+            "sourceId": "sgz-08",
+            "locator": "公孙瓒传：河北争夺、易京围城及建安四年败亡",
+            "note": "对袁绍的长期战争与最后败亡见本传；兵力与人物评价需审慎阅读。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chen-gong",
+    "label": "陈宫",
+    "aliases": [
+      "公台",
+      "陈公台"
+    ],
+    "kind": "person",
+    "identity": "汉末谋士 · 字公台",
+    "period": "生年不详—198年",
+    "description": "陈宫早年曾随曹操，后在194年与张邈等迎吕布进入兖州，与曹操交战。他为吕布参与谋划，198年下邳败后被处死。字号和部分早年经历出自裴注引《典略》，应与本传层次分开阅读。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "yanzhou-contest",
+      "xiapi"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-07",
+        "locator": "吕布传：陈宫张邈迎布、兖州相争及下邳败亡段",
+        "note": "本传记载陈宫转投吕布及军事谋划；早年经历另见裴注。"
+      },
+      {
+        "sourceId": "sgz-07",
+        "locator": "吕布传裴注引《典略》：陈宫字公台、先随曹操段",
+        "note": "裴注引书保存字号与早年交往；与本传正文分别注明。"
+      }
+    ],
+    "position": {
+      "x": 25400,
+      "y": 18200
+    },
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "汉末谋士 · 字公台"
+      },
+      {
+        "label": "活动年代",
+        "value": "生年不详—198年"
+      },
+      {
+        "label": "史料层次",
+        "value": "字号与早年随曹经历主要据裴注《典略》；战事另见本传。"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "参与兖州政局转变",
+        "description": "与张邈迎接吕布，曹操原有根据地发生激烈争夺。",
+        "citations": [
+          {
+            "sourceId": "sgz-07",
+            "locator": "吕布传：陈宫张邈迎布、兖州相争及下邳败亡段",
+            "note": "本传记载陈宫转投吕布及军事谋划；早年经历另见裴注。"
+          }
+        ]
+      },
+      {
+        "title": "为吕布谋划",
+        "description": "在下邳围城等阶段提出策略，人物选择与军事条件共同影响结局。",
+        "citations": [
+          {
+            "sourceId": "sgz-07",
+            "locator": "吕布传：陈宫张邈迎布、兖州相争及下邳败亡段",
+            "note": "本传记载陈宫转投吕布及军事谋划；早年经历另见裴注。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "194年以前",
+        "title": "早年随曹操",
+        "description": "裴注引《典略》记其早年与曹操交往。",
+        "citations": [
+          {
+            "sourceId": "sgz-07",
+            "locator": "吕布传裴注引《典略》：陈宫字公台、先随曹操段",
+            "note": "裴注引书保存字号与早年交往；与本传正文分别注明。"
+          }
+        ]
+      },
+      {
+        "date": "194年",
+        "title": "迎吕布入兖州",
+        "description": "与张邈等转向吕布，曹操回军争夺兖州。",
+        "citations": [
+          {
+            "sourceId": "sgz-07",
+            "locator": "吕布传：陈宫张邈迎布、兖州相争及下邳败亡段",
+            "note": "本传记载陈宫转投吕布及军事谋划；早年经历另见裴注。"
+          }
+        ]
+      },
+      {
+        "date": "198年",
+        "title": "下邳败后被杀",
+        "description": "吕布势力败亡，陈宫一同被俘并遇害。",
+        "citations": [
+          {
+            "sourceId": "sgz-07",
+            "locator": "吕布传：陈宫张邈迎布、兖州相争及下邳败亡段",
+            "note": "本传记载陈宫转投吕布及军事谋划；早年经历另见裴注。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "taishi-ci",
+    "label": "太史慈",
+    "aliases": [
+      "子义",
+      "太史子义"
+    ],
+    "kind": "person",
+    "identity": "孙氏将领 · 字子义",
+    "period": "生年不详—206年",
+    "description": "太史慈早年突围向刘备求援，帮助被围的孔融。后来先从刘繇，与孙策在神亭交战；另一次在泾县被俘后得到孙策任用，孙权继事后继续任职。关于被俘地点，裴注保留了与本传不同的说法。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "jiangdong-campaigns"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-49",
+        "locator": "太史慈传：救孔融、神亭相遇、泾县被俘、事孙氏及卒年",
+        "note": "正文区分神亭交战与后来泾县被俘；建安十一年卒。"
+      },
+      {
+        "sourceId": "sgz-49",
+        "locator": "太史慈传裴注引《吴历》及裴松之按语",
+        "note": "《吴历》把被俘并入神亭，裴松之指出与本传大异；本图沿本传分开叙述。"
+      }
+    ],
+    "position": {
+      "x": 25800,
+      "y": 18200
+    },
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "孙氏将领 · 字子义"
+      },
+      {
+        "label": "活动年代",
+        "value": "生年不详—206年"
+      },
+      {
+        "label": "记载异同",
+        "value": "本传分开神亭交战与泾县被俘；裴注《吴历》将其合并，裴松之提出质疑。"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "突围为孔融求援",
+        "description": "越过围军向刘备求助，展现人物跨地区的实际联系；该段本传未给出确切年次。",
+        "citations": [
+          {
+            "sourceId": "sgz-49",
+            "locator": "太史慈传：救孔融、神亭相遇、泾县被俘、事孙氏及卒年",
+            "note": "正文区分神亭交战与后来泾县被俘；建安十一年卒。"
+          }
+        ]
+      },
+      {
+        "title": "参与江东军事经营",
+        "description": "与孙策由交战转为从属，后继续在孙权部下负责军事任务。",
+        "citations": [
+          {
+            "sourceId": "sgz-49",
+            "locator": "太史慈传：救孔融、神亭相遇、泾县被俘、事孙氏及卒年",
+            "note": "正文区分神亭交战与后来泾县被俘；建安十一年卒。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "190年代前期（具体年份未详）",
+        "title": "为孔融向刘备求援",
+        "description": "孔融受围，太史慈突围求援，刘备出兵。",
+        "citations": [
+          {
+            "sourceId": "sgz-49",
+            "locator": "太史慈传：救孔融、神亭相遇、泾县被俘、事孙氏及卒年",
+            "note": "正文区分神亭交战与后来泾县被俘；建安十一年卒。"
+          }
+        ]
+      },
+      {
+        "date": "195年前后",
+        "title": "神亭交战与后来被俘",
+        "description": "先在神亭与孙策交战，双方援兵到后各自退去；后来泾县被俘归孙策。本传与《吴历》次序存在差异。",
+        "citations": [
+          {
+            "sourceId": "sgz-49",
+            "locator": "太史慈传：救孔融、神亭相遇、泾县被俘、事孙氏及卒年",
+            "note": "正文区分神亭交战与后来泾县被俘；建安十一年卒。"
+          },
+          {
+            "sourceId": "sgz-49",
+            "locator": "太史慈传裴注引《吴历》及裴松之按语",
+            "note": "《吴历》把被俘并入神亭，裴松之指出与本传大异；本图沿本传分开叙述。"
+          }
+        ]
+      },
+      {
+        "date": "200年后",
+        "title": "继续事孙权",
+        "description": "孙策去世后继续为孙氏任职，负责南方军事防务。",
+        "citations": [
+          {
+            "sourceId": "sgz-49",
+            "locator": "太史慈传：救孔融、神亭相遇、泾县被俘、事孙氏及卒年",
+            "note": "正文区分神亭交战与后来泾县被俘；建安十一年卒。"
+          }
+        ]
+      },
+      {
+        "date": "206年",
+        "title": "去世",
+        "description": "本传记建安十一年卒，年龄记为四十一；本图保留生年推算的区别。",
+        "citations": [
+          {
+            "sourceId": "sgz-49",
+            "locator": "太史慈传：救孔融、神亭相遇、泾县被俘、事孙氏及卒年",
+            "note": "正文区分神亭交战与后来泾县被俘；建安十一年卒。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tian-feng",
+    "label": "田丰",
+    "aliases": [
+      "元皓",
+      "田元皓"
+    ],
+    "kind": "person",
+    "identity": "袁绍谋士 · 字元皓",
+    "period": "生年不详—200年",
+    "description": "田丰为袁绍出谋划策。官渡前，他曾建议趁机袭击曹操，后来又反对在不利条件下决战，主张持久牵制；袁绍未采纳并将他拘禁，败后杀害。籍贯有异说，具体细节需区分本传与裴注。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "guandu"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁绍传：田丰、沮授谏持久战、分军及官渡败后段",
+        "note": "意见及遭遇主要见正文；田丰字籍与沮授早年另据裴注，予以分层标识。"
+      },
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁绍传裴注引《先贤行状》：田丰字元皓、籍贯异说",
+        "note": "此处为裴注保存的他书记载；籍贯有巨鹿、渤海两说。"
+      }
+    ],
+    "position": {
+      "x": 26200,
+      "y": 18200
+    },
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "袁绍谋士 · 字元皓"
+      },
+      {
+        "label": "活动年代",
+        "value": "生年不详—200年"
+      },
+      {
+        "label": "籍贯异说",
+        "value": "裴注《先贤行状》记巨鹿，另有渤海说。"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "参与袁绍军政谋划",
+        "description": "对不同战机提出不同建议：进攻时机与持久战略需要结合情境理解。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：田丰、沮授谏持久战、分军及官渡败后段",
+            "note": "意见及遭遇主要见正文；田丰字籍与沮授早年另据裴注，予以分层标识。"
+          }
+        ]
+      },
+      {
+        "title": "提出持久牵制方案",
+        "description": "建议发挥河北资源优势、分兵牵制，意见未被采纳。史书记录某项建议，并不能据此推定另一结局必然发生。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：田丰、沮授谏持久战、分军及官渡败后段",
+            "note": "意见及遭遇主要见正文；田丰字籍与沮授早年另据裴注，予以分层标识。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "200年初",
+        "title": "劝趁曹操东征进军",
+        "description": "袁绍没有采用这一建议；其后形势又发生变化。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：田丰、沮授谏持久战、分军及官渡败后段",
+            "note": "意见及遭遇主要见正文；田丰字籍与沮授早年另据裴注，予以分层标识。"
+          }
+        ]
+      },
+      {
+        "date": "200年",
+        "title": "谏阻决战而被囚",
+        "description": "主张持久周旋，因争谏受到拘禁。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：田丰、沮授谏持久战、分军及官渡败后段",
+            "note": "意见及遭遇主要见正文；田丰字籍与沮授早年另据裴注，予以分层标识。"
+          }
+        ]
+      },
+      {
+        "date": "200年官渡败后",
+        "title": "被袁绍杀害",
+        "description": "正文及裴注记录其结局，围绕杀害原因的细节应分别校读。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：田丰、沮授谏持久战、分军及官渡败后段",
+            "note": "意见及遭遇主要见正文；田丰字籍与沮授早年另据裴注，予以分层标识。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ju-shou",
+    "label": "沮授",
+    "aliases": [],
+    "kind": "person",
+    "identity": "袁绍谋士与监军",
+    "period": "生年不详—200年",
+    "description": "沮授早年在韩馥部下任职，后来辅佐袁绍。他建议逐步经营河北，也在官渡前分析粮食和持久战条件，并建议加强粮运保护。官渡败后被曹操俘获，因谋归袁氏而被杀。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "jizhou-transfer",
+      "guandu",
+      "wuchao"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁绍传：田丰、沮授谏持久战、分军及官渡败后段",
+        "note": "意见及遭遇主要见正文；田丰字籍与沮授早年另据裴注，予以分层标识。"
+      },
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁绍传裴注引《献帝传》：沮授早年与韩馥任职段",
+        "note": "早年经历来自裴注引书；官渡军议、被俘后谋归袁氏被杀见本传正文。"
+      }
+    ],
+    "position": {
+      "x": 26600,
+      "y": 18200
+    },
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "袁绍谋士与监军"
+      },
+      {
+        "label": "活动年代",
+        "value": "生年不详—200年"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "参与河北经营方案",
+        "description": "本传记其向袁绍提出逐步经营河北的方案；早年在韩馥部下任职等经历另见裴注引《献帝传》。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：沮授说绍经营河北与其后裴注《献帝传》",
+            "note": "分清正文中的谋划与裴注中的早年经历。"
+          }
+        ]
+      },
+      {
+        "title": "关注持久战与粮道",
+        "description": "官渡前分析袁曹双方资源，建议保护运粮侧翼，显示粮运在战争中的地位。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：田丰、沮授谏持久战、分军及官渡败后段",
+            "note": "意见及遭遇主要见正文；田丰字籍与沮授早年另据裴注，予以分层标识。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "191年前后",
+        "title": "由韩馥部下转事袁绍",
+        "description": "早年任职与转事经历据裴注引《献帝传》。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传裴注引《献帝传》：沮授早年与韩馥任职段",
+            "note": "早年经历来自裴注引书；官渡军议、被俘后谋归袁氏被杀见本传正文。"
+          }
+        ]
+      },
+      {
+        "date": "200年",
+        "title": "持久战略与护粮建议",
+        "description": "建议谨慎决战并加强粮道保护，袁绍未充分采用。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：田丰、沮授谏持久战、分军及官渡败后段",
+            "note": "意见及遭遇主要见正文；田丰字籍与沮授早年另据裴注，予以分层标识。"
+          }
+        ]
+      },
+      {
+        "date": "200年官渡败后",
+        "title": "被俘后遇害",
+        "description": "曹操原欲任用，后因沮授谋归袁氏而杀之。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：田丰、沮授谏持久战、分军及官渡败后段",
+            "note": "意见及遭遇主要见正文；田丰字籍与沮授早年另据裴注，予以分层标识。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xu-you",
+    "label": "许攸",
+    "aliases": [
+      "子远",
+      "许子远"
+    ],
+    "kind": "person",
+    "identity": "先从袁绍、后投曹操的谋士 · 字子远",
+    "period": "生卒年不详 · 活跃于汉末",
+    "description": "许攸原在袁绍阵营，官渡相持时转投曹操，提供袁军屯粮情报并建议袭击乌巢。他的建议、荀攸和贾诩的判断，以及曹操的突袭共同构成战役转折。史书对投奔缘由有不同记述，宜保留分歧。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "guandu",
+      "wuchao"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：建安五年白马、延津、官渡对峙、许攸来奔与乌巢段",
+        "note": "概括正面战场、粮运与袭粮行动，分别标明不同人物的作用。"
+      },
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+        "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
+      }
+    ],
+    "position": {
+      "x": 25000,
+      "y": 18600
+    },
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "先从袁绍、后投曹操的谋士 · 字子远"
+      },
+      {
+        "label": "活动年代",
+        "value": "生卒年不详 · 活跃于汉末"
+      },
+      {
+        "label": "史料说明",
+        "value": "投奔动机的记载有差异，采用可核实的来奔与献策过程；卒年另待核校。"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "提供粮屯情报",
+        "description": "向曹操说明袁军粮屯情况，成为袭击乌巢的重要信息来源。",
+        "citations": [
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：建安五年白马、延津、官渡对峙、许攸来奔与乌巢段",
+            "note": "概括正面战场、粮运与袭粮行动，分别标明不同人物的作用。"
+          }
+        ]
+      },
+      {
+        "title": "转投改变谋议条件",
+        "description": "离开袁绍使双方信息与决策条件改变；情报仍须统帅与前线行动落实。",
+        "citations": [
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：建安五年白马、延津、官渡对峙、许攸来奔与乌巢段",
+            "note": "概括正面战场、粮运与袭粮行动，分别标明不同人物的作用。"
+          },
+          {
+            "sourceId": "sgz-10",
+            "locator": "荀彧、荀攸传：官渡守持、袭运及许攸来奔议策",
+            "note": "分别核对书信谋议与前线军议，表述各自作用。"
+          },
+          {
+            "sourceId": "sgz-10",
+            "locator": "贾诩传：官渡相持及许攸来奔后劝袭粮段",
+            "note": "贾诩参与判断军机；夜袭行动由曹操统兵实施。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "200年以前",
+        "title": "在袁绍阵营活动",
+        "description": "长期参与袁氏谋议；其与曹操的旧识关系见相关记事。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+            "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
+          },
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：建安五年白马、延津、官渡对峙、许攸来奔与乌巢段",
+            "note": "概括正面战场、粮运与袭粮行动，分别标明不同人物的作用。"
+          }
+        ]
+      },
+      {
+        "date": "200年",
+        "title": "转投曹操",
+        "description": "官渡相持时来奔，投奔缘由在不同记载中存在差异。",
+        "citations": [
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：建安五年白马、延津、官渡对峙、许攸来奔与乌巢段",
+            "note": "概括正面战场、粮运与袭粮行动，分别标明不同人物的作用。"
+          }
+        ]
+      },
+      {
+        "date": "200年冬",
+        "title": "建议袭粮",
+        "description": "提出袭击乌巢，曹操在荀攸、贾诩赞同后实施。",
+        "citations": [
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：建安五年白马、延津、官渡对峙、许攸来奔与乌巢段",
+            "note": "概括正面战场、粮运与袭粮行动，分别标明不同人物的作用。"
+          },
+          {
+            "sourceId": "sgz-10",
+            "locator": "荀彧、荀攸传：官渡守持、袭运及许攸来奔议策",
+            "note": "分别核对书信谋议与前线军议，表述各自作用。"
+          },
+          {
+            "sourceId": "sgz-10",
+            "locator": "贾诩传：官渡相持及许攸来奔后劝袭粮段",
+            "note": "贾诩参与判断军机；夜袭行动由曹操统兵实施。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chen-lin",
+    "label": "陈琳",
+    "aliases": [
+      "孔璋",
+      "陈孔璋"
+    ],
+    "kind": "person",
+    "identity": "汉末文士与文书撰写者 · 字孔璋",
+    "period": "生年不详—217年",
+    "description": "陈琳先任何进主簿，曾劝阻征召外军；后为袁绍撰写文书，留下讨曹檄文。袁氏败后归曹操，继续从事文章工作。读他的作品能了解政治传播，也应辨别论战修辞与可核实的事实。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "palace-crisis",
+      "guandu"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-21",
+        "locator": "王粲传附陈琳：字孔璋、何进主簿、袁绍文章及归曹操段",
+        "note": "陈琳的任职与文书工作；归曹的具体年次不据此强定。"
+      },
+      {
+        "sourceId": "chenlin-proclamation",
+        "locator": "《文选》卷44所收《为袁绍檄豫州文》",
+        "note": "政治檄文呈现袁绍阵营的论战立场；具体指控需另证，修辞不能直接当作史实。"
+      }
+    ],
+    "position": {
+      "x": 25400,
+      "y": 18600
+    },
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "汉末文士与文书撰写者 · 字孔璋"
+      },
+      {
+        "label": "活动年代",
+        "value": "生年不详—217年"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "以文章参与政治",
+        "description": "为袁绍处理檄文等事务，政治文书也是诸侯竞争的工具。",
+        "citations": [
+          {
+            "sourceId": "sgz-21",
+            "locator": "王粲传附陈琳：字孔璋、何进主簿、袁绍文章及归曹操段",
+            "note": "陈琳的任职与文书工作；归曹的具体年次不据此强定。"
+          },
+          {
+            "sourceId": "chenlin-proclamation",
+            "locator": "《文选》卷44所收《为袁绍檄豫州文》",
+            "note": "政治檄文呈现袁绍阵营的论战立场；具体指控需另证，修辞不能直接当作史实。"
+          }
+        ]
+      },
+      {
+        "title": "留下建安文章",
+        "description": "《为袁绍檄豫州文》收入《文选》，可用于认识檄文的劝说方式与阵营立场。",
+        "citations": [
+          {
+            "sourceId": "chenlin-proclamation",
+            "locator": "《文选》卷44所收《为袁绍檄豫州文》",
+            "note": "政治檄文呈现袁绍阵营的论战立场；具体指控需另证，修辞不能直接当作史实。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "189年",
+        "title": "劝谏何进",
+        "description": "担任何进主簿，反对召外兵介入宫廷。",
+        "citations": [
+          {
+            "sourceId": "hhs-69",
+            "locator": "何进传：灵帝崩、谋诛宦官、征外兵及何进遇害段",
+            "note": "范晔本传叙事；陈琳劝谏与召兵决策须结合宫廷权力竞争阅读。"
+          },
+          {
+            "sourceId": "sgz-21",
+            "locator": "王粲传附陈琳：字孔璋、何进主簿、袁绍文章及归曹操段",
+            "note": "陈琳的任职与文书工作；归曹的具体年次不据此强定。"
+          }
+        ]
+      },
+      {
+        "date": "200年前后",
+        "title": "为袁绍撰檄",
+        "description": "参与袁氏文书工作，讨曹檄文反映战争动员与政治论战。",
+        "citations": [
+          {
+            "sourceId": "sgz-21",
+            "locator": "王粲传附陈琳：字孔璋、何进主簿、袁绍文章及归曹操段",
+            "note": "陈琳的任职与文书工作；归曹的具体年次不据此强定。"
+          },
+          {
+            "sourceId": "chenlin-proclamation",
+            "locator": "《文选》卷44所收《为袁绍檄豫州文》",
+            "note": "政治檄文呈现袁绍阵营的论战立场；具体指控需另证，修辞不能直接当作史实。"
+          }
+        ]
+      },
+      {
+        "date": "200年代（袁氏败后）",
+        "title": "归曹操",
+        "description": "被曹操任用从事文章，具体归曹年次据该传不强定。",
+        "citations": [
+          {
+            "sourceId": "sgz-21",
+            "locator": "王粲传附陈琳：字孔璋、何进主簿、袁绍文章及归曹操段",
+            "note": "陈琳的任职与文书工作；归曹的具体年次不据此强定。"
+          }
+        ]
+      },
+      {
+        "date": "217年",
+        "title": "去世",
+        "description": "王粲传记陈琳等与王粲同年去世，建安二十二年。",
+        "citations": [
+          {
+            "sourceId": "sgz-21",
+            "locator": "王粲传：建安二十二年卒及徐干、陈琳等同年卒段",
+            "note": "依据同传所记卒年；生年未详。"
+          }
+        ]
+      }
+    ],
+    "relatedWorkIds": [
+      "chenlin-proclamation"
+    ],
+    "relatedBackgroundIds": [
+      "court-power"
+    ]
+  },
+  {
+    "id": "palace-crisis",
+    "label": "何进遇害与宫廷变乱",
+    "aliases": [
+      "何进遇害与宫廷变乱"
+    ],
+    "kind": "event",
+    "identity": "朝廷权力危机",
+    "period": "189年",
+    "timeRange": {
+      "start": 189,
+      "end": 189
+    },
+    "description": "灵帝死后，何进与袁绍谋诛宦官，召外军施压。宦官先杀何进，袁绍、袁术等随后攻宫并大杀宦官。皇帝一度离宫，董卓带兵介入，京师权力格局迅速改变。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "yellow-turbans",
+      "dong-capital"
+    ],
+    "relatedPersonIds": [
+      "he-jin",
+      "yuan-shao",
+      "yuan-shu",
+      "dong-zhuo",
+      "liu-xie",
+      "chen-lin"
+    ],
+    "citations": [
+      {
+        "sourceId": "hhs-69",
+        "locator": "何进传：灵帝崩、谋诛宦官、征外兵及何进遇害段",
+        "note": "范晔本传叙事；陈琳劝谏与召兵决策须结合宫廷权力竞争阅读。"
+      }
+    ],
+    "position": {
+      "x": 28800,
+      "y": 23600
+    },
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "皇位继承、外戚与宦官之间的权力竞争在灵帝死后集中爆发；陈琳等反对调用外军。",
+        "citations": [
+          {
+            "sourceId": "hhs-69",
+            "locator": "何进传：灵帝崩、谋诛宦官、征外兵及何进遇害段",
+            "note": "范晔本传叙事；陈琳劝谏与召兵决策须结合宫廷权力竞争阅读。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "宫中暴力与军事介入接连发生，为董卓控制皇帝和朝廷提供了具体机会。",
+        "citations": [
+          {
+            "sourceId": "hhs-69",
+            "locator": "何进传：灵帝崩、谋诛宦官、征外兵及何进遇害段",
+            "note": "范晔本传叙事；陈琳劝谏与召兵决策须结合宫廷权力竞争阅读。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "capital-migration",
+    "label": "迁都长安与洛阳受创",
+    "aliases": [
+      "迁都长安与洛阳受创"
+    ],
+    "kind": "event",
+    "identity": "军事压力下的迁徙",
+    "period": "190年",
+    "timeRange": {
+      "start": 190,
+      "end": 190
+    },
+    "description": "关东诸军起兵后，董卓于190年迫使朝廷西迁长安，洛阳宫室与民居遭大规模破坏，大量人口被迫迁徙。迁都是讨董战争中的行动，理解事件顺序时应先看关东起兵。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "anti-dong",
+      "jizhou-transfer"
+    ],
+    "relatedPersonIds": [
+      "dong-zhuo",
+      "liu-xie",
+      "zhu-jun"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "董卓传：初平元年关东兵起、二月徙天子都长安",
+        "note": "正文先记关东起兵，再记迁都和洛阳破坏；部分细节另见裴注。"
+      }
+    ],
+    "position": {
+      "x": 29200,
+      "y": 23600
+    },
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "董卓控制朝廷后面临关东诸军的军事压力，决定向西迁徙。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "董卓传：初平元年关东兵起、二月徙天子都长安",
+            "note": "正文先记关东起兵，再记迁都和洛阳破坏；部分细节另见裴注。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "朝廷和人口西移，洛阳受到焚毁与劫掠；战争对居民、生产和交通的破坏延续。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "董卓传：初平元年关东兵起、二月徙天子都长安",
+            "note": "正文先记关东起兵，再记迁都和洛阳破坏；部分细节另见裴注。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jizhou-transfer",
+    "label": "袁绍取得冀州",
+    "aliases": [
+      "袁绍取得冀州"
+    ],
+    "kind": "event",
+    "identity": "联盟转向地方竞争",
+    "period": "191年",
+    "timeRange": {
+      "start": 191,
+      "end": 191
+    },
+    "description": "冀州牧韩馥面对公孙瓒压力，又受到袁绍一方游说，最终将冀州让给袁绍。袁绍由此获得关键根据地，继续与公孙瓒争夺河北。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "capital-migration",
+      "yanzhou-contest"
+    ],
+    "relatedPersonIds": [
+      "han-fu",
+      "yuan-shao",
+      "gongsun-zan",
+      "ju-shou"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+        "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：初平二年至建安五年，冀州、兖州、下邳及官渡记事",
+        "note": "纪年提供主要战事顺序；同时参考袁绍、吕布与有关将领本传。"
+      }
+    ],
+    "position": {
+      "x": 29600,
+      "y": 23600
+    },
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "讨董联盟内部出现利益分歧，冀州的兵粮、土地和政治职位成为竞争焦点。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+            "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
+          },
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：初平二年至建安五年，冀州、兖州、下邳及官渡记事",
+            "note": "纪年提供主要战事顺序；同时参考袁绍、吕布与有关将领本传。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "职位交接并未结束争夺；袁绍还需通过多年战争扩大在河北的控制。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+            "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
+          },
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：初平二年至建安五年，冀州、兖州、下邳及官渡记事",
+            "note": "纪年提供主要战事顺序；同时参考袁绍、吕布与有关将领本传。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yanzhou-contest",
+    "label": "兖州争夺",
+    "aliases": [
+      "兖州争夺"
+    ],
+    "kind": "event",
+    "identity": "曹操根据地危机",
+    "period": "194—195年",
+    "timeRange": {
+      "start": 194,
+      "end": 195
+    },
+    "description": "曹操东征时，张邈、陈宫等迎吕布进入兖州。曹操回军相争，双方在饥荒与军粮困难中反复作战，195年曹操逐步收复兖州。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "jizhou-transfer",
+      "emperor-xu"
+    ],
+    "relatedPersonIds": [
+      "cao-cao",
+      "lv-bu",
+      "chen-gong",
+      "xun-yu"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-07",
+        "locator": "吕布传：陈宫张邈迎布、兖州相争及下邳败亡段",
+        "note": "本传记载陈宫转投吕布及军事谋划；早年经历另见裴注。"
+      },
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：初平二年至建安五年，冀州、兖州、下邳及官渡记事",
+        "note": "纪年提供主要战事顺序；同时参考袁绍、吕布与有关将领本传。"
+      }
+    ],
+    "position": {
+      "x": 28000,
+      "y": 24000
+    },
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "曹操外出征战，地方政治分歧与军事空隙相叠加；荀彧等守住部分据点。",
+        "citations": [
+          {
+            "sourceId": "sgz-07",
+            "locator": "吕布传：陈宫张邈迎布、兖州相争及下邳败亡段",
+            "note": "本传记载陈宫转投吕布及军事谋划；早年经历另见裴注。"
+          },
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：初平二年至建安五年，冀州、兖州、下邳及官渡记事",
+            "note": "纪年提供主要战事顺序；同时参考袁绍、吕布与有关将领本传。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "吕布转向徐州；曹操恢复根据地后仍面临粮食和政治整合问题。",
+        "citations": [
+          {
+            "sourceId": "sgz-07",
+            "locator": "吕布传：陈宫张邈迎布、兖州相争及下邳败亡段",
+            "note": "本传记载陈宫转投吕布及军事谋划；早年经历另见裴注。"
+          },
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：初平二年至建安五年，冀州、兖州、下邳及官渡记事",
+            "note": "纪年提供主要战事顺序；同时参考袁绍、吕布与有关将领本传。"
+          }
+        ]
+      },
+      {
+        "title": "民众与生产",
+        "description": "武帝纪记这一时期蝗灾、饥荒与军粮困难；自然灾害和持续战争共同加重普通人的处境。",
+        "citations": [
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：初平二年至建安五年，冀州、兖州、下邳及官渡记事",
+            "note": "纪年提供主要战事顺序；同时参考袁绍、吕布与有关将领本传。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jiangdong-campaigns",
+    "label": "孙策经营江东",
+    "aliases": [
+      "孙策经营江东"
+    ],
+    "kind": "event",
+    "identity": "江东势力形成的连续过程",
+    "period": "195—200年",
+    "timeRange": {
+      "start": 195,
+      "end": 200
+    },
+    "description": "孙策渡江后击败刘繇等地方势力，逐步经营江东，与周瑜等合作，也吸纳太史慈。200年孙策去世，孙权接掌事业。这个节点概括多次战事与任用，时间跨度约五年。",
+    "basis": "documented",
+    "relatedEventIds": [],
+    "relatedPersonIds": [
+      "sun-ce",
+      "sun-quan",
+      "zhou-yu",
+      "taishi-ci"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-46",
+        "locator": "孙破虏讨逆传：孙坚从朱儁征讨、孙策渡江经营与卒后承继",
+        "note": "父子两传提供孙氏早期军事活动；江东经营是历时数年的过程。"
+      },
+      {
+        "sourceId": "sgz-49",
+        "locator": "太史慈传：救孔融、神亭相遇、泾县被俘、事孙氏及卒年",
+        "note": "正文区分神亭交战与后来泾县被俘；建安十一年卒。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：建安五年承孙策事业及太史慈相关任用",
+        "note": "孙权继承其兄事业后继续任用原有将领。"
+      }
+    ],
+    "position": {
+      "x": 28400,
+      "y": 24000
+    },
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "孙策原从袁术，借兵渡江后寻求自身根据地；江东已有多支地方势力。",
+        "citations": [
+          {
+            "sourceId": "sgz-46",
+            "locator": "孙破虏讨逆传：孙坚从朱儁征讨、孙策渡江经营与卒后承继",
+            "note": "父子两传提供孙氏早期军事活动；江东经营是历时数年的过程。"
+          },
+          {
+            "sourceId": "sgz-49",
+            "locator": "太史慈传：救孔融、神亭相遇、泾县被俘、事孙氏及卒年",
+            "note": "正文区分神亭交战与后来泾县被俘；建安十一年卒。"
+          },
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安五年承孙策事业及太史慈相关任用",
+            "note": "孙权继承其兄事业后继续任用原有将领。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "地方战争与人员吸纳使孙氏实力形成；孙权继承后仍需继续整合，各地控制程度存在差异。",
+        "citations": [
+          {
+            "sourceId": "sgz-46",
+            "locator": "孙破虏讨逆传：孙坚从朱儁征讨、孙策渡江经营与卒后承继",
+            "note": "父子两传提供孙氏早期军事活动；江东经营是历时数年的过程。"
+          },
+          {
+            "sourceId": "sgz-49",
+            "locator": "太史慈传：救孔融、神亭相遇、泾县被俘、事孙氏及卒年",
+            "note": "正文区分神亭交战与后来泾县被俘；建安十一年卒。"
+          },
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安五年承孙策事业及太史慈相关任用",
+            "note": "孙权继承其兄事业后继续任用原有将领。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xiapi",
+    "label": "下邳之战",
+    "aliases": [
+      "下邳之战"
+    ],
+    "kind": "event",
+    "identity": "吕布势力败亡",
+    "period": "198年（建安三年）",
+    "timeRange": {
+      "start": 198,
+      "end": 198
+    },
+    "description": "曹操与刘备等进攻下邳，吕布被围。持续围城与内部离心后，吕布、陈宫被俘并被杀，张辽等随后转入曹操集团。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "emperor-xu",
+      "yijing"
+    ],
+    "relatedPersonIds": [
+      "cao-cao",
+      "liu-bei",
+      "lv-bu",
+      "chen-gong",
+      "zhang-liao"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：初平二年至建安五年，冀州、兖州、下邳及官渡记事",
+        "note": "纪年提供主要战事顺序；同时参考袁绍、吕布与有关将领本传。"
+      },
+      {
+        "sourceId": "sgz-07",
+        "locator": "吕布传：陈宫张邈迎布、兖州相争及下邳败亡段",
+        "note": "本传记载陈宫转投吕布及军事谋划；早年经历另见裴注。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：从公孙瓒、随曹操围吕布于下邳等段",
+        "note": "刘备早年依附关系与下邳行动见本传。"
+      }
+    ],
+    "position": {
+      "x": 28800,
+      "y": 24000
+    },
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "吕布在兖州失利后转入徐州，随后与刘备、曹操的关系多次变化，最终遭到联合进攻。",
+        "citations": [
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：初平二年至建安五年，冀州、兖州、下邳及官渡记事",
+            "note": "纪年提供主要战事顺序；同时参考袁绍、吕布与有关将领本传。"
+          },
+          {
+            "sourceId": "sgz-07",
+            "locator": "吕布传：陈宫张邈迎布、兖州相争及下邳败亡段",
+            "note": "本传记载陈宫转投吕布及军事谋划；早年经历另见裴注。"
+          },
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：从公孙瓒、随曹操围吕布于下邳等段",
+            "note": "刘备早年依附关系与下邳行动见本传。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "吕布势力被消灭，徐州竞争格局改变，曹操在与袁绍决战前减少了一个重要对手。",
+        "citations": [
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：初平二年至建安五年，冀州、兖州、下邳及官渡记事",
+            "note": "纪年提供主要战事顺序；同时参考袁绍、吕布与有关将领本传。"
+          },
+          {
+            "sourceId": "sgz-07",
+            "locator": "吕布传：陈宫张邈迎布、兖州相争及下邳败亡段",
+            "note": "本传记载陈宫转投吕布及军事谋划；早年经历另见裴注。"
+          },
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：从公孙瓒、随曹操围吕布于下邳等段",
+            "note": "刘备早年依附关系与下邳行动见本传。"
+          }
+        ]
+      },
+      {
+        "title": "纪年提示",
+        "description": "这里依史书建安三年标为198年；汉代冬月换算到现代公历时可能跨年，精确月日需另行历法核算。",
+        "citations": [
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：初平二年至建安五年，冀州、兖州、下邳及官渡记事",
+            "note": "纪年提供主要战事顺序；同时参考袁绍、吕布与有关将领本传。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yijing",
+    "label": "易京之战",
+    "aliases": [
+      "易京之战"
+    ],
+    "kind": "event",
+    "identity": "袁绍与公孙瓒竞争的终局",
+    "period": "199年",
+    "timeRange": {
+      "start": 199,
+      "end": 199
+    },
+    "description": "袁绍围攻公孙瓒据守的易京。公孙瓒依靠堡垒等待局势转变，最终防线瓦解，自杀身亡。袁绍在河北的力量进一步扩大。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "xiapi",
+      "baima-yanjin"
+    ],
+    "relatedPersonIds": [
+      "yuan-shao",
+      "gongsun-zan"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-08",
+        "locator": "公孙瓒传：河北争夺、易京围城及建安四年败亡",
+        "note": "对袁绍的长期战争与最后败亡见本传；兵力与人物评价需审慎阅读。"
+      },
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+        "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
+      }
+    ],
+    "position": {
+      "x": 29200,
+      "y": 24000
+    },
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "袁绍与公孙瓒争夺河北多年，公孙瓒逐渐退守易京，军事和地方支持不断变化。",
+        "citations": [
+          {
+            "sourceId": "sgz-08",
+            "locator": "公孙瓒传：河北争夺、易京围城及建安四年败亡",
+            "note": "对袁绍的长期战争与最后败亡见本传；兵力与人物评价需审慎阅读。"
+          },
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+            "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "袁绍消除北方主要对手，随后南向与曹操较量；官渡还受到朝廷、粮运与双方部署等多重条件影响。",
+        "citations": [
+          {
+            "sourceId": "sgz-08",
+            "locator": "公孙瓒传：河北争夺、易京围城及建安四年败亡",
+            "note": "对袁绍的长期战争与最后败亡见本传；兵力与人物评价需审慎阅读。"
+          },
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+            "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "baima-yanjin",
+    "label": "白马与延津之战",
+    "aliases": [
+      "白马与延津之战"
+    ],
+    "kind": "event",
+    "identity": "官渡决战前的黄河沿线战事",
+    "period": "200年",
+    "timeRange": {
+      "start": 200,
+      "end": 200
+    },
+    "description": "袁曹双方在黄河沿线展开较量。曹操援白马，关羽斩杀颜良，解了白马之围；随后延津附近交战，文丑战死。两次战事人物与经过分别见史书。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "yijing",
+      "guandu"
+    ],
+    "relatedPersonIds": [
+      "cao-cao",
+      "yuan-shao",
+      "guan-yu",
+      "zhang-liao"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：建安五年白马、延津、官渡对峙、许攸来奔与乌巢段",
+        "note": "概括正面战场、粮运与袭粮行动，分别标明不同人物的作用。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "关羽传：建安五年解白马围；赵云传：本属公孙瓒、后从刘备",
+        "note": "正文记关羽斩颜良；延津文丑之死见武帝纪，两事分别说明。"
+      }
+    ],
+    "position": {
+      "x": 29600,
+      "y": 24000
+    },
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "袁绍军南向，双方围绕黄河渡口和沿线据点争夺，官渡一线尚在布防与调动。",
+        "citations": [
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：建安五年白马、延津、官渡对峙、许攸来奔与乌巢段",
+            "note": "概括正面战场、粮运与袭粮行动，分别标明不同人物的作用。"
+          },
+          {
+            "sourceId": "sgz-36",
+            "locator": "关羽传：建安五年解白马围；赵云传：本属公孙瓒、后从刘备",
+            "note": "正文记关羽斩颜良；延津文丑之死见武帝纪，两事分别说明。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "袁军前锋受挫，双方仍在官渡长期相持；文丑之死在武帝纪中记为曹军作战结果，具体由谁杀死未定。",
+        "citations": [
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：建安五年白马、延津、官渡对峙、许攸来奔与乌巢段",
+            "note": "概括正面战场、粮运与袭粮行动，分别标明不同人物的作用。"
+          },
+          {
+            "sourceId": "sgz-36",
+            "locator": "关羽传：建安五年解白马围；赵云传：本属公孙瓒、后从刘备",
+            "note": "正文记关羽斩颜良；延津文丑之死见武帝纪，两事分别说明。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wuchao",
+    "label": "乌巢粮屯被袭",
+    "aliases": [
+      "乌巢粮屯被袭"
+    ],
+    "kind": "event",
+    "identity": "官渡战役中的关键转折",
+    "period": "200年冬",
+    "timeRange": {
+      "start": 200,
+      "end": 200
+    },
+    "description": "许攸转投曹操后提供粮屯情报。荀攸、贾诩赞同进袭，曹操亲率部队突袭乌巢，袁军屯粮受创；袁军随后指挥与战线崩溃，官渡胜负由此发生关键变化。",
+    "basis": "documented",
+    "relatedEventIds": [
+      "guandu",
+      "north-consolidation"
+    ],
+    "relatedPersonIds": [
+      "cao-cao",
+      "yuan-shao",
+      "xu-you",
+      "xun-you",
+      "jia-xu",
+      "ju-shou"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-01",
+        "locator": "武帝纪：建安五年白马、延津、官渡对峙、许攸来奔与乌巢段",
+        "note": "概括正面战场、粮运与袭粮行动，分别标明不同人物的作用。"
+      },
+      {
+        "sourceId": "sgz-10",
+        "locator": "荀彧、荀攸传：官渡守持、袭运及许攸来奔议策",
+        "note": "分别核对书信谋议与前线军议，表述各自作用。"
+      },
+      {
+        "sourceId": "sgz-10",
+        "locator": "贾诩传：官渡相持及许攸来奔后劝袭粮段",
+        "note": "贾诩参与判断军机；夜袭行动由曹操统兵实施。"
+      },
+      {
+        "sourceId": "sgz-06",
+        "locator": "袁绍传：田丰、沮授谏持久战、分军及官渡败后段",
+        "note": "意见及遭遇主要见正文；田丰字籍与沮授早年另据裴注，予以分层标识。"
+      }
+    ],
+    "position": {
+      "x": 28000,
+      "y": 24400
+    },
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "双方长期相持，曹军也面临缺粮；许攸的情报、对风险的判断与突袭机会相结合。",
+        "citations": [
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：建安五年白马、延津、官渡对峙、许攸来奔与乌巢段",
+            "note": "概括正面战场、粮运与袭粮行动，分别标明不同人物的作用。"
+          },
+          {
+            "sourceId": "sgz-10",
+            "locator": "荀彧、荀攸传：官渡守持、袭运及许攸来奔议策",
+            "note": "分别核对书信谋议与前线军议，表述各自作用。"
+          },
+          {
+            "sourceId": "sgz-10",
+            "locator": "贾诩传：官渡相持及许攸来奔后劝袭粮段",
+            "note": "贾诩参与判断军机；夜袭行动由曹操统兵实施。"
+          },
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：田丰、沮授谏持久战、分军及官渡败后段",
+            "note": "意见及遭遇主要见正文；田丰字籍与沮授早年另据裴注，予以分层标识。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "粮食损失与军队调度、将领倒戈共同作用，袁军败退。官渡胜利后袁绍仍保有河北，后续争夺持续数年。",
+        "citations": [
+          {
+            "sourceId": "sgz-01",
+            "locator": "武帝纪：建安五年白马、延津、官渡对峙、许攸来奔与乌巢段",
+            "note": "概括正面战场、粮运与袭粮行动，分别标明不同人物的作用。"
+          },
+          {
+            "sourceId": "sgz-10",
+            "locator": "荀彧、荀攸传：官渡守持、袭运及许攸来奔议策",
+            "note": "分别核对书信谋议与前线军议，表述各自作用。"
+          },
+          {
+            "sourceId": "sgz-10",
+            "locator": "贾诩传：官渡相持及许攸来奔后劝袭粮段",
+            "note": "贾诩参与判断军机；夜袭行动由曹操统兵实施。"
+          },
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：田丰、沮授谏持久战、分军及官渡败后段",
+            "note": "意见及遭遇主要见正文；田丰字籍与沮授早年另据裴注，予以分层标识。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "court-power",
+    "label": "外戚、宦官与朝廷决策",
+    "aliases": [
+      "外戚、宦官与朝廷决策"
+    ],
+    "kind": "concept",
+    "identity": "汉末社会与政治背景",
+    "period": "东汉后期—189年",
+    "description": "皇后家族成员与宦官都可能凭借接近皇帝、官职和军队参与决策，内部也有不同立场。189年何进与宦官的冲突升级，征召外军又把地方将领引入京师。",
+    "basis": "documented",
+    "relatedPersonIds": [
+      "he-jin",
+      "yuan-shao",
+      "chen-lin",
+      "dong-zhuo"
+    ],
+    "relatedEventIds": [
+      "palace-crisis",
+      "dong-capital"
+    ],
+    "citations": [
+      {
+        "sourceId": "hhs-69",
+        "locator": "何进传：灵帝崩、谋诛宦官、征外兵及何进遇害段",
+        "note": "范晔本传叙事；陈琳劝谏与召兵决策须结合宫廷权力竞争阅读。"
+      }
+    ],
+    "position": {
+      "x": 72610,
+      "y": 24000
+    },
+    "context": [
+      {
+        "title": "权力怎样运作",
+        "description": "官职、宫廷接近权与军事力量共同发挥作用；外戚、宦官分别也有多个人物，立场随局势改变。",
+        "citations": [
+          {
+            "sourceId": "hhs-69",
+            "locator": "何进传：灵帝崩、谋诛宦官、征外兵及何进遇害段",
+            "note": "范晔本传叙事；陈琳劝谏与召兵决策须结合宫廷权力竞争阅读。"
+          }
+        ]
+      },
+      {
+        "title": "为什么看189年",
+        "description": "灵帝去世带来权力重组，何进谋诛与召外军、宫中遇害及董卓入洛构成可以追踪的具体过程。",
+        "citations": [
+          {
+            "sourceId": "hhs-69",
+            "locator": "何进传：灵帝崩、谋诛宦官、征外兵及何进遇害段",
+            "note": "范晔本传叙事；陈琳劝谏与召兵决策须结合宫廷权力竞争阅读。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "provincial-power",
+    "label": "州牧与地方军政",
+    "aliases": [
+      "州牧与地方军政"
+    ],
+    "kind": "concept",
+    "identity": "汉末社会与政治背景",
+    "period": "188年起 · 汉末",
+    "description": "汉廷在地方危机中任用重臣担任州牧，期望加强治理与平乱。部分州牧与地方官后来掌握更强的军政资源，既有中央授任，也有地方争夺；这是一条理解群雄形成的线索。",
+    "basis": "documented",
+    "relatedPersonIds": [
+      "han-fu",
+      "yuan-shao",
+      "liu-biao"
+    ],
+    "relatedEventIds": [
+      "jizhou-transfer"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-31",
+        "locator": "刘焉传开篇：建议选重臣为牧伯、镇安方夏",
+        "note": "刘焉的建议与任职用于解释地方军政权力变化，不能单独解释全部分裂。"
+      },
+      {
+        "sourceId": "hhs-08",
+        "locator": "孝灵帝纪：多次大疫、中平元年起事及中平五年置牧段",
+        "note": "纪年资料提供灾疫、解党禁和州牧设置的时间线，因果解释须结合列传。"
+      }
+    ],
+    "position": {
+      "x": 72920,
+      "y": 24000
+    },
+    "context": [
+      {
+        "title": "朝廷的应急措施",
+        "description": "刘焉建议选重臣镇安地方；灵帝纪记中平五年置州牧。政策最初有恢复控制的目标。",
+        "citations": [
+          {
+            "sourceId": "sgz-31",
+            "locator": "刘焉传开篇：建议选重臣为牧伯、镇安方夏",
+            "note": "刘焉的建议与任职用于解释地方军政权力变化，不能单独解释全部分裂。"
+          },
+          {
+            "sourceId": "hhs-08",
+            "locator": "孝灵帝纪：多次大疫、中平元年起事及中平五年置牧段",
+            "note": "纪年资料提供灾疫、解党禁和州牧设置的时间线，因果解释须结合列传。"
+          }
+        ]
+      },
+      {
+        "title": "地方资源与后续竞争",
+        "description": "军队、粮食、官职和地方支持相互结合。韩馥让出冀州说明职位与资源怎样进入诸侯竞争；各州实际情况有差别。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "袁绍传：韩馥让冀州、公孙瓒战事、官渡与绍卒段",
+            "note": "结合本传的河北经营、官渡失败及死后诸子争立阅读。"
+          },
+          {
+            "sourceId": "sgz-31",
+            "locator": "刘焉传开篇：建议选重臣为牧伯、镇安方夏",
+            "note": "刘焉的建议与任职用于解释地方军政权力变化，不能单独解释全部分裂。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "disaster-networks",
+    "label": "灾荒、疫病与民间结社",
+    "aliases": [
+      "灾荒、疫病与民间结社"
+    ],
+    "kind": "concept",
+    "identity": "汉末社会与政治背景",
+    "period": "东汉后期—184年",
+    "description": "东汉后期史书记有多次灾害与疫病。张角以符水治病、传教和组织信众建立跨地区网络，184年计划泄露后提前起事。生活困境、宗教组织与政治危机共同构成背景，各地经历并不相同。",
+    "basis": "documented",
+    "relatedPersonIds": [
+      "zhang-jiao",
+      "huangfu-song",
+      "zhu-jun"
+    ],
+    "relatedEventIds": [
+      "yellow-turbans"
+    ],
+    "citations": [
+      {
+        "sourceId": "hhs-08",
+        "locator": "孝灵帝纪：多次大疫、中平元年起事及中平五年置牧段",
+        "note": "纪年资料提供灾疫、解党禁和州牧设置的时间线，因果解释须结合列传。"
+      },
+      {
+        "sourceId": "hhs-71",
+        "locator": "皇甫嵩、朱儁传：中平元年起事、长社与南阳战事",
+        "note": "太平道组织、朝廷征讨与各军行动分别见两传。"
+      }
+    ],
+    "position": {
+      "x": 73230,
+      "y": 24000
+    },
+    "context": [
+      {
+        "title": "百姓怎样寻求帮助",
+        "description": "灾疫加重生活压力，太平道通过治病与信众组织联结各地；这些是史书记录的社会活动。",
+        "citations": [
+          {
+            "sourceId": "hhs-08",
+            "locator": "孝灵帝纪：多次大疫、中平元年起事及中平五年置牧段",
+            "note": "纪年资料提供灾疫、解党禁和州牧设置的时间线，因果解释须结合列传。"
+          },
+          {
+            "sourceId": "hhs-71",
+            "locator": "皇甫嵩、朱儁传：中平元年起事、长社与南阳战事",
+            "note": "太平道组织、朝廷征讨与各军行动分别见两传。"
+          }
+        ]
+      },
+      {
+        "title": "起事怎样扩散",
+        "description": "长期组织与跨州网络让动员成为可能，告密促使起事提前。灾疫本身不足以解释每一地区和每一个人的行动。",
+        "citations": [
+          {
+            "sourceId": "hhs-71",
+            "locator": "皇甫嵩、朱儁传：中平元年起事、长社与南阳战事",
+            "note": "太平道组织、朝廷征讨与各军行动分别见两传。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chenlin-proclamation",
+    "label": "《为袁绍檄豫州文》",
+    "aliases": [
+      "讨曹檄文",
+      "为袁绍檄豫州"
+    ],
+    "kind": "work",
+    "identity": "陈琳代袁绍撰写的政治檄文",
+    "period": "200年前后 · 官渡战争前后",
+    "description": "这篇檄文以袁绍一方的口吻号召讨伐曹操，借历史典故、指控和赏格争取支持，后收入《文选》卷44。它能帮助理解汉末政治传播；篇中攻击和兵力夸示属于论战立场，具体事实需要结合其他史料核查。",
+    "basis": "documented",
+    "relatedPersonIds": [
+      "chen-lin",
+      "yuan-shao",
+      "cao-cao"
+    ],
+    "relatedEventIds": [
+      "guandu"
+    ],
+    "citations": [
+      {
+        "sourceId": "chenlin-proclamation",
+        "locator": "《文选》卷44所收《为袁绍檄豫州文》",
+        "note": "政治檄文呈现袁绍阵营的论战立场；具体指控需另证，修辞不能直接当作史实。"
+      },
+      {
+        "sourceId": "sgz-21",
+        "locator": "王粲传附陈琳：字孔璋、何进主簿、袁绍文章及归曹操段",
+        "note": "陈琳的任职与文书工作；归曹的具体年次不据此强定。"
+      }
+    ],
+    "position": {
+      "x": 39000,
+      "y": 26000
+    },
+    "facts": [
+      {
+        "label": "文体",
+        "value": "檄文：公开传布、声讨与动员的政治文书"
+      },
+      {
+        "label": "阅读方法",
+        "value": "先辨发文立场，再核对具体事实与修辞；本文写作的确切月日另待考证。"
+      }
+    ],
+    "context": [
+      {
+        "title": "文章与政治",
+        "description": "文士参与文书撰写，诸侯通过汉廷合法性、道德指控与军事声势争取支持。",
+        "citations": [
+          {
+            "sourceId": "chenlin-proclamation",
+            "locator": "《文选》卷44所收《为袁绍檄豫州文》",
+            "note": "政治檄文呈现袁绍阵营的论战立场；具体指控需另证，修辞不能直接当作史实。"
+          },
+          {
+            "sourceId": "sgz-21",
+            "locator": "王粲传附陈琳：字孔璋、何进主簿、袁绍文章及归曹操段",
+            "note": "陈琳的任职与文书工作；归曹的具体年次不据此强定。"
+          }
+        ]
+      },
+      {
+        "title": "史料层次",
+        "description": "作品是认识当时宣传的第一手材料；其中对对手的指控不能逐项直接确认为事实。",
+        "citations": [
+          {
+            "sourceId": "chenlin-proclamation",
+            "locator": "《文选》卷44所收《为袁绍檄豫州文》",
+            "note": "政治檄文呈现袁绍阵营的论战立场；具体指控需另证，修辞不能直接当作史实。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [
+      "元直",
+      "徐元直",
+      "徐福"
+    ],
+    "basis": "documented",
+    "relatedEventIds": [
+      "three-visits",
+      "changban"
+    ],
+    "position": {
+      "x": 52800,
+      "y": 35600
+    },
+    "id": "xu-shu",
+    "label": "徐庶",
+    "kind": "person",
+    "identity": "汉末士人与谋士 · 字元直",
+    "period": "生卒年不详 · 汉末至曹魏初年",
+    "description": "徐庶在荆州与诸葛亮友善，为刘备举荐诸葛亮。208年刘备南撤时，其母被曹军俘获，他辞别刘备北行。裴注《魏略》还记他在魏任官的经历，具体生卒年未详。",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：徐庶举荐、三顾、刘琦外任及徐庶母获北投段",
+        "note": "举荐、友善与母获分别见正文；徐庶早年及魏官经历见裴注《魏略》。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传裴注引《魏略》：徐庶原名福、游学荆州与黄初中任官",
+        "note": "本传与裴注层次分开；所记右中郎将、御史中丞为魏官经历，生卒年未强定。"
+      }
+    ],
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "汉末士人与谋士 · 字元直"
+      },
+      {
+        "label": "活动年代",
+        "value": "生卒年不详 · 汉末至曹魏初年"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "举荐诸葛亮",
+        "description": "建议刘备亲自拜访诸葛亮，是人物关系进入三顾故事的真实线索。",
+        "citations": [
+          {
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传：徐庶举荐、三顾、刘琦外任及徐庶母获北投段",
+            "note": "举荐、友善与母获分别见正文；徐庶早年及魏官经历见裴注《魏略》。"
+          }
+        ]
+      },
+      {
+        "title": "荆州游学与后来的任官",
+        "description": "裴注引书记其转向学问、与诸葛亮交游，后来在魏任右中郎将、御史中丞。",
+        "citations": [
+          {
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传裴注引《魏略》：徐庶原名福、游学荆州与黄初中任官",
+            "note": "本传与裴注层次分开；所记右中郎将、御史中丞为魏官经历，生卒年未强定。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "208年前",
+        "title": "荆州交游与举荐",
+        "description": "与诸葛亮友善，向屯新野的刘备举荐；具体月日未详。",
+        "citations": [
+          {
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传：徐庶举荐、三顾、刘琦外任及徐庶母获北投段",
+            "note": "举荐、友善与母获分别见正文；徐庶早年及魏官经历见裴注《魏略》。"
+          }
+        ]
+      },
+      {
+        "date": "208年",
+        "title": "母被俘后北行",
+        "description": "曹操追破刘备，其母被获，徐庶辞别北投。",
+        "citations": [
+          {
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传：徐庶举荐、三顾、刘琦外任及徐庶母获北投段",
+            "note": "举荐、友善与母获分别见正文；徐庶早年及魏官经历见裴注《魏略》。"
+          }
+        ]
+      },
+      {
+        "date": "220年代",
+        "title": "在魏任官",
+        "description": "裴注《魏略》记黄初年间其任职；后数年病卒的记述未提供精确卒年。",
+        "citations": [
+          {
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传裴注引《魏略》：徐庶原名福、游学荆州与黄初中任官",
+            "note": "本传与裴注层次分开；所记右中郎将、御史中丞为魏官经历，生卒年未强定。"
+          }
+        ]
+      }
+    ],
+    "relatedBackgroundIds": [
+      "jingzhou-refuge"
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "documented",
+    "relatedEventIds": [
+      "jingzhou-succession",
+      "jingnan-settlement"
+    ],
+    "position": {
+      "x": 50000,
+      "y": 35950
+    },
+    "id": "liu-qi",
+    "label": "刘琦",
+    "kind": "person",
+    "identity": "刘表长子 · 江夏太守",
+    "period": "生卒年不详 · 208年前后活动",
+    "description": "刘琦在父亲继承安排中处境不利，向诸葛亮问计，后来出任江夏太守。208年刘备长坂败退后，与刘琦部众会合，继续争取孙权合作。赤壁之后本传记其病卒，具体年次保留未详。",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "刘表传及附刘琮：刘表病卒、二子分争、刘琮归降与后续任职",
+        "note": "正文记刘琦与刘琮的继承矛盾、归降和任职；涉及评价与劝说时保留叙事立场。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：徐庶举荐、三顾、刘琦外任及徐庶母获北投段",
+        "note": "举荐、友善与母获分别见正文；徐庶早年及魏官经历见裴注《魏略》。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+        "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
+      }
+    ],
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "刘表长子 · 江夏太守"
+      },
+      {
+        "label": "活动年代",
+        "value": "生卒年不详 · 208年前后活动"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "外任江夏",
+        "description": "向诸葛亮询问自处之策，后在黄祖死后出任江夏太守。",
+        "citations": [
+          {
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传：徐庶举荐、三顾、刘琦外任及徐庶母获北投段",
+            "note": "举荐、友善与母获分别见正文；徐庶早年及魏官经历见裴注《魏略》。"
+          }
+        ]
+      },
+      {
+        "title": "为刘备撤退后的整合提供力量",
+        "description": "刘备在汉津一带与其军会合，共同前往夏口；后被刘备推为荆州刺史。",
+        "citations": [
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+            "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "208年以前或当年",
+        "title": "问计与外任",
+        "description": "继承矛盾中寻求外任，成为江夏太守。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "刘表传及附刘琮：刘表病卒、二子分争、刘琮归降与后续任职",
+            "note": "正文记刘琦与刘琮的继承矛盾、归降和任职；涉及评价与劝说时保留叙事立场。"
+          },
+          {
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传：徐庶举荐、三顾、刘琦外任及徐庶母获北投段",
+            "note": "举荐、友善与母获分别见正文；徐庶早年及魏官经历见裴注《魏略》。"
+          }
+        ]
+      },
+      {
+        "date": "208年",
+        "title": "与刘备会合",
+        "description": "长坂之后与刘备、关羽舟船会合的记载，解释刘备为何仍有继续合作的条件。",
+        "citations": [
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+            "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
+          }
+        ]
+      },
+      {
+        "date": "赤壁之后（具体年次未详）",
+        "title": "病卒与后续推举",
+        "description": "先主传在荆南经营后记刘琦病死，众人随后推刘备领荆州。",
+        "citations": [
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+            "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "documented",
+    "relatedEventIds": [
+      "jingzhou-succession"
+    ],
+    "position": {
+      "x": 50400,
+      "y": 35950
+    },
+    "id": "liu-cong",
+    "label": "刘琮",
+    "kind": "person",
+    "identity": "刘表次子 · 荆州继承者",
+    "period": "生卒年不详 · 208年前后活动",
+    "description": "刘表去世后，刘琮在部分荆州官员支持下继位。曹操南下时，他听取劝说归降，曹操随后任其为青州刺史并封侯。其后续卒年在所用史料中未明确；继承与归降改变了刘备、孙权面对的局势。",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "刘表传及附刘琮：刘表病卒、二子分争、刘琮归降与后续任职",
+        "note": "正文记刘琦与刘琮的继承矛盾、归降和任职；涉及评价与劝说时保留叙事立场。"
+      }
+    ],
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "刘表次子 · 荆州继承者"
+      },
+      {
+        "label": "活动年代",
+        "value": "生卒年不详 · 208年前后活动"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "承接刘表职位",
+        "description": "在父亲去世后被拥为继承者，刘琦在江夏，双方已有矛盾。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "刘表传及附刘琮：刘表病卒、二子分争、刘琮归降与后续任职",
+            "note": "正文记刘琦与刘琮的继承矛盾、归降和任职；涉及评价与劝说时保留叙事立场。"
+          }
+        ]
+      },
+      {
+        "title": "作出归降决定",
+        "description": "在军事压力和属下劝说中归曹，荆州原有兵力、据点随之进入新的控制关系。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "刘表传及附刘琮：刘表病卒、二子分争、刘琮归降与后续任职",
+            "note": "正文记刘琦与刘琮的继承矛盾、归降和任职；涉及评价与劝说时保留叙事立场。"
+          },
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "208年",
+        "title": "继位与归降",
+        "description": "刘表病卒，刘琮继立，随后向南下的曹操请降。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "刘表传及附刘琮：刘表病卒、二子分争、刘琮归降与后续任职",
+            "note": "正文记刘琦与刘琮的继承矛盾、归降和任职；涉及评价与劝说时保留叙事立场。"
+          }
+        ]
+      },
+      {
+        "date": "208年及其后",
+        "title": "获任与后续记录",
+        "description": "本传记任青州刺史、封列侯；裴注所录曹操令另记改任谏议大夫，具体后续年次与卒年未详。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "刘表传及附刘琮：刘表病卒、二子分争、刘琮归降与后续任职",
+            "note": "正文记刘琦与刘琮的继承矛盾、归降和任职；涉及评价与劝说时保留叙事立场。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [
+      "公覆",
+      "黄公覆"
+    ],
+    "basis": "documented",
+    "relatedEventIds": [
+      "chibi"
+    ],
+    "position": {
+      "x": 50800,
+      "y": 35950
+    },
+    "id": "huang-gai",
+    "label": "黄盖",
+    "kind": "person",
+    "identity": "孙氏将领 · 字公覆",
+    "period": "生卒年不详 · 活跃于汉末",
+    "description": "黄盖先后随孙坚、孙策、孙权，兼有军事与地方任职经历。赤壁时，他向周瑜提出以火攻破坏曹军舟船，并以诈降接近实施。受伤获救的细节来自裴注《吴书》，生卒年保留未详。",
+    "citations": [
+      {
+        "sourceId": "sgz-55",
+        "locator": "黄盖传：从孙坚及孙氏父子、赤壁献策、任武陵太守与卒于官段",
+        "note": "正文记火攻并指向周瑜传；受伤获救为裴注《吴书》，卒年未明确。"
+      },
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+        "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+      }
+    ],
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "孙氏将领 · 字公覆"
+      },
+      {
+        "label": "活动年代",
+        "value": "生卒年不详 · 活跃于汉末"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "提出与实施赤壁火攻",
+        "description": "观察舟船情况，向周瑜献策，用载柴草油料的船接近曹军；献策和指挥分工分别说明。",
+        "citations": [
+          {
+            "sourceId": "sgz-54",
+            "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+            "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+          },
+          {
+            "sourceId": "sgz-55",
+            "locator": "黄盖传：从孙坚及孙氏父子、赤壁献策、任武陵太守与卒于官段",
+            "note": "正文记火攻并指向周瑜传；受伤获救为裴注《吴书》，卒年未明确。"
+          }
+        ]
+      },
+      {
+        "title": "军事之外的地方任职",
+        "description": "史书记其担任多地守长、丹杨都尉与武陵太守，地方战争和治理也涉及普通人的处境。",
+        "citations": [
+          {
+            "sourceId": "sgz-55",
+            "locator": "黄盖传：从孙坚及孙氏父子、赤壁献策、任武陵太守与卒于官段",
+            "note": "正文记火攻并指向周瑜传；受伤获救为裴注《吴书》，卒年未明确。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "190年前后",
+        "title": "从孙坚起兵",
+        "description": "孙坚举义兵时追随，后来继续从孙策和孙权。",
+        "citations": [
+          {
+            "sourceId": "sgz-55",
+            "locator": "黄盖传：从孙坚及孙氏父子、赤壁献策、任武陵太守与卒于官段",
+            "note": "正文记火攻并指向周瑜传；受伤获救为裴注《吴书》，卒年未明确。"
+          }
+        ]
+      },
+      {
+        "date": "208年",
+        "title": "赤壁献火攻之策",
+        "description": "诈降接近、点燃舟船的过程主要见周瑜传；黄盖本传也明确记建策火攻。",
+        "citations": [
+          {
+            "sourceId": "sgz-54",
+            "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+            "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+          },
+          {
+            "sourceId": "sgz-55",
+            "locator": "黄盖传：从孙坚及孙氏父子、赤壁献策、任武陵太守与卒于官段",
+            "note": "正文记火攻并指向周瑜传；受伤获救为裴注《吴书》，卒年未明确。"
+          }
+        ]
+      },
+      {
+        "date": "赤壁以后（具体年次未详）",
+        "title": "地方任职与病卒",
+        "description": "后来领武陵太守等，最终病卒于官，具体卒年未详。",
+        "citations": [
+          {
+            "sourceId": "sgz-55",
+            "locator": "黄盖传：从孙坚及孙氏父子、赤壁献策、任武陵太守与卒于官段",
+            "note": "正文记火攻并指向周瑜传；受伤获救为裴注《吴书》，卒年未明确。"
+          }
+        ]
+      }
+    ],
+    "relatedBackgroundIds": [
+      "river-warfare"
+    ]
+  },
+  {
+    "aliases": [
+      "德谋",
+      "程德谋",
+      "程公"
+    ],
+    "basis": "documented",
+    "relatedEventIds": [
+      "sun-liu-alliance",
+      "jiangling-contest",
+      "chibi"
+    ],
+    "position": {
+      "x": 51200,
+      "y": 35950
+    },
+    "id": "cheng-pu",
+    "label": "程普",
+    "kind": "person",
+    "identity": "孙氏将领 · 字德谋",
+    "period": "生卒年不详 · 活跃于汉末",
+    "description": "程普从孙坚讨黄巾、讨董，又随孙策经营江东，孙权继事后继续辅佐。208年与周瑜分任左右督，共同迎击曹操，战后又参与江陵攻防。称呼程公来自年长资历，具体卒年未详。",
+    "citations": [
+      {
+        "sourceId": "sgz-55",
+        "locator": "程普传：从孙坚、孙策、辅孙权、与周瑜统兵及后来任职段",
+        "note": "主要军历见正文；卒年未明确，保留不详。"
+      },
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+        "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+      }
+    ],
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "孙氏将领 · 字德谋"
+      },
+      {
+        "label": "活动年代",
+        "value": "生卒年不详 · 活跃于汉末"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "历事孙氏三代",
+        "description": "先后随孙坚、孙策、孙权作战与任职，反映江东军队的连续积累。",
+        "citations": [
+          {
+            "sourceId": "sgz-55",
+            "locator": "程普传：从孙坚、孙策、辅孙权、与周瑜统兵及后来任职段",
+            "note": "主要军历见正文；卒年未明确，保留不详。"
+          }
+        ]
+      },
+      {
+        "title": "与周瑜共同统兵",
+        "description": "赤壁及南郡战事有实际统兵作用；同僚间早期不睦的细节来自裴注《江表传》，后来转为敬服。",
+        "citations": [
+          {
+            "sourceId": "sgz-55",
+            "locator": "程普传：从孙坚、孙策、辅孙权、与周瑜统兵及后来任职段",
+            "note": "主要军历见正文；卒年未明确，保留不详。"
+          },
+          {
+            "sourceId": "sgz-54",
+            "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+            "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "184年",
+        "title": "参与黄巾战事",
+        "description": "本传记随孙坚征讨宛、邓一带黄巾。",
+        "citations": [
+          {
+            "sourceId": "sgz-55",
+            "locator": "程普传：从孙坚、孙策、辅孙权、与周瑜统兵及后来任职段",
+            "note": "主要军历见正文；卒年未明确，保留不详。"
+          }
+        ]
+      },
+      {
+        "date": "195年前后起",
+        "title": "随孙策经营江东",
+        "description": "渡江后参与多地战事，后来继续辅孙权。",
+        "citations": [
+          {
+            "sourceId": "sgz-55",
+            "locator": "程普传：从孙坚、孙策、辅孙权、与周瑜统兵及后来任职段",
+            "note": "主要军历见正文；卒年未明确，保留不详。"
+          }
+        ]
+      },
+      {
+        "date": "208—209年",
+        "title": "赤壁与南郡",
+        "description": "与周瑜统兵抗曹，战后进攻曹仁。",
+        "citations": [
+          {
+            "sourceId": "sgz-55",
+            "locator": "程普传：从孙坚、孙策、辅孙权、与周瑜统兵及后来任职段",
+            "note": "主要军历见正文；卒年未明确，保留不详。"
+          },
+          {
+            "sourceId": "sgz-54",
+            "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+            "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+          }
+        ]
+      },
+      {
+        "date": "210年前后及以后",
+        "title": "后续任职",
+        "description": "周瑜去世后曾代领南郡太守，后复领江夏，卒年未见本传明确记载。",
+        "citations": [
+          {
+            "sourceId": "sgz-55",
+            "locator": "程普传：从孙坚、孙策、辅孙权、与周瑜统兵及后来任职段",
+            "note": "主要军历见正文；卒年未明确，保留不详。"
+          }
+        ]
+      }
+    ],
+    "relatedBackgroundIds": [
+      "river-warfare"
+    ]
+  },
+  {
+    "aliases": [
+      "子布",
+      "张子布"
+    ],
+    "basis": "documented",
+    "relatedEventIds": [
+      "sun-liu-alliance",
+      "wu-kingship"
+    ],
+    "position": {
+      "x": 51600,
+      "y": 35950
+    },
+    "id": "zhang-zhao",
+    "label": "张昭",
+    "kind": "person",
+    "identity": "孙氏重臣与学者 · 字子布",
+    "period": "156—236年（生年据享年推算）",
+    "description": "张昭避乱江东后为孙策处理政军事务，孙策去世时辅佐孙权承继。他重视秩序与治理，赤壁前劝迎曹的意见见裴注保存材料，后世史家也有不同评价。晚年著有《论语》注和《左氏传》解。",
+    "citations": [
+      {
+        "sourceId": "sgz-52",
+        "locator": "张昭传：避乱、辅佐孙策孙权、晚年著述与嘉禾五年卒",
+        "note": "正文记任职、著《左氏传》解与《论语》注；生年由享年八十一推算。"
+      },
+      {
+        "sourceId": "sgz-52",
+        "locator": "张昭传：称帝后退居段裴注《江表传》及裴松之评论",
+        "note": "迎曹意见与孙权后来的评价见注引材料；裴松之另从统一与民生角度评论，其判断作为史家观点呈现。"
+      }
+    ],
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "孙氏重臣与学者 · 字子布"
+      },
+      {
+        "label": "活动年代",
+        "value": "156—236年（生年据享年推算）"
+      },
+      {
+        "label": "著述范围",
+        "value": "本传著录《论语》注与《左氏传》解；卷数与传世版本继续核校。"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "参与江东治理与权力交接",
+        "description": "孙策时为长史等，200年孙策去世后辅佐孙权、安排官属与政务。",
+        "citations": [
+          {
+            "sourceId": "sgz-52",
+            "locator": "张昭传：避乱、辅佐孙策孙权、晚年著述与嘉禾五年卒",
+            "note": "正文记任职、著《左氏传》解与《论语》注；生年由享年八十一推算。"
+          }
+        ]
+      },
+      {
+        "title": "谏议与经学著述",
+        "description": "多次向孙权进谏；退居后著《左氏传》解和《论语》注，著述记录见本传。",
+        "citations": [
+          {
+            "sourceId": "sgz-52",
+            "locator": "张昭传：避乱、辅佐孙策孙权、晚年著述与嘉禾五年卒",
+            "note": "正文记任职、著《左氏传》解与《论语》注；生年由享年八十一推算。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "190年代",
+        "title": "避乱江东并事孙策",
+        "description": "北方战乱使士民南移，张昭南渡后参与孙策事业，具体入幕年次未详。",
+        "citations": [
+          {
+            "sourceId": "sgz-52",
+            "locator": "张昭传：避乱、辅佐孙策孙权、晚年著述与嘉禾五年卒",
+            "note": "正文记任职、著《左氏传》解与《论语》注；生年由享年八十一推算。"
+          }
+        ]
+      },
+      {
+        "date": "200年",
+        "title": "辅佐孙权继事",
+        "description": "孙策临终托付孙权，张昭安排政军事务，稳定继承。",
+        "citations": [
+          {
+            "sourceId": "sgz-52",
+            "locator": "张昭传：避乱、辅佐孙策孙权、晚年著述与嘉禾五年卒",
+            "note": "正文记任职、著《左氏传》解与《论语》注；生年由享年八十一推算。"
+          }
+        ]
+      },
+      {
+        "date": "208年",
+        "title": "迎曹意见",
+        "description": "裴注《江表传》及裴松之评论保存其迎曹意见，置于当时风险判断与政治主张中阅读。",
+        "citations": [
+          {
+            "sourceId": "sgz-52",
+            "locator": "张昭传：称帝后退居段裴注《江表传》及裴松之评论",
+            "note": "迎曹意见与孙权后来的评价见注引材料；裴松之另从统一与民生角度评论，其判断作为史家观点呈现。"
+          }
+        ]
+      },
+      {
+        "date": "229年以后",
+        "title": "退居与著述",
+        "description": "孙权称帝后以老病退还官位，著经学注解，具体成书年次未详。",
+        "citations": [
+          {
+            "sourceId": "sgz-52",
+            "locator": "张昭传：避乱、辅佐孙策孙权、晚年著述与嘉禾五年卒",
+            "note": "正文记任职、著《左氏传》解与《论语》注；生年由享年八十一推算。"
+          }
+        ]
+      },
+      {
+        "date": "236年",
+        "title": "去世",
+        "description": "本传记嘉禾五年卒、年八十一；156年为据享年的通常推算。",
+        "citations": [
+          {
+            "sourceId": "sgz-52",
+            "locator": "张昭传：避乱、辅佐孙策孙权、晚年著述与嘉禾五年卒",
+            "note": "正文记任职、著《左氏传》解与《论语》注；生年由享年八十一推算。"
+          }
+        ]
+      }
+    ],
+    "relatedWorkIds": [
+      "zhangzhao-lunyu"
+    ]
+  },
+  {
+    "aliases": [
+      "子瑜",
+      "诸葛子瑜"
+    ],
+    "basis": "documented",
+    "relatedEventIds": [
+      "jingzhou-division",
+      "yiling"
+    ],
+    "position": {
+      "x": 52000,
+      "y": 35950
+    },
+    "id": "zhuge-jin",
+    "label": "诸葛瑾",
+    "kind": "person",
+    "identity": "孙氏使者与将领 · 字子瑜",
+    "period": "生年不详—241年（本传记年六十八）",
+    "description": "诸葛瑾是诸葛亮的兄长，汉末避乱到江东，为孙权任用。他曾出使刘备，也在刘备伐吴时致信劝和。兄弟服务不同政权，外交联系与亲属关系可以同时存在，信中立场也需结合吴蜀分歧理解。",
+    "citations": [
+      {
+        "sourceId": "sgz-52",
+        "locator": "诸葛瑾传：汉末避乱、建安二十年使蜀、关羽战事后任职、致刘备笺及赤乌四年卒",
+        "note": "诸葛瑾与诸葛亮为兄弟、分事不同政权；本传所录外交信件体现吴方劝和立场。"
+      }
+    ],
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "孙氏使者与将领 · 字子瑜"
+      },
+      {
+        "label": "活动年代",
+        "value": "生年不详—241年（本传记年六十八）"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "承担吴蜀交涉",
+        "description": "215年使蜀，后来以文书劝刘备停止东征，表达孙吴一方的利益与风险判断。",
+        "citations": [
+          {
+            "sourceId": "sgz-52",
+            "locator": "诸葛瑾传：汉末避乱、建安二十年使蜀、关羽战事后任职、致刘备笺及赤乌四年卒",
+            "note": "诸葛瑾与诸葛亮为兄弟、分事不同政权；本传所录外交信件体现吴方劝和立场。"
+          }
+        ]
+      },
+      {
+        "title": "军事与地方职任",
+        "description": "参与对关羽的军事行动，后任南郡太守等，外交之外也负担守境职责。",
+        "citations": [
+          {
+            "sourceId": "sgz-52",
+            "locator": "诸葛瑾传：汉末避乱、建安二十年使蜀、关羽战事后任职、致刘备笺及赤乌四年卒",
+            "note": "诸葛瑾与诸葛亮为兄弟、分事不同政权；本传所录外交信件体现吴方劝和立场。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "200年前后",
+        "title": "避乱与任用",
+        "description": "汉末南渡，孙策去世前后获荐于孙权，随后任长史等。",
+        "citations": [
+          {
+            "sourceId": "sgz-52",
+            "locator": "诸葛瑾传：汉末避乱、建安二十年使蜀、关羽战事后任职、致刘备笺及赤乌四年卒",
+            "note": "诸葛瑾与诸葛亮为兄弟、分事不同政权；本传所录外交信件体现吴方劝和立场。"
+          }
+        ]
+      },
+      {
+        "date": "215年",
+        "title": "出使刘备",
+        "description": "奉孙权命使蜀，与诸葛亮在公会见面，正文强调未另私会。",
+        "citations": [
+          {
+            "sourceId": "sgz-52",
+            "locator": "诸葛瑾传：汉末避乱、建安二十年使蜀、关羽战事后任职、致刘备笺及赤乌四年卒",
+            "note": "诸葛瑾与诸葛亮为兄弟、分事不同政权；本传所录外交信件体现吴方劝和立场。"
+          }
+        ]
+      },
+      {
+        "date": "219年以后",
+        "title": "参与战事及南郡任职",
+        "description": "从讨关羽，后代吕蒙领南郡太守，驻公安。",
+        "citations": [
+          {
+            "sourceId": "sgz-52",
+            "locator": "诸葛瑾传：汉末避乱、建安二十年使蜀、关羽战事后任职、致刘备笺及赤乌四年卒",
+            "note": "诸葛瑾与诸葛亮为兄弟、分事不同政权；本传所录外交信件体现吴方劝和立场。"
+          }
+        ]
+      },
+      {
+        "date": "221年前后",
+        "title": "写信劝和",
+        "description": "刘备东征时致笺，主张重新权衡荆州、关羽与对魏的轻重；这是吴方劝说。",
+        "citations": [
+          {
+            "sourceId": "sgz-52",
+            "locator": "诸葛瑾传：汉末避乱、建安二十年使蜀、关羽战事后任职、致刘备笺及赤乌四年卒",
+            "note": "诸葛瑾与诸葛亮为兄弟、分事不同政权；本传所录外交信件体现吴方劝和立场。"
+          }
+        ]
+      },
+      {
+        "date": "241年",
+        "title": "去世",
+        "description": "本传记赤乌四年卒、年六十八，生年在本图保留推算与明确纪年的差别。",
+        "citations": [
+          {
+            "sourceId": "sgz-52",
+            "locator": "诸葛瑾传：汉末避乱、建安二十年使蜀、关羽战事后任职、致刘备笺及赤乌四年卒",
+            "note": "诸葛瑾与诸葛亮为兄弟、分事不同政权；本传所录外交信件体现吴方劝和立场。"
+          }
+        ]
+      }
+    ],
+    "relatedWorkIds": [
+      "zhugejin-peace-letter"
+    ]
+  },
+  {
+    "aliases": [
+      "伯苗",
+      "邓伯苗"
+    ],
+    "basis": "documented",
+    "relatedEventIds": [
+      "dengzhi-envoy",
+      "shu-wu-reconcile"
+    ],
+    "position": {
+      "x": 52400,
+      "y": 35950
+    },
+    "id": "deng-zhi",
+    "label": "邓芝",
+    "kind": "person",
+    "identity": "蜀汉使者与将领 · 字伯苗",
+    "period": "生年不详—251年",
+    "description": "邓芝汉末入蜀，刘备定益州后逐渐被任用。223年刘备去世、刘禅初立时，他奉诸葛亮之命出使孙权，推动修复吴蜀关系。后来担任军事职务，251年去世。",
+    "citations": [
+      {
+        "sourceId": "sgz-45",
+        "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+        "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
+      }
+    ],
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "蜀汉使者与将领 · 字伯苗"
+      },
+      {
+        "label": "活动年代",
+        "value": "生年不详—251年"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "推动蜀吴修好",
+        "description": "说明双方合作抵御曹魏的现实利益，代表蜀汉出使，孙权派使者回聘。",
+        "citations": [
+          {
+            "sourceId": "sgz-45",
+            "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+            "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
+          }
+        ]
+      },
+      {
+        "title": "地方与军事任职",
+        "description": "曾为郫令、广汉太守，后任中监军等，诸葛亮去世后又督江州。",
+        "citations": [
+          {
+            "sourceId": "sgz-45",
+            "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+            "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "214年以后",
+        "title": "为刘备任用",
+        "description": "定益州后为郫邸阁督，刘备交谈后擢任郫令，后迁太守、尚书。",
+        "citations": [
+          {
+            "sourceId": "sgz-45",
+            "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+            "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
+          }
+        ]
+      },
+      {
+        "date": "223年",
+        "title": "奉使孙权",
+        "description": "刘备去世后向诸葛亮建议重申吴好，并亲自承担出使。",
+        "citations": [
+          {
+            "sourceId": "sgz-45",
+            "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+            "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
+          }
+        ]
+      },
+      {
+        "date": "227年起",
+        "title": "监军与后续任职",
+        "description": "诸葛亮北驻汉中时任中监军等，后来承担江州军务。",
+        "citations": [
+          {
+            "sourceId": "sgz-45",
+            "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+            "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
+          }
+        ]
+      },
+      {
+        "date": "251年",
+        "title": "去世",
+        "description": "本传记延熙十四年卒，生年未详。",
+        "citations": [
+          {
+            "sourceId": "sgz-45",
+            "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+            "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [
+      "兴霸",
+      "甘兴霸"
+    ],
+    "basis": "documented",
+    "relatedEventIds": [
+      "jiangling-contest",
+      "jingzhou-division",
+      "ru-xu",
+      "chibi"
+    ],
+    "position": {
+      "x": 52800,
+      "y": 35950
+    },
+    "id": "gan-ning",
+    "label": "甘宁",
+    "kind": "person",
+    "identity": "孙氏将领 · 字兴霸",
+    "period": "生卒年不详 · 活跃于汉末",
+    "description": "甘宁早年有游侠劫掠经历，后来转向任职，曾在刘表、黄祖一方，最终归孙权。周瑜、吕蒙曾荐举他。赤壁后他进取夷陵并获援解围，后来参与益阳与濡须行动，具体卒年未详。",
+    "citations": [
+      {
+        "sourceId": "sgz-55",
+        "locator": "甘宁传：早年经历、归孙权、夷陵解围、益阳与濡须段",
+        "note": "军历依本传；濡须夜袭的具体年次本传未详，置于213—217年反复交锋范围。"
+      }
+    ],
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "孙氏将领 · 字兴霸"
+      },
+      {
+        "label": "活动年代",
+        "value": "生卒年不详 · 活跃于汉末"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "参与南郡与夷陵战事",
+        "description": "赤壁后先取夷陵，曹仁遣兵围攻，周瑜采吕蒙意见率军解围。",
+        "citations": [
+          {
+            "sourceId": "sgz-55",
+            "locator": "甘宁传：早年经历、归孙权、夷陵解围、益阳与濡须段",
+            "note": "军历依本传；濡须夜袭的具体年次本传未详，置于213—217年反复交锋范围。"
+          },
+          {
+            "sourceId": "sgz-54",
+            "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+            "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+          }
+        ]
+      },
+      {
+        "title": "在孙权集团承担前线任务",
+        "description": "在益阳面对关羽、在濡须袭营等行动见本传；夜袭细节另有裴注材料，具体系年保留范围。",
+        "citations": [
+          {
+            "sourceId": "sgz-55",
+            "locator": "甘宁传：早年经历、归孙权、夷陵解围、益阳与濡须段",
+            "note": "军历依本传；濡须夜袭的具体年次本传未详，置于213—217年反复交锋范围。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "208年前（具体年次未详）",
+        "title": "转入孙权集团",
+        "description": "历刘表、黄祖，归孙权后由周瑜、吕蒙荐达。",
+        "citations": [
+          {
+            "sourceId": "sgz-55",
+            "locator": "甘宁传：早年经历、归孙权、夷陵解围、益阳与濡须段",
+            "note": "军历依本传；濡须夜袭的具体年次本传未详，置于213—217年反复交锋范围。"
+          }
+        ]
+      },
+      {
+        "date": "208—209年",
+        "title": "赤壁后进取夷陵",
+        "description": "从周瑜抗曹，后进夷陵被围，周瑜率军救援。",
+        "citations": [
+          {
+            "sourceId": "sgz-55",
+            "locator": "甘宁传：早年经历、归孙权、夷陵解围、益阳与濡须段",
+            "note": "军历依本传；濡须夜袭的具体年次本传未详，置于213—217年反复交锋范围。"
+          }
+        ]
+      },
+      {
+        "date": "213—217年间（具体次年未详）",
+        "title": "濡须前线行动",
+        "description": "本传记袭营，未单独标出此段年份；此范围对应曹孙在濡须的反复交锋。",
+        "citations": [
+          {
+            "sourceId": "sgz-55",
+            "locator": "甘宁传：早年经历、归孙权、夷陵解围、益阳与濡须段",
+            "note": "军历依本传；濡须夜袭的具体年次本传未详，置于213—217年反复交锋范围。"
+          },
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          }
+        ]
+      },
+      {
+        "date": "215年",
+        "title": "益阳面对关羽",
+        "description": "随鲁肃屯益阳，在双方荆州争夺中承担军事任务，具体兵数按史书记载审慎阅读。",
+        "citations": [
+          {
+            "sourceId": "sgz-55",
+            "locator": "甘宁传：早年经历、归孙权、夷陵解围、益阳与濡须段",
+            "note": "军历依本传；濡须夜袭的具体年次本传未详，置于213—217年反复交锋范围。"
+          }
+        ]
+      }
+    ],
+    "relatedBackgroundIds": [
+      "river-warfare"
+    ]
+  },
+  {
+    "aliases": [
+      "子孝",
+      "曹子孝"
+    ],
+    "basis": "documented",
+    "relatedEventIds": [
+      "jiangling-contest"
+    ],
+    "position": {
+      "x": 50000,
+      "y": 36300
+    },
+    "id": "cao-ren",
+    "label": "曹仁",
+    "kind": "person",
+    "identity": "曹氏将领 · 字子孝",
+    "period": "生年不详—223年（本传记年五十六）",
+    "description": "曹仁是曹操的从弟，长期承担军事任务。赤壁后守江陵，与周瑜等相持；219年又在樊城抵抗关羽围攻。曹丕继位后继续任用，官至大司马，223年去世。",
+    "citations": [
+      {
+        "sourceId": "sgz-09",
+        "locator": "曹仁传：从太祖、江陵拒周瑜、樊城被围、黄初任职及四年卒",
+        "note": "曹仁与曹操的亲属、军中从属分开记录；卒年223年，生年在本图保留不详。"
+      }
+    ],
+    "facts": [
+      {
+        "label": "主要身份",
+        "value": "曹氏将领 · 字子孝"
+      },
+      {
+        "label": "活动年代",
+        "value": "生年不详—223年（本传记年五十六）"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "江陵与樊城防务",
+        "description": "在不同年份面对周瑜与关羽，城防、援军、补给与指挥共同影响战事。",
+        "citations": [
+          {
+            "sourceId": "sgz-09",
+            "locator": "曹仁传：从太祖、江陵拒周瑜、樊城被围、黄初任职及四年卒",
+            "note": "曹仁与曹操的亲属、军中从属分开记录；卒年223年，生年在本图保留不详。"
+          }
+        ]
+      },
+      {
+        "title": "历事曹操、曹丕",
+        "description": "早年从军，魏初继续担任重要军职；当时官职与后来追赠分别辨读。",
+        "citations": [
+          {
+            "sourceId": "sgz-09",
+            "locator": "曹仁传：从太祖、江陵拒周瑜、樊城被围、黄初任职及四年卒",
+            "note": "曹仁与曹操的亲属、军中从属分开记录；卒年223年，生年在本图保留不详。"
+          }
+        ]
+      }
+    ],
+    "lifeEvents": [
+      {
+        "date": "190年代起",
+        "title": "追随曹操",
+        "description": "早年参加曹操集团的军事行动，本传列有多次战事。",
+        "citations": [
+          {
+            "sourceId": "sgz-09",
+            "locator": "曹仁传：从太祖、江陵拒周瑜、樊城被围、黄初任职及四年卒",
+            "note": "曹仁与曹操的亲属、军中从属分开记录；卒年223年，生年在本图保留不详。"
+          }
+        ]
+      },
+      {
+        "date": "208—209年",
+        "title": "江陵相持",
+        "description": "曹操退军后守江陵，周瑜等长期进攻后曹仁退去。",
+        "citations": [
+          {
+            "sourceId": "sgz-09",
+            "locator": "曹仁传：从太祖、江陵拒周瑜、樊城被围、黄初任职及四年卒",
+            "note": "曹仁与曹操的亲属、军中从属分开记录；卒年223年，生年在本图保留不详。"
+          },
+          {
+            "sourceId": "sgz-54",
+            "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+            "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+          },
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          }
+        ]
+      },
+      {
+        "date": "219年",
+        "title": "樊城被围",
+        "description": "关羽围樊，曹仁坚守，后来徐晃等援军改变局势。",
+        "citations": [
+          {
+            "sourceId": "sgz-09",
+            "locator": "曹仁传：从太祖、江陵拒周瑜、樊城被围、黄初任职及四年卒",
+            "note": "曹仁与曹操的亲属、军中从属分开记录；卒年223年，生年在本图保留不详。"
+          },
+          {
+            "sourceId": "sgz-36",
+            "locator": "关羽传：建安二十四年攻樊、孙权袭后、败亡段",
+            "note": "关羽北攻、后方被夺及败亡为连续军事过程，兼参吴主传、吕蒙传。"
+          }
+        ]
+      },
+      {
+        "date": "223年",
+        "title": "魏初任职与去世",
+        "description": "本传记黄初四年卒，年五十六；生年据年龄可推算，图谱仍区分明确卒年与推算。",
+        "citations": [
+          {
+            "sourceId": "sgz-09",
+            "locator": "曹仁传：从太祖、江陵拒周瑜、樊城被围、黄初任职及四年卒",
+            "note": "曹仁与曹操的亲属、军中从属分开记录；卒年223年，生年在本图保留不详。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "documented",
+    "relatedEventIds": [
+      "north-consolidation",
+      "changban"
+    ],
+    "position": {
+      "x": 50400,
+      "y": 36300
+    },
+    "id": "jingzhou-succession",
+    "label": "刘表去世与刘琮归降",
+    "kind": "event",
+    "identity": "历史事件与连续过程",
+    "period": "208年",
+    "timeRange": {
+      "start": 208,
+      "end": 208
+    },
+    "description": "刘表病卒后，刘琮继立，刘琦在江夏。曹操南下时，刘琮归降，荆州原有兵力与据点的控制改变；刘备随即南撤，孙权也需重新判断安全与合作。",
+    "citations": [
+      {
+        "sourceId": "sgz-06",
+        "locator": "刘表传及附刘琮：刘表病卒、二子分争、刘琮归降与后续任职",
+        "note": "正文记刘琦与刘琮的继承矛盾、归降和任职；涉及评价与劝说时保留叙事立场。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+        "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+        "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+      }
+    ],
+    "relatedPersonIds": [
+      "liu-biao",
+      "liu-cong",
+      "liu-qi",
+      "cao-cao",
+      "liu-bei"
+    ],
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "河北局势变化后曹操南向；荆州内部的继承分歧，与外部军事压力同时出现。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "刘表传及附刘琮：刘表病卒、二子分争、刘琮归降与后续任职",
+            "note": "正文记刘琦与刘琮的继承矛盾、归降和任职；涉及评价与劝说时保留叙事立场。"
+          },
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+            "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
+          },
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "刘琮归曹，刘备南撤在长坂受追击，刘琦和关羽的力量提供会合条件，孙刘外交进一步展开。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "刘表传及附刘琮：刘表病卒、二子分争、刘琮归降与后续任职",
+            "note": "正文记刘琦与刘琮的继承矛盾、归降和任职；涉及评价与劝说时保留叙事立场。"
+          },
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+            "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
+          },
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "documented",
+    "relatedEventIds": [
+      "changban",
+      "chibi"
+    ],
+    "position": {
+      "x": 50800,
+      "y": 36300
+    },
+    "id": "sun-liu-alliance",
+    "label": "孙刘联手抗曹",
+    "kind": "event",
+    "identity": "历史事件与连续过程",
+    "period": "208年",
+    "timeRange": {
+      "start": 208,
+      "end": 208
+    },
+    "description": "鲁肃联络刘备，诸葛亮奉刘备命出使孙权。孙权决定抵抗，派周瑜、程普等与刘备协力。参与者承担联络、判断和统兵等不同任务，随后形成赤壁联合作战。",
+    "citations": [
+      {
+        "sourceId": "sgz-54",
+        "locator": "鲁肃传：联络刘备、赞军校尉、荆州交涉与益阳会谈段",
+        "note": "外交与统兵职责分别说明；吴方关于荆州的主张与蜀方记载对读。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：三顾后对策、出使孙权与白帝托孤段",
+        "note": "战略对策为史书记录的建议；出使、托孤与后续行动分别理解。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+        "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+        "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+      }
+    ],
+    "relatedPersonIds": [
+      "sun-quan",
+      "liu-bei",
+      "lu-su",
+      "zhuge-liang",
+      "zhou-yu",
+      "cheng-pu",
+      "zhang-zhao"
+    ],
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "刘备长坂败退，曹操取得荆州部分军队和舟船，孙权集团内部对抵抗与迎曹有不同判断。",
+        "citations": [
+          {
+            "sourceId": "sgz-54",
+            "locator": "鲁肃传：联络刘备、赞军校尉、荆州交涉与益阳会谈段",
+            "note": "外交与统兵职责分别说明；吴方关于荆州的主张与蜀方记载对读。"
+          },
+          {
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传：三顾后对策、出使孙权与白帝托孤段",
+            "note": "战略对策为史书记录的建议；出使、托孤与后续行动分别理解。"
+          },
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+            "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
+          },
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "双方合作提供兵力与水军条件，但共同抗曹并未消除后来对土地、人口与安全的分歧。",
+        "citations": [
+          {
+            "sourceId": "sgz-54",
+            "locator": "鲁肃传：联络刘备、赞军校尉、荆州交涉与益阳会谈段",
+            "note": "外交与统兵职责分别说明；吴方关于荆州的主张与蜀方记载对读。"
+          },
+          {
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传：三顾后对策、出使孙权与白帝托孤段",
+            "note": "战略对策为史书记录的建议；出使、托孤与后续行动分别理解。"
+          },
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+            "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
+          },
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "documented",
+    "relatedEventIds": [
+      "chibi",
+      "ru-xu"
+    ],
+    "position": {
+      "x": 51200,
+      "y": 36300
+    },
+    "id": "jiangling-contest",
+    "label": "赤壁后的江陵攻防",
+    "kind": "event",
+    "identity": "历史事件与连续过程",
+    "period": "208—209年",
+    "timeRange": {
+      "start": 208,
+      "end": 209
+    },
+    "description": "曹操退军后留下曹仁等守江陵。周瑜、程普等继续进攻，甘宁取夷陵后被围，周瑜采吕蒙意见救援。经过长期攻防，曹仁退去，周瑜领南郡太守，江陵控制发生变化。",
+    "citations": [
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+        "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+        "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+      },
+      {
+        "sourceId": "sgz-55",
+        "locator": "甘宁传：早年经历、归孙权、夷陵解围、益阳与濡须段",
+        "note": "军历依本传；濡须夜袭的具体年次本传未详，置于213—217年反复交锋范围。"
+      }
+    ],
+    "relatedPersonIds": [
+      "zhou-yu",
+      "cheng-pu",
+      "cao-ren",
+      "gan-ning",
+      "lv-meng",
+      "liu-bei"
+    ],
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "赤壁使曹军退出决战区域，但江陵等据点仍受曹方将领控制，水陆交通与粮储仍是争夺目标。",
+        "citations": [
+          {
+            "sourceId": "sgz-54",
+            "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+            "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+          },
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          },
+          {
+            "sourceId": "sgz-55",
+            "locator": "甘宁传：早年经历、归孙权、夷陵解围、益阳与濡须段",
+            "note": "军历依本传；濡须夜袭的具体年次本传未详，置于213—217年反复交锋范围。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "208—209年延续的战事改变南郡控制；刘备同时在荆南经营，南方分立经过多次军事和政治安排形成。",
+        "citations": [
+          {
+            "sourceId": "sgz-54",
+            "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+            "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+          },
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          },
+          {
+            "sourceId": "sgz-55",
+            "locator": "甘宁传：早年经历、归孙权、夷陵解围、益阳与濡须段",
+            "note": "军历依本传；濡须夜袭的具体年次本传未详，置于213—217年反复交锋范围。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "documented",
+    "relatedEventIds": [
+      "chibi",
+      "yi-conquest"
+    ],
+    "position": {
+      "x": 51600,
+      "y": 36300
+    },
+    "id": "jingnan-settlement",
+    "label": "刘备经营荆南",
+    "kind": "event",
+    "identity": "历史事件与连续过程",
+    "period": "208—209年前后",
+    "timeRange": {
+      "start": 208,
+      "end": 209
+    },
+    "description": "先主传在赤壁后记刘备表刘琦为荆州刺史，并南向武陵、长沙、桂阳、零陵四郡，诸郡太守归降。随后刘琦病卒，众人推刘备领荆州牧，刘备屯公安。",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+        "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
+      },
+      {
+        "sourceId": "sgz-36",
+        "locator": "黄忠传：先主南定诸郡、黄忠委质段",
+        "note": "本传记刘备南定诸郡后黄忠从刘备，不据此加入小说中的单挑场面。"
+      }
+    ],
+    "relatedPersonIds": [
+      "liu-bei",
+      "liu-qi",
+      "huang-zhong"
+    ],
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "赤壁后的南方局势尚未稳定，刘备需要可供军队、人口安置和政务运作的根据地。",
+        "citations": [
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+            "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "各郡归附与公安驻地使其势力扩展。四郡行政、江陵攻防及后来土地安排应分开阅读，具体月日未见此段明记。",
+        "citations": [
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+            "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "documented",
+    "relatedEventIds": [
+      "yi-conquest",
+      "jingzhou-loss"
+    ],
+    "position": {
+      "x": 52000,
+      "y": 36300
+    },
+    "id": "jingzhou-division",
+    "label": "孙刘分荆州与湘水划界",
+    "kind": "event",
+    "identity": "历史事件与连续过程",
+    "period": "215年",
+    "timeRange": {
+      "start": 215,
+      "end": 215
+    },
+    "description": "刘备取得益州后，孙权要求重新安排荆州土地，吕蒙出兵，刘备、关羽也调兵。双方最终议和，按湘水及相关郡县划分控制区域，合作关系伴随明确的利益争执。",
+    "citations": [
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安二十年孙刘分荆州段；参见鲁肃传",
+        "note": "荆州各郡分属不同方面，与吴方交涉叙述对读；战线和行政范围随时间改变。"
+      },
+      {
+        "sourceId": "sgz-54",
+        "locator": "鲁肃传：联络刘备、赞军校尉、荆州交涉与益阳会谈段",
+        "note": "外交与统兵职责分别说明；吴方关于荆州的主张与蜀方记载对读。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+        "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+      }
+    ],
+    "relatedPersonIds": [
+      "sun-quan",
+      "liu-bei",
+      "lu-su",
+      "guan-yu",
+      "lv-meng",
+      "zhuge-jin",
+      "gan-ning"
+    ],
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "赤壁后不同地区先后易手，各方对于土地安排有各自叙述；刘备得益州后孙权提出要求，曹操进入汉中又改变局势。",
+        "citations": [
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安二十年孙刘分荆州段；参见鲁肃传",
+            "note": "荆州各郡分属不同方面，与吴方交涉叙述对读；战线和行政范围随时间改变。"
+          },
+          {
+            "sourceId": "sgz-54",
+            "locator": "鲁肃传：联络刘备、赞军校尉、荆州交涉与益阳会谈段",
+            "note": "外交与统兵职责分别说明；吴方关于荆州的主张与蜀方记载对读。"
+          },
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "暂时达成分界，未消除长期竞争。219年关羽北攻与孙权袭后时，荆州格局再次发生变化。",
+        "citations": [
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安二十年孙刘分荆州段；参见鲁肃传",
+            "note": "荆州各郡分属不同方面，与吴方交涉叙述对读；战线和行政范围随时间改变。"
+          },
+          {
+            "sourceId": "sgz-54",
+            "locator": "鲁肃传：联络刘备、赞军校尉、荆州交涉与益阳会谈段",
+            "note": "外交与统兵职责分别说明；吴方关于荆州的主张与蜀方记载对读。"
+          },
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          }
+        ]
+      },
+      {
+        "title": "史料视角",
+        "description": "蜀书与吴书对于所谓借地、归还和会谈分别有叙述，应按具体郡县和年份对读。鲁肃与关羽会谈见本传，人物表现还需与小说分别理解。",
+        "citations": [
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安二十年孙刘分荆州段；参见鲁肃传",
+            "note": "荆州各郡分属不同方面，与吴方交涉叙述对读；战线和行政范围随时间改变。"
+          },
+          {
+            "sourceId": "sgz-54",
+            "locator": "鲁肃传：联络刘备、赞军校尉、荆州交涉与益阳会谈段",
+            "note": "外交与统兵职责分别说明；吴方关于荆州的主张与蜀方记载对读。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "documented",
+    "relatedEventIds": [
+      "jiangling-contest"
+    ],
+    "position": {
+      "x": 52400,
+      "y": 36300
+    },
+    "id": "ru-xu",
+    "label": "濡须一线的反复对峙",
+    "kind": "event",
+    "identity": "历史事件与连续过程",
+    "period": "213—217年",
+    "timeRange": {
+      "start": 213,
+      "end": 217
+    },
+    "description": "213年曹操与孙权在濡须相拒，217年附近再有军事较量。本节点概括这一水陆边界的反复争夺，甘宁本传的袭营也放在相关阶段，具体哪次战事未强定。",
+    "citations": [
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+        "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+      },
+      {
+        "sourceId": "sgz-55",
+        "locator": "甘宁传：早年经历、归孙权、夷陵解围、益阳与濡须段",
+        "note": "军历依本传；濡须夜袭的具体年次本传未详，置于213—217年反复交锋范围。"
+      }
+    ],
+    "relatedPersonIds": [
+      "cao-cao",
+      "sun-quan",
+      "gan-ning",
+      "lv-meng"
+    ],
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "赤壁后曹方仍在北部和江淮保持力量；濡须水道、营坞与舟船成为防御和进攻条件。",
+        "citations": [
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          },
+          {
+            "sourceId": "sgz-55",
+            "locator": "甘宁传：早年经历、归孙权、夷陵解围、益阳与濡须段",
+            "note": "军历依本传；濡须夜袭的具体年次本传未详，置于213—217年反复交锋范围。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "持续对峙说明一次战役胜利后仍需守境、转运和动员。史书记年、将领本传和裴注细节不宜强行合成同一天的行动。",
+        "citations": [
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          },
+          {
+            "sourceId": "sgz-55",
+            "locator": "甘宁传：早年经历、归孙权、夷陵解围、益阳与濡须段",
+            "note": "军历依本传；濡须夜袭的具体年次本传未详，置于213—217年反复交锋范围。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "documented",
+    "relatedEventIds": [
+      "shu-founding",
+      "wu-emperor"
+    ],
+    "position": {
+      "x": 52800,
+      "y": 36300
+    },
+    "id": "wu-kingship",
+    "label": "孙权受封吴王与改元黄武",
+    "kind": "event",
+    "identity": "历史事件与连续过程",
+    "period": "221—222年",
+    "timeRange": {
+      "start": 221,
+      "end": 222
+    },
+    "description": "221年孙权向曹魏称藩并受封吴王，同时面对刘备东征。222年双方围绕任子等要求的矛盾升级，魏吴再战，孙权使用黄武年号；229年称帝是后来的另一阶段。",
+    "citations": [
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+        "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+      },
+      {
+        "sourceId": "sgz-02",
+        "locator": "文帝纪：黄初元年受禅及黄初二年孙权称藩封吴王段",
+        "note": "纪年与政治文书体现魏方名分主张，结合吴主传阅读。"
+      }
+    ],
+    "relatedPersonIds": [
+      "sun-quan",
+      "cao-pi",
+      "zhang-zhao",
+      "liu-bei"
+    ],
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "219年荆州冲突使吴蜀决裂，孙权在对蜀战争中还需处理与曹魏的名分和安全关系。",
+        "citations": [
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          },
+          {
+            "sourceId": "sgz-02",
+            "locator": "文帝纪：黄初元年受禅及黄初二年孙权称藩封吴王段",
+            "note": "纪年与政治文书体现魏方名分主张，结合吴主传阅读。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "受封吴王、改元黄武、称帝各有不同含义，实际权力与对外称号并不总同步变化。外交、军队与内部治理共同构成孙吴的发展。",
+        "citations": [
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          },
+          {
+            "sourceId": "sgz-02",
+            "locator": "文帝纪：黄初元年受禅及黄初二年孙权称藩封吴王段",
+            "note": "纪年与政治文书体现魏方名分主张，结合吴主传阅读。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "documented",
+    "relatedEventIds": [
+      "yiling",
+      "dengzhi-envoy"
+    ],
+    "position": {
+      "x": 50000,
+      "y": 36650
+    },
+    "id": "baidi-succession",
+    "label": "白帝托孤与刘禅继位",
+    "kind": "event",
+    "identity": "历史事件与连续过程",
+    "period": "223年",
+    "timeRange": {
+      "start": 223,
+      "end": 223
+    },
+    "description": "夷陵失利后刘备退至永安。223年病重时向诸葛亮等托付后事，刘备去世，刘禅继位。蜀汉既要安排内部政务，也要处理与孙吴的关系。",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：三顾后对策、出使孙权与白帝托孤段",
+        "note": "战略对策为史书记录的建议；出使、托孤与后续行动分别理解。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：章武元年称帝、伐吴及章武三年病卒段",
+        "note": "国号汉、后称蜀汉；称帝、伐吴及托孤分别说明。"
+      },
+      {
+        "sourceId": "sgz-45",
+        "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+        "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
+      }
+    ],
+    "relatedPersonIds": [
+      "liu-bei",
+      "liu-shan",
+      "zhuge-liang"
+    ],
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "夷陵战争带来军政压力，刘备病重引出继承和辅政安排。诸葛亮等承担持续运转的责任。",
+        "citations": [
+          {
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传：三顾后对策、出使孙权与白帝托孤段",
+            "note": "战略对策为史书记录的建议；出使、托孤与后续行动分别理解。"
+          },
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：章武元年称帝、伐吴及章武三年病卒段",
+            "note": "国号汉、后称蜀汉；称帝、伐吴及托孤分别说明。"
+          },
+          {
+            "sourceId": "sgz-45",
+            "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+            "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "刘禅初立后，诸葛亮遣邓芝使吴，修复关系是蜀汉安全与治理的一项现实工作；托孤的具体对话还应结合史书记载性质理解。",
+        "citations": [
+          {
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传：三顾后对策、出使孙权与白帝托孤段",
+            "note": "战略对策为史书记录的建议；出使、托孤与后续行动分别理解。"
+          },
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：章武元年称帝、伐吴及章武三年病卒段",
+            "note": "国号汉、后称蜀汉；称帝、伐吴及托孤分别说明。"
+          },
+          {
+            "sourceId": "sgz-45",
+            "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+            "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "documented",
+    "relatedEventIds": [
+      "baidi-succession",
+      "shu-wu-reconcile"
+    ],
+    "position": {
+      "x": 50400,
+      "y": 36650
+    },
+    "id": "dengzhi-envoy",
+    "label": "邓芝出使孙吴",
+    "kind": "event",
+    "identity": "历史事件与连续过程",
+    "period": "223年",
+    "timeRange": {
+      "start": 223,
+      "end": 223
+    },
+    "description": "刘禅初立时，邓芝向诸葛亮建议重申吴好，奉命出使孙权，说明两国合作的利益与风险。吴方回聘，修好继续推进；229年陈震贺吴帝并会盟，是后续外交阶段。",
+    "citations": [
+      {
+        "sourceId": "sgz-45",
+        "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+        "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
+      },
+      {
+        "sourceId": "sgz-39",
+        "locator": "陈震传：建兴七年贺孙权称尊号、武昌会盟段",
+        "note": "229年蜀汉派陈震庆贺并会盟；邓芝早期出使是前一阶段，外交持续多人接力。"
+      }
+    ],
+    "relatedPersonIds": [
+      "deng-zhi",
+      "zhuge-liang",
+      "sun-quan",
+      "liu-shan"
+    ],
+    "context": [
+      {
+        "title": "前因与当时条件",
+        "description": "吴蜀曾交战，刘备去世后双方仍有疑虑；曹魏持续构成外部压力，名分与安全需要重新协调。",
+        "citations": [
+          {
+            "sourceId": "sgz-45",
+            "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+            "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
+          },
+          {
+            "sourceId": "sgz-39",
+            "locator": "陈震传：建兴七年贺孙权称尊号、武昌会盟段",
+            "note": "229年蜀汉派陈震庆贺并会盟；邓芝早期出使是前一阶段，外交持续多人接力。"
+          }
+        ]
+      },
+      {
+        "title": "经过与后续影响",
+        "description": "外交会谈与回聘帮助恢复合作。邓芝本传从出使写到后来互通，不将所有结果压缩为一次会谈，更不把229年会盟归给邓芝一人。",
+        "citations": [
+          {
+            "sourceId": "sgz-45",
+            "locator": "邓芝传：刘备定益州后任职、先主卒后使吴、诸葛亮卒后任职与延熙十四年卒",
+            "note": "出使发生于刘备去世后、刘禅初立之际；出使恢复关系与229年会盟区分。"
+          },
+          {
+            "sourceId": "sgz-39",
+            "locator": "陈震传：建兴七年贺孙权称尊号、武昌会盟段",
+            "note": "229年蜀汉派陈震庆贺并会盟；邓芝早期出使是前一阶段，外交持续多人接力。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "literary",
+    "relatedEventIds": [
+      "chibi"
+    ],
+    "position": {
+      "x": 50800,
+      "y": 36650
+    },
+    "id": "borrow-eastwind",
+    "label": "借东风（演义情节）",
+    "kind": "event",
+    "identity": "《三国演义》的赤壁艺术情节",
+    "period": "小说设定于208年赤壁前夕",
+    "timeRange": {
+      "start": 208,
+      "end": 208
+    },
+    "description": "小说安排诸葛亮登七星坛祭风，随后东南风起，用戏剧性场面突出人物的智谋与神异色彩。阅读时与史书中的黄盖献火攻之策、风助火势分别理解。",
+    "relatedPersonIds": [
+      "zhuge-liang",
+      "zhou-yu",
+      "huang-gai"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgyy-049",
+        "locator": "第四十九回：七星坛祭风与东南风起段",
+        "note": "诸葛亮祭风为小说艺术情节；与史书黄盖火攻及风助火的记载分层阅读。"
+      },
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+        "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+      }
+    ],
+    "context": [
+      {
+        "title": "文学怎样组织故事",
+        "description": "祭坛、等待、突起的风与周瑜的反应，让小说中的赤壁情节形成紧张节奏。",
+        "citations": [
+          {
+            "sourceId": "sgyy-049",
+            "locator": "第四十九回：七星坛祭风与东南风起段",
+            "note": "诸葛亮祭风为小说艺术情节；与史书黄盖火攻及风助火的记载分层阅读。"
+          }
+        ]
+      },
+      {
+        "title": "与历史记录对读",
+        "description": "周瑜传正文记黄盖献策、火船与大风，裴注补充风向等细节。具体祭风场面属于小说演绎，不能据此解释自然现象。",
+        "citations": [
+          {
+            "sourceId": "sgyy-049",
+            "locator": "第四十九回：七星坛祭风与东南风起段",
+            "note": "诸葛亮祭风为小说艺术情节；与史书黄盖火攻及风助火的记载分层阅读。"
+          },
+          {
+            "sourceId": "sgz-54",
+            "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+            "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "documented",
+    "relatedEventIds": [
+      "jingzhou-succession",
+      "jiangling-contest",
+      "jingzhou-division",
+      "jingzhou-loss"
+    ],
+    "position": {
+      "x": 51200,
+      "y": 36650
+    },
+    "id": "jingzhou-geography",
+    "label": "荆州的郡县与交通",
+    "kind": "concept",
+    "identity": "地理、社会与历史条件",
+    "period": "汉末至三国",
+    "description": "史书中的荆州是包含多个郡的区域，江夏、南郡、江陵、襄阳等也代表不同的行政和军事位置。各方所说的取得、借地与归还，要对应具体年份与控制区，交通、粮储和人口同样重要。",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：三顾后对策、出使孙权与白帝托孤段",
+        "note": "战略对策为史书记录的建议；出使、托孤与后续行动分别理解。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安二十年孙刘分荆州段；参见鲁肃传",
+        "note": "荆州各郡分属不同方面，与吴方交涉叙述对读；战线和行政范围随时间改变。"
+      },
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+        "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+      }
+    ],
+    "relatedPersonIds": [
+      "liu-biao",
+      "liu-bei",
+      "sun-quan",
+      "lu-su",
+      "guan-yu"
+    ],
+    "context": [
+      {
+        "title": "怎样理解地名",
+        "description": "诸葛亮对策强调荆州连接多方的战略价值；这是一种当时的战略判断。阅读具体战事还需区分州、郡、城与水道。",
+        "citations": [
+          {
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传：三顾后对策、出使孙权与白帝托孤段",
+            "note": "战略对策为史书记录的建议；出使、托孤与后续行动分别理解。"
+          }
+        ]
+      },
+      {
+        "title": "控制区域怎样改变",
+        "description": "208年继承归降、208—209年南郡和荆南经营、215年分界、219年再次交战，分别改变不同区域的控制。",
+        "citations": [
+          {
+            "sourceId": "sgz-06",
+            "locator": "刘表传及附刘琮：刘表病卒、二子分争、刘琮归降与后续任职",
+            "note": "正文记刘琦与刘琮的继承矛盾、归降和任职；涉及评价与劝说时保留叙事立场。"
+          },
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安二十年孙刘分荆州段；参见鲁肃传",
+            "note": "荆州各郡分属不同方面，与吴方交涉叙述对读；战线和行政范围随时间改变。"
+          },
+          {
+            "sourceId": "sgz-36",
+            "locator": "关羽传：建安二十四年攻樊、孙权袭后、败亡段",
+            "note": "关羽北攻、后方被夺及败亡为连续军事过程，兼参吴主传、吕蒙传。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "documented",
+    "relatedEventIds": [
+      "jingzhou-succession",
+      "changban",
+      "three-visits"
+    ],
+    "position": {
+      "x": 51600,
+      "y": 36650
+    },
+    "id": "jingzhou-refuge",
+    "label": "避乱、游学与人口流动",
+    "kind": "concept",
+    "identity": "地理、社会与历史条件",
+    "period": "汉末至208年前后",
+    "description": "战乱促使士人与普通家庭迁徙。徐庶、诸葛亮、王粲在荆州的经历各不相同，刘表也曾接纳部分避乱士人。208年政局与战事变化后，新的迁移又影响家庭、人才网络和军政选择。",
+    "citations": [
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传：徐庶举荐、三顾、刘琦外任及徐庶母获北投段",
+        "note": "举荐、友善与母获分别见正文；徐庶早年及魏官经历见裴注《魏略》。"
+      },
+      {
+        "sourceId": "sgz-35",
+        "locator": "诸葛亮传裴注引《魏略》：徐庶原名福、游学荆州与黄初中任官",
+        "note": "本传与裴注层次分开；所记右中郎将、御史中丞为魏官经历，生卒年未强定。"
+      },
+      {
+        "sourceId": "sgz-06",
+        "locator": "刘表传及附刘琮：刘表病卒、二子分争、刘琮归降与后续任职",
+        "note": "正文记刘琦与刘琮的继承矛盾、归降和任职；涉及评价与劝说时保留叙事立场。"
+      },
+      {
+        "sourceId": "sgz-32",
+        "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+        "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
+      },
+      {
+        "sourceId": "sgz-06",
+        "locator": "刘表传裴注引《英雄记》：接纳关西、兖、豫学士，振赡与立学校段",
+        "note": "荆州接纳与资助部分士人的记载来自裴注引书，时间和人群范围需要限定。"
+      }
+    ],
+    "relatedPersonIds": [
+      "xu-shu",
+      "zhuge-liang",
+      "liu-biao",
+      "wang-can",
+      "liu-bei"
+    ],
+    "context": [
+      {
+        "title": "相对安定与人才联系",
+        "description": "荆州接纳避乱人口的记载需限定时段；游学、举荐和任职让迁徙者建立新联系，个人选择及资源也有差别。",
+        "citations": [
+          {
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传裴注引《魏略》：徐庶原名福、游学荆州与黄初中任官",
+            "note": "本传与裴注层次分开；所记右中郎将、御史中丞为魏官经历，生卒年未强定。"
+          },
+          {
+            "sourceId": "sgz-06",
+            "locator": "刘表传及附刘琮：刘表病卒、二子分争、刘琮归降与后续任职",
+            "note": "正文记刘琦与刘琮的继承矛盾、归降和任职；涉及评价与劝说时保留叙事立场。"
+          },
+          {
+            "sourceId": "sgz-06",
+            "locator": "刘表传裴注引《英雄记》：接纳关西、兖、豫学士，振赡与立学校段",
+            "note": "荆州接纳与资助部分士人的记载来自裴注引书，时间和人群范围需要限定。"
+          }
+        ]
+      },
+      {
+        "title": "普通家庭的处境",
+        "description": "长坂南撤中军民同行，徐庶母被获改变其去向。史书多从人物和战争记事，具体人口数字与民间日常仍需更多材料核校。",
+        "citations": [
+          {
+            "sourceId": "sgz-32",
+            "locator": "先主传：建安十三年南撤、汉津会刘琦、孙刘合作与荆南四郡段",
+            "note": "区分刘备部队、随行民众、关羽舟船及刘琦军；史书数字作记载理解。"
+          },
+          {
+            "sourceId": "sgz-35",
+            "locator": "诸葛亮传：徐庶举荐、三顾、刘琦外任及徐庶母获北投段",
+            "note": "举荐、友善与母获分别见正文；徐庶早年及魏官经历见裴注《魏略》。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "documented",
+    "relatedEventIds": [
+      "chibi",
+      "jiangling-contest",
+      "ru-xu"
+    ],
+    "position": {
+      "x": 52000,
+      "y": 36650
+    },
+    "id": "river-warfare",
+    "label": "江河、舟船与战争补给",
+    "kind": "concept",
+    "identity": "地理、社会与历史条件",
+    "period": "208—223年前后",
+    "description": "长江和支流水道既供行军转运，也影响守备、渡江与火攻。赤壁时军队疲劳、疾病、指挥、情报和舟船状态共同起作用；战后仍有江陵、濡须等反复争夺。",
+    "citations": [
+      {
+        "sourceId": "sgz-54",
+        "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+        "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+      },
+      {
+        "sourceId": "sgz-47",
+        "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+        "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+      },
+      {
+        "sourceId": "sgz-55",
+        "locator": "甘宁传：早年经历、归孙权、夷陵解围、益阳与濡须段",
+        "note": "军历依本传；濡须夜袭的具体年次本传未详，置于213—217年反复交锋范围。"
+      }
+    ],
+    "relatedPersonIds": [
+      "cao-cao",
+      "zhou-yu",
+      "huang-gai",
+      "cheng-pu",
+      "gan-ning",
+      "sun-quan"
+    ],
+    "context": [
+      {
+        "title": "战役的多种条件",
+        "description": "周瑜的军议、本传所记疾病与火攻行动提供不同线索。具体兵数和疾病种类保留讨论空间，不依据概括记载作现代医学诊断。",
+        "citations": [
+          {
+            "sourceId": "sgz-54",
+            "locator": "周瑜传：拒曹军议、周瑜程普统兵、黄盖火攻与进取南郡段",
+            "note": "正文记黄盖献策和诈降火攻，记曹军疾病；兵数、风向等细节还须区别裴注引书。"
+          },
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          }
+        ]
+      },
+      {
+        "title": "转运、生产与守境",
+        "description": "营坞、舟船、军粮和地方生产让军队可以持续行动。战争成本也落在运输者、耕作者和迁徙居民身上，需结合屯田与赋役背景阅读。",
+        "citations": [
+          {
+            "sourceId": "sgz-47",
+            "locator": "吴主传：建安十三至十四年、十八及二十二年、黄初二年至黄武元年、黄龙元年",
+            "note": "提供赤壁后江陵攻防、濡须、受封吴王、改元及称帝的纪年；不同引书叙述有异。"
+          },
+          {
+            "sourceId": "sgz-16",
+            "locator": "任峻传：屯田与军器粮运",
+            "note": "说明生产与运输是不同环节；具体地区、制度与年份应分别考察。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "documented",
+    "relatedEventIds": [],
+    "position": {
+      "x": 52400,
+      "y": 36650
+    },
+    "id": "zhangzhao-lunyu",
+    "label": "《论语注》（张昭著录）",
+    "kind": "work",
+    "identity": "张昭经学著述的史书记录",
+    "period": "229年以后（具体成书年次未详）",
+    "description": "张昭传记他退居后著《论语》注与《左氏传》解。本节点展示其中《论语》注的作者与著录依据，可继续读张昭的政治、学术经历；卷数、版本与传世材料仍待进一步核校。",
+    "relatedPersonIds": [
+      "zhang-zhao"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-52",
+        "locator": "张昭传：避乱、辅佐孙策孙权、晚年著述与嘉禾五年卒",
+        "note": "正文记任职、著《左氏传》解与《论语》注；生年由享年八十一推算。"
+      }
+    ],
+    "facts": [
+      {
+        "label": "著录出处",
+        "value": "《三国志》卷52张昭传退居著述段"
+      },
+      {
+        "label": "版本范围",
+        "value": "本批依据史书著录介绍，具体版本与辑佚材料待进一步核校。"
+      }
+    ]
+  },
+  {
+    "aliases": [],
+    "basis": "documented",
+    "relatedEventIds": [
+      "yiling"
+    ],
+    "position": {
+      "x": 52800,
+      "y": 36650
+    },
+    "id": "zhugejin-peace-letter",
+    "label": "诸葛瑾致刘备劝和书",
+    "kind": "work",
+    "identity": "诸葛瑾传所录外交书信",
+    "period": "221年前后 · 刘备东征时",
+    "description": "刘备东征时，诸葛瑾在致刘备的信中比较关羽、荆州与对魏的轻重，劝其停止战争。题名为本图的说明性名称，文本由诸葛瑾传保存；裴松之对信中论理另有评论，阅读时可比较双方立场。",
+    "relatedPersonIds": [
+      "zhuge-jin",
+      "liu-bei",
+      "sun-quan"
+    ],
+    "citations": [
+      {
+        "sourceId": "sgz-52",
+        "locator": "诸葛瑾传：汉末避乱、建安二十年使蜀、关羽战事后任职、致刘备笺及赤乌四年卒",
+        "note": "诸葛瑾与诸葛亮为兄弟、分事不同政权；本传所录外交信件体现吴方劝和立场。"
+      }
+    ],
+    "facts": [
+      {
+        "label": "文体与题名",
+        "value": "外交书信；本节点使用说明性题名，非核定的古籍独立篇题。"
+      },
+      {
+        "label": "叙事立场",
+        "value": "吴方劝和文书；裴松之评论另列于本传注文。"
       }
     ]
   }

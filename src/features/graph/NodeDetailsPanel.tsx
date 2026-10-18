@@ -28,7 +28,6 @@ export function NodeDetailsPanel({
   const mobile = useSyncExternalStore(subscribe, mobileSnapshot, () => false)
   const [present, setPresent] = useState(open)
   const [expanded, setExpanded] = useState(false)
-  const dialogRef = useRef<HTMLDialogElement>(null)
   const contentRef = useRef<HTMLDivElement>(null)
   useEffect(() => {
     if (open) {
@@ -39,21 +38,10 @@ export function NodeDetailsPanel({
     return () => window.clearTimeout(timer)
   }, [open])
   useEffect(() => {
-    const dialog = dialogRef.current
-    if (!mobile || !dialog || !present) return
-    const previousOverflow = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
-    dialog.showModal()
-    return () => {
-      dialog.close()
-      document.body.style.overflow = previousOverflow
-    }
-  }, [mobile, present])
-  useEffect(() => {
     if (open) contentRef.current?.scrollTo(0, 0)
   }, [nodeId, open])
   useEffect(() => {
-    if (mobile || !open) return
+    if (!open) return
     const escape = (event: KeyboardEvent) => {
       if (event.key === 'Escape') onClose()
     }
@@ -100,32 +88,16 @@ export function NodeDetailsPanel({
   const state = open ? 'is-open' : 'is-closing'
   if (!mobile)
     return (
-      <section className={'desktop-node-drawer ' + state} role="dialog" aria-label={label + '详情'}>
+      <section className={'desktop-node-drawer ' + state} aria-label={label + '详情'}>
         {body}
       </section>
     )
   return (
-    <dialog
-      ref={dialogRef}
+    <section
       className={'mobile-node-sheet ' + state + (expanded ? ' is-expanded' : '')}
       aria-label={label + '详情'}
-      onCancel={(event) => {
-        event.preventDefault()
-        onClose()
-      }}
-      onClick={(event) => {
-        if (event.target !== event.currentTarget) return
-        const bounds = event.currentTarget.getBoundingClientRect()
-        if (
-          event.clientY < bounds.top ||
-          event.clientY > bounds.bottom ||
-          event.clientX < bounds.left ||
-          event.clientX > bounds.right
-        )
-          onClose()
-      }}
     >
       {body}
-    </dialog>
+    </section>
   )
 }

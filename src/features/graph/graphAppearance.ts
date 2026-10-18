@@ -1,14 +1,16 @@
 import type { EdgeData, GraphOptions } from '@antv/g6'
 import { readGraphTheme } from './graphTheme'
 const edgeLabel = (data: EdgeData) =>
-  [
-    String(data.data?.label ?? ''),
-    ['figure', 'chapter-event'].includes(String(data.data?.relationType))
-      ? ''
-      : String(data.data?.period ?? ''),
-  ]
-    .filter(Boolean)
-    .join('\n')
+  data.data?.indexRelation
+    ? '时代索引'
+    : [
+        String(data.data?.label ?? ''),
+        ['figure', 'chapter-event'].includes(String(data.data?.relationType))
+          ? ''
+          : String(data.data?.period ?? ''),
+      ]
+        .filter(Boolean)
+        .join('\n')
 export function graphAppearance() {
   const theme = readGraphTheme()
   return {
@@ -54,8 +56,8 @@ export function graphAppearance() {
       style: {
         zIndex: 0,
         lineWidth: 1,
-        opacity: 0.4,
-        labelText: '',
+        opacity: 0.85,
+        labelText: (data: EdgeData) => (data.data?.showLabel ? String(data.data?.label ?? '') : ''),
         labelAutoRotate: false,
         labelBackground: true,
         labelBackgroundFill: theme.background,
@@ -65,7 +67,7 @@ export function graphAppearance() {
         labelWordWrapWidth: 200,
         labelMaxLines: 3,
         labelFontSize: theme.typography.relation,
-        labelFill: theme.muted,
+        labelFill: theme.text,
         labelFontFamily: theme.font,
         labelLineHeight: 27,
         halo: false,
@@ -73,11 +75,11 @@ export function graphAppearance() {
       state: {
         active: {
           halo: false,
-          opacity: 0.9,
-          lineWidth: 1.5,
+          opacity: 1,
+          lineWidth: 2,
           stroke: (data: EdgeData) => String(data.data?.activeColor ?? theme.accent),
-          labelFill: theme.muted,
-          labelText: edgeLabel,
+          labelFill: theme.text,
+          labelText: (data: EdgeData) => String(data.data?.label ?? ''),
         },
         dim: { opacity: 0.16 },
         hover: {

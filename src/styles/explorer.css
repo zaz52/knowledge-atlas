@@ -1,4 +1,6 @@
 .atlas-explorer {
+  --graph-top: 162px;
+  --graph-bottom: 112px;
   --detail-width: 410px;
   position: fixed;
   inset: 0;
@@ -8,6 +10,274 @@
     radial-gradient(ellipse at 48% 38%, var(--ambient-blue), transparent 50%),
     radial-gradient(ellipse at 85% 75%, var(--ambient-purple), transparent 45%),
     radial-gradient(ellipse at 15% 90%, var(--ambient-cyan), transparent 45%), var(--bg-main);
+}
+
+/* Reserve a usable canvas rectangle for precise node positioning. */
+.atlas-explorer .atlas-graph-stage {
+  inset: var(--graph-top) 18px var(--graph-bottom);
+}
+.atlas-explorer:has(.atlas-story-nav) {
+  --graph-top: 276px;
+}
+.atlas-explorer.has-selection {
+  --graph-bottom: 212px;
+}
+.atlas-explorer .atlas-context {
+  top: 98px;
+}
+.atlas-explorer .atlas-context .back-link {
+  margin-bottom: 0;
+}
+.atlas-explorer .atlas-relation-key {
+  display: none;
+}
+.atlas-reading-mode {
+  position: absolute;
+  z-index: 5;
+  top: 98px;
+  left: 190px;
+  right: 28px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  min-height: 44px;
+}
+.atlas-reading-mode button,
+.selection-actions button {
+  min-height: 44px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  padding: 9px 14px;
+  font-size: var(--type-body);
+  color: var(--text-secondary);
+}
+.atlas-reading-mode button[aria-pressed='true'] {
+  color: var(--accent);
+  background: var(--surface-hover);
+  border-color: var(--accent);
+}
+.atlas-reading-mode > span {
+  margin-left: 8px;
+  color: var(--text-secondary);
+  font-size: var(--type-small);
+}
+.atlas-explorer:has(.atlas-story-nav) .atlas-reading-mode {
+  top: 222px;
+  left: 28px;
+}
+.atlas-selection-strip {
+  position: absolute;
+  z-index: 6;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 115px;
+  width: min(920px, calc(100% - 64px));
+  padding: 12px 18px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--glass);
+  box-shadow: var(--float-shadow);
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.selection-summary {
+  min-width: 0;
+  flex: 1 1 180px;
+}
+.selection-summary > span {
+  color: var(--text-secondary);
+  font-size: var(--type-small);
+}
+.selection-summary h2 {
+  font: 600 24px/1.5 var(--font-display);
+  display: inline;
+  margin-right: 12px;
+}
+.selection-locate {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  color: var(--accent);
+  background: transparent;
+  vertical-align: middle;
+}
+.selection-locate:hover {
+  background: var(--surface-hover);
+}
+.selection-summary > span {
+  display: block;
+}
+.selection-summary > p {
+  display: inline;
+  color: var(--text-secondary);
+  font-size: var(--type-body);
+  line-height: 1.7;
+}
+.selection-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.selection-actions .selection-read {
+  color: var(--accent);
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+}
+.selection-actions button:hover,
+.atlas-reading-mode button:hover {
+  background: var(--surface-hover);
+}
+.selection-actions button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.selection-empty {
+  font-size: var(--type-small);
+  color: var(--text-secondary);
+  flex-basis: 100%;
+}
+.atlas-explorer.has-selection .atlas-bottom-note {
+  display: none;
+}
+@media (min-width: 761px) {
+  .atlas-explorer.has-details .atlas-graph-stage {
+    right: calc(var(--detail-width) + 34px);
+  }
+  .atlas-explorer.has-details {
+    --graph-bottom: 112px;
+  }
+}
+@media (max-width: 760px) {
+  .atlas-explorer {
+    --graph-top: 166px;
+    --graph-bottom: 150px;
+  }
+  .atlas-explorer:has(.atlas-story-nav) {
+    --graph-top: 242px;
+  }
+  .atlas-explorer.has-selection {
+    --graph-bottom: 250px;
+  }
+  .atlas-explorer .atlas-graph-stage {
+    left: 8px;
+    right: 8px;
+  }
+  .atlas-explorer .atlas-context {
+    top: 75px;
+  }
+  .atlas-explorer .atlas-reading-mode {
+    left: 12px;
+    right: 160px;
+    top: 117px;
+  }
+  .atlas-explorer:has(.atlas-story-nav) .atlas-reading-mode {
+    top: 192px;
+    left: 12px;
+  }
+  .atlas-explorer .atlas-story-nav {
+    top: 110px;
+    max-height: 74px;
+  }
+  .atlas-reading-mode > span {
+    display: none;
+  }
+  .atlas-reading-mode button {
+    font-size: var(--type-caption);
+    padding-inline: 5px;
+    min-width: 0;
+    flex: 1;
+    white-space: nowrap;
+  }
+  .atlas-selection-strip {
+    left: 12px;
+    right: 12px;
+    width: auto;
+    transform: none;
+    bottom: calc(95px + env(safe-area-inset-bottom));
+    padding: 10px 12px;
+    gap: 7px;
+  }
+  .selection-summary {
+    flex-basis: 100%;
+  }
+  .selection-summary > span {
+    float: right;
+    max-width: 64%;
+    text-align: right;
+    font-size: var(--type-caption);
+  }
+  .selection-summary h2 {
+    font-size: 22px;
+  }
+  .selection-summary > p {
+    display: none;
+  }
+  .selection-actions {
+    width: 100%;
+    gap: 6px;
+  }
+  .selection-actions button {
+    flex: 1;
+    padding-inline: 5px;
+    font-size: var(--type-small);
+  }
+  .atlas-explorer.has-selection .atlas-floating-tools {
+    bottom: auto;
+  }
+  .atlas-explorer.has-selection .atlas-floating-panel {
+    bottom: calc(300px + env(safe-area-inset-bottom));
+    max-height: calc(100dvh - 380px);
+  }
+  .atlas-explorer .atlas-floating-tools {
+    top: 117px;
+    right: 12px;
+    bottom: auto;
+    gap: 4px;
+    align-items: start;
+    height: 44px;
+  }
+  .atlas-explorer:has(.atlas-story-nav) .atlas-floating-tools {
+    top: 192px;
+  }
+  .atlas-explorer.has-details .mobile-node-sheet {
+    display: flex;
+    position: absolute;
+    z-index: 40;
+    inset: auto 0 0;
+    width: 100%;
+    max-width: none;
+    height: 48dvh;
+    max-height: 80dvh;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+  }
+  .atlas-explorer.has-details .mobile-node-sheet.is-expanded {
+    height: 80dvh;
+  }
+  .atlas-explorer.has-details {
+    --graph-bottom: 49dvh;
+  }
+  .atlas-explorer.has-details .atlas-search-dock,
+  .atlas-explorer.has-details .atlas-floating-tools {
+    display: none;
+  }
+  .atlas-explorer.is-searching .atlas-selection-strip {
+    display: none;
+  }
+  .atlas-explorer.is-searching {
+    --graph-bottom: 150px;
+  }
 }
 
 .biography-achievements article {

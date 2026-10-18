@@ -60,7 +60,7 @@ test('relationship filtering controls both expansion and the drawn edges', () =>
     [...initialNodeIds(dataset), 'cao-cao'],
     filters,
   )
-  assert.deepEqual(result.newIds, ['cao-pi', 'cao-zhi'])
+  assert.deepEqual(result.newIds, ['cao-pi', 'cao-zhi', 'cao-ren'])
   const scene = visibleScene(dataset, result.revealedIds, filters)
   assert(scene.relations.length > 0)
   assert(scene.relations.every((relation) => relation.type === 'kinship'))

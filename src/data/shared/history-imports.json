@@ -21,7 +21,13 @@
         "jiangdong-economy",
         "war-burdens",
         "medicine-life",
-        "jin-recovery"
+        "jin-recovery",
+        "court-power",
+        "provincial-power",
+        "disaster-networks",
+        "jingzhou-geography",
+        "jingzhou-refuge",
+        "river-warfare"
       ]
     },
     {
@@ -41,11 +47,36 @@
         "liu-biao",
         "sun-jian",
         "cai-yan",
-        "hua-tuo"
+        "hua-tuo",
+        "he-jin",
+        "huangfu-song",
+        "zhu-jun",
+        "han-fu",
+        "gongsun-zan",
+        "chen-gong",
+        "taishi-ci",
+        "chen-lin",
+        "tian-feng",
+        "ju-shou",
+        "xu-you",
+        "xu-shu",
+        "liu-qi",
+        "liu-cong",
+        "huang-gai",
+        "cheng-pu",
+        "zhang-zhao",
+        "zhuge-jin",
+        "gan-ning"
       ],
       "backgroundIds": [
         "local-arms",
-        "war-migration"
+        "war-migration",
+        "court-power",
+        "provincial-power",
+        "disaster-networks",
+        "jingzhou-geography",
+        "jingzhou-refuge",
+        "river-warfare"
       ]
     },
     {
@@ -65,7 +96,10 @@
         "xu-huang",
         "jia-xu",
         "chen-qun",
-        "cao-zhi"
+        "cao-zhi",
+        "chen-lin",
+        "xu-shu",
+        "cao-ren"
       ],
       "backgroundIds": [
         "nine-ranks",
@@ -89,11 +123,13 @@
         "pang-tong",
         "ma-chao",
         "jiang-wan",
-        "fei-yi"
+        "fei-yi",
+        "deng-zhi"
       ],
       "backgroundIds": [
         "war-burdens",
-        "war-migration"
+        "war-migration",
+        "jingzhou-geography"
       ]
     },
     {
@@ -107,11 +143,19 @@
         "lu-xun",
         "sun-hao",
         "sun-jian",
-        "lu-kang"
+        "lu-kang",
+        "taishi-ci",
+        "huang-gai",
+        "cheng-pu",
+        "zhang-zhao",
+        "zhuge-jin",
+        "gan-ning"
       ],
       "backgroundIds": [
         "jiangdong-economy",
-        "war-burdens"
+        "war-burdens",
+        "jingzhou-geography",
+        "river-warfare"
       ]
     },
     {

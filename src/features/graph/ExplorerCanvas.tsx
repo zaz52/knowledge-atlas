@@ -8,6 +8,9 @@ import { portraitFor } from '../../data/visualAssets'
 import { graphAppearance } from './graphAppearance'
 import { useSystemTheme } from '../../lib/systemTheme'
 import type { ExplorerScene } from './explorerModel'
+import type { ReadingMode } from './readingScene'
+import { cardAppearance, cardGraphData } from './cardPresentation'
+import type { CardView } from './cardPresentation'
 
 export interface ExplorerCanvasHandle {
   fit: () => void
@@ -23,7 +26,10 @@ interface Props {
   selectedId: string
   highlight: boolean
   layoutRevision: number
+  readingMode?: ReadingMode
+  cardView?: CardView
   onSelect: (id: string) => void
+  onExpand?: (id: string) => void
   onStatusChange: (status: 'loading' | 'ready' | 'error') => void
   onZoomChange: (zoom: number) => void
 }
@@ -36,6 +42,46 @@ interface GraphContext {
   layoutRevision: number
 }
 
+async function frameNodes(graph: Graph, width: number, height: number, minZoom = 0) {
+  const bounds = graph.getNodeData().map((node) => {
+    const [x, y] = graph.getElementPosition(node.id)
+    const size = node.data?.nominalSize as number | [number, number]
+    const [w, h] = Array.isArray(size) ? size : [size, size]
+    const outsideLabel =
+      !node.data?.card && ['person', 'polity', 'period'].includes(String(node.data?.kind))
+    return {
+      left: x - Math.max(w, outsideLabel ? 180 : w) / 2 - 12,
+      right: x + Math.max(w, outsideLabel ? 180 : w) / 2 + 12,
+      top: y - (node.data?.card ? 46 : h / 2 + 12),
+      bottom: y + (node.data?.card ? 118 : h / 2 + (outsideLabel ? 64 : 12)),
+    }
+  })
+  if (!bounds.length) return
+  const left = Math.min(...bounds.map((b) => b.left)),
+    right = Math.max(...bounds.map((b) => b.right))
+  const top = Math.min(...bounds.map((b) => b.top)),
+    bottom = Math.max(...bounds.map((b) => b.bottom))
+  await graph.zoomTo(
+    Math.max(
+      minZoom,
+      Math.min(0.95, (width - 48) / (right - left), (height - 48) / (bottom - top)),
+    ),
+    false,
+  )
+  const [px, py] = graph.getViewportByCanvas([(left + right) / 2, (top + bottom) / 2])
+  await graph.translateBy([width / 2 - px, height / 2 - py], false)
+}
+
+async function centerNodes(graph: Graph, ids: string | string[], x: number, y: number) {
+  const points = (Array.isArray(ids) ? ids : [ids]).map((id) => graph.getElementPosition(id))
+  const center = [
+    (Math.min(...points.map((p) => p[0])) + Math.max(...points.map((p) => p[0]))) / 2,
+    (Math.min(...points.map((p) => p[1])) + Math.max(...points.map((p) => p[1]))) / 2,
+  ] as [number, number]
+  const [px, py] = graph.getViewportByCanvas(center)
+  await graph.translateBy([x - px, y - py], false)
+}
+
 function graphData(
   scene: ExplorerScene,
   dataset: ExplorerDataset,
@@ -44,6 +90,8 @@ function graphData(
   preview: boolean,
   viewportWidth: number,
   explorationRootId: string | null,
+  readingMode: ReadingMode,
+  selectedId: string,
 ): GraphData {
   let positions = new Map(
     (resetLayout ? [] : graph.getNodeData()).map((node) => [
@@ -53,7 +101,26 @@ function graphData(
   )
   if (explorationRootId)
     positions = stableScenePositions(scene, positions, Boolean(dataset.metadata.story))
+  const focusedReading =
+    readingMode === 'reading' &&
+    explorationRootId &&
+    !dataset.metadata.peopleExploration?.rootKinds.includes(
+      scene.nodes.find((node) => node.id === selectedId)!.kind,
+    )
+  if (focusedReading && viewportWidth < 760 && resetLayout) {
+    const neighbors = scene.nodes.filter((node) => node.id !== selectedId)
+    positions = new Map([[selectedId, { x: 0, y: 0 }]])
+    neighbors.forEach((node, index) =>
+      positions.set(node.id, {
+        x: index % 2 ? 160 : -160,
+        y: 195 + Math.floor(index / 2) * 190,
+      }),
+    )
+  }
   const theme = readGraphTheme()
+  const flow = Boolean(
+    explorationRootId && dataset.metadata.peopleExploration?.layout === 'relationship-flow',
+  )
   const initial = new Set(
     explorationRootId
       ? [
@@ -105,7 +172,10 @@ function graphData(
       const kind = nodeThemeKey(node.kind)
       const palette = theme.nodes[kind]
       const core = initial.has(node.id)
-      const center = (explorationRootId ?? dataset.metadata.initialSelectionId) === node.id
+      const center =
+        (focusedReading
+          ? selectedId
+          : (explorationRootId ?? dataset.metadata.initialSelectionId)) === node.id
       const size: number | [number, number] =
         node.kind === 'event'
           ? [210, 142]
@@ -220,12 +290,33 @@ function graphData(
             : (dataset.metadata.edgeCurveOffset ?? 15)
       return {
         id: relation.id,
+        type:
+          flow && siblings.length === 1
+            ? focusedReading && viewportWidth < 760
+              ? 'cubic-vertical'
+              : 'cubic-horizontal'
+            : 'quadratic',
         source: relation.source,
         target: relation.target,
         data: {
-          label: relation.label,
+          label:
+            flow && (relation.source === explorationRootId || relation.target === explorationRootId)
+              ? '时代索引'
+              : relation.label,
           period: relation.period,
           relationType: relation.type,
+          indexRelation:
+            (flow || readingMode === 'reading') &&
+            (relation.source === explorationRootId || relation.target === explorationRootId),
+          showLabel:
+            flow &&
+            ((relation.source !== explorationRootId && relation.target !== explorationRootId) ||
+              scene.relations.filter(
+                (edge) => edge.source === explorationRootId || edge.target === explorationRootId,
+              ).length <= 3) &&
+            (scene.nodes.length <= 28 ||
+              (scene.nodes.find((node) => node.id === relation.source)?.kind === 'person' &&
+                scene.nodes.find((node) => node.id === relation.target)?.kind === 'person')),
           activeColor:
             theme[
               relationThemeKey(dataset.metadata.relationTypes.indexOf(type)) as
@@ -238,10 +329,22 @@ function graphData(
             ],
         },
         style: {
-          stroke: theme.edge,
+          stroke: focusedReading ? theme.cyan : theme.edge,
+          lineWidth: focusedReading ? 1.8 : 1.25,
+          opacity:
+            flow && (relation.source === explorationRootId || relation.target === explorationRootId)
+              ? 0.38
+              : flow
+                ? 0.9
+                : 0.75,
           lineDash: type.dashed ? [6, 4] : [],
           endArrow: type.directed,
-          curveOffset: offset,
+          labelFill: flow ? theme.text : theme.muted,
+          curveOffset: flow
+            ? siblings.length > 1
+              ? (siblings.indexOf(relation.id) - (siblings.length - 1) / 2) * 65
+              : 0
+            : offset,
         },
       }
     }),
@@ -257,26 +360,39 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
     selectedId,
     highlight,
     layoutRevision,
+    readingMode = 'all',
+    cardView,
     onSelect,
+    onExpand,
     onStatusChange,
     onZoomChange,
   },
   ref,
 ) {
+  const cardMode = Boolean(cardView)
   const theme = useSystemTheme()
   const containerRef = useRef<HTMLDivElement>(null)
   const contextRef = useRef<GraphContext | null>(null)
-  const callbacksRef = useRef({ onSelect, onStatusChange, onZoomChange, explorationRootId })
+  const callbacksRef = useRef({
+    onSelect,
+    onExpand,
+    onStatusChange,
+    onZoomChange,
+    explorationRootId,
+  })
   const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading')
   const [rendered, setRendered] = useState<{
     nodes: number
     relations: number
     rootId: string | null
-  }>({ nodes: 0, relations: 0, rootId: null })
+    people: number
+    indexes: number
+    selectedId: string
+  }>({ nodes: 0, relations: 0, rootId: null, people: 0, indexes: 0, selectedId: '' })
 
   useEffect(() => {
-    callbacksRef.current = { onSelect, onStatusChange, onZoomChange, explorationRootId }
-  }, [onSelect, onStatusChange, onZoomChange, explorationRootId])
+    callbacksRef.current = { onSelect, onExpand, onStatusChange, onZoomChange, explorationRootId }
+  }, [onSelect, onExpand, onStatusChange, onZoomChange, explorationRootId])
   const schedule = useCallback(
     (operation: (graph: Graph, context: GraphContext) => Promise<void>) => {
       const context = contextRef.current
@@ -301,7 +417,12 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
     () => ({
       fit: () =>
         schedule(async (graph) => {
-          await graph.fitView({ when: 'always' }, false)
+          graph.resize(containerRef.current!.clientWidth, containerRef.current!.clientHeight)
+          await frameNodes(
+            graph,
+            containerRef.current!.clientWidth,
+            containerRef.current!.clientHeight,
+          )
         }),
       zoom: (ratio) =>
         schedule(async (graph) => {
@@ -309,9 +430,21 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
         }),
       focus: (id, zoom, sideInset = 0) =>
         schedule(async (graph) => {
+          graph.resize(containerRef.current!.clientWidth, containerRef.current!.clientHeight)
           const ids = Array.isArray(id) ? id : [id]
           const availableIds = new Set(graph.getNodeData().map((node) => node.id))
           if (!ids.length || ids.some((target) => !availableIds.has(target))) return
+          if (cardMode) {
+            if (zoom !== undefined) await graph.zoomTo(zoom, false)
+            else if (graph.getZoom() < 0.8) await graph.zoomTo(0.95, false)
+            await centerNodes(
+              graph,
+              ids,
+              (containerRef.current?.clientWidth ?? 1000) / 2,
+              (containerRef.current?.clientHeight ?? 600) * 0.4,
+            )
+            return
+          }
           if (zoom !== undefined)
             await graph.zoomTo(
               Math.min(zoom, (containerRef.current?.clientWidth ?? 1000) < 600 ? 0.72 : zoom),
@@ -320,6 +453,39 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
           else if (graph.getZoom() < 0.7) await graph.zoomTo(0.8, false)
           let focusIds: string | string[] = id
           const width = containerRef.current?.clientWidth ?? 1000
+          if (readingMode === 'reading' && explorationRootId && zoom === undefined) {
+            const target = graph.getNodeData(typeof id === 'string' ? id : id[0])
+            const isPersonView = !dataset.metadata.peopleExploration?.rootKinds.includes(
+              target.data?.kind as ExplorerDataset['nodes'][number]['kind'],
+            )
+            const height = containerRef.current?.clientHeight ?? 600
+            if (isPersonView) {
+              if (width < 760) {
+                await graph.zoomTo(0.72, false)
+                await centerNodes(graph, id, width / 2, 55)
+              } else {
+                await frameNodes(graph, width, height, 0.7)
+                if (graph.getNodeData().length > 5)
+                  await centerNodes(graph, id, width / 2, height / 2 - 20)
+              }
+            } else {
+              if (width >= 760 && !dataset.metadata.story) {
+                await frameNodes(graph, width, height)
+              } else {
+                await graph.zoomTo(width < 760 ? 0.72 : 0.85, false)
+                const entry = graph
+                  .getNodeData()
+                  .find((node) => node.data?.kind === (dataset.metadata.story ? 'event' : 'person'))
+                await centerNodes(
+                  graph,
+                  entry ? [target.id, entry.id] : target.id,
+                  width / 2,
+                  height / 2 - 20,
+                )
+              }
+            }
+            return
+          }
           const localPerson =
             explorationRootId &&
             typeof id === 'string' &&
@@ -327,6 +493,21 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
           if (localPerson && zoom === undefined)
             await graph.zoomTo(width < 600 ? 0.72 : 0.78, false)
           if (
+            dataset.metadata.peopleExploration?.layout === 'relationship-flow' &&
+            explorationRootId &&
+            id === explorationRootId &&
+            zoom === undefined
+          ) {
+            await graph.zoomTo(width < 600 ? 0.72 : 0.78, false)
+            focusIds = [
+              id,
+              ...graph
+                .getNodeData()
+                .filter((node) => node.data?.kind === 'person')
+                .slice(0, 2)
+                .map((node) => node.id),
+            ]
+          } else if (
             dataset.metadata.story &&
             explorationRootId &&
             zoom === undefined &&
@@ -344,7 +525,13 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
               ]
             }
           }
-          if (!dataset.metadata.story && sideInset > 0 && width >= 1100 && typeof id === 'string') {
+          if (
+            !dataset.metadata.peopleExploration?.layout &&
+            !dataset.metadata.story &&
+            sideInset > 0 &&
+            width >= 1100 &&
+            typeof id === 'string'
+          ) {
             const related = new Set([id])
             for (const edge of graph.getEdgeData()) {
               const other =
@@ -378,11 +565,23 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
               focusIds = [...related]
             }
           }
-          await graph.focusElement(focusIds, false)
-          if (sideInset > 0) await graph.translateBy([-sideInset / 2, 0], false)
+          await centerNodes(
+            graph,
+            focusIds,
+            (width - sideInset) / 2,
+            (containerRef.current?.clientHeight ?? 600) / 2,
+          )
         }),
     }),
-    [schedule, explorationRootId, dataset.metadata.story],
+    [
+      schedule,
+      cardMode,
+      explorationRootId,
+      dataset.metadata.story,
+      dataset.metadata.peopleExploration?.layout,
+      dataset.metadata.peopleExploration?.rootKinds,
+      readingMode,
+    ],
   )
 
   useEffect(() => {
@@ -395,11 +594,11 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
     const graph = new Graph({
       container: containerRef.current,
       autoResize: true,
-      padding: preview ? [35, 20, 45, 20] : [130, 90, 140, 90],
+      padding: preview ? [35, 20, 45, 20] : [28, 30, 48, 30],
       animation: false,
-      zoomRange: [dataset.metadata.viewport?.minZoom ?? 0.18, 2.8],
+      zoomRange: cardMode ? [0.015, 2.2] : [dataset.metadata.viewport?.minZoom ?? 0.18, 2.8],
       data: { nodes: [], edges: [] },
-      ...graphAppearance(),
+      ...(cardMode ? cardAppearance() : graphAppearance()),
       behaviors: [
         {
           type: 'auto-adapt-label',
@@ -407,11 +606,23 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
           padding: 6,
           throttle: 100,
           enable: () =>
-            Boolean(contextRef.current?.hasRendered) && !callbacksRef.current.explorationRootId,
+            !cardMode &&
+            Boolean(contextRef.current?.hasRendered) &&
+            !callbacksRef.current.explorationRootId,
         },
-        { type: 'drag-canvas', key: 'pan', enable: () => !pinching },
+        {
+          type: 'drag-canvas',
+          key: 'pan',
+          enable: (event: IElementEvent | KeyboardEvent) =>
+            !pinching && (!('targetType' in event) || event.targetType === 'canvas'),
+        },
         { type: 'zoom-canvas', key: 'wheel-zoom', animation: false },
-        { type: 'drag-element', key: 'drag-node', enable: () => !pinching },
+        {
+          type: 'drag-element',
+          key: 'drag-node',
+          animation: false,
+          enable: (event: IElementEvent) => !pinching && event.targetType === 'node',
+        },
       ],
     })
     const context: GraphContext = {
@@ -498,72 +709,154 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
     container.addEventListener('touchmove', touchMove, { capture: true, passive: false })
     container.addEventListener('touchend', touchEnd, { capture: true, passive: false })
     container.addEventListener('touchcancel', touchEnd, true)
+    const keyboardSelect = (event: KeyboardEvent) => {
+      if (event.key !== 'Enter' && event.key !== ' ') return
+      if ((event.target as HTMLElement).closest('[data-expand-card]')) return
+      const card = (event.target as HTMLElement).closest<HTMLElement>('[data-card-id]')
+      if (!card?.dataset.cardId) return
+      event.preventDefault()
+      callbacksRef.current.onSelect(card.dataset.cardId)
+    }
+    container.addEventListener('keydown', keyboardSelect)
+    let badgePointerHandledUntil = 0
+    const expandBadge = (event: MouseEvent) => {
+      const button = (event.target as HTMLElement).closest<HTMLElement>('[data-expand-card]')
+      if (!button?.dataset.expandCard) return
+      event.stopPropagation()
+      if (
+        Date.now() > suppressClicksUntil &&
+        (event.detail === 0 || Date.now() > badgePointerHandledUntil)
+      )
+        callbacksRef.current.onExpand?.(button.dataset.expandCard)
+    }
+    const badgeDown = (event: PointerEvent) => {
+      if ((event.target as HTMLElement).closest('[data-expand-card]')) event.stopPropagation()
+    }
+    const pointerBadge = (event: PointerEvent) => {
+      const button = (event.target as HTMLElement).closest<HTMLElement>('[data-expand-card]')
+      if (!button?.dataset.expandCard) return
+      event.stopPropagation()
+      if (Date.now() > suppressClicksUntil) {
+        callbacksRef.current.onExpand?.(button.dataset.expandCard)
+        badgePointerHandledUntil = Date.now() + 500
+      }
+    }
+    container.addEventListener('click', expandBadge, true)
+    container.addEventListener('pointerdown', badgeDown, true)
+    container.addEventListener('pointerup', pointerBadge, true)
     return () => {
       context.disposed = true
       container.removeEventListener('touchstart', touchStart, true)
       container.removeEventListener('touchmove', touchMove, true)
       container.removeEventListener('touchend', touchEnd, true)
       container.removeEventListener('touchcancel', touchEnd, true)
+      container.removeEventListener('keydown', keyboardSelect)
+      container.removeEventListener('click', expandBadge, true)
+      container.removeEventListener('pointerdown', badgeDown, true)
+      container.removeEventListener('pointerup', pointerBadge, true)
       contextRef.current = null
       void context.queue.then(() => graph.destroy())
     }
-  }, [dataset, preview, schedule])
+  }, [dataset, preview, schedule, cardMode])
 
   useEffect(() => {
     schedule(async (graph, context) => {
-      const appearance = graphAppearance()
+      const previousNodeCount = graph.getNodeData().length
+      const appearance = cardMode ? cardAppearance() : graphAppearance()
       graph.setNode(appearance.node)
       graph.setEdge(appearance.edge)
       graph.setData(
-        graphData(
-          scene,
-          dataset,
-          graph,
-          context.layoutRevision !== layoutRevision,
-          preview,
-          containerRef.current?.clientWidth ?? 1000,
-          explorationRootId,
-        ),
+        cardView
+          ? cardGraphData(
+              scene,
+              dataset,
+              graph,
+              context.layoutRevision !== layoutRevision,
+              selectedId,
+              highlight,
+              cardView,
+              containerRef.current?.clientWidth ?? 1000,
+            )
+          : graphData(
+              scene,
+              dataset,
+              graph,
+              context.layoutRevision !== layoutRevision,
+              preview,
+              containerRef.current?.clientWidth ?? 1000,
+              explorationRootId,
+              readingMode,
+              selectedId,
+            ),
       )
       context.layoutRevision = layoutRevision
       await graph.render()
       if (context.disposed) return
+      if (cardMode && context.hasRendered && scene.nodes.length !== previousNodeCount) {
+        if (scene.nodes.length <= 10)
+          await frameNodes(
+            graph,
+            containerRef.current!.clientWidth,
+            containerRef.current!.clientHeight,
+            0.8,
+          )
+        else
+          await centerNodes(
+            graph,
+            selectedId,
+            containerRef.current!.clientWidth / 2,
+            containerRef.current!.clientHeight * 0.35,
+          )
+      }
       setRendered({
         nodes: graph.getNodeData().length,
         relations: graph.getEdgeData().length,
         rootId: explorationRootId,
+        people: graph.getNodeData().filter((node) => node.data?.kind === 'person').length,
+        indexes: graph.getEdgeData().filter((edge) => edge.data?.indexRelation).length,
+        selectedId,
       })
       if (!context.hasRendered) {
-        await graph.fitView({ when: 'always' }, false)
-        if (
-          !preview &&
-          !dataset.metadata.viewport &&
-          (containerRef.current?.clientWidth ?? 1000) >= 600
-        ) {
-          await graph.zoomTo(Math.min(graph.getZoom(), 0.9), false)
-          await graph.focusElement(dataset.metadata.initialSelectionId, false)
-        }
-        if (
-          !preview &&
-          (dataset.metadata.viewport || (containerRef.current?.clientWidth ?? 1000) < 600)
-        ) {
-          const initialZoom = dataset.metadata.viewport?.initialZoom ?? 0.72
-          await graph.zoomTo(
-            Math.min(
-              initialZoom,
-              (containerRef.current?.clientWidth ?? 1000) < 600 ? 0.72 : initialZoom,
-            ),
-            false,
+        if (cardMode) {
+          await graph.zoomTo(1, false)
+          await centerNodes(
+            graph,
+            selectedId,
+            containerRef.current!.clientWidth / 2,
+            containerRef.current!.clientHeight * 0.44,
           )
-          const available = new Set(graph.getNodeData().map((node) => node.id))
-          const focusIds = (
-            dataset.metadata.story && (containerRef.current?.clientWidth ?? 1000) < 600
-              ? [dataset.metadata.initialSelectionId]
-              : (dataset.metadata.viewport?.initialFocusIds ?? [
-                  dataset.metadata.initialSelectionId,
-                ])
-          ).filter((id) => available.has(id))
-          if (focusIds.length) await graph.focusElement(focusIds, false)
+        } else {
+          await graph.fitView({ when: 'always' }, false)
+          if (
+            !preview &&
+            !dataset.metadata.viewport &&
+            (containerRef.current?.clientWidth ?? 1000) >= 600
+          ) {
+            await graph.zoomTo(Math.min(graph.getZoom(), 0.9), false)
+            await graph.focusElement(dataset.metadata.initialSelectionId, false)
+          }
+          if (
+            !preview &&
+            (dataset.metadata.viewport || (containerRef.current?.clientWidth ?? 1000) < 600)
+          ) {
+            const initialZoom = dataset.metadata.viewport?.initialZoom ?? 0.72
+            await graph.zoomTo(
+              Math.min(
+                initialZoom,
+                (containerRef.current?.clientWidth ?? 1000) < 600 ? 0.72 : initialZoom,
+              ),
+              false,
+            )
+            const available = new Set(graph.getNodeData().map((node) => node.id))
+            const focusIds = (
+              dataset.metadata.story && (containerRef.current?.clientWidth ?? 1000) < 600
+                ? [dataset.metadata.initialSelectionId]
+                : (dataset.metadata.viewport?.initialFocusIds ?? [
+                    dataset.metadata.initialSelectionId,
+                  ])
+            ).filter((id) => available.has(id))
+            if (focusIds.length) await graph.focusElement(focusIds, false)
+          }
         }
         context.hasRendered = true
         callbacksRef.current.onZoomChange(graph.getZoom())
@@ -571,7 +864,20 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
       setStatus('ready')
       callbacksRef.current.onStatusChange('ready')
     })
-  }, [scene, dataset, layoutRevision, preview, schedule, theme, explorationRootId])
+  }, [
+    scene,
+    dataset,
+    layoutRevision,
+    preview,
+    schedule,
+    theme,
+    explorationRootId,
+    readingMode,
+    selectedId,
+    cardMode,
+    cardView,
+    highlight,
+  ])
 
   useEffect(() => {
     schedule(async (graph) => {
@@ -587,12 +893,27 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
       data-node-count={rendered.nodes}
       data-relation-count={rendered.relations}
       data-rendered-root={rendered.rootId ?? ''}
+      data-people-count={rendered.people}
+      data-index-relation-count={rendered.indexes}
+      data-focused-node={selectedId}
+      data-rendered-selection={rendered.selectedId}
+      data-person-relation-count={
+        scene.relations.filter(
+          (edge) =>
+            scene.nodes.some((node) => node.id === edge.source && node.kind === 'person') &&
+            scene.nodes.some((node) => node.id === edge.target && node.kind === 'person'),
+        ).length
+      }
     >
       <div
         ref={containerRef}
         className="explorer-canvas"
-        role="img"
-        aria-label={`${dataset.metadata.title}，可点击节点查看详情，也可在更多工具的节点列表中选择。`}
+        role={cardMode ? 'region' : 'img'}
+        aria-label={
+          cardMode
+            ? `${dataset.metadata.title}，可用Tab选择知识节点，Enter选中，使用角标展开或收起关联。`
+            : `${dataset.metadata.title}，可点击节点查看详情，也可在更多工具的节点列表中选择。`
+        }
       />
       {status === 'loading' && (
         <div className="explorer-canvas-status" role="status">
@@ -601,7 +922,9 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
       )}
       {status === 'error' && (
         <div className="explorer-canvas-status" role="alert">
-          画布暂时未能更新，请刷新页面重试。更多工具中的节点列表与资料仍可阅读。
+          {cardMode
+            ? '画布暂时未能更新，请刷新页面重试。可通过搜索和状态面板继续阅读资料。'
+            : '画布暂时未能更新，请刷新页面重试。更多工具中的节点列表与资料仍可阅读。'}
         </div>
       )}
     </div>

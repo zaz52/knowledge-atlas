@@ -103,6 +103,8 @@ export interface ExplorerMetadata {
     membershipRelationType: string
     includeRootEvents?: boolean
     initialPeopleLimit?: number
+    layout?: 'relationship-flow'
+    expansionBatchSize?: number
   }
   viewport?: {
     initialZoom: number

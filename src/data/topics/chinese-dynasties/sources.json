@@ -1342,5 +1342,93 @@
     "kind": "reference",
     "url": "https://agri-history.ihns.ac.cn/agriculturists/syx.htm",
     "description": "宋应星的生平、著述和技术知识整理；生卒使用1587—约1666年的考证口径。"
+  },
+  {
+    "id": "han-yu-tiao-zhang-ji",
+    "title": "韩愈《调张籍》",
+    "author": "韩愈",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/wiki/調張籍",
+    "description": "原诗在线转录；用于核对韩愈对李白、杜甫诗文的评价，诗中的想象与梦境按文学内容理解。"
+  },
+  {
+    "id": "shared-three-hhs-69",
+    "title": "《后汉书》卷六十九·窦何列传",
+    "author": "范晔",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/zh-hans/後漢書/卷69",
+    "description": "何进的宫廷决策、陈琳劝谏与189年变乱。开放转录应结合校勘本阅读。"
+  },
+  {
+    "id": "shared-three-hhs-08",
+    "title": "《后汉书》卷八·孝灵帝纪",
+    "author": "范晔",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/zh-hans/後漢書/卷8",
+    "description": "灵帝时期灾疫、黄巾起事、解党禁与州牧设置的纪年资料。"
+  },
+  {
+    "id": "shared-three-sgz-08",
+    "title": "《三国志》卷八·二公孙陶四张传",
+    "author": "陈寿；裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/zh-hans/三國志/卷08",
+    "description": "公孙瓒与袁绍争夺河北、易京败亡；正文和裴注引书分别注明。"
+  },
+  {
+    "id": "shared-three-sgz-49",
+    "title": "《三国志》卷四十九·刘繇太史慈士燮传",
+    "author": "陈寿；裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/zh-hans/三國志/卷49",
+    "description": "太史慈救援孔融、投孙氏及神亭相关异说。"
+  },
+  {
+    "id": "shared-three-chenlin-proclamation",
+    "title": "《文选》卷四十四·为袁绍檄豫州文",
+    "author": "陈琳；萧统编选",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/zh-hans/討曹檄文",
+    "description": "政治论战文书，常称讨曹檄文。在线转录含异体字；文中指控代表发文一方立场。"
+  },
+  {
+    "id": "shared-three-sgz-55",
+    "title": "《三国志》卷五十五·程黄韩蒋周陈董甘凌徐潘丁传",
+    "author": "陈寿；裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/zh-hans/三國志/卷55",
+    "description": "程普、黄盖、甘宁等军历；正文、裴注引书及未明纪年分别注明。"
+  },
+  {
+    "id": "shared-three-sgz-52",
+    "title": "《三国志》卷五十二·张顾诸葛步传",
+    "author": "陈寿；裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/zh-hans/三國志/卷52",
+    "description": "张昭的治理与著述、诸葛瑾外交及本传所录致刘备信；注引材料单列。"
+  },
+  {
+    "id": "shared-three-sgz-45",
+    "title": "《三国志》卷四十五·邓张宗杨传",
+    "author": "陈寿；裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/zh-hans/三國志/卷45",
+    "description": "邓芝出使与生平、陈震229年会盟等吴蜀外交记录。"
+  },
+  {
+    "id": "shared-three-sgyy-049",
+    "title": "《三国演义》第四十九回",
+    "author": "罗贯中（传统署名）",
+    "kind": "literature",
+    "url": "https://zh.wikisource.org/zh-hans/三國演義/第049回",
+    "description": "祭风等文学情节的出处，按通行回目定位，小说文字与历史记录分别呈现。"
+  },
+  {
+    "id": "shared-three-sgz-39",
+    "title": "《三国志》卷39·蜀书·董刘马陈董吕传",
+    "author": "陈寿撰，裴松之注",
+    "kind": "primary",
+    "url": "https://zh.wikisource.org/zh-hans/三國志/卷39",
+    "description": "维基文库公开转录。陈震传保存建兴七年奉使庆贺孙权称帝、武昌会盟等记述，正文与裴注分别阅读。"
   }
 ]

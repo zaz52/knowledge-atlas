@@ -1,4 +1,5 @@
 import type { ExplorerDataset, ExplorerNode, ExplorerRelation } from '../../types/explorer'
+import { relationshipFlow } from './relationshipFlow.ts'
 
 export interface ExplorerFilters {
   relationTypes: string[]
@@ -8,6 +9,11 @@ export interface ExplorerFilters {
 export interface ExplorerScene {
   nodes: ExplorerNode[]
   relations: ExplorerRelation[]
+}
+
+export function personPriority(node: ExplorerNode, personId: string): number {
+  const index = node.relatedPersonIds?.indexOf(personId) ?? -1
+  return index < 0 ? Number.MAX_SAFE_INTEGER : index
 }
 
 export function initialNodeIds(dataset: ExplorerDataset): string[] {
@@ -87,6 +93,51 @@ export function revealNode(dataset: ExplorerDataset, revealedIds: string[], id: 
     : revealedIds
 }
 
+export function expandExploration(
+  dataset: ExplorerDataset,
+  selectedId: string,
+  revealedIds: string[],
+  filters: ExplorerFilters,
+) {
+  const candidates = expandableNodes(dataset, selectedId, revealedIds, filters)
+  const limit = dataset.metadata.peopleExploration?.expansionBatchSize ?? candidates.length
+  const byId = new Map(dataset.nodes.map((node) => [node.id, node]))
+  const related = new Set(
+    dataset.relations
+      .filter(
+        (edge) =>
+          allowedRelation(edge, filters) &&
+          revealedIds.includes(edge.source) &&
+          revealedIds.includes(edge.target),
+      )
+      .flatMap((edge) => [edge.source, edge.target]),
+  )
+  const priority = (node: ExplorerNode) => {
+    if (node.kind === 'person')
+      return dataset.relations.some(
+        (edge) =>
+          allowedRelation(edge, filters) &&
+          ((edge.source === node.id &&
+            related.has(edge.target) &&
+            byId.get(edge.target)?.kind === 'person') ||
+            (edge.target === node.id &&
+              related.has(edge.source) &&
+              byId.get(edge.source)?.kind === 'person')),
+      )
+        ? 0
+        : 1
+    return node.kind === 'event' ? 2 : node.kind === 'work' ? 3 : 4
+  }
+  const newIds = (
+    dataset.metadata.peopleExploration?.layout
+      ? [...candidates].sort((a, b) => priority(a) - priority(b))
+      : candidates
+  )
+    .slice(0, limit)
+    .map((node) => node.id)
+  return { revealedIds: [...new Set([...revealedIds, ...newIds])], newIds }
+}
+
 export function explorationRoot(
   dataset: ExplorerDataset,
   selectedId: string,
@@ -97,8 +148,15 @@ export function explorationRoot(
   const roots = dataset.nodes.filter((node) => config.rootKinds.includes(node.kind))
   if (roots.some((node) => node.id === selectedId)) return selectedId
   if (dataset.metadata.story) {
-    const direct = roots.filter((root) =>
-      [...(root.relatedPersonIds ?? []), ...root.relatedEventIds].includes(selectedId),
+    const direct = roots.filter(
+      (root) =>
+        [...(root.relatedPersonIds ?? []), ...root.relatedEventIds].includes(selectedId) ||
+        dataset.relations.some(
+          (edge) =>
+            edge.type === 'chapter-event' &&
+            ((edge.source === root.id && edge.target === selectedId) ||
+              (edge.target === root.id && edge.source === selectedId)),
+        ),
     )
     if (direct.length) return direct.find((root) => root.id === currentRoot)?.id ?? direct[0].id
   }
@@ -145,6 +203,31 @@ export function revealSelection(
     )
     .map((node) => node.id)
   const selected = dataset.nodes.find((node) => node.id === selectedId)!
+  if (dataset.metadata.peopleExploration.layout === 'relationship-flow') {
+    const initial = neighbors.filter((id) => !root.relatedBackgroundIds?.includes(id))
+    const context = neighbors.filter((id) => root.relatedBackgroundIds?.includes(id)).slice(0, 2)
+    const isRoot = selectedId === rootId
+    const alreadyOpen = revealedIds.includes(rootId) && revealedIds.some((id) => people.has(id))
+    const direct = expandableNodes(dataset, selectedId, [], filters)
+      .filter((node) => ['person', 'work', 'event', 'concept'].includes(node.kind))
+      .sort((a, b) => personPriority(selected, a.id) - personPriority(selected, b.id))
+    const details = isRoot
+      ? []
+      : [
+          ...direct.filter((node) => node.kind === 'person').slice(0, 4),
+          ...direct.filter((node) => node.kind === 'work').slice(0, 2),
+          ...direct.filter((node) => node.kind === 'event').slice(0, 2),
+        ].map((node) => node.id)
+    return [
+      ...new Set([
+        ...revealed,
+        rootId,
+        ...(!alreadyOpen ? initial : []),
+        ...(!alreadyOpen ? context : []),
+        ...details,
+      ]),
+    ]
+  }
   const details = ['person', 'work', 'event', 'concept'].includes(selected.kind)
     ? expandableNodes(dataset, selectedId, [], filters)
         .filter((node) => ['person', 'work', 'event', 'concept'].includes(node.kind))
@@ -159,6 +242,8 @@ export function peopleScene(
   rootId: string,
   selectedId: string,
 ): ExplorerScene {
+  if (dataset.metadata.peopleExploration?.layout === 'relationship-flow')
+    return relationshipFlow(dataset, scene, rootId, selectedId)
   const config = dataset.metadata.peopleExploration!
   const candidates = scene.nodes.filter(
     (node) => node.id === rootId || !config.rootKinds.includes(node.kind),
@@ -352,16 +437,19 @@ export function elementStates(
     neighbors.add(relation.target)
   }
   const states: Record<string, string[]> = {}
+  const selected = scene.nodes.find((node) => node.id === selectedId)
+  const overview = selected && ['period', 'polity'].includes(selected.kind)
   for (const node of scene.nodes)
     states[node.id] =
       node.id === selectedId
         ? ['selected']
-        : highlight
+        : highlight && !overview
           ? [neighbors.has(node.id) ? 'neighbor' : 'dim']
           : []
   for (const relation of scene.relations)
-    states[relation.id] = highlight
-      ? [relation.source === selectedId || relation.target === selectedId ? 'active' : 'dim']
-      : []
+    states[relation.id] =
+      highlight && !overview
+        ? [relation.source === selectedId || relation.target === selectedId ? 'active' : 'dim']
+        : []
   return states
 }
