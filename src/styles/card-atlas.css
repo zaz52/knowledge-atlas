@@ -273,6 +273,78 @@
 }
 
 /* Circle, core, capsule, badge: retained as real G6 HTML nodes. */
+/* Rectangular info card nodes (2D card view). */
+.graph-node-card {
+  --card-accent: var(--orb-person);
+  position: relative;
+  width: 200px;
+  min-height: 104px;
+  padding: 12px 14px 10px;
+  background: linear-gradient(160deg, rgba(24,20,14,.96), rgba(16,14,10,.94));
+  border: 1px solid color-mix(in srgb, var(--card-accent) 45%, transparent);
+  border-left: 4px solid var(--card-accent);
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(0,0,0,.45);
+  color: var(--text-primary);
+  cursor: pointer;
+  user-select: none;
+  text-align: left;
+  outline: none;
+  transition: opacity 140ms, box-shadow 140ms, border-color 140ms;
+  transform: scale(var(--orb-scale, 1));
+  transform-origin: center;
+}
+.graph-node-card[data-kind='period'] { --card-accent: var(--orb-period); }
+.graph-node-card[data-kind='event'] { --card-accent: var(--orb-event); }
+.graph-node-card[data-kind='polity'],
+.graph-node-card[data-kind='faction'] { --card-accent: var(--orb-polity); }
+.graph-node-card[data-kind='concept'] { --card-accent: var(--orb-concept); }
+.graph-node-card[data-kind='work'] { --card-accent: var(--orb-work); }
+.graph-node-card:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,.55), 0 0 0 1px color-mix(in srgb, var(--card-accent) 60%, transparent);
+}
+.graph-node-card.is-selected {
+  border-color: var(--card-accent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--card-accent) 70%, transparent), 0 8px 28px rgba(0,0,0,.5);
+}
+.graph-node-card.is-dim { opacity: .15; }
+.graph-node-card.is-root { border-left-width: 6px; }
+.node-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.node-card-title {
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  color: #f5edd8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.node-card-sub {
+  font-size: 12px;
+  color: #b8a98a;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.node-card-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.node-card-count {
+  font-size: 11px;
+  color: var(--card-accent);
+  background: color-mix(in srgb, var(--card-accent) 16%, transparent);
+  border-radius: 10px;
+  padding: 2px 10px;
+}
 .graph-orb {
   --orb-color: var(--orb-person);
   position: relative;
