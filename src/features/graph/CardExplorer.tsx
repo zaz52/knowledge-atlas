@@ -67,7 +67,7 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
     {
       id: 0,
       time: new Date().toLocaleTimeString('zh-CN', { hour12: false }),
-      text: `已聚焦「${dataset.nodes.find((n) => n.id === state.focusId)?.label ?? ''}」及其周围两圈关系：点选人物可聚焦其关系网，底部图例可按关系家族开关连线，聚焦标识旁可切换全景。`,
+      text: `已聚焦「${dataset.nodes.find((n) => n.id === state.focusId)?.label ?? ''}」及其周围一圈关系：点选人物可聚焦其关系网，底部图例可按关系家族开关连线，聚焦标识旁可切换全景。`,
     },
   ])
   const sequence = useRef(0)
@@ -173,10 +173,18 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
       setDetailsOpen(false)
       setPanel(null)
       setCamera({ id })
-      addLog(`已聚焦「${node.label}」及其周围两圈关系。`)
+      addLog(`已聚焦「${node.label}」及其周围一圈关系。`)
     },
     [dataset, filters, addLog],
   )
+  const expandDepth = useCallback(() => {
+    setState((previous) => {
+      if (!previous.focusId) return previous
+      const nextDepth = (previous.focusDepth || 1) + 1
+      return focusRegion(dataset, filters, previous.focusId, nextDepth)
+    })
+    addLog('已扩大一圈关系范围。')
+  }, [dataset, filters, addLog])
   const resetView = () => {
     goPanorama()
   }
@@ -389,6 +397,9 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
         {state.focusId && (
           <span className="card-focus-chip">
             聚焦「{dataset.nodes.find((n) => n.id === state.focusId)?.label}」
+            <button type="button" onClick={expandDepth}>
+              扩大一圈
+            </button>
             <button type="button" onClick={goPanorama}>
               全景
             </button>
@@ -795,7 +806,7 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
           ) : (
             <>
               <p className="card-panel-description">
-                图谱默认聚焦关键人物及其周围两圈关系：点击任意节点可聚焦其关系网（其余淡化），「以此为中心」可把焦点换到该人物；底部图例可按关系家族开关连线，筛选面板里有阵营视角。拖动画布平移，滚轮或双指缩放；拖动节点可以调整位置。点击节点上的
+                图谱默认聚焦关键人物及其周围一圈关系：点击任意节点可聚焦其关系网（其余淡化），「以此为中心」可把焦点换到该人物，「扩大一圈」可逐步看到更远的关系；底部图例可按关系家族开关连线，筛选面板里有阵营视角。拖动画布平移，滚轮或双指缩放；拖动节点可以调整位置。点击节点上的
                 − 角标可收起分支。人物与人物之间的连线默认显示关系文字，全景下只保留选中人物的连线文字。
               </p>
               <div className="card-kind-legend">

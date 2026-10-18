@@ -183,7 +183,7 @@ export function focusRegion(
   dataset: ExplorerDataset,
   filters: ExplorerFilters,
   focusId: string,
-  depth = 2,
+  depth = 1,
   levelCap = 48,
 ): CardExploration {
   const base = initialCardExploration(dataset, focusId)
