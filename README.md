@@ -2,9 +2,17 @@
 
 一座面向普通知识爱好者与亲子家庭的数字知识图书馆。首页与目录跟随系统浅色/深色主题，两张历史图谱使用确认稿中的深色圆形节点、分层展开和名称胶囊，提供知识领域目录、跨专题人物与事件检索、三国人物关系网、中国历史朝代关系图，以及花园和太阳系基础图谱。
 
-[在线访问](https://zhitu.weiyi.indevs.in) · [GitHub 私有仓库](https://github.com/zaz52/knowledge-atlas)
+[在线访问](https://zhitu.weiyi.indevs.in) · [GitHub 公开仓库](https://github.com/zaz52/knowledge-atlas)
 
 ## 开发记录
+
+### 2026-10-18 22:15（Asia/Shanghai）· 仓库设为公开
+
+- 需求：用户明确要求“把这个仓库设为公开”。
+- 完成：核对仓库zaz52/knowledge-atlas及管理权限，通过GitHub仓库API将visibility从private改为public，并更新README中的公开仓库标识。
+- 验证：GitHub连接器再次读取仓库元数据，确认visibility为public；未携带身份凭据请求仓库网页返回HTTP 200并匹配目标仓库。匿名API请求遇到限流后改用网页访问验证。
+- 文件：README.md；本地核验信息保存在上级工作区outputs/github-public-visibility.json。
+- 后续：原有图谱交互与构建验收结果沿用，公开状态说明与本次进度记录同步main分支。
 
 ### 2026-10-18 18:58（Asia/Shanghai）· GitHub 提交检查点
 
