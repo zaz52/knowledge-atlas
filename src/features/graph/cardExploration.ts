@@ -195,7 +195,13 @@ export function focusRegion(
     for (const id of frontier)
       for (const neighbor of cardNeighbors(dataset, id, filters))
         if (!seen.has(neighbor)) candidates.push({ parent: id, id: neighbor })
-    const picked = d === 0 ? candidates : candidates.slice(0, levelCap)
+    // Sort by degree (most connected first) so the cap keeps the important ones.
+    candidates.sort((a, b) => {
+      const da = dataset.relations.filter((e) => e.source === a.id || e.target === a.id).length
+      const db = dataset.relations.filter((e) => e.source === b.id || e.target === b.id).length
+      return db - da
+    })
+    const picked = candidates.slice(0, d === 0 ? Math.min(levelCap, 14) : levelCap)
     const nextFrontier: string[] = []
     for (const { parent, id } of picked) {
       if (seen.has(id)) continue
