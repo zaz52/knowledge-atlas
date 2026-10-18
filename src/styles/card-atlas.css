@@ -285,6 +285,8 @@
   outline: none;
   background: transparent;
   transition: opacity 140ms;
+  /* Research encoding: hub figures render larger via --orb-scale. */
+  transform: scale(var(--orb-scale, 1));
 }
 .graph-orb[data-kind='period'] {
   --orb-color: var(--orb-period);
@@ -354,7 +356,7 @@
   box-shadow: 0 0 14px color-mix(in srgb, var(--orb-color) 20%, transparent);
 }
 .graph-orb.is-dim {
-  opacity: 0.45;
+  opacity: 0.15;
 }
 .graph-orb .card-title {
   position: absolute;
@@ -635,6 +637,81 @@
   border: 0;
   min-height: 36px;
   font-size: 13px;
+}
+/* Research legend: family chips double as connection-type filters. */
+.card-bottom-legend .family-chips {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.card-bottom-legend .family-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface) 82%, transparent);
+  color: var(--text-secondary);
+  padding: 6px 10px;
+  min-height: 32px;
+  font-size: 12.5px;
+  white-space: nowrap;
+}
+.card-bottom-legend .family-chip.is-off {
+  opacity: 0.45;
+}
+.card-bottom-legend .family-chip.is-off .rel-color-dot {
+  filter: grayscale(1);
+}
+.card-focus-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px 6px 4px 12px;
+  background: color-mix(in srgb, var(--surface) 82%, transparent);
+  white-space: nowrap;
+}
+.card-focus-chip button {
+  border: 0;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 12.5px;
+  padding: 4px 10px;
+  min-height: 28px;
+}
+.card-faction-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 4px 0 12px;
+}
+.card-faction-row > span {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.card-faction-row button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text-secondary);
+  padding: 6px 12px;
+  min-height: 32px;
+  font-size: 13px;
+}
+.card-faction-row button[aria-pressed='true'] {
+  border-color: var(--accent);
+  color: var(--text-primary);
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
 }
 .card-floating-tools {
   position: absolute;
@@ -1055,6 +1132,18 @@
     font-size: 26px;
   }
   .card-bottom-legend {
+    left: 12px;
+    right: 12px;
+    bottom: calc(88px + env(safe-area-inset-bottom) + var(--keyboard-inset, 0px));
+    gap: 8px;
+  }
+  .card-bottom-legend .family-chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    max-width: calc(100% - 86px);
+  }
+  .card-bottom-legend .family-chips::-webkit-scrollbar {
     display: none;
   }
   .circle-atlas .atlas-search-dock {

@@ -8,12 +8,15 @@ export interface CardExploration {
   selectedId: string
   anchors: string[]
   expanded: Record<string, string[]>
+  /** Research focus: person id the current local view is centered on, null = panorama. */
+  focusId: string | null
+  focusDepth: number
 }
 export const CARD_BATCH = 3
 export function initialCardExploration(dataset: ExplorerDataset, rootId?: string): CardExploration {
   const root =
     rootId ?? dataset.metadata.story?.chapters[0].nodeId ?? dataset.metadata.initialNodeIds[0]
-  return { rootId: root, selectedId: root, anchors: [], expanded: {} }
+  return { rootId: root, selectedId: root, anchors: [], expanded: {}, focusId: null, focusDepth: 0 }
 }
 
 export function cardNeighbors(dataset: ExplorerDataset, id: string, filters: ExplorerFilters) {
@@ -150,6 +153,59 @@ export function expandAllCards(
   for (const node of nodes)
     if (!cardVisibleIds(next).includes(node.id)) next.anchors = [...next.anchors, node.id]
   return next
+}
+
+/** Person with the most visible relations: the default research focus of a topic. */
+export function defaultFocusPerson(dataset: ExplorerDataset, filters: ExplorerFilters): string {
+  let best = dataset.metadata.initialSelectionId
+  let bestCount = -1
+  for (const node of dataset.nodes) {
+    if (node.kind !== 'person') continue
+    if (!filters.includeLiterary && node.basis === 'literary') continue
+    const count = dataset.relations.filter(
+      (edge) =>
+        allowedRelation(edge, filters) && (edge.source === node.id || edge.target === node.id),
+    ).length
+    if (count > bestCount) {
+      bestCount = count
+      best = node.id
+    }
+  }
+  return best
+}
+
+/**
+ * Research local view: the focus person plus a bounded BFS neighborhood.
+ * Level 1 keeps every direct neighbor; deeper levels are capped so the view
+ * stays a working set instead of the whole map. Panorama remains one tap away.
+ */
+export function focusRegion(
+  dataset: ExplorerDataset,
+  filters: ExplorerFilters,
+  focusId: string,
+  depth = 2,
+  levelCap = 48,
+): CardExploration {
+  const base = initialCardExploration(dataset, focusId)
+  const seen = new Set([focusId])
+  const expanded: Record<string, string[]> = {}
+  let frontier = [focusId]
+  for (let d = 0; d < depth && frontier.length; d++) {
+    const candidates: { parent: string; id: string }[] = []
+    for (const id of frontier)
+      for (const neighbor of cardNeighbors(dataset, id, filters))
+        if (!seen.has(neighbor)) candidates.push({ parent: id, id: neighbor })
+    const picked = d === 0 ? candidates : candidates.slice(0, levelCap)
+    const nextFrontier: string[] = []
+    for (const { parent, id } of picked) {
+      if (seen.has(id)) continue
+      seen.add(id)
+      expanded[parent] = [...(expanded[parent] ?? []), id]
+      nextFrontier.push(id)
+    }
+    frontier = nextFrontier
+  }
+  return { ...base, selectedId: focusId, expanded, anchors: [], focusId, focusDepth: depth }
 }
 export function locateCard(
   dataset: ExplorerDataset,

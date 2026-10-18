@@ -23,13 +23,14 @@ import {
   cardNeighbors,
   cardScene,
   cardVisibleIds,
+  defaultFocusPerson,
   expandAllCards,
   expandCard,
-  initialCardExploration,
+  focusRegion,
   locateCard,
   collapseCard,
 } from './cardExploration'
-import { relationTypeColor } from './cardPresentation'
+import { relationFamilyOf, RELATION_FAMILY_NAMES, relationTypeColor } from './cardPresentation'
 import '../../styles/explorer.css'
 import '../../styles/card-atlas.css'
 
@@ -39,14 +40,18 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
   const linkedNode = params.get('node')
   const canvasRef = useRef<ExplorerCanvasHandle>(null)
   const rootRef = useRef<HTMLElement>(null)
-  // Single-canvas atlas: every node and relation lives on one canvas from the
-  // start. There is no "open another canvas" anymore; chapters only move the
-  // camera, collapsing a branch only declutters the current view.
+  // Research-first atlas: the default view is a focused local graph around
+  // the central figure (two-hop neighborhood); panorama, the faction lens
+  // and the legend filters all act in place without leaving the canvas.
   const [filters, setFilters] = useState(() => defaultFilters(dataset))
-  const [state, setState] = useState(() =>
-    expandAllCards(dataset, initialCardExploration(dataset), defaultFilters(dataset)),
+  const [state, setState] = useState(() => {
+    const initialFilters = defaultFilters(dataset)
+    return focusRegion(dataset, initialFilters, defaultFocusPerson(dataset, initialFilters))
+  })
+  const [factionFocus, setFactionFocus] = useState<string | null>(null)
+  const [chapterNav, setChapterNav] = useState(
+    () => metadata.story?.chapters[0]?.nodeId ?? metadata.initialNodeIds[0],
   )
-  const [chapterNav, setChapterNav] = useState(state.rootId)
   const [pinned, setPinned] = useState(true)
   const [highlight, setHighlight] = useState(true)
   const [allRelations, setAllRelations] = useState(false)
@@ -62,7 +67,7 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
     {
       id: 0,
       time: new Date().toLocaleTimeString('zh-CN', { hour12: false }),
-      text: '整张知识图谱已在一张画布上展开：滚轮缩放、拖动画布平移，点击节点查看人物之间的联系。',
+      text: `已聚焦「${dataset.nodes.find((n) => n.id === state.focusId)?.label ?? ''}」及其周围两圈关系：点选人物可聚焦其关系网，底部图例可按关系家族开关连线，聚焦标识旁可切换全景。`,
     },
   ])
   const sequence = useRef(0)
@@ -90,7 +95,10 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
   const remaining = cardNeighbors(dataset, selected.id, filters).filter(
     (id) => !scene.nodes.some((n) => n.id === id),
   )
-  const cardView = useMemo(() => ({ state, filters, pinned }), [state, filters, pinned])
+  const cardView = useMemo(
+    () => ({ state, filters, pinned, factionFocus }),
+    [state, filters, pinned, factionFocus],
+  )
   const results = useMemo(
     () => searchNodes(dataset, query, filters.includeLiterary),
     [dataset, query, filters.includeLiterary],
@@ -135,21 +143,42 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
     },
     [dataset, addLog],
   )
+  const expandBatch = state.focusId ? 48 : CARD_BATCH
   const expandSelected = () => {
-    const next = expandCard(dataset, state, selected.id, filters, 'cumulative')
+    const next = expandCard(dataset, state, selected.id, filters, 'cumulative', expandBatch)
     addLog(
       `展开「${selected.label}」 · 新增${cardVisibleIds(next).length - visibleIds.length}张知识节点`,
     )
     setState(next)
   }
-  const resetView = () => {
-    setState((previous) => ({ ...previous, selectedId: previous.rootId }))
-    setChapterNav(state.rootId)
+  const goPanorama = useCallback(() => {
+    setState((previous) => ({
+      ...expandAllCards(dataset, previous, filters),
+      focusId: null,
+      focusDepth: 0,
+      selectedId: previous.rootId,
+    }))
+    setFactionFocus(null)
     setDetailsOpen(false)
     setPanel(null)
     setQuery('')
     setCamera({ id: state.rootId, reset: true })
-    addLog('已回到整张图谱的全景，可缩放平移继续探索。')
+    addLog('已展开整张图谱全景，可缩放平移继续探索。')
+  }, [dataset, filters, state.rootId, addLog])
+  const refocus = useCallback(
+    (id: string) => {
+      const node = dataset.nodes.find((n) => n.id === id)
+      if (!node) return
+      setState(focusRegion(dataset, filters, id))
+      setDetailsOpen(false)
+      setPanel(null)
+      setCamera({ id })
+      addLog(`已聚焦「${node.label}」及其周围两圈关系。`)
+    },
+    [dataset, filters, addLog],
+  )
+  const resetView = () => {
+    goPanorama()
   }
   useEffect(() => {
     if (!camera || graphStatus !== 'ready') return
@@ -195,6 +224,70 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
     }))
     addLog(`调整关系筛选 · ${metadata.relationTypes.find((t) => t.id === type)!.label}`)
   }
+  const familyTypeIds = useCallback(
+    (family: string) =>
+      metadata.relationTypes
+        .filter((t) => relationFamilyOf(t.id) === family)
+        .map((t) => t.id),
+    [metadata],
+  )
+  const toggleFamily = (family: string) => {
+    const typeIds = familyTypeIds(family)
+    const turningOff = typeIds.every((id) => filters.relationTypes.includes(id))
+    setFilters((previous) => ({
+      ...previous,
+      relationTypes: turningOff
+        ? previous.relationTypes.filter((id) => !typeIds.includes(id))
+        : [...new Set([...previous.relationTypes, ...typeIds])],
+    }))
+    addLog(`${turningOff ? '隐藏' : '显示'}「${RELATION_FAMILY_NAMES[family]}」类连线`)
+  }
+  const relationResults = useMemo(() => {
+    const q = query.trim().toLowerCase()
+    if (!q) return []
+    const matches: {
+      id: string
+      label: string
+      typeLabel: string
+      sourceLabel: string
+      targetLabel: string
+    }[] = []
+    for (const edge of dataset.relations) {
+      if (matches.length >= 6) break
+      if (!filters.relationTypes.includes(edge.type)) continue
+      const type = metadata.relationTypes.find((t) => t.id === edge.type)!
+      if (
+        !type.label.toLowerCase().includes(q) &&
+        !edge.label.toLowerCase().includes(q)
+      )
+        continue
+      matches.push({
+        id: edge.id,
+        label: edge.label,
+        typeLabel: type.label,
+        sourceLabel: dataset.nodes.find((n) => n.id === edge.source)?.label ?? edge.source,
+        targetLabel: dataset.nodes.find((n) => n.id === edge.target)?.label ?? edge.target,
+      })
+    }
+    return matches
+  }, [dataset, metadata, query, filters.relationTypes])
+  const selectRelation = (edgeId: string) => {
+    const edge = dataset.relations.find((r) => r.id === edgeId)
+    if (!edge) return
+    const type = metadata.relationTypes.find((t) => t.id === edge.type)!
+    setState((previous) => {
+      const withSource = locateCard(dataset, previous, edge.source, filters)
+      const withBoth = locateCard(dataset, withSource, edge.target, filters)
+      return { ...withBoth, selectedId: edge.source }
+    })
+    setQuery('')
+    setPanel(null)
+    setDetailsOpen(false)
+    setCamera({ id: edge.source })
+    const sourceLabel = dataset.nodes.find((n) => n.id === edge.source)?.label ?? ''
+    const targetLabel = dataset.nodes.find((n) => n.id === edge.target)?.label ?? ''
+    addLog(`已定位「${sourceLabel}」与「${targetLabel}」的${type.label}关系。`)
+  }
   const allowLiterary = (includeLiterary: boolean) => {
     setFilters((previous) => ({ ...previous, includeLiterary }))
     if (!includeLiterary && selected.basis === 'literary') {
@@ -230,7 +323,7 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
             const expanding = !state.expanded[id]?.length
             setState((previous) =>
               expanding
-                ? expandCard(dataset, previous, id, filters, 'cumulative')
+                ? expandCard(dataset, previous, id, filters, 'cumulative', expandBatch)
                 : collapseCard(previous, id),
             )
             setDetailsOpen(false)
@@ -293,6 +386,14 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
         <span className="card-visible-count">
           已显示 {scene.nodes.length} 个知识点 · {scene.relations.length} 条联系
         </span>
+        {state.focusId && (
+          <span className="card-focus-chip">
+            聚焦「{dataset.nodes.find((n) => n.id === state.focusId)?.label}」
+            <button type="button" onClick={goPanorama}>
+              全景
+            </button>
+          </span>
+        )}
         <button
           className="card-btn card-inspector-toggle"
           type="button"
@@ -358,7 +459,10 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
               onClick={expandSelected}
             >
               展开关联
-              {remaining.length ? ` +${Math.min(CARD_BATCH, remaining.length)}` : ' · 已显示'}
+              {remaining.length ? ` +${Math.min(expandBatch, remaining.length)}` : ' · 已显示'}
+            </button>
+            <button type="button" className="card-btn" onClick={() => refocus(selected.id)}>
+              以此为中心
             </button>
           </div>
         </div>
@@ -390,7 +494,33 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
         </details>
       </aside>
       <div className="card-bottom-legend">
-        <span>整张图谱在一张画布上 · 缩放平移浏览 · 点击 − 收起分支</span>
+        <div className="family-chips" role="group" aria-label="按关系家族开关连线">
+          {(
+            ['person', 'ally', 'conflict', 'event', 'structure', 'culture', 'background'] as const
+          )
+            .filter((family) => familyTypeIds(family).length > 0)
+            .map((family) => {
+              const typeIds = familyTypeIds(family)
+              const on = typeIds.some((id) => filters.relationTypes.includes(id))
+              return (
+                <button
+                  key={family}
+                  type="button"
+                  className={`family-chip${on ? '' : ' is-off'}`}
+                  aria-pressed={on}
+                  title={`开关${RELATION_FAMILY_NAMES[family]}类连线`}
+                  onClick={() => toggleFamily(family)}
+                >
+                  <i
+                    className="rel-color-dot"
+                    style={{ background: relationTypeColor(typeIds[0]) }}
+                    aria-hidden="true"
+                  />
+                  {RELATION_FAMILY_NAMES[family]}
+                </button>
+              )
+            })}
+        </div>
         <button type="button" onClick={() => setPanel('legend')}>
           图例与说明
         </button>
@@ -400,8 +530,10 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
           query={query}
           onQuery={setQuery}
           results={results}
+          relationResults={relationResults}
           revealedIds={visibleIds}
           onSelect={navigateToNode}
+          onSelectRelation={selectRelation}
           onEmpty={() => addLog('没有找到匹配知识，请换一个名字或字号。')}
         />
       </div>
@@ -478,6 +610,44 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
           {panel === 'filters' ? (
             <>
               <p className="card-panel-description">筛选同时作用于画布连线；取消勾选会隐藏该类连线，节点保留在原位。</p>
+              {(metadata.groups?.length ?? 0) > 0 && (
+                <div className="card-faction-row" role="group" aria-label="阵营视角">
+                  <span>阵营视角</span>
+                  <button
+                    type="button"
+                    aria-pressed={factionFocus === null}
+                    onClick={() => {
+                      setFactionFocus(null)
+                      addLog('已退出阵营视角')
+                    }}
+                  >
+                    全部
+                  </button>
+                  {metadata.groups.map((group) => (
+                    <button
+                      key={group.id}
+                      type="button"
+                      aria-pressed={factionFocus === group.id}
+                      onClick={() => {
+                        const next = factionFocus === group.id ? null : group.id
+                        setFactionFocus(next)
+                        addLog(
+                          next
+                            ? `阵营视角：${group.label}，跨阵营的关键联系保持高亮`
+                            : '已退出阵营视角',
+                        )
+                      }}
+                    >
+                      <i
+                        className="rel-color-dot"
+                        style={{ background: group.color }}
+                        aria-hidden="true"
+                      />
+                      {group.label}
+                    </button>
+                  ))}
+                </div>
+              )}
               <fieldset className="card-filter-list">
                 <legend className="sr-only">关系类型</legend>
                 {metadata.relationTypes.map((type) => (
@@ -625,8 +795,8 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
           ) : (
             <>
               <p className="card-panel-description">
-                整张知识图谱完整呈现在一张画布上：拖动画布平移，滚轮或双指缩放；拖动节点可以调整位置。点击节点上的
-                − 角标可收起分支、让画面更清爽，被收起分支共享的知识会保留。人物与人物之间的连线默认显示关系文字。
+                图谱默认聚焦关键人物及其周围两圈关系：点击任意节点可聚焦其关系网（其余淡化），「以此为中心」可把焦点换到该人物；底部图例可按关系家族开关连线，筛选面板里有阵营视角。拖动画布平移，滚轮或双指缩放；拖动节点可以调整位置。点击节点上的
+                − 角标可收起分支。人物与人物之间的连线默认显示关系文字，全景下只保留选中人物的连线文字。
               </p>
               <div className="card-kind-legend">
                 {[...new Set(dataset.nodes.map((n) => n.kind))].map((kind) => (
@@ -668,7 +838,7 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
             <button type="button" disabled={!remaining.length} onClick={expandSelected}>
               展开关联{' '}
               <span>
-                {remaining.length ? `+${Math.min(CARD_BATCH, remaining.length)}` : '已显示'}
+                {remaining.length ? `+${Math.min(expandBatch, remaining.length)}` : '已显示'}
               </span>
               <ArrowRight size={16} />
             </button>

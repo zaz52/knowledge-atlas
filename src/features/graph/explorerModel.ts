@@ -427,6 +427,8 @@ export function elementStates(
   scene: ExplorerScene,
   selectedId: string,
   highlight: boolean,
+  dimNode?: (id: string) => boolean,
+  dimEdge?: (edge: { source: string; target: string }) => boolean,
 ): Record<string, string[]> {
   const neighbors = new Set<string>([selectedId])
   const connected = scene.relations.filter(
@@ -443,13 +445,17 @@ export function elementStates(
     states[node.id] =
       node.id === selectedId
         ? ['selected']
-        : highlight && !overview
-          ? [neighbors.has(node.id) ? 'neighbor' : 'dim']
-          : []
+        : dimNode?.(node.id)
+          ? ['dim']
+          : highlight && !overview
+            ? [neighbors.has(node.id) ? 'neighbor' : 'dim']
+            : []
   for (const relation of scene.relations)
     states[relation.id] =
-      highlight && !overview
-        ? [relation.source === selectedId || relation.target === selectedId ? 'active' : 'dim']
-        : []
+      dimEdge?.(relation)
+        ? ['dim']
+        : highlight && !overview
+          ? [relation.source === selectedId || relation.target === selectedId ? 'active' : 'dim']
+          : []
   return states
 }

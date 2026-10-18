@@ -103,6 +103,9 @@ input::placeholder {
 [data-kind='concept'] {
   --kind-color: var(--node-concept);
 }
+[data-kind='relation'] {
+  --kind-color: var(--accent);
+}
 .site-header {
   min-height: 84px;
   display: flex;

@@ -9,6 +9,8 @@ export interface CardView {
   state: CardExploration
   filters: ExplorerFilters
   pinned: boolean
+  /** Research faction lens: members stay bright, everything else dims. Null = off. */
+  factionFocus?: string | null
 }
 // Bounds include the capsule; circular connection anchors stay above the label.
 export const CARD_WIDTH = 176
@@ -78,6 +80,24 @@ export const RELATION_FAMILY_NAMES: Record<string, string> = {
 }
 export function relationFamilyOf(typeId: string): string {
   return RELATION_FAMILIES[typeId] ?? 'background'
+}
+
+/** Faction membership: explicit groupId, or an affiliation edge to a faction node. */
+export function factionOf(dataset: ExplorerDataset, nodeId: string): string | null {
+  const groupIds = new Set((dataset.metadata.groups ?? []).map((g) => g.id))
+  if (!groupIds.size) return null
+  const node = dataset.nodes.find((n) => n.id === nodeId)
+  if (node?.groupId && groupIds.has(node.groupId)) return node.groupId
+  for (const edge of dataset.relations) {
+    if (edge.type !== 'affiliation') continue
+    const other =
+      edge.source === nodeId ? edge.target : edge.target === nodeId ? edge.source : null
+    if (other && groupIds.has(other)) return other
+  }
+  return null
+}
+export function inFaction(dataset: ExplorerDataset, nodeId: string, faction: string): boolean {
+  return nodeId === faction || factionOf(dataset, nodeId) === faction
 }
 const escape = (value: string) =>
   value.replace(
@@ -161,6 +181,14 @@ export function cardGraphData(
     if (edge.source === selectedId) neighbors.add(edge.target)
     if (edge.target === selectedId) neighbors.add(edge.source)
   }
+  const factionFocus = view.factionFocus ?? null
+  // Research encoding: node visual weight follows its degree (hub figures read
+  // larger at a glance), capped so hubs never swallow their neighbors.
+  const degree = new Map<string, number>()
+  for (const edge of scene.relations) {
+    degree.set(edge.source, (degree.get(edge.source) ?? 0) + 1)
+    degree.set(edge.target, (degree.get(edge.target) ?? 0) + 1)
+  }
   const kinds = new Map(scene.nodes.map((n) => [n.id, n.kind]))
   const typeColors = new Map(
     dataset.metadata.relationTypes.map((t) => [t.id, relationTypeColor(t.id)]),
@@ -183,7 +211,10 @@ export function cardGraphData(
       const expanded = Boolean(view.state.expanded[node.id]?.length)
       const isRoot = node.id === view.state.rootId,
         isSelected = node.id === selectedId
-      const dim = highlight && scene.nodes.length > 4 && !neighbors.has(node.id)
+      const dim =
+        (highlight && scene.nodes.length > 4 && !neighbors.has(node.id)) ||
+        (factionFocus != null && !inFaction(dataset, node.id, factionFocus))
+      const importance = 1 + Math.min(0.25, (degree.get(node.id) ?? 0) / 160)
       const badge = expanded ? '−' : '+' + hidden
       const badgeHTML =
         hidden || expanded
@@ -218,7 +249,7 @@ export function cardGraphData(
               placement: [(CARD_WIDTH / 2 + 36) / CARD_WIDTH, 42 / CARD_HEIGHT] as [number, number],
             },
           ].map((p) => ({ ...p, r: 0, fillOpacity: 0, strokeOpacity: 0 })),
-          innerHTML: `<div class="graph-card graph-orb ${isRoot ? 'is-root' : ''} ${isSelected ? 'is-selected' : ''} ${dim ? 'is-dim' : ''}" data-card-id="${escape(node.id)}" data-kind="${node.kind}" role="group" tabindex="0" aria-label="${escape(node.label)}，${escape(kindNames[node.kind])}，点击选中，使用角标展开或收起" data-selected="${isSelected}" data-expanded="${expanded}"><div class="orb-ring"><span class="orb-core">${isRoot ? '<i class="orb-anchor"></i>' : ''}</span></div>${badgeHTML}<div class="card-title">${escape(node.label)}</div><div class="orb-caption">${node.basis === 'literary' ? '演义 · ' : ''}${escape(kindNames[node.kind])}</div></div>`,
+          innerHTML: `<div class="graph-card graph-orb ${isRoot ? 'is-root' : ''} ${isSelected ? 'is-selected' : ''} ${dim ? 'is-dim' : ''}" style="--orb-scale:${importance.toFixed(2)}" data-card-id="${escape(node.id)}" data-kind="${node.kind}" role="group" tabindex="0" aria-label="${escape(node.label)}，${escape(kindNames[node.kind])}，点击选中，使用角标展开或收起" data-selected="${isSelected}" data-expanded="${expanded}"><div class="orb-ring"><span class="orb-core">${isRoot ? '<i class="orb-anchor"></i>' : ''}</span></div>${badgeHTML}<div class="card-title">${escape(node.label)}</div><div class="orb-caption">${node.basis === 'literary' ? '演义 · ' : ''}${escape(kindNames[node.kind])}</div></div>`,
         },
       }
     }),
@@ -255,6 +286,9 @@ export function cardGraphData(
             ? 'right'
             : 'left'
       const bend = 110 + siblings.indexOf(edge.id) * 32
+      // Research encoding: parallel ties between the same pair read as one
+      // stronger bond — width follows the sibling count.
+      const tieWidth = 1.1 + Math.min(1.4, siblings.length * 0.3)
       const controls = sameRow
         ? [
             [source.x + Math.sign(target.x - source.x) * 80, source.y - 18],
@@ -275,8 +309,11 @@ export function cardGraphData(
           period: edge.period,
           relationType: edge.type,
           activeColor: baseColor,
-          // Person-to-person ties are the heart of the atlas: always label them.
-          showLabel: personPair || activeLabels.includes(edge.id),
+          // Level-of-detail: person-to-person ties carry labels while the
+          // working set is small (focus view); in panorama only the selected
+          // person's ties are labeled, the rest stay legend-encoded.
+          showLabel:
+            (personPair && scene.nodes.length <= 130) || activeLabels.includes(edge.id),
           showPeriod: personPair,
         },
         style: {
@@ -284,12 +321,12 @@ export function cardGraphData(
           targetPort,
           controlPoints: controls,
           stroke: baseColor,
-          lineWidth: active && highlight ? 2 : 1.4,
+          lineWidth: active && highlight ? tieWidth + 0.6 : tieWidth,
           lineDash: type.dashed || edge.basis === 'literary' ? [6, 5] : [],
           endArrow: type.directed,
           endArrowSize: 6,
           labelOffsetY: sameRow ? -12 : 28,
-          opacity: highlight && !active ? 0.32 : 0.95,
+          opacity: 0.95,
         },
       }
     }),
@@ -326,7 +363,7 @@ export function cardAppearance() {
       state: {
         selected: {},
         neighbor: {},
-        dim: { opacity: 0.5, halo: false },
+        dim: { opacity: 0.15, halo: false },
         active: {
           halo: false,
           lineWidth: 1.9,

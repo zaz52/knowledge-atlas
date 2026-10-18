@@ -7,14 +7,22 @@ import {
   cardScene,
   cardVisibleIds,
   collapseCard,
+  defaultFocusPerson,
   expandAllCards,
   expandCard,
   expandCardLayer,
+  focusRegion,
   initialCardExploration,
   locateCard,
   toggleCard,
 } from '../src/features/graph/cardExploration.ts'
-import { cardGraphData, CARD_HEIGHT, CARD_WIDTH } from '../src/features/graph/cardPresentation.ts'
+import {
+  cardGraphData,
+  factionOf,
+  inFaction,
+  CARD_HEIGHT,
+  CARD_WIDTH,
+} from '../src/features/graph/cardPresentation.ts'
 import { defaultFilters } from '../src/features/graph/explorerModel.ts'
 const load = async (id) => {
   const read = async (path) =>
@@ -202,6 +210,8 @@ test('vertical levels follow the explored branch even when the root also indexes
     selectedId: 'd',
     anchors: [],
     expanded: { r: ['a', 'b'], a: ['c'], c: ['d'] },
+    focusId: null,
+    focusDepth: 0,
   }
   const nodes = cardScene(dataset, state, filters).nodes
   for (const [id, level] of [
@@ -250,4 +260,47 @@ test('round nodes have immediate collapse controls and collision-free mobile bou
       ),
     )
   }
+})
+
+test('research focus: default focus is the most-connected person, region is bounded', () => {
+  for (const dataset of [three, dynasty]) {
+    const filters = defaultFilters(dataset)
+    const focusId = defaultFocusPerson(dataset, filters)
+    const focusNode = dataset.nodes.find((n) => n.id === focusId)
+    assert.equal(focusNode.kind, 'person')
+    const state = focusRegion(dataset, filters, focusId)
+    assert.equal(state.focusId, focusId)
+    assert.equal(state.rootId, focusId)
+    assert.equal(state.selectedId, focusId)
+    const visible = cardVisibleIds(state)
+    assert(visible.includes(focusId))
+    // Two-hop neighborhood stays a working set, not the whole map.
+    assert(visible.length < dataset.nodes.length)
+    assert(visible.length > 1)
+    // Every visible node is within two hops of the focus.
+    const oneHop = new Set([focusId])
+    for (const edge of dataset.relations) {
+      if (edge.source === focusId) oneHop.add(edge.target)
+      if (edge.target === focusId) oneHop.add(edge.source)
+    }
+    for (const id of visible) {
+      if (oneHop.has(id)) continue
+      const viaOneHop = dataset.relations.some(
+        (edge) =>
+          (oneHop.has(edge.source) && edge.target === id) ||
+          (oneHop.has(edge.target) && edge.source === id),
+      )
+      assert(viaOneHop, `${id} is more than two hops from ${focusId}`)
+    }
+  }
+})
+
+test('research focus: faction lens resolves wei/shu/wu membership', () => {
+  assert.equal(factionOf(three, 'cao-cao'), 'wei')
+  assert.equal(factionOf(three, 'liu-bei'), 'shu')
+  assert.equal(factionOf(three, 'sun-quan'), 'wu')
+  assert.equal(factionOf(three, 'guandu'), null)
+  assert(inFaction(three, 'cao-cao', 'wei'))
+  assert(inFaction(three, 'wei', 'wei'))
+  assert(!inFaction(three, 'liu-bei', 'wei'))
 })

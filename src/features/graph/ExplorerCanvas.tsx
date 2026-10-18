@@ -9,7 +9,7 @@ import { graphAppearance } from './graphAppearance'
 import { useSystemTheme } from '../../lib/systemTheme'
 import type { ExplorerScene } from './explorerModel'
 import type { ReadingMode } from './readingScene'
-import { cardAppearance, cardGraphData } from './cardPresentation'
+import { cardAppearance, cardGraphData, inFaction } from './cardPresentation'
 import type { CardView } from './cardPresentation'
 
 export interface ExplorerCanvasHandle {
@@ -888,9 +888,24 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
 
   useEffect(() => {
     schedule(async (graph) => {
-      await graph.setElementState(elementStates(scene, selectedId, highlight), false)
+      // Research faction lens: members stay bright, everything else dims to
+      // the same 15% as selection dimming. Bridge edges (exactly one endpoint
+      // in the faction) stay lit.
+      const factionFocus = cardView?.factionFocus ?? null
+      const dimNode = factionFocus
+        ? (id: string) => !inFaction(dataset, id, factionFocus)
+        : undefined
+      const dimEdge = factionFocus
+        ? (edge: { source: string; target: string }) =>
+            !inFaction(dataset, edge.source, factionFocus) &&
+            !inFaction(dataset, edge.target, factionFocus)
+        : undefined
+      await graph.setElementState(
+        elementStates(scene, selectedId, highlight, dimNode, dimEdge),
+        false,
+      )
     })
-  }, [scene, selectedId, highlight, schedule, theme])
+  }, [scene, selectedId, highlight, schedule, theme, cardView?.factionFocus, dataset])
 
   return (
     <div
