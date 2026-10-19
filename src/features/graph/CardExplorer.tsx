@@ -6,6 +6,7 @@ import {
   BookOpen,
   Compass,
   Filter,
+  Maximize,
   MoreHorizontal,
   X,
 } from '../../components/icons'
@@ -60,6 +61,22 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
   const [panel, setPanel] = useState<'filters' | 'tools' | 'legend' | null>(null)
   const [query, setQuery] = useState('')
   const [zoom, setZoom] = useState(1)
+  const [isFullscreen, setIsFullscreen] = useState(false)
+
+  const toggleFullscreen = useCallback(() => {
+    if (!rootRef.current) return
+    if (document.fullscreenElement) {
+      document.exitFullscreen()
+    } else {
+      rootRef.current.requestFullscreen()
+    }
+  }, [])
+
+  useEffect(() => {
+    const onChange = () => setIsFullscreen(Boolean(document.fullscreenElement))
+    document.addEventListener('fullscreenchange', onChange)
+    return () => document.removeEventListener('fullscreenchange', onChange)
+  }, [])
   const [revision] = useState(0)
   const [graphStatus, setGraphStatus] = useState<'loading' | 'ready' | 'error'>('loading')
   const [camera, setCamera] = useState<{ id: string; reset?: boolean } | null>(null)
@@ -557,6 +574,14 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
         </div>
         <button type="button" aria-label="阅读详情" title="阅读当前知识" onClick={showDetails}>
           <BookOpen size={19} />
+        </button>
+        <button
+          type="button"
+          aria-label={isFullscreen ? '退出全屏' : '全屏'}
+          title={isFullscreen ? '退出全屏' : '全屏'}
+          onClick={toggleFullscreen}
+        >
+          <Maximize size={19} />
         </button>
         <button
           type="button"

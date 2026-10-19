@@ -24,6 +24,7 @@ type IconName =
   | 'more'
   | 'reset'
   | 'nodes'
+  | 'maximize'
 
 const paths: Record<IconName, ReactNode> = {
   filter: <path d="M4 6h16M7 12h10m-7 6h4M8 3v6m8 0v6m-4 0v6" />,
@@ -45,6 +46,11 @@ const paths: Record<IconName, ReactNode> = {
       <circle cx="18" cy="8" r="3" />
       <circle cx="10" cy="19" r="3" />
       <path d="m9 6 6 1M7 9l2 7m7-5-4 5" />
+    </>
+  ),
+  maximize: (
+    <>
+      <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" />
     </>
   ),
   'arrow-left': (
@@ -234,4 +240,7 @@ export function RotateCcw(props: IconProps) {
 }
 export function ListTree(props: IconProps) {
   return <Icon name="nodes" {...props} />
+}
+export function Maximize(props: IconProps) {
+  return <Icon name="maximize" {...props} />
 }

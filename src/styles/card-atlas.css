@@ -1513,3 +1513,12 @@
 .circle-atlas * {
   -webkit-tap-highlight-color: transparent;
 }
+
+/* Fullscreen mode */
+.atlas-explorer:fullscreen {
+  background: var(--graph-background, #f6f1e7);
+  padding: 0;
+}
+.atlas-explorer:fullscreen .atlas-graph-stage {
+  height: 100vh;
+}
