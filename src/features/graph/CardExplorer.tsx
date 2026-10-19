@@ -30,7 +30,7 @@ import {
   locateCard,
   collapseCard,
 } from './cardExploration'
-import { relationFamilyOf, RELATION_FAMILY_NAMES, relationTypeColor } from './cardPresentation'
+import { relationFamilyOf, RELATION_FAMILY_NAMES, relationTypeColor, LINE_GROUPS } from './cardPresentation'
 import '../../styles/explorer.css'
 import '../../styles/card-atlas.css'
 
@@ -505,32 +505,29 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
         </details>
       </aside>
       <div className="card-bottom-legend">
-        <div className="family-chips" role="group" aria-label="按关系家族开关连线">
-          {(
-            ['person', 'ally', 'conflict', 'event', 'structure', 'culture', 'background'] as const
-          )
-            .filter((family) => familyTypeIds(family).length > 0)
-            .map((family) => {
-              const typeIds = familyTypeIds(family)
-              const on = typeIds.some((id) => filters.relationTypes.includes(id))
-              return (
-                <button
-                  key={family}
-                  type="button"
-                  className={`family-chip${on ? '' : ' is-off'}`}
-                  aria-pressed={on}
-                  title={`开关${RELATION_FAMILY_NAMES[family]}类连线`}
-                  onClick={() => toggleFamily(family)}
-                >
-                  <i
-                    className="rel-color-dot"
-                    style={{ background: relationTypeColor(typeIds[0]) }}
-                    aria-hidden="true"
-                  />
-                  {RELATION_FAMILY_NAMES[family]}
-                </button>
-              )
-            })}
+        <div className="family-chips" role="group" aria-label="按关系线型开关连线">
+          {Object.entries(LINE_GROUPS).map(([group, def]) => {
+            const typeIds = def.families.flatMap((f) => familyTypeIds(f))
+            if (!typeIds.length) return null
+            const on = typeIds.some((id) => filters.relationTypes.includes(id))
+            return (
+              <button
+                key={group}
+                type="button"
+                className={`family-chip${on ? '' : ' is-off'}`}
+                aria-pressed={on}
+                title={`开关${def.name}类连线（${def.families.map((f) => RELATION_FAMILY_NAMES[f]).join('、')}）`}
+                onClick={() => def.families.forEach((f) => toggleFamily(f))}
+              >
+                <i
+                  className="rel-color-dot"
+                  style={{ background: relationTypeColor(typeIds[0]) }}
+                  aria-hidden="true"
+                />
+                {def.name}
+              </button>
+            )
+          })}
         </div>
         <button type="button" onClick={() => setPanel('legend')}>
           图例与说明

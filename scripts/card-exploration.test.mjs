@@ -224,7 +224,7 @@ test('vertical levels follow the explored branch even when the root also indexes
   }
 })
 
-test('round nodes have immediate collapse controls and collision-free mobile bounds', () => {
+test('rectangular cards have immediate collapse controls and collision-free mobile bounds', () => {
   for (const dataset of [three, dynasty]) {
     const filters = defaultFilters(dataset),
       start = initialCardExploration(dataset)
@@ -241,10 +241,9 @@ test('round nodes have immediate collapse controls and collision-free mobile bou
       390,
     )
     const root = data.nodes.find((n) => n.id === start.rootId)
-    assert(root.style.innerHTML.includes('graph-orb'))
+    assert(root.style.innerHTML.includes('graph-node-card'))
     assert(root.style.innerHTML.includes('all-expanded'))
     assert(root.style.innerHTML.includes('>−</button>'))
-    assert(!root.style.innerHTML.includes('card-desc'))
     for (let i = 0; i < data.nodes.length; i++)
       for (let j = i + 1; j < data.nodes.length; j++) {
         const a = data.nodes[i].style,

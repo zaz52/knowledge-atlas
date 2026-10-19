@@ -78,6 +78,22 @@ export const RELATION_FAMILY_NAMES: Record<string, string> = {
   culture: '文化创作',
   background: '背景影响',
 }
+/**
+ * Red Chamber style: 7 families collapse into 3 line styles for the legend.
+ * 人伦 (solid): person + structure — 君臣、亲属、隶属，关系骨架
+ * 纷争 (dashed): ally + conflict — 联盟与对抗，合纵连横
+ * 脉络 (dotted): event + culture + background — 事件与背景
+ */
+export const LINE_GROUPS: Record<string, { name: string; families: string[]; dash: number[] }> = {
+  renlun: { name: '人伦', families: ['person', 'structure'], dash: [] },
+  fenzheng: { name: '纷争', families: ['ally', 'conflict'], dash: [8, 5] },
+  mailuo: { name: '脉络', families: ['event', 'culture', 'background'], dash: [2, 4] },
+}
+export function lineGroupOfFamily(family: string): string {
+  for (const [group, def] of Object.entries(LINE_GROUPS))
+    if (def.families.includes(family)) return group
+  return 'mailuo'
+}
 export function relationFamilyOf(typeId: string): string {
   return RELATION_FAMILIES[typeId] ?? 'background'
 }
@@ -141,6 +157,37 @@ export function cardGraphData(
       .filter((n) => ids.has(n.id))
       .map((n) => [n.id, { x: Number(n.style?.x), y: Number(n.style?.y) }]),
   )
+  // Red Chamber style: group nodes into faction blocks (魏/蜀/吴/其他).
+  // Each faction gets its own spatial region, like 贾/史/王/薛 family blocks.
+  const factionBlocks: Record<string, { cx: number; cy: number }> = {
+    wei: { cx: -520, cy: 0 },
+    shu: { cx: 0, cy: 0 },
+    wu: { cx: 520, cy: 0 },
+  }
+  const otherBlock = { cx: 0, cy: -520 }
+  const byFaction = new Map<string, typeof scene.nodes>()
+  for (const node of scene.nodes) {
+    const f = factionOf(dataset, node.id) ?? '__other__'
+    if (!byFaction.has(f)) byFaction.set(f, [])
+    byFaction.get(f)!.push(node)
+  }
+  const factionPos = new Map<string, { x: number; y: number }>()
+  for (const [faction, members] of byFaction) {
+    const block = factionBlocks[faction] ?? otherBlock
+    // Sort by degree (important nodes first, toward block center-top).
+    const deg = (id: string) =>
+      scene.relations.filter((e) => e.source === id || e.target === id).length
+    members.sort((a, b) => deg(b.id) - deg(a.id))
+    const cols = Math.ceil(Math.sqrt(members.length))
+    members.forEach((node, idx) => {
+      const col = idx % cols
+      const row = Math.floor(idx / cols)
+      factionPos.set(node.id, {
+        x: block.cx + (col - (cols - 1) / 2) * (CARD_WIDTH + 36),
+        y: block.cy + row * (CARD_HEIGHT + 48),
+      })
+    })
+  }
   const levels = new Map<number, string[]>()
   for (const node of scene.nodes)
     levels.set(node.position.y, [...(levels.get(node.position.y) ?? []), node.id])
@@ -156,7 +203,7 @@ export function cardGraphData(
             x: group.length === 1 ? 0 : ((index % 2) - 0.5) * 190,
             y: (compactRow + Math.floor(index / 2)) * 190,
           }
-        : node.position
+        : (factionPos.get(id) ?? node.position)
       let point = { ...wanted }
       for (let attempt = 0; attempt < 2000; attempt++) {
         point = compact
@@ -322,7 +369,11 @@ export function cardGraphData(
           controlPoints: controls,
           stroke: baseColor,
           lineWidth: active && highlight ? tieWidth + 0.6 : tieWidth,
-          lineDash: type.dashed || edge.basis === 'literary' ? [6, 5] : [],
+          lineDash: (() => {
+            const groupDash = LINE_GROUPS[lineGroupOfFamily(relationFamilyOf(edge.type))].dash
+            if (groupDash.length > 0) return groupDash
+            return type.dashed || edge.basis === 'literary' ? [6, 5] : []
+          })(),
           endArrow: type.directed,
           endArrowSize: 6,
           labelOffsetY: sameRow ? -12 : 28,
