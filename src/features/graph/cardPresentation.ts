@@ -310,7 +310,10 @@ export function cardGraphData(
       const isRoot = node.id === view.state.rootId,
         isSelected = node.id === selectedId
       const dim =
-        (highlight && scene.nodes.length > 4 && !neighbors.has(node.id)) ||
+        (highlight &&
+          scene.nodes.length > 4 &&
+          scene.nodes.length <= 50 &&
+          !neighbors.has(node.id)) ||
         (factionFocus != null && !inFaction(dataset, node.id, factionFocus))
       const importance = 1 + Math.min(0.25, (degree.get(node.id) ?? 0) / 160)
       const badge = expanded ? '−' : '+' + hidden
