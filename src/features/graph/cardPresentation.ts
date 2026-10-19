@@ -199,12 +199,13 @@ export function cardGraphData(
   )
   // Red Chamber style: group nodes into faction blocks (魏/蜀/吴/其他).
   // Each faction gets its own spatial region, like 贾/史/王/薛 family blocks.
+  // Blocks are tall and narrow (fixed 4 cols) with wide separation to avoid overlap.
   const factionBlocks: Record<string, { cx: number; cy: number }> = {
-    wei: { cx: -520, cy: 0 },
+    wei: { cx: -900, cy: 0 },
     shu: { cx: 0, cy: 0 },
-    wu: { cx: 520, cy: 0 },
+    wu: { cx: 900, cy: 0 },
   }
-  const otherBlock = { cx: 0, cy: -520 }
+  const otherBlock = { cx: 0, cy: -900 }
   const byFaction = new Map<string, typeof scene.nodes>()
   const allFactions = factionOfAll(dataset)
   for (const node of scene.nodes) {
@@ -219,13 +220,14 @@ export function cardGraphData(
     const deg = (id: string) =>
       scene.relations.filter((e) => e.source === id || e.target === id).length
     members.sort((a, b) => deg(b.id) - deg(a.id))
-    const cols = Math.ceil(Math.sqrt(members.length))
+    // Fixed 4 columns: tall narrow blocks that don't overlap.
+    const cols = 4
     members.forEach((node, idx) => {
       const col = idx % cols
       const row = Math.floor(idx / cols)
       factionPos.set(node.id, {
-        x: block.cx + (col - (cols - 1) / 2) * (CARD_WIDTH + 36),
-        y: block.cy + row * (CARD_HEIGHT + 48),
+        x: block.cx + (col - (cols - 1) / 2) * (CARD_WIDTH + 30),
+        y: block.cy + (row - Math.floor(members.length / cols / 2)) * (CARD_HEIGHT + 40),
       })
     })
   }
