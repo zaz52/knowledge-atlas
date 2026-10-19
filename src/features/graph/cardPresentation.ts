@@ -234,6 +234,14 @@ export function cardGraphData(
     levels.set(node.position.y, [...(levels.get(node.position.y) ?? []), node.id])
   const occupied = [...positions.values()]
   let compactRow = 0
+  // Faction blocks are pre-spaced (244px > 220px needed), so use them directly.
+  // Only fall back to collision-avoidance for nodes without a faction position.
+  for (const [fid, fpos] of factionPos) {
+    if (!positions.has(fid)) {
+      positions.set(fid, { ...fpos })
+      occupied.push(fpos)
+    }
+  }
   for (const [, group] of [...levels].sort(([a], [b]) => a - b)) {
     for (let index = 0; index < group.length; index++) {
       const id = group[index],
@@ -244,7 +252,7 @@ export function cardGraphData(
             x: group.length === 1 ? 0 : ((index % 2) - 0.5) * 190,
             y: (compactRow + Math.floor(index / 2)) * 190,
           }
-        : (factionPos.get(id) ?? node.position)
+        : node.position
       let point = { ...wanted }
       for (let attempt = 0; attempt < 2000; attempt++) {
         point = compact
