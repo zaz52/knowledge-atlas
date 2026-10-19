@@ -112,6 +112,46 @@ export function factionOf(dataset: ExplorerDataset, nodeId: string): string | nu
   }
   return null
 }
+/**
+ * Assign every node to a faction via label propagation from seeded members.
+ * Used for Red Chamber style spatial blocks — every node needs a block.
+ */
+const factionCache = new WeakMap<ExplorerDataset, Map<string, string>>()
+export function factionOfAll(dataset: ExplorerDataset): Map<string, string> {
+  const cached = factionCache.get(dataset)
+  if (cached) return cached
+  const result = new Map<string, string>()
+  // Seed with explicit faction members.
+  for (const node of dataset.nodes) {
+    const f = factionOf(dataset, node.id)
+    if (f) result.set(node.id, f)
+  }
+  // Propagate: assign unknown nodes to the faction of most neighbors.
+  // Weight service/kinship/affiliation higher (they indicate belonging).
+  const weight = (type: string) =>
+    type === 'affiliation' || type === 'service' || type === 'kinship' ? 3 : 1
+  let changed = true
+  for (let iter = 0; iter < 10 && changed; iter++) {
+    changed = false
+    for (const node of dataset.nodes) {
+      if (result.has(node.id)) continue
+      const votes = new Map<string, number>()
+      for (const edge of dataset.relations) {
+        if (edge.source !== node.id && edge.target !== node.id) continue
+        const other = edge.source === node.id ? edge.target : edge.source
+        const f = result.get(other)
+        if (f) votes.set(f, (votes.get(f) ?? 0) + weight(edge.type))
+      }
+      if (votes.size) {
+        const best = [...votes.entries()].sort((a, b) => b[1] - a[1])[0][0]
+        result.set(node.id, best)
+        changed = true
+      }
+    }
+  }
+  factionCache.set(dataset, result)
+  return result
+}
 export function inFaction(dataset: ExplorerDataset, nodeId: string, faction: string): boolean {
   return nodeId === faction || factionOf(dataset, nodeId) === faction
 }
@@ -166,8 +206,9 @@ export function cardGraphData(
   }
   const otherBlock = { cx: 0, cy: -520 }
   const byFaction = new Map<string, typeof scene.nodes>()
+  const allFactions = factionOfAll(dataset)
   for (const node of scene.nodes) {
-    const f = factionOf(dataset, node.id) ?? '__other__'
+    const f = allFactions.get(node.id) ?? '__other__'
     if (!byFaction.has(f)) byFaction.set(f, [])
     byFaction.get(f)!.push(node)
   }
