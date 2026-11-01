@@ -10,6 +10,7 @@ import { useSystemTheme } from '../../lib/systemTheme'
 import type { ExplorerScene } from './explorerModel'
 import type { ReadingMode } from './readingScene'
 import { cardAppearance, cardGraphData, inFaction } from './cardPresentation'
+import { kumuAppearance } from './cardPresentation'
 import type { CardView } from './cardPresentation'
 
 export interface ExplorerCanvasHandle {
@@ -599,7 +600,7 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
       animation: false,
       zoomRange: cardMode ? [0.015, 2.2] : [dataset.metadata.viewport?.minZoom ?? 0.18, 2.8],
       data: { nodes: [], edges: [] },
-      ...(cardMode ? cardAppearance() : graphAppearance()),
+      ...(cardMode ? (cardView?.kumu ? kumuAppearance() : cardAppearance()) : graphAppearance()),
       behaviors: [
         {
           type: 'auto-adapt-label',
@@ -758,12 +759,16 @@ export const ExplorerCanvas = forwardRef<ExplorerCanvasHandle, Props>(function E
       contextRef.current = null
       void context.queue.then(() => graph.destroy())
     }
-  }, [dataset, preview, schedule, cardMode])
+  }, [dataset, preview, schedule, cardMode, cardView?.kumu])
 
   useEffect(() => {
     schedule(async (graph, context) => {
       const previousNodeCount = graph.getNodeData().length
-      const appearance = cardMode ? cardAppearance() : graphAppearance()
+      const appearance = cardMode
+        ? cardView?.kumu
+          ? kumuAppearance()
+          : cardAppearance()
+        : graphAppearance()
       graph.setNode(appearance.node)
       graph.setEdge(appearance.edge)
       graph.setData(

@@ -113,8 +113,8 @@ export function CardExplorer({ dataset }: { dataset: ExplorerDataset }) {
     (id) => !scene.nodes.some((n) => n.id === id),
   )
   const cardView = useMemo(
-    () => ({ state, filters, pinned, factionFocus }),
-    [state, filters, pinned, factionFocus],
+    () => ({ state, filters, pinned, factionFocus, kumu: metadata.id === 'three-kingdoms' }),
+    [state, filters, pinned, factionFocus, metadata.id],
   )
   const results = useMemo(
     () => searchNodes(dataset, query, filters.includeLiterary),
