@@ -70,17 +70,28 @@
 }
 .circle-atlas .atlas-graph-stage {
   position: absolute;
-  inset: 148px var(--card-right-inset) 104px 18px;
+  inset: 0;
   width: auto;
   height: auto;
   background: var(--graph-background);
-  border: 1px solid var(--border);
-  border-radius: 20px;
+  border: none;
+  border-radius: 0;
   overflow: hidden;
   transition: none;
 }
 .circle-atlas .atlas-graph-stage::before {
-  display: none;
+  /* Top scrim: the header rows float over the light map, so fade the top
+     dark for legibility. Pointer-transparent, the map stays interactive. */
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 160px;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(9, 9, 11, 0.88), rgba(9, 9, 11, 0));
+  content: '';
 }
 .circle-atlas .explorer-canvas-wrap,
 .circle-atlas .explorer-canvas {
@@ -1514,11 +1525,9 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-/* Fullscreen mode */
+/* Fullscreen mode: the stage already fills the viewport, so fullscreen
+   only removes the browser chrome. All panels stay as overlays. */
 .atlas-explorer:fullscreen {
   background: var(--graph-background, #f6f1e7);
   padding: 0;
-}
-.atlas-explorer:fullscreen .atlas-graph-stage {
-  height: 100vh;
 }
